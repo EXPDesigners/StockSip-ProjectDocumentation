@@ -35,10 +35,10 @@ En esta sección, se incluye la matriz de liderazgo y colaboración desarrollada
 
 | Team Member                        | GitHub Username | Sección Inicio | Funcionamiento de la aplicación | Beneficios | Testimonios | Planes | Contacto | 
 |------------------------------------|-----------------|----------------|---------------------------------|------------|-------------|--------|----------|
-| Huamani Cruz, Camila Victoria      | victiila06      | L              |                                 |            |             |        | L        |
-| Gonzales Castillo, Angel Martin    | XdiabloX426     |                | L                               |            |             | C      |          |
+| Huamani Cruz, Camila Victoria      | victiila06      | L              | L                               |            |             |        | L        |
+| Gonzales Castillo, Angel Martin    | XdiabloX426     |                |                                 |            |             | L      |          |
 | Coronel Espinoza, Farid Sebastian  | Far14h          |                |                                 | L          |             |        |          |
-| Juarez Leon, Nicolas Emilio Walter | JuarezLn10      |                |                                 |            | L           | L      |          |
+| Juarez Leon, Nicolas Emilio Walter | JuarezLn10      |                |                                 |            | L           | C      |          |
 
 ### 5.2.1.3. Sprint Backlog 1 ###
 
@@ -61,11 +61,11 @@ A continuación, se presenta la tabla con las tareas necesarias para completar s
 |              |                                                               | 003 | Diseñar sección contacto                | Diseñar el pie de página con información de contacto y enlaces a otras secciones                           | 0.5                | Camila Huamani | Done       |
 |              |                                                               | 004 | Describir visión y misión               | Agregar espacios que detallen la misión y visión de la empresa.                                            | 0.5                | Camila Huamani | Done       |
 |              |                                                               | 005 | Añadir estilos                          | Estilizar las secciones de contacto e inicio para que sean visiblemente agradables y llamativas.           | 0.5                | Camila Huamani | Done       |
-| US002        | Acceder a explicación detallada sobre el uso de la aplicación | 001 | Añadir sección de cómo funciona         | Separar una sección de la estructura general para agregar el contenido de explicación de cómo funciona la aplicación. | 0.3     | Martin Gonzales| To-do      |
-|              |                                                               | 002 | Descripción de funcionalidades          | Resumir cada funcionalidad que podrá utilizar cada segmento objetivo.                                      | 0.4                | Martin Gonzales| To-do      |
-|              |                                                               | 003 | Añadir imágenes referenciales           | Para cada funcionalidad detallada, agregar una imágen referencial.                                         | 0.5                | Martin Gonzales| To-do      |
-|              |                                                               | 004 | Agrupar y ordenar imagenes y descripcion| Ordenar y organizar cada funcionalidad descrita con su imagen.                                             | 0.4                | Martin Gonzales| To-do      |
-|              |                                                               | 005 | Añadir estilos                          | Usando CSS, añadir estilos a esta sección para que sea visiblemente llamativa.                             | 0.6                | Martin Gonzales| To-do      |
+| US002        | Acceder a explicación detallada sobre el uso de la aplicación | 001 | Añadir sección de cómo funciona         | Separar una sección de la estructura general para agregar el contenido de explicación de cómo funciona la aplicación. | 0.3     | Camila Huamani | To-do      |
+|              |                                                               | 002 | Descripción de funcionalidades          | Resumir cada funcionalidad que podrá utilizar cada segmento objetivo.                                      | 0.4                | Camila Huamani | To-do      |
+|              |                                                               | 003 | Añadir imágenes referenciales           | Para cada funcionalidad detallada, agregar una imágen referencial.                                         | 0.5                | Camila Huamani | To-do      |
+|              |                                                               | 004 | Agrupar y ordenar imagenes y descripcion| Ordenar y organizar cada funcionalidad descrita con su imagen.                                             | 0.4                | Camila Huamani | To-do      |
+|              |                                                               | 005 | Añadir estilos                          | Usando CSS, añadir estilos a esta sección para que sea visiblemente llamativa.                             | 0.6                | Camila Huamani | To-do      |
 | US003        | Ver beneficios para licorerías	                               | 001 | Implementar sección beneficios          | Diseñar la subsección de beneficios para dueños de licorerías agregando tarjetas con listas de beneficios. | 0.6                | Farid Coronel  | To-do      |
 |              |                                                               | 002 | Agregar íconos e imágenes               | Añadir imágenes referenciales al segmento objetivo al que son dirigidos los beneficios.                    | 0.5                | Farid Coronel  | To-do      |
 |              |                                                               | 003 | Añadir estilos                          | Añadir estilos usando CSS a la subsección para dar detalles visualmente agradables.                        | 0.5                | Farid Coronel  | To-do      |
@@ -83,9 +83,25 @@ A continuación, se presenta la tabla con las tareas necesarias para completar s
 |              |                                                               | 004 | Añadir íconos                           | Añadir íconos relacionados a lo que ofrece cada plan para cada segmento objetivo.                          | 0.6                | Martin Gonzales| To-do      |  
 |              |                                                               | 005 | Añadir estilos                          | Estilizar la sección usando CSS.                                                                           | 0.5                | Nicolas Juarez | To-do      |
 | US008        | Conocer el precio y condiciones	                             | 001 | Añadir espacio para precios             | En la sección de planes, agregar un recuadro que indique el precio para cada plan                          | 0.3                | Nicolas Juarez | To-do      |
-|              |                                                               | 002 | Añadir estilos                          | Estilizar los recuadros para precios usando CSS.                                                           | 0.3                | Nicolas Juarez | To-do      |
+|              |                                                               | 002 | Añadir estilos                          | Estilizar los recuadros para precios usando CSS.                                                           | 0.3                | Martin Gonzales| To-do      |
 
 ### 5.2.1.4. Development Evidence for Sprint Review ###
+
+En esta sección, se describen los principales avances de implementación realizados en este primer sprint. Se tiene como principal avance la implementación de cada sección del landing page en su primera versión.
+Cada miembro del equipo avanzó progresivamente con cada sección del landing page. Finalmente, se añadieron estilos a las secciones usando CSS.
+
+A continuación, se muestra una tabla que contiene la información sobre los _commits_ hechos que contienen partes de las funcionalidades que debemos implementar para completar el primer sprint.
+
+| Repository                             | Branch                           | Commit Id    | Commit Message                                                                 | Commited On |
+|----------------------------------------|----------------------------------|--------------|--------------------------------------------------------------------------------|-------------|
+| EXPDesigners/StockSip-LandingPage      | master                           | fb8ea1f      | feat(home): add home section and styles                                        | 23/04/2025  |
+| EXPDesigners/StockSip-LandingPage      | master                           | 97add20      | feat(footer): add footer section and styles                                    | 23/04/2025  |
+| EXPDesigners/StockSip-LandingPage      | feature/how-it-works             | a1bf565      | feat(how-it-works): add how it works section                                   | 23/04/2025  |
+| EXPDesigners/StockSip-LandingPage      | feature/how-it-works             | 2266f74      | feat(how-it-works): add how it works section styles                            | 23/04/2025  |
+| EXPDesigners/StockSip-LandingPage      | feature/how-it-works             | ecff3e9      | Update style.css                                                               | 23/04/2025  |
+| EXPDesigners/StockSip-LandingPage      | feature/premium-plans            |              |                                                                                |             |
+| EXPDesigners/StockSip-LandingPage      | feature/benefits                 |              |                                                                                |             |
+| EXPDesigners/StockSip-LandingPage      | feature/testimonials             |              |                                                                                |             |
 
 ### 5.2.1.5. Execution Evidence for Sprint Review ###
 
