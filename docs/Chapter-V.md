@@ -16,6 +16,19 @@
 
 ### 5.2.1.1. Sprint Planning 1 ###
 
+| Sprint #                                     | Sprint 1                                               |
+|----------------------------------------------|--------------------------------------------------------|
+| <b> Sprint planning Background </b>          | --                                                     |
+| Date                                         | 2025/04/20                                             |
+| Time                                         | 05:00 PM                                               |
+| Location                                     | Reunión mediante llamada virtual en Discord            |
+| Prepared By                                  | Huamani Cruz, Camila Victoria                          |
+| Attendees                                    | Huamani Cruz, Camila Victoria / Juarez Leon, Nicolas Emilio Walter / Gonzales Castillo, Angel Martin / Coronel Espinoza, Farid Sebastian |
+| <b> Sprint Goal & User Stories </b>          | --                                                     |
+| Sprint 1 Goal                                | <b> Our focus </b> is on develop and deploy the first version of the landing page <br> <b> We believe it delivers </b> a first view of what our product offers to our target segments <br> <b> This will be confirmed when </b> the target segments are visiting the site and can see and know the benefits on using our product. |
+| Sprint 1 Velocity                            | 25                                                     |
+| Sum of Story Points                          | 21                                                     |
+
 ### 5.2.1.2. Aspect Leaders and Collaborators ###
 
 ### 5.2.1.3. Sprint Backlog 1 ###
