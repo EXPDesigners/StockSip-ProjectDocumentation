@@ -31,6 +31,15 @@
 
 ### 5.2.1.2. Aspect Leaders and Collaborators ###
 
+En esta sección, se incluye la matriz de liderazgo y colaboración desarrollada para este primer sprint. Los principales aspectos que se toman en cuenta en este sprint se centran en cada sección y el estilo que debe contener este mismo: inicio, funcionamiento de la aplicación, beneficios para cada segmento, testimonios, exploración de la aplicación, planes y contacto.
+
+| Team Member                        | GitHub Username | Sección Inicio | Funcionamiento de la aplicación | Beneficios | Testimonios | Planes | Contacto | 
+|------------------------------------|-----------------|----------------|---------------------------------|------------|-------------|--------|----------|
+| Huamani Cruz, Camila Victoria      | victiila06      | L              |                                 |            |             |        | L        |
+| Gonzales Castillo, Angel Martin    | XdiabloX426     |                | L                               |            |             |        |          |
+| Coronel Espinoza, Farid Sebastian  | Far14h          |                |                                 | L          |             |        |          |
+| Juarez Leon, Nicolas Emilio Walter | JuarezLn10      |                |                                 |            | L           | L      |          |
+
 ### 5.2.1.3. Sprint Backlog 1 ###
 
 ### 5.2.1.4. Development Evidence for Sprint Review ###
