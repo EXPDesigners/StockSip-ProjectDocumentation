@@ -64,6 +64,20 @@ En esta primera imagen que se muestra a continuación, se visualiza el _journey 
 
 ### 2.3.4. Empathy Mapping ###
 
+El _Empathy Mapping_ ayuda a entender de manera más profunda a nuestro User Persona. Con esta herramienta, capturamos lo que el usuario siente, dice, piensa y hace desde la perspectiva del propio usuario. Además, nos ayuda a identificar dolores y metas qué desea cumplir que nos serán útiles para formar ideas de diseño útiles para el producto que servirá como solución. Finalmente, cada mapa de empatía se diseñó en la aplicación UXPressia.
+
+<b> User Persona 1: Dueños de licorerías </b>
+
+<p align="center">
+  <img src="../img/Chapter II/empathy_map-up01.png" 
+  alt="empathy_map_userpersona_1"/>
+
+<b> User Persona 2: Proveedores de productos de licorerías </b>
+
+<p align="center">
+  <img src="../img/Chapter II/empathy_map-up02.png" 
+  alt="empathy_map_userpersona_2"/>
+
 ### 2.3.5. As-Is Scenario Mapping ###
 
 ## _2.4. Ubiquitous Language_ ##
