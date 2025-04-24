@@ -80,5 +80,21 @@ El _Empathy Mapping_ ayuda a entender de manera más profunda a nuestro User Per
 
 ### 2.3.5. As-Is Scenario Mapping ###
 
+En el _As-Is Scenario Map_ se representa el proceso real que vive un usuario previo a la existencia del producto solución. Este mapa, ayuda a encontrar puntos claves que usualmente forman obstáculos en las metas de los User Persona y ayudan a formar ideas de solución a estos obstáculos que se integran en el producto a diseñar.
+
+De esta forma, se diseñaron ambos mapas _AS-IS_ de cada user persona en la aplicación Miro. El proceso de diseño empezó con la identificación de fases de eventos más resaltantes de cada user persona. Luego, de cada fase, se identificaron labores que realiza comúnmente cada persona. A continuación, nos colocamos en los zapatos de cada persona e imaginamos qué pensamientos surgirían al realizar cada actividad. Finalmente, se identifica el sentimiento del pensamiento y se analiza por qué la aparición de dicho sentimiento. Además, se identificaron áreas positivas y negativas para cada persona dependiendo de su situación.
+
+<b> User Persona 1: Dueños de licorerías </b>
+
+<p align="center">
+  <img src="../img/Chapter II/as_is-up01.png" 
+  alt="as_is_map_userpersona_1"/>
+
+<b> User Persona 2: Proveedores de productos de licorerías </b>
+
+<p align="center">
+  <img src="../img/Chapter II/as_is-up02.png" 
+  alt="as_is_map_userpersona_2"/>
+
 ## _2.4. Ubiquitous Language_ ##
 
