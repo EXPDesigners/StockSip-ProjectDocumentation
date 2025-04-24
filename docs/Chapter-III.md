@@ -11,8 +11,15 @@
 En esta sección, se muestra la tabla del Product Backlog priorizado del producto solución. Para ello, se utilizaron puntos de historia de usuario que son asignados a cada historia de usuario creada según su importancia para el contexto del negocio. Luego, para la estimación de puntos de historia de usuario se utilizó la escala 
 Fibonacci (1, 2, 3, 5, 8). Se decidió utilizar **Trello** para la creación del product backlog. La tabla inicia con las historias de usuario más importantes, mientras que las de mnenor importancia se muestran en las últimas filas de dicha tabla.
 
-Luego, se adjunta una imagen del product backlog diseñado originalmente en Trello y el enlace para acceder al mismo:
-[Link de acceso al Product Backlog en Trello](https://trello.com/invite/b/6809aafd2445aeca880920a5/ATTI1da3855816926ef7daf1466b1490408878ACF3F2/stocksip-product-backlog)
+Luego, se adjunta una imagen del product backlog diseñado originalmente en Trello y el enlace para acceder al mismo. Cabe recalcar, que dentro de cada tarjeta que contenga el código de una historia de usuario,
+se encuentra la descripción completa de dicha historia de usuario.
+[Link de acceso al Product Backlog en Trello](https://trello.com/invite/b/6809bfcbc74aacf0c6b7bded/ATTI0549f09fbb738d8e4b1182a2186698342572E555/exp-stocksip-product-backlog)
+
+<p align="center">
+  <img src="../img/Chapter III/product_backlog.png" 
+  alt="product_backlog"/>
+
+Finalmente, el _Product Backlog_ diseñado en Trello, se coloca en la tabla que se muestra a continuación:
 
 | Orden | US ID | Título                                                   | Descripción                                                                                                                                                                                                                            | Story Points |
 |-------|-------|----------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------|
