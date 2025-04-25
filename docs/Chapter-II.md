@@ -4,6 +4,8 @@
 
 ### 2.1.1. Análisis competitivo ###
 
+Mediante un análisis comparativo, hemos organizado información clave de cada propuesta de valor. Esto nos ayudará a entender mejor en qué se diferencia nuestra solución y compararla con las de nuestros competidores.
+
 | Competitive Analysis Landscape |  |  |  |  |  |
 | :---- | :---- | ----- | :---- | :---- | :---- |
 | ¿Por qué llevar a cabo este análisis? |  | Competidores Directos |  |  |  |
@@ -22,6 +24,11 @@
 |  | Amenazas | Competidores con softwares desarrollados y con alta experiencia en el mercado | Competidores con mayor escalabilidad o personalización | Entrada de apps más económicas y fáciles de usar y competencia extranjera que entra al mercado local | Apps más económicas y negocios que no necesitan tanto detalle analítico |
 
 ### 2.1.2. Estrategias y tácticas frente a competidores
+
+Una vez realizado la identificación de fortalezas, oportunidades, debilidades y amenazas con el análisis FODA de nuestros competidores en el sector del mercado, pasaremos a plantear las estrategias y tácticas para hacerle frente a estos mismos.
+
+* Expansión de integraciones: Con nuevas plataformas para agregar funciones que faciliten la gestión de inventario, sistemas de puntos de ventas (POS) y cooperar con proveedores como BEES
+* Soporte Postventa:  Soporte y asesorías personalizadas para garantizar al cliente el máximo provecho de cada función y asegurar la fidelidad del cliente.
 
 ## _2.2. Entrevistas_ ##
 
