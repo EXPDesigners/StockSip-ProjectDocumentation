@@ -72,3 +72,31 @@
 
 **Definición:** Bebidas alcohólicas premezcladas y listas para consumir, en formatos como latas o botellas, que no requieren preparación adicional.
 
+12. **Care Guide** (Guía de Cuidados)
+
+**Definición:** Documento físico o digital que describe las características y cuidados de cada bebida alcohólica: temperatura de conservación, sensibilidad a la luz, durabilidad, y observaciones del proveedor.
+
+13. **Conservation Guide** (Guia de Conservación)
+
+**Definición:** Registro digital donde se documentan prácticas de cuidado aplicadas a los productos (temperatura, iluminación, limpieza del área, entre otros). Permite asegurar el cumplimiento de estándares relacionados con calidad.
+
+14. **Loss Report** (Reporte de pérdidas)
+
+**Definición:** Registro que documenta las pérdidas de producto por razones como vencimiento, mal almacenamiento, daños físicos o evaporación. Ayuda a evaluar riesgos y tomar acciones correctivas.
+
+15. **Internal Referral Guide** (Guía de remisión interna)
+
+**Definición:** Documento (físico/digital) que respalda el traslado de productos entre distintas zonas de los almacenes o sucursales. Incluye información de origen, destino, cantidades y responsable del movimiento.
+
+16. **Invoice** (Factura)
+
+**Definición:** Registro formal de la compra o venta de productos entre la licorería y un proveedor o cliente. Incluye fecha, tipo de producto, cantidades, condiciones de entrega y estado del pago.
+
+17. **Purchase Order** (Orden de compra)
+
+**Definición:** Documento formal emitido por la licorería para solicitar productos a un proveedor. Detalla la fecha, tipo de producto, cantidades, precios acordados, condiciones de entrega y formas de pago. Sirve como compromiso de compra previo a la emisión de la factura y garantiza que ambas partes estén alineadas sobre los términos de la transacción.
+
+18. **Sales Order** (Orden de venta)
+
+**Definición:** Documento formal emitido por la licorería para confirmar la venta de productos a un cliente. Sirve como compromiso de venta antes de generar la factura y garantiza el acuerdo entre la licorería y el cliente.
+
