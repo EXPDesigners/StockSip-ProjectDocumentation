@@ -71,6 +71,21 @@ Para identificar los eventos de dominio, es recomendable realizar una sesión de
 
 ## 4.6.2. Domain Message Flow Modeling ##
 
+El modelado del flujo de mensajes de dominio es una técnica que permite visualizar cómo los diferentes Bounded Contexts interactúan entre sí a través de eventos y comandos. Esta técnica ayuda a identificar las dependencias y las relaciones entre los distintos contextos, facilitando la comprensión del sistema en su conjunto.
+
+1. **Escenario**: Registrar un nuevo producto en el catálogo
+
+![scenario-register-product](../img/Chapter%20IV/Strategic-Domain-Driven-Design/Domain-Message-Flow-Modelling/scenario1.png)
+
+2. **Escenario**: Notificar el estado de un pedido
+
+![scenario-notify-order-status](../img/Chapter%20IV/Strategic-Domain-Driven-Design/Domain-Message-Flow-Modelling/scenario2.png)
+
+3. **Escenario**: Registrar una nueva cuenta
+
+![scenario-register-account](../img/Chapter%20IV/Strategic-Domain-Driven-Design/Domain-Message-Flow-Modelling/scenario3.png)
+
+
 ## 4.6.3. Bounded Context ##
 
 ## 4.6.4. Bounded Context Canvas ##
