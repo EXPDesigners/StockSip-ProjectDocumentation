@@ -119,6 +119,32 @@ Los Bounded Contexts son divisiones estratégicas dentro del dominio que permite
 
 ## 4.6.4. Bounded Context Canvas ##
 
+El Bounded Context Canvas es una herramienta visual que permite documentar y comprender mejor los diferentes Bounded Contexts dentro del dominio. A continuación se presentan ejemplos de Bounded Context Canvas para cada uno de los contextos identificados.
+
+1. Bounded Context Canvas - **Inventory**:
+
+![inventoryBC-canvas](../img/Chapter%20IV/Strategic-Domain-Driven-Design/Bounded-Context-Canvas/inventoryBC-canvas.png)
+
+2. Bounded Context Canvas - **Order**:
+
+![orderBc-canvas](../img/Chapter%20IV/Strategic-Domain-Driven-Design/Bounded-Context-Canvas/orderBC-canvas.png)
+
+3. Bounded Context Canvas - **Authentication**:
+
+![authenticationBc-canvas](../img/Chapter%20IV/Strategic-Domain-Driven-Design/Bounded-Context-Canvas/authenticationBC-canvas.png)
+
+4. Bounded Context Canvas - **Payment**:
+
+![paymentBc-canvas](../img/Chapter%20IV/Strategic-Domain-Driven-Design/Bounded-Context-Canvas/paymentBC-canvas.png)
+
+5. Bounded Context Canvas - **Reporting**:
+
+![reportingBc-canvas](../img/Chapter%20IV/Strategic-Domain-Driven-Design/Bounded-Context-Canvas/reportingBC-canvas.png)
+
+6. Bounded Context Canvas - **Notification**:
+
+![notificationBc-canvas](../img/Chapter%20IV/Strategic-Domain-Driven-Design/Bounded-Context-Canvas/notificationBC-canvas.png)
+
 ## _4.7. Domain-Driven Software Architecture_ ##
 
 ### 4.7.1. Software Architecture Context Diagram ###
