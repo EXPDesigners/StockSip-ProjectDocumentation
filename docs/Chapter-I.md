@@ -30,4 +30,10 @@
 
 ### 1.2.2.4. Lean UX Canvas ###
 
+<p align="center">
+  <img src="../img/Chapter I/Lean UX Canvas - StockSip.png" alt="lean_ux_canvas"/>
+
+  > <p align="center">Lean Ux Canvas</p>
+</p>
+
 ## _1.3. Segmentos objetivo_ ##
