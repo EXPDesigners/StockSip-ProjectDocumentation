@@ -108,6 +108,34 @@ En esta sección, se definen las referencias que se usaron para adoptar estrateg
 
 ### 5.1.4. Software Deployment Configuration ###
 
+En esta sección, se especifica la configuración para realizar el despliegue de la solución en el repositorio. Para realizar esto, se usó GitHub Pages para lanzar el landing page, Web Services y Frontend Web Applications. A continuación, se describen los pasos necesarios para desplegar el Landing Page del proyecto, empezando por la creación del repositorio hasta el lanzamiento del proyecto.
+
+* **Paso 1: Creación del repositorio**  
+  Como primer paso, se debe crear el repositorio en GitHub que será el lugar donde se aloja todo lo relacionado al Landing Page.
+
+<p align="center">
+  <img src="https://i.imgur.com/Kz79wpm.png" alt="Crear">
+
+* **Paso 2: Carga de archivos necesarios**   
+  Como segundo paso, se importan todos los archivos necesarios para el desarrollo del landing page como imágenes, archivos HTML, CSS y JavaScript.
+
+imagen
+
+* **Paso 3: Preparar el lanzamiento**  
+  Como tercer paso, se juntan todas las características del proyecto en una sola para verificar el correcto funcionamiento de cada una. Luego, se envía todo a la rama principal donde se encuentra, por defecto, el proyecto.
+
+imagen
+
+* **Paso 4: Lanzar el Landing Page**  
+  Como cuarto paso, cuando todo se encuentre en la rama principal, se accede a la sección Configuración del repositorio, luego, se selecciona la opción “GitHub Pages” y se seleccionará la rama principal que es la que se desea desplegar.
+
+imagen
+
+* **Paso 5: Acceder al Landing Page**  
+  Como paso final, el entorno otorgará un enlace para poder acceder al proyecto desplegado.
+
+imagen
+
 ## _5.2. Landing Page, Services & Applications Implementation_ ##
 
 ### 5.2.1. Sprint 1 ###
