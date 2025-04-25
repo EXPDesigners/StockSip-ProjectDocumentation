@@ -85,8 +85,37 @@ El modelado del flujo de mensajes de dominio es una técnica que permite visuali
 
 ![scenario-register-account](../img/Chapter%20IV/Strategic-Domain-Driven-Design/Domain-Message-Flow-Modelling/scenario3.png)
 
-
 ## 4.6.3. Bounded Context ##
+
+Los Bounded Contexts son divisiones estratégicas dentro del dominio que permiten gestionar diferentes aspectos del sistema de manera independiente. Cada Bounded Context tiene su propio modelo de dominio, lo que facilita la evolución y el mantenimiento del sistema en su conjunto.
+
+1. Bounded Context **Inventory**: Gestiona el control de inventario en almacenes, incluyendo ajustes de stock, registro de productos y seguimiento de movimientos, para garantizar disponibilidad y precisión en tiempo real.
+
+
+2. Bounded Context **Order**: Gestiona el ciclo completo de órdenes (compra/venta), la configuración de catálogos (productos y promociones) y la planificación de reabastecimiento, asegurando disponibilidad de inventario y una experiencia fluida para clientes y proveedores.
+
+
+3. Bounded Context **Authentication**: Gestiona la identidad de usuarios (dueños de licorerías y proveedores) y su acceso al sistema, incluyendo autenticación y autorización.
+
+
+4. Bounded Context **Payment**: Gestionar las operaciones relacionadas con los pagos de los planes disponibles en la plataforma, incluyendo la suscripción, renovación, cancelación y validación de acceso según el estado del plan contratado.
+
+
+5. Bounded Context **Reporting**: Genera documentación formal y reportes para el negocio, incluyendo:
+
+
+- Remisión interna (movimiento entre almacenes)
+- Guías de conservación/cuidados (para productos y almacenes especiales)
+- Reportes de pérdidas (mermas, daños, vencimientos)
+- Facturación (documentos legales para clientes)
+
+
+6. Bounded Context **Notification**: Gestiona y distribuye alertas estratégicas sobre eventos críticos del negocio, incluyendo:
+
+
+- Notificaciones de productos próximos a vencer
+- Actualizaciones de estado en órdenes de compra/venta
+- Alertas tempranas de falta de stock
 
 ## 4.6.4. Bounded Context Canvas ##
 
