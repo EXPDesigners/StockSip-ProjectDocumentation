@@ -48,7 +48,15 @@
 
 ## _4.7. Domain-Driven Software Architecture_ ##
 
+Es una metodología que organiza y estructura el software en base a los dominios de negocio, permitiendo una mejor comprensión y gestión de la complejidad del sistema. A continuación se presentan los diagramas que representan la arquitectura del software:
+
 ### 4.7.1. Software Architecture Context Diagram ###
+
+Un diagrama de contexto es una representación visual que muestra cómo un sistema interactúa con otros sistemas y actores externos. En el caso de StockSip, el diagrama de contexto ilustra las interacciones entre la aplicación y los usuarios, así como otros sistemas relevantes.
+
+![StockSip Context Diagram](../img/Chapter%20IV/Software-Architecture/context-diagram.png)
+> <p align="center">StockSip Context Diagram</p>
+
 
 ### 4.7.2. Software Architecture Container Diagrams ###
 
