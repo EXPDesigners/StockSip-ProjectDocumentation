@@ -107,4 +107,11 @@
 20. **Expiration Alert** (Alerta de Expiración)
 
 **Definición:** Funcionalidad que identifica productos con fecha de vencimiento próxima y envía alertas al usuario.
-**
+
+21. **Replenishment Plan** (Plan de Reabastecimiento)
+
+**Definición:** Funcionalidad que permite al usuario planificar de manera anticipada las compras de productos, en función de las proyecciones de demanda y disponibilidad de stock, de forma en que se evite desabastecimientos o sobrestock.
+
+22. **Purchase suggestion** (Sugerencia de compra)
+
+**Definición:** Sugerencias automáticas de qué y cuándo compra productos (nuevos o ya existentes), basadas en tus niveles de stock y patrones de consumo.
