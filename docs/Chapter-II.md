@@ -28,3 +28,24 @@
 
 ## _2.4. Ubiquitous Language_ ##
 
+1. **Inventory** (Inventario)
+
+**Definición:** Registro y control digital de todos los productos en stock, incluyendo cantidades, fechas de vencimiento y estado. Es la fuente confiable para gestionar existencias y reposiciones.
+
+2. **Warehouse** (Almacén)
+
+**Definición:** Espacio físico donde se guardan, organizan y manejan los licores u otros productos. Donde se maneja: Ubicaciones específicas y condiciones de almacenamiento.
+
+3. **Movement Log** (Registro de movimientos)
+
+**Definición:** Registro de entradas y salidas de productos del inventario. Pueden ser: salida de productos del inventario debido al uso interno, degustaciones, o promociones dentro de la licorería. Permite distinguir el consumo operativo del comercial.
+
+4. **Inventory Management** (Administración de Inventario)
+
+**Definición:** Proceso mediante por el cual el dueño o encargado de la licorería organiza, controla y actualiza los productos en su tienda o bodega.
+
+5. **Inventory Control Panel** (Panel de control de inventario)
+
+**Definición:** Visualizaciones que muestran el estado general del stock: porcentaje de productos próximos a vencer, nivel de abastecimiento, y eficiencia de rotación.
+
+
