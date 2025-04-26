@@ -4,7 +4,22 @@
 
 ### 1.1.1. Descripción de la Startup ###
 
+En el contexto actual, donde el manejo eficiente del inventario y el conocimiento profundo de los productos son clave para el éxito comercial, OpenDoors ofrece una solución para dueños de licorerías que buscan optimizar la gestión de sus negocios. Somos una startup comprometida con desarrollar una aplicación que permite a los proveedores listar especificaciones detalladas sobre el cuidado y almacenamiento de productos de licorería, brindando a los dueños de licorerías la información necesaria para preservar la calidad y el valor de sus productos. La startup proporciona a los usuarios una herramienta para gestionar su inventario de manera eficiente, con control completo del stock y alertas que indican el momento óptimo para renovar la mercadería.
+
+<!-- Tabla Misión - Visión - Valores -->
+
+| Misión| Visión| Valores
+|--|--|--|
+| Ofrecer una solución que permita a los dueños de licorerías gestionar eficientemente su inventario y acceder a información detallada sobre el cuidado de productos de licorería, optimizando la calidad del servicio y la rentabilidad del negocio. | Ser la aplicación líder para la gestión inteligente de licorerías, permitiendo a los dueños de estos establecimientos tomar decisiones informadas, mantener un control efectivo del stock y garantizar la mejor experiencia para sus clientes. | Transparencia y confianza, Innovación constante, Responsabilidad con nuestros clientes |
+
 ### 1.1.2. Perfiles de integrantes del equipo ###
+
+| Foto | Integrante                        | Código     | Carrera               | Habilidades y conocimientos técnicos |
+| ---- | --------------------------------- | ---------- | --------------------- | ------------------------------------ |
+| --   | Angel Martin Gonzales Castillo    | U202319724 | Ingeniera de SoftWare | --                                   |
+| --   | Coronel Espinoza Farid Sebastian  | U202312508 | Ingeniera de SoftWare | --                                   |
+| --   | Huamani Cruz Camila Victoria      | U202315234 | Ingeniera de SoftWare | --                                   |
+| --   | Juarez Leon Nicolas Emilio Walter | U202317483 | Ingeniera de SoftWare | --                                   |
 
 ## _1.2. Solution Profile_ ##
 
