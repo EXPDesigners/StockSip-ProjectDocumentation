@@ -16,7 +16,38 @@
 
 ## _2.3. Needfinding_ ##
 
+El Needfinding es el proceso por el cual se busca comprender las necesidades que nuestros segmentos objetivos desean satisfacer. Se utilizaron diversas herramientas como el diseño de User Persona por cada segmento objetivo, el User Task Matrix para analizar la importancia y frecuencia de cada tarea que realiza cada segmento objetivo, el Journey Mapping que muestra el camino que sigue cada segmento objetivo para completar un objetivo, el Empathy Mapping para comprender como se siente, piensa y actúa cada segmento objetivo y, finalmente, el As-Is Scenario Map que describe una experiencia existente
+de cada segmento objetivo.
+
 ### 2.3.1. Users Persona ###
+
+Para desarrollar la propuesta de solución, se creará un _User Persona_ por cada segmento objetivo. Este tendrá información relacionada a una persona que pertenezca al segmento objetivo respectivo ya sea información personal, gustos, usos tecnológicos u objetivos. De esta forma, se podrá dar una idea más clara de a qué publico nos estamos acercando con la idea de solución. Además, se realiza una conclusión del análisis de cada User Persona.
+
+<b> User Persona 1: Dueños de licorerías </b>
+
+<p align="center">
+  <img src="../img/Chapter II/user_persona1.png" 
+  alt="user_persona1"/>
+
+  > <p align="center">User Persona del primer segmento objetivo</p>
+</p>
+
+En esta imagen, se colocó información relacionada al primer user persona. El cuadro incluye una descripción breve sobre esta persona y cuáles son sus objetivos y frustraciones respecto a la situación en la que vive. Esta representación ayuda a entender mejor sus necesidades específicas, como la optimización del control de inventario, la reducción de pérdidas y el deseo de contar con herramientas tecnológicas que faciliten la toma de decisiones. Esta información fue clave para diseñar una solución más eficiente y alineada con su realidad diaria como dueño de un negocio de productos de licorería. 
+
+<br>
+
+<b> User Persona 2: Proveedores de productos de licorerías </b>
+
+<p align="center">
+  <img src="../img/Chapter II/user_persona2.png" 
+  alt="user_persona2"/>
+
+  > <p align="center">User Persona del segundo segmento objetivo</p>
+</p>
+
+En esta otra imagen, se colocó información relacionada al segundo user persona. El cuadro incluye una descripción breve sobre esta persona y cuáles son sus objetivos y frustraciones respecto a la situación en la que vive. En este caso, se trata de un proveedor que busca optimizar sus rutas, asegurar ventas completas y fortalecer la relación con sus clientes. Las necesidades y motivaciones identificadas resaltan la importancia de implementar una solución digital que facilite la comunicación, el acceso a información de productos y el uso compartido de herramientas tecnológicas.
+
+<br>
 
 ### 2.3.2. User Task Matrix ###
 
