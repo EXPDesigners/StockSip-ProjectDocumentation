@@ -36,6 +36,17 @@
 
 ## _4.5. Web Applications Prototyping_ ##
 
+En esta sección, se evidencian pruebas de uso de los prototipos de las aplicaciones para el entorno Web Browser. Además, se adjunta un video donde se usan los prototipos y las interacciones con el prototipo se basan en los User Flows descritos previamente.
+
+<p align="center">
+  <img src="../img/Chapter IV/prototipo.png">
+
+  > <p align="center">Prototipo de StockSip</p>
+
+
+[StockSip_Prototipo_Web_Browser.mp4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202315234_upc_edu_pe/EevYUjJIIfBJqhDYgPgbwOcBHpyjsJ1DSKIn8G_uzrF4Dw?e=jVpUAx&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+
 ## _4.6. Strategic Domain-Driven Design_ ##
 
 ## 4.6.1. Event Storming ##
