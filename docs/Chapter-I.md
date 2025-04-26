@@ -36,6 +36,78 @@ Finalmente, "StockSip" promete a sus usuarios ser la herramienta clave para gest
 
 ### 1.2.1. Antecedentes y problemática ###
 
+**Antecedentes:**
+
+Hoy en dia, la gestión de inventario de licores ha sido controlado a cabo por medios que en varios casos ya son obsoletos o procesos manuales, los cuales son dificiles observar la cantidad de stock disponibles y la fecha de vencimiento.
+Con esto en mente la creciente competencia de mercado y a nivel tecnologico, la tendencia de digitalización y optimización de los procesos ha ocupado su lugar.
+
+Además, muchos comerciantes no tienen acceso a información técnica sobre el cuidado y conservación de los licores, lo que compromete la calidad del producto y la experiencia del consumidor. En un mercado competitivo, se vuelve esencial contar con herramientas que permitan tomar decisiones rápidas y bien fundamentadas.
+
+Frente a esta problemática, surge "StockSip", una solución tecnológica diseñada para cubrir estas necesidades mediante una plataforma intuitiva, que no solo permite gestionar el inventario en tiempo real, sino también acceder a información clave sobre cada producto, facilitando así una mejor toma de decisiones y una operación más eficiente.
+
+**Técina de las 5W's y 2H's:**
+
+ - **What?**
+
+**¿Cuál es el problema?**  
+Se presenta una problemática en la gestión de inventario que esta formado por la falta de informacion precisa acerca del las instrucciones de conservacion del producto y en el manejo en la atención de los licores, provocando muchas perdidas económicas por motivo de caducidad del producto.
+
+**¿Cuál es la relación con la persona en cuestión?**  
+Los dueños y encargados de licorerías son quienes enfrentan directamente esta problemática, ya que son responsables de mantener un inventario adecuado, asegurar la calidad de los productos ofrecidos y garantizar una operación eficiente del negocio.
+
+ - **When?**
+
+**¿Cuándo sucede el problema?**  
+Este problema se presenta de forma continua a lo largo del tiempo, ya que la gestión de inventarios es una tarea diaria. Puede agravarse en momentos de alta demanda o durante temporadas en las que el flujo de productos es mayor.
+
+**¿Cuándo utiliza el cliente el producto?**  
+Los usuarios utilizan StockSip regularmente como parte de su rutina operativa diaria, para consultar el estado de su inventario, recibir alertas de stock bajo y revisar especificaciones técnicas de los productos que venden.
+
+ - **Where?**
+
+**¿Dónde está el cliente cuando usa el producto?**  
+Los clientes acceden a la aplicación desde sus propios establecimientos, como licorerías, almacenes o incluso desde casa para hacer seguimiento remoto a su inventario.
+
+**¿A dónde se dirige?**  
+La problemática afecta principalmente a licorerías pequeñas y medianas que buscan operar con mayor eficiencia, pero no cuentan con soluciones tecnológicas adecuadas para la gestión de sus productos.
+
+**¿Dónde surge el problema?**  
+El problema nace en los negocios de licorería que no tienen acceso a sistemas digitales de control de stock ni a canales claros de comunicación con los proveedores sobre el cuidado adecuado de los productos.
+
+ - **Who?**
+
+**¿Quiénes están involucrados?**  
+Los principales involucrados son los dueños de licorerías, los encargados de inventario, y los proveedores de productos de licorería que desean que sus productos se conserven adecuadamente en los puntos de venta.
+
+ - **Why?**
+
+**¿Cuál es la causa del problema?**  
+La falta de digitalización en estos negocios, el desconocimiento sobre herramientas disponibles, la poca comunicación técnica entre proveedores y minoristas, y la ausencia de alertas automatizadas para el control de stock son factores que originan y agravan el problema.
+
+ - **How?**
+
+**¿En qué condiciones los clientes usan nuestros productos?**  
+Los clientes utilizan StockSip en medio de sus operaciones diarias, muchas veces en contextos de alta carga de trabajo y con recursos limitados.
+
+**¿Cómo prefieren los clientes acceder a nuestro producto?**  
+Prefieren una aplicación web que sea de fácil acceso, con una interfaz clara y un panel que permita visualizar el estado del inventario en tiempo real.
+
+**¿Qué llevó al cliente a llegar a esta situación?**  
+La falta de control sobre su stock, las pérdidas por vencimientos, las compras innecesarias o tardías y la falta de información sobre cómo conservar correctamente ciertos productos llevaron a los dueños de licorerías a buscar una solución digital que optimice sus operaciones.
+
+ - **How much?**
+
+**¿Cuánto impacto genera este problema en los negocios de licorería?**  
+El impacto de una mala gestión de inventario en licorerías puede ser significativo. Según un artículo de QuadMinds, una gestión deficiente puede generar ventas no registradas y pérdidas económicas considerables.  A nivel local, operativos realizados por municipalidades peruanas han encontrado productos vencidos en licorerías, lo cual refleja fallas en el control de inventario y ocasiona pérdidas económicas, además de poner en riesgo la salud del consumidor y la reputación del negocio.
+
+**Diagrama de Ishikawa**
+
+<p align="center">
+  <img src="../img/Chapter I/ishikawa.png" alt="diagrama_ishikawa"/>
+
+  > <p align="center">Diagrama de Ishikawa</p>
+</p>
+
 ### 1.2.2. Lean UX Process ###
 
 El Lean UX es un enfoque que permite validar las soluciones propuestas para problemas identificados. Este enfoque se centra en las personas que utilizarán nuestro producto. Una vez identificada la problemática a resolver, se empleó este proceso para reconocer áreas clave que contribuirán a dar forma al producto propuesto. <br>
