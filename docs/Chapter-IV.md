@@ -32,6 +32,151 @@
 
 ### 4.4.3. Web Applications Mock-ups ###
 
+En esta sección se presentarán los mockups de la aplicación móvil, los cuales son bosquejos de media o alta fidelidad sobre las funcionalidades principales de nuestra solución. Para el diseño de los mockups, se partió de los wireframes realizados previamente.
+
+**Sección Inicio de Sesión/Registro:**
+
+<p align="center">
+  <img src="https://i.imgur.com/fMshcIe.png">
+</p>
+
+<p align="center">
+  <img src="https://i.imgur.com/NBgoFGy.png">
+</p>
+<p align="center">
+  <img src="https://i.imgur.com/Vpu9Xhy.png">
+</p>
+<br>
+
+**Sección Inventario**
+
+<p align="center">
+  <img src="https://i.imgur.com/1F7fKRQ.png">
+</p>
+
+<p align="center">
+  <img src="https://i.imgur.com/vkj7MJ6.png">
+</p>
+<p align="center">
+  <img src="https://i.imgur.com/j1z4xzr.png">
+</p>
+<p align="center">
+  <img src="https://i.imgur.com/3rDFtk5.png">
+</p>
+<p align="center">
+  <img src="https://i.imgur.com/9tbuVPZ.png">
+</p>
+
+**Sección Alertas**
+
+<p align="center">
+  <img src="https://i.imgur.com/KtmxSDE.png">
+</p>
+**Sección Reportes**
+
+<p align="center">
+  <img src="https://i.imgur.com/KNvt2l3.png">
+</p>
+
+**Sección Zonas de Almacenamiento**
+
+<p align="center">
+  <img src="https://i.imgur.com/oc7Fiw6.png">
+</p>
+
+<p align="center">
+  <img src="https://i.imgur.com/oW3qoga.png">
+</p>
+
+**Sección Guías de Conservación**
+
+<p align="center">
+  <img src="https://i.imgur.com/qToTuj2.png">
+</p>
+<p align="center">
+  <img src="https://i.imgur.com/5zV66UP.png">
+</p>
+<p align="center">
+  <img src="https://i.imgur.com/6rNXauW.png">
+</p>
+
+**Sección Órdenes de Compra**
+
+<p align="center">
+  <img src="https://i.imgur.com/cqXAFru.png">
+</p>
+<p align="center">
+  <img src="https://i.imgur.com/cuQUvDD.png">
+</p>
+
+
+**Sección Facturación**
+
+<p align="center">
+  <img src="https://i.imgur.com/2uKMUCK.png">
+</p>
+<p align="center">
+  <img src="https://i.imgur.com/nkCN76Z.png">
+</p>
+
+
+**Sección Catálogo**
+
+<p align="center">
+  <img src="https://i.imgur.com/pm6lUDP.png">
+</p>
+<p align="center">
+  <img src="https://i.imgur.com/ZhjZnCe.png">
+</p>
+<p align="center">
+  <img src="https://i.imgur.com/wtS0pKc.png">
+</p>
+
+**Seccion Descuentos**
+
+<p align="center">
+  <img src="https://i.imgur.com/FfVhfyT.png">
+</p>
+<p align="center">
+  <img src="https://i.imgur.com/HMW0RZq.png">
+</p>
+<p align="center">
+  <img src="https://i.imgur.com/8orFcJ6.png">
+</p>
+
+**Sección Planes de Reabastecimiento**
+
+<p align="center">
+  <img src="https://i.imgur.com/mLVhFIY.png">
+</p>
+
+<p align="center">
+  <img src="https://i.imgur.com/clsjNpr.png">
+</p>
+
+<p align="center">
+  <img src="https://i.imgur.com/rqm3XcZ.png">
+</p>
+
+**Sección Dashboard**
+
+<p align="center">
+  <img src="https://i.imgur.com/jwFzslM.png">
+</p>
+
+**Sección Perfil**
+
+<p align="center">
+  <img src="https://i.imgur.com/1w4POXL.png">
+</p>
+<p align="center">
+  <img src="https://i.imgur.com/Y2DiMKN.png">
+</p>
+<p align="center">
+  <img src="https://i.imgur.com/0eNkAz9.png">
+</p>
+
+
 ### 4.4.4. Web Applications Userflow Diagrams ###
 
 ## _4.5. Web Applications Prototyping_ ##
