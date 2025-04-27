@@ -74,7 +74,42 @@
     - [3.2. User Stories](docs/Chapter-III.md/#_32-user-stories_-)
     - [3.3. Impact Mapping](docs/Chapter-III.md/#_33-impact-mapping_-)
     - [3.4. Product Backlog](docs/Chapter-III.md/#_34-product-backlog_-)
-****
+
+
+4. [Capítulo IV: Product Design](docs/Chapter-IV.md/#capítulo-4-product-design-)
+    - [4.1. Style Guidelines](docs/Chapter-IV.md/#_41-style-guidelines_-)
+        - [4.1.1. General Style Guidelines](docs/Chapter-IV.md/#411-general-style-guidelines-)
+        - [4.1.2. Web Style Guidelines](docs/Chapter-IV.md/#412-web-style-guidelines-)
+    - [4.2. Information Architecture](docs/Chapter-IV.md/#_42-information-architecture_-)
+        - [4.2.1. Organization Systems](docs/Chapter-IV.md/#421-organization-systems-)
+        - [4.2.2. Labeling Systems](docs/Chapter-IV.md/#422-labeling-systems-)
+        - [4.2.3. SEO Tags and Meta Tags](docs/Chapter-IV.md/#423-seo-tags-and-meta-tags-)
+        - [4.2.4. Searching Systems](docs/Chapter-IV.md/#424-searching-systems-)
+        - [4.2.5. Navigation Systems](docs/Chapter-IV.md/#425-navigation-systems-)
+    - [4.3. Landing Page UI Design](docs/Chapter-IV.md/#_43-landing-page-ui-design_-)
+        - [4.3.1. Landing Page Wireframe](docs/Chapter-IV.md/#431-landing-page-wireframe-)
+        - [4.3.2. Landing Page Mock-up](docs/Chapter-IV.md/#432-landing-page-mock-up-)
+    - [4.4. Web Applications UX/UI Design](docs/Chapter-IV.md/#_44-web-applications-uxui-design_-)
+        - [4.4.1. Web Applications Wireframes](docs/Chapter-IV.md/#441-web-applications-wireframes-)
+        - [4.4.2. Web Applications Wireflow Diagrams](docs/Chapter-IV.md/#442-web-applications-wireflow-diagrams-)
+        - [4.4.3. Web Applications Mock-ups](docs/Chapter-IV.md/#443-web-applications-mock-ups-)
+        - [4.4.4. Web Applications Userflow Diagrams](docs/Chapter-IV.md/#444-web-applications-userflow-diagrams-)
+    - [4.5. Web Applications Prototyping](docs/Chapter-IV.md/#_45-web-applications-prototyping_-)
+    - [4.6. Strategic Domain-Driven Design](docs/Chapter-IV.md/#_46-strategic-domain-driven-design_-)
+        - [4.6.1. Event Storming](docs/Chapter-IV.md/#461-event-storming-)
+        - [4.6.2. Domain Message Flow Modeling](docs/Chapter-IV.md/#462-domain-message-flow-modeling-)
+        - [4.6.3. Bounded Context](docs/Chapter-IV.md/#463-bounded-context-)
+        - [4.6.4. Bounded Context Canvas](docs/Chapter-IV.md/#464-bounded-context-canvas-)
+    - [4.7. Domain-Driven Software Architecture](docs/Chapter-IV.md/#_47-domain-driven-software-architecture_-)
+        - [4.7.1. Software Architecture Context Diagram](docs/Chapter-IV.md/#471-software-architecture-context-diagram-)
+        - [4.7.2. Software Architecture Container Diagrams](docs/Chapter-IV.md/#472-software-architecture-container-diagrams-)
+        - [4.7.3. Software Architecture Components Diagrams](docs/Chapter-IV.md/#473-software-architecture-components-diagrams-)
+    - [4.8. Software Object-Oriented Design](docs/Chapter-IV.md/#_48-software-object-oriented-design_-)
+        - [4.8.1. Class Diagram](docs/Chapter-IV.md/#481-class-diagram-)
+        - [4.8.2. Class Dictionary](docs/Chapter-IV.md/#482-class-dictionary-)
+    - [4.9. Database Design](docs/Chapter-IV.md/#_49-database-design_-)
+        - [4.9.1. Database Diagram](docs/Chapter-IV.md/#491-database-diagram-)
+
 
 
 
