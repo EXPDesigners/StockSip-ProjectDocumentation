@@ -1328,3 +1328,10 @@ En esta sección, se detallará el diccionario de las principales clases que se 
 ## _4.9. Database Design_ ##
 
 ### 4.9.1. Database Diagram ###
+
+A continuación, se adjunta el link de acceso a la vista del diagrama de base de datos diseñado en Vertabelo.
+[Link de acceso al Diagrama de Base de Datos](https://my.vertabelo.com/doc/4fUjzmQ2srbVzhRC8cE7TcMHqw8az7R0)
+
+<p align="center">
+  <img src="../img/Chapter IV/database_diagram.png" 
+  alt="database_diagram"/>
