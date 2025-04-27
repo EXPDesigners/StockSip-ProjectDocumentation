@@ -32,4 +32,14 @@
 | 5.c1 Trabaja en equipo para proporcionar liderazgo en forma conjunta                                 |                                            |                                         |
 | 5.c2 Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos. |                                            |                                         |
 
+# Project Report Collaboration Insights
+
+Repositorio del **Project Report**: https://github.com/EXPDesigners/StockSip-ProjectDocumentation 
+
+Link de la organización **EXPDesigners**: https://github.com/EXPDesigners
+
+
+
+
+
 # Contenido
