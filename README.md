@@ -24,17 +24,17 @@
 
 | Versión | Fecha      | Autor                | Descripción de la modificación                                                                |
 |---------|------------|----------------------|-----------------------------------------------------------------------------------------------|
-| 1.0     | 10-04-2025 | Camila Huama         | Se añadio la sección de Startup Profile para el capítulo 1.                                   |
+| 1.0     | 10-04-2025 | Camila Huamani       | Se añadio la sección de Startup Profile para el capítulo 1.                                   |
 | 1.0     | 10-04-2025 | Camila Huamani       | Se añadio la sección de Solution Profile para el capítulo 1.                                  |
 | 1.0     | 11-04-2025 | Camila Huamani       | Se añadio la sección de Lean UX Problem Statements para el capítulo 1.                        |
-| 1.0     | 11-04-2025 |                      | Se añadio la sección de Lean UX Assumptions para el capítulo 1.                               |
+| 1.0     | 11-04-2025 | Martin Gonzales      | Se añadio la sección de Lean UX Assumptions para el capítulo 1.                               |
 | 1.0     | 11-04-2025 | Camila Huamani       | Se añadio la sección de Lean UX Hypotheses para el capítulo 1.                                |
-| 1.0     | 12-04-2025 |                      | Se añadio la sección de Lean UX Canvas para el capítulo 1.                                    |
+| 1.0     | 12-04-2025 | Martin Gonzales      | Se añadio la sección de Lean UX Canvas para el capítulo 1.                                    |
 | 1.0     | 12-04-2025 | Camila Huamani       | Se añadio la sección de Target Segments para el capítulo 1.                                   |
-| 1.0     | 14-04-2025 |                      | Se añadio la sección de Competidores para el capítulo 2.                                      |
+| 1.0     | 14-04-2025 | Martin Gonzales      | Se añadio la sección de Competidores para el capítulo 2.                                      |
 | 1.0     | 14-04-2025 | Camila Huamani       | Se añadio la sección de Diseño de Entrevistas para el capítulo 2.                             |
-| 1.0     | 16-04-2025 |                      | Se añadio la sección de Registro de Entrevistas para el capítulo 2.                           |
-| 1.0     | 17-04-2025 |                      | Se añadio la sección de Análisis de Entrevistas para el capítulo 2.                           |
+| 1.0     | 16-04-2025 | Martin Gonzales      | Se añadio la sección de Registro de Entrevistas para el capítulo 2.                           |
+| 1.0     | 17-04-2025 | Martin Gonzales      | Se añadio la sección de Análisis de Entrevistas para el capítulo 2.                           |
 | 1.0     | 18-04-2025 | Camila Huamani       | Se añadio la sección de User Personas para el capítulo 2.                                     |
 | 1.0     | 22-04-2025 | Nicolás Juarez       | Se añadio la sección de Needfinding para el capítulo 2.                                       |
 | 1.0     | 22-04-2025 | Nicolás Juarez       | Se añadio la sección de To-Be Scenario Mapping para el capítulo 3.                            |
@@ -44,8 +44,8 @@
 | 1.0     | 22-04-2025 | Nicolás Juarez       | Se añadio la sección de Product Backlog para el capítulo 3.                                   |
 | 1.0     | 22-04-2025 | Camila Huamani       | Se añadio la sección de Style Guidelines para el capítulo 4.                                  |
 | 1.0     | 22-04-2025 | Camila Huamani       | Se añadio la sección de Information Architecture para el capítulo 4.                          |
-| 1.0     | 26-04-2025 |                      | Se añadio la sección de Landing Page Wireframe y Mockup en el capítulo 4.                     |
-| 1.0     | 26-04-2025 |                      | Se añadio la sección de Web Applications Wireframes en el capítulo 4.                         |
+| 1.0     | 26-04-2025 | Martin Gonzales      | Se añadio la sección de Landing Page Wireframe y Mockup en el capítulo 4.                     |
+| 1.0     | 26-04-2025 | Martin Gonzales      | Se añadio la sección de Web Applications Wireframes en el capítulo 4.                         |
 | 1.0     | 26-04-2025 | Nicolás Juarez       | Se añadio la sección de Wireflow Diagrams en el capítulo 4.                                   |
 | 1.0     | 26-04-2025 | Camila Huamani       | Se añadio la sección de Web Applications Mockups en el capítulo 4.                            |
 | 1.0     | 26-04-2025 | Nicolás Juarez       | Se añadio la sección de Userflow Diagrams en el capítulo 4.                                   |
@@ -53,7 +53,7 @@
 | 1.0     | 26-04-2025 |                      | Se añadio la sección de Domain-Driven Software Architecture en el capítulo 4.                 |
 | 1.0     | 24-04-2025 | Nicolás Juarez       | Se añadio la sección de Class Diagram en el capítulo 4.                                       |
 | 1.0     | 25-04-2025 | Camila Huamani       | Se añadio la sección de Database Diagram en el capítulo 4.                                    |
-| 1.0     | 26-04-2025 |                      | Se añadio la sección de Software Configuration Management en el capítulo 5.                   |
+| 1.0     | 26-04-2025 | Martin Gonzales      | Se añadio la sección de Software Configuration Management en el capítulo 5.                   |
 | 1.0     | 26-04-2025 | Nicolás Juarez       | Se añadio la sección de Sprint 1 en el capítulo 5.                                            |
 
 # Student OutCome
