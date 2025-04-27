@@ -109,7 +109,51 @@ A continuación, se muestra una tabla que contiene la información sobre los _co
 | EXPDesigners/StockSip-LandingPage      | feature/premium-plans            | 507f100      | feat(premium-plans): add premium plans css styles.                             | 26/04/2025  |
 
 ### 5.2.1.5. Execution Evidence for Sprint Review ###
+El objetivo de este sprint fue realizar, en colaboracion con todo el equipo, la creacion del landing page.
+
+<p align="center">
+  <img src="https://i.imgur.com/iE4Zzk7.png"/>
+</p>
+<p align="center">
+  <img src="https://i.imgur.com/AtWUtPY.png"/>
+</p>
+<p align="center">
+  <img src="https://i.imgur.com/T5F4i5T.png"/>
+</p>
+<p align="center">
+  <img src="https://i.imgur.com/wyFDw0M.png"/>
+</p>
+<p align="center">
+  <img src="https://i.imgur.com/rwnScm7.png"/>
+</p>
 
 ### 5.2.1.6. Software Deployment Evidence for Sprint Review ###
+La organizacion de nuestro codigo se realizo en un repositorio en GitHub. Para el despliegue del landing page se utilizo GitHub Pages
+* Primero se creo un repositorio para alojar el codigo del landing page
+* Segundo, cada integrante del equipo creo una rama de cada funcion del landing page
+<p align="center">
+  <img src="https://i.imgur.com/WLeViFN.png"/>
+</p>
+
+* Tercero, se realizo el merge a develop para corregir errores
+* Cuarto, cuando se corrigieron los errores, se realizo merge al master
+* Quinto, se desplego el landing page mediante GitHub Pages, evidencia:
+<p align="center">
+  <img src="https://i.imgur.com/iE4Zzk7.png"/>
+</p>
 
 ### 5.2.1.7. Team Collaboration Insights durint Sprint ###
+El proyecto se realizo mediante repositorio en GitHub. Integrantes participantes:
+<p align="center">
+  <img src="https://i.imgur.com/DAyXhVR.png"/>
+</p>
+
+Commits de los integrantes en el Landing Page:
+<p align="center">
+  <img src="https://i.imgur.com/YdN51Bf.png"/>
+</p>
+
+Grafico de los push y merge realizados por el equipo:
+<p align="center">
+  <img src="https://i.imgur.com/6khY971.png"/>
+</p>
