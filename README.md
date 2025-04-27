@@ -38,8 +38,10 @@ Repositorio del **Project Report**: https://github.com/EXPDesigners/StockSip-Pro
 
 Link de la organización **EXPDesigners**: https://github.com/EXPDesigners
 
+### Tb1:  Reporte de la colaboración del proyecto:
 
+Este gráfico representa la cantidad de commits realizados por cada miembro del equipo en el repositorio del proyecto. Cada barra representa a un miembro del equipo y la altura de la barra indica el número total de commits realizados por esa persona.
 
-
+![Commits](img/README/Collaboration-Insights/Tb1)
 
 # Contenido
