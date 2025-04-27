@@ -35,7 +35,7 @@ En esta sección, se describen los medios y esquemas de organización para gesti
 
 #### **5.1.2.1. Repositorios**
 
-A continuación, se adjuntan los enlaces para acceder a los repositorios donde se almacenarán los archivos de proyecto relacionados al Landing Page y a los tests de aceptación en lenguaje Gherkin.
+A continuación, se adjuntan los enlaces para acceder a los repositorios donde se almacenarán los archivos de proyecto relacionados al Landing Page.
 
 * **Landing Page: [https://github.com/EXPDesigners/StockSip-LandingPage.git](https://github.com/EXPDesigners/StockSip-LandingPage.git)**
 
@@ -119,22 +119,26 @@ En esta sección, se especifica la configuración para realizar el despliegue de
 * **Paso 2: Carga de archivos necesarios**   
   Como segundo paso, se importan todos los archivos necesarios para el desarrollo del landing page como imágenes, archivos HTML, CSS y JavaScript.
 
-imagen
+<p align="center">
+  <img src="https://i.imgur.com/RNjUuSV.png">
 
 * **Paso 3: Preparar el lanzamiento**  
   Como tercer paso, se juntan todas las características del proyecto en una sola para verificar el correcto funcionamiento de cada una. Luego, se envía todo a la rama principal donde se encuentra, por defecto, el proyecto.
 
-imagen
+<p align="center">
+  <img src="https://i.imgur.com/KtKEa2v.png">
 
 * **Paso 4: Lanzar el Landing Page**  
   Como cuarto paso, cuando todo se encuentre en la rama principal, se accede a la sección Configuración del repositorio, luego, se selecciona la opción “GitHub Pages” y se seleccionará la rama principal que es la que se desea desplegar.
 
-imagen
+<p align="center">
+  <img src="https://i.imgur.com/rIxAdyy.png">
 
 * **Paso 5: Acceder al Landing Page**  
   Como paso final, el entorno otorgará un enlace para poder acceder al proyecto desplegado.
-
-imagen
+  
+<p align="center">
+  <img src="https://i.imgur.com/iE4Zzk7.png">
 
 ## _5.2. Landing Page, Services & Applications Implementation_ ##
 
