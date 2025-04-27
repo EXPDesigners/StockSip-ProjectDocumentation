@@ -22,8 +22,14 @@
 
 # Registro de Versiones del Informe
 
-| Versión | Fecha   | Autor                        | Descripción de la modificación                                            |
-|---------|---------|------------------------------|---------------------------------------------------------------------------|
+| Versión | Fecha      | Autor | Descripción de la modificación |
+|---------|------------|-------|--------------------------------|
+| 1.0     | 27-04-2025 |       | Se añadio el capítulo 1.       |
+| 1.0     | 27-04-2025 |       | Se añadio el capítulo 2.       |
+| 1.0     | 27-04-2025 |       | Se añadio el capítulo 3.       |
+| 1.0     | 27-04-2025 |       | Se añadio el capítulo 4.       |
+| 1.0     | 27-04-2025 |       | Se añadio el capítulo 5.       |
+| 1.0     | 27-04-2025 |       | Se culmino el sprint 1.        |
 
 # Student OutCome
  
