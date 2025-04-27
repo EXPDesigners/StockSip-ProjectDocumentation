@@ -30,6 +30,146 @@
 
 ### 4.4.2. Web Applications Wireflow Diagrams ###
 
+<p align="center">
+  <img src="../img/Chapter IV/wireflows/taskflow_1.png"
+    alt="taskflow_1"/>
+</p>
+
+<p align="center">
+  <img src="../img/Chapter IV/wireflows/wireflow_1.png"
+    alt="wireflow_1"/>
+</p>
+
+<p align="center">
+  <img src="../img/Chapter IV/wireflows/taskflow_2.png"
+    alt="taskflow_2"/>
+</p>
+
+<p align="center">
+  <img src="../img/Chapter IV/wireflows/wireflow_2.png"
+    alt="wireflow_2"/>
+</p>
+
+<p align="center">
+  <img src="../img/Chapter IV/wireflows/taskflow_3.png"
+    alt="taskflow_3"/>
+</p>
+
+<p align="center">
+  <img src="../img/Chapter IV/wireflows/wireflow_3.png"
+    alt="wireflow_3"/>
+</p>
+
+<p align="center">
+  <img src="../img/Chapter IV/wireflows/taskflow_4.png"
+    alt="taskflow_4"/>
+</p>
+
+<p align="center">
+  <img src="../img/Chapter IV/wireflows/wireflow_4.png"
+    alt="wireflow_4"/>
+</p>
+
+<p align="center">
+  <img src="../img/Chapter IV/wireflows/taskflow_5.png"
+    alt="taskflow_5"/>
+</p>
+
+<p align="center">
+  <img src="../img/Chapter IV/wireflows/wireflow_5.png"
+    alt="wireflow_5"/>
+</p>
+
+<p align="center">
+  <img src="../img/Chapter IV/wireflows/taskflow_6.png"
+    alt="taskflow_6"/>
+</p>
+
+<p align="center">
+  <img src="../img/Chapter IV/wireflows/wireflow_6.png"
+    alt="wireflow_6"/>
+</p>
+
+<p align="center">
+  <img src="../img/Chapter IV/wireflows/taskflow_7.png"
+    alt="taskflow_7"/>
+</p>
+
+<p align="center">
+  <img src="../img/Chapter IV/wireflows/wireflow_7.png"
+    alt="wireflow_7"/>
+</p>
+
+<p align="center">
+  <img src="../img/Chapter IV/wireflows/taskflow_8.png"
+    alt="taskflow_8"/>
+</p>
+
+<p align="center">
+  <img src="../img/Chapter IV/wireflows/wireflow_8.png"
+    alt="wireflow_8"/>
+</p>
+
+<p align="center">
+  <img src="../img/Chapter IV/wireflows/taskflow_9.png"
+    alt="taskflow_9"/>
+</p>
+
+<p align="center">
+  <img src="../img/Chapter IV/wireflows/wireflow_9.png"
+    alt="wireflow_9"/>
+</p>
+
+<p align="center">
+  <img src="../img/Chapter IV/wireflows/taskflow_10.png"
+    alt="taskflow_10"/>
+</p>
+
+<p align="center">
+  <img src="../img/Chapter IV/wireflows/wireflow_10.png"
+    alt="wireflow_10"/>
+</p>
+
+<p align="center">
+  <img src="../img/Chapter IV/wireflows/taskflow_11.png"
+    alt="taskflow_11"/>
+</p>
+
+<p align="center">
+  <img src="../img/Chapter IV/wireflows/wireflow_11.png"
+    alt="wireflow_11"/>
+</p>
+
+<p align="center">
+  <img src="../img/Chapter IV/wireflows/taskflow_12.png"
+    alt="taskflow_12"/>
+</p>
+
+<p align="center">
+  <img src="../img/Chapter IV/wireflows/wireflow_12.png"
+    alt="wireflow_12"/>
+</p>
+
+<p align="center">
+  <img src="../img/Chapter IV/wireflows/taskflow_13.png"
+    alt="taskflow_13"/>
+</p>
+
+<p align="center">
+  <img src="../img/Chapter IV/wireflows/wireflow_13.png"
+    alt="wireflow_13"/>
+</p>
+
+<p align="center">
+  <img src="../img/Chapter IV/wireflows/taskflow_14.png"
+    alt="taskflow_14"/>
+</p>
+
+<p align="center">
+  <img src="../img/Chapter IV/wireflows/wireflow_14.png"
+    alt="wireflow_14"/>
+</p>
+
 ### 4.4.3. Web Applications Mock-ups ###
 
 ### 4.4.4. Web Applications Userflow Diagrams ###
