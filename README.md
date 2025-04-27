@@ -44,4 +44,8 @@ Este gráfico representa la cantidad de commits realizados por cada miembro del 
 
 ![Commits](img/README/Collaboration-Insights/Tb1)
 
+Este gráfico ofrece una visualización de las veces que se ha clonado nuestro repositorio, junto con las fechas correspondientes a cada evento. También muestran datos sobre el número de visitas que ha recibido el repositorio de nuestro equipo a lo largo del tiempo.
+
+![git-clones.png](https://i.imgur.com/THBxD5V.png)
+
 # Contenido
