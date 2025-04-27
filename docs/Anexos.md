@@ -16,3 +16,6 @@ https://lucid.app/lucidchart/ec768747-d2c7-48c6-b460-c7356ca0aee1/edit?viewport_
 
 **Landing Page & Web Applications - Wireframes and Mockups** <br>
 https://www.figma.com/design/1Hd6teBFxT5VhKWzxT0sVl/StockSip---APLICACIONES-WEB?t=9dAsYPkbRG0qWN2j-0
+
+**Wireflow Diagrams** <br>
+https://lucid.app/lucidchart/e1a6f3fc-3016-4144-9166-eded08cff0ae/edit?viewport_loc=1321%2C-565%2C5985%2C2672%2C0_0&invitationId=inv_c5aa6e0c-6ff1-4d79-ab96-df365030897c
