@@ -1120,7 +1120,7 @@ En esta ruta alterna, el usuario intenta registrar una factura con información 
 En esta sección, se evidencian pruebas de uso de los prototipos de las aplicaciones para el entorno Web Browser. Además, se adjunta un video donde se usan los prototipos y las interacciones con el prototipo se basan en los User Flows descritos previamente.
 
 <p align="center">
-  <img src="../img/Chapter IV/prototipo.png">
+  <img src="../img/Chapter IV/imagen_prototipo.png">
 
   > <p align="center">Prototipo de StockSip</p>
 
