@@ -110,7 +110,7 @@
 
 21. **Replenishment Plan** (Plan de Reabastecimiento)
 
-**Definición:** Funcionalidad que permite al usuario planificar de manera anticipada las compras de productos, en función de las proyecciones de demanda y disponibilidad de stock, de forma en que se evite desabastecimientos o sobrestock.
+**Definición:** Funcionalidad que permite al proveedor crear planes para enviar los pedidos de sus clientes con cierta frecuencia. Ayuda al proveedor a tener en cuenta el tiempo que le toma a un dueño de licorería solicitar productos para abastecerse.
 
 22. **Purchase suggestion** (Sugerencia de compra)
 
