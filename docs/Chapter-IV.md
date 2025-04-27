@@ -22,6 +22,12 @@
 
 ### 4.3.1. Landing Page Wireframe ###
 
+Para el desarrollo del Landing Page de StockSip, se realizaron diversos bosquejos de baja fidelidad en la aplicación de diseño de interfaz Figma para crear la estructura de las pantallas del Landing Page de la solución.
+
+<p align="center">
+  <img src="https://i.imgur.com/iwIbHR9.png"/>
+</p>
+
 ### 4.3.2. Landing Page Mock-up ###
 
 ## _4.4. Web Applications UX/UI Design_ ##
