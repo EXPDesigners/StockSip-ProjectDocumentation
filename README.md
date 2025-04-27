@@ -29,7 +29,7 @@
  
 | Criterio Específico                                                                                  | Acciones realizadas                        | Conclusiones                            |
 |------------------------------------------------------------------------------------------------------|--------------------------------------------|-----------------------------------------|
-| 5.c1 Trabaja en equipo para proporcionar liderazgo en forma conjunta                                 |                                            |                                         |
-| 5.c2 Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos. |                                            |                                         |
+| 5.c1 Trabaja en equipo para proporcionar liderazgo en forma conjunta                                 |Camila Victoria, Huamani Cruz<br>TB1:  <br>Nicolas Emilio Walter, Juarez Leon<br>TB1: <br>Angel Martin, Gonzales Castillo<br>TB1:  <br>Farid Sebastian, Coronel Espinoza<br>TB1:                |                                         |
+| 5.c2 Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos. |Camila Victoria, Huamani Cruz<br>TB1:  <br>Nicolas Emilio Walter, Juarez Leon<br>TB1: <br>Angel Martin. Gonzales Castillo<br>TB1:  <br>Farid Sebastian, Coronel Espinoza<br>TB1:                                            |                                         |
 
 # Contenido
