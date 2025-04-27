@@ -14,12 +14,12 @@ En el contexto actual, donde el manejo eficiente del inventario y el conocimient
 
 ### 1.1.2. Perfiles de integrantes del equipo ###
 
-| Foto | Integrante                        | Código     | Carrera               | Habilidades y conocimientos técnicos |
-| ---- | --------------------------------- | ---------- | --------------------- | ------------------------------------ |
-| --   | Angel Martin Gonzales Castillo    | U202319724 | Ingeniera de SoftWare | --                                   |
-| --   | Coronel Espinoza Farid Sebastian  | U202312508 | Ingeniera de SoftWare | --                                   |
-| --   | Huamani Cruz Camila Victoria      | U202315234 | Ingeniera de SoftWare | --                                   |
-| --   | Juarez Leon Nicolas Emilio Walter | U202317483 | Ingeniera de SoftWare | --                                   |
+| Foto                                                                         | Integrante                        | Código     | Carrera               | Habilidades y conocimientos técnicos                                                                                                                                                                                                                            |
+|------------------------------------------------------------------------------|-----------------------------------|------------|-----------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ![Angel-Gonzales-Photo](../img/Chapter%20I/Profile-picture/)                 | Angel Martin Gonzales Castillo    | U202319724 | Ingeniera de SoftWare | --                                                                                                                                                                                                                                                              |
+| ![Farid-Coronel-Photo](../img/Chapter%20I/Profile-picture/Farid-Coronel.png) | Coronel Espinoza Farid Sebastian  | U202312508 | Ingeniera de SoftWare | Tengo conocimientos técnicos en Python y Java, programación orientada a objetos y algoritmos, además de HTML y CSS. Me encanta el trabajo en equipo, por lo que siempre intentó mantener una buena dinámica junto a mis compañeros y mantener el equipo activo. |
+| ![Camila-Huamani-Photo](../img/Chapter%20I/Profile-picture/)                 | Huamani Cruz Camila Victoria      | U202315234 | Ingeniera de SoftWare | --                                                                                                                                                                                                                                                              |
+| ![Nicolas-Juarez-Photo](../img/Chapter%20I/Profile-picture/)                 | Juarez Leon Nicolas Emilio Walter | U202317483 | Ingeniera de SoftWare | --                                                                                                                                                                                                                                                              |
 
 ## _1.2. Solution Profile_ ##
 
