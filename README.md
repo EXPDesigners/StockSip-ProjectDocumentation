@@ -53,3 +53,21 @@
 - [1.3. Segmentos Objetivo](docs/Chapter-I.md/#_13-segmentos-objetivo_-)
 
 
+2. [Capítulo II: Requirements Elicitation & Analysis](docs/Chapter-II.md/#capítulo-2-requirements-elicitation--analysis-)
+- [2.1. Competidores](docs/Chapter-II.md/#_21-competidores_-)
+    - [2.1.1. Análisis competitivo](docs/Chapter-II.md/#211-análisis-competitivo-)
+    - [2.1.2. Estrategias y tácticas frente a competidores](docs/Chapter-II.md#212-estrategias-y-tácticas-frente-a-competidores)
+- [2.2. Entrevistas](docs/Chapter-II.md/#_22-entrevistas_-)
+    - [2.2.1. Diseño de entrevistas](docs/Chapter-II.md/#221-diseño-de-entrevistas-)
+    - [2.2.2. Registro de entrevistas](docs/Chapter-II.md/#222-registro-de-entrevistas-)
+    - [2.2.3. Análisis de entrevistas](docs/Chapter-II.md/#223-análisis-de-entrevistas-)
+- [2.3. Needfinding](docs/Chapter-II.md/#_23-needfinding_-)
+    - [2.3.1. User Personas](docs/Chapter-II.md/#231-users-persona-)
+    - [2.3.2. User Task Matrix](docs/Chapter-II.md/#232-user-task-matrix-)
+    - [2.3.3. User Journey Mapping](docs/Chapter-II.md/#233-user-journey-mapping-)
+    - [2.3.4. Empathy Mapping](docs/Chapter-II.md/#234-empathy-mapping-)
+    - [2.3.5. As-is Scenario Mapping](docs/Chapter-II.md/#235-as-is-scenario-mapping-)
+- [2.4. Ubiquitous Language](docs/Chapter-II.md/#_24-ubiquitous-language_-)
+
+
+
