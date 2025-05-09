@@ -375,13 +375,13 @@ De esta forma, se diseñaron ambos mapas _AS-IS_ de cada user persona en la apli
 
 **Definición:** Documento formal emitido por la licorería para confirmar la venta de productos a un cliente. Sirve como compromiso de venta antes de generar la factura y garantiza el acuerdo entre la licorería y el cliente.
 
-19. **Notification of Replenishment** (Notificación de Reposición)
+19. **Replenishment** (Reposición)
 
-**Definición:** Notificación automática que avisa al usuario cuando un producto está por agotarse o cerca de su fecha de vencimiento, facilitando la planificación de compras.
+**Definición:** Acción que toma el usuario cuando un producto está por agotarse o cerca de su fecha de vencimiento, facilitando la planificación de compras.
 
-20. **Expiration Alert** (Alerta de Expiración)
+20. **Expiration date** (Fecha de expiración)
 
-**Definición:** Funcionalidad que identifica productos con fecha de vencimiento próxima y envía alertas al usuario.
+**Definición:** Fecha límite de consumo de un producto, que puede ser determinada por el fabricante o la legislación. Es importante para garantizar la calidad y seguridad del producto. En el caso de los licores, se refiere a la fecha en que el producto pierde su calidad óptima, aunque no necesariamente indica que esté en mal estado. La fecha de vencimiento es especialmente relevante para productos como licores de crema, que tienen una vida útil más corta debido a su contenido lácteo.
 
 21. **Replenishment Plan** (Plan de Reabastecimiento)
 
@@ -389,24 +389,4 @@ De esta forma, se diseñaron ambos mapas _AS-IS_ de cada user persona en la apli
 
 22. **Purchase suggestion** (Sugerencia de compra)
 
-**Definición:** Sugerencias automáticas de qué y cuándo compra productos (nuevos o ya existentes), basadas en tus niveles de stock y patrones de consumo.
-
-23. **Free Plan** (Plan Gratuito)
-
-**Definición:** Modelo sin costo que brinda acceso a las funcionalidades básicas de la aplicación, como el registro de productos y ventas, con limitaciones en personalización, soporte e integraciones. Ideal para licorerías que están iniciando y buscan digitalizar su operación de manera sencilla.
-
-24. **Premium Plan** (Plan Premium)
-
-**Definición:** Modelo de pago que otorga acceso a funciones avanzadas de la aplicación, como reportes personalizados, soporte prioritario e integración con proveedores. Ideal para licorerías que buscan escalar su operación.
-
-25. **Control Panel** (Panel de Control)
-
-**Definición:** Interfaz principal del usuario donde puede manipular el sistema y sus funcionalidades a su antojo. Se visualiza el inventario, las notificaciones o alertas activas, perfil y ajustes de configuración.
-
-26. **Authentication** (Autenticación)
-
-**Definición:** Funcionalidad que permite verificar la identidad de un usuario al momento de acceder al sistema, de forma que se asegure que el acceso sea realizado por personas autorizadas.
-
-27. **Authorization** (Autorización)
-
-**Definición:** Funcionalidad que permite verificar si un usuario autenticado tiene acceso a funciones específicas de acuerdo con el plan que ha contratado (por ejemplo, Gratuito o Premium), así como validar su permiso para realizar acciones relacionadas con pagos, como activar un plan, renovar suscripciones o acceder a funciones exclusivas.
+**Definición:** Sugerencias que el dueño o proveedor toma a la hora de compra productos (nuevos o ya existentes), basadas en tus niveles de stock y patrones de consumo.
