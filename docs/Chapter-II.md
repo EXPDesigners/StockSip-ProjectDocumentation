@@ -115,11 +115,3 @@
 22. **Purchase suggestion** (Sugerencia de compra)
 
 **Definición:** Sugerencias automáticas de qué y cuándo compra productos (nuevos o ya existentes), basadas en tus niveles de stock y patrones de consumo.
-
-23. **Free Plan** (Plan Gratuito)
-
-**Definición:** Modelo sin costo que brinda acceso a las funcionalidades básicas de la aplicación, como el registro de productos y ventas, con limitaciones en personalización, soporte e integraciones. Ideal para licorerías que están iniciando y buscan digitalizar su operación de manera sencilla.
-
-24. **Premium Plan** (Plan Premium)
-
-**Definición:** Modelo de pago que otorga acceso a funciones avanzadas de la aplicación, como reportes personalizados, soporte prioritario e integración con proveedores. Ideal para licorerías que buscan escalar su operación.
