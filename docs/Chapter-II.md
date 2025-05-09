@@ -104,9 +104,9 @@
 
 **Definición:** Acción que toma el usuario cuando un producto está por agotarse o cerca de su fecha de vencimiento, facilitando la planificación de compras.
 
-20. **Expiration Alert** (Alerta de Expiración)
+20. **Expiration date** (Fecha de expiración)
 
-**Definición:** Funcionalidad que identifica productos con fecha de vencimiento próxima y envía alertas al usuario.
+**Definición:** Fecha límite de consumo de un producto, que puede ser determinada por el fabricante o la legislación. Es importante para garantizar la calidad y seguridad del producto. En el caso de los licores, se refiere a la fecha en que el producto pierde su calidad óptima, aunque no necesariamente indica que esté en mal estado. La fecha de vencimiento es especialmente relevante para productos como licores de crema, que tienen una vida útil más corta debido a su contenido lácteo.
 
 21. **Replenishment Plan** (Plan de Reabastecimiento)
 
