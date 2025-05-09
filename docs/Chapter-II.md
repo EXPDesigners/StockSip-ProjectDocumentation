@@ -114,4 +114,4 @@
 
 22. **Purchase suggestion** (Sugerencia de compra)
 
-**Definición:** Sugerencias automáticas de qué y cuándo compra productos (nuevos o ya existentes), basadas en tus niveles de stock y patrones de consumo.
+**Definición:** Sugerencias que el dueño o proveedor toma a la hora de compra productos (nuevos o ya existentes), basadas en tus niveles de stock y patrones de consumo.
