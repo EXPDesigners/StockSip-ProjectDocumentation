@@ -100,9 +100,9 @@
 
 **Definición:** Documento formal emitido por la licorería para confirmar la venta de productos a un cliente. Sirve como compromiso de venta antes de generar la factura y garantiza el acuerdo entre la licorería y el cliente.
 
-19. **Notification of Replenishment** (Notificación de Reposición)
+19. **Replenishment** (Reposición)
 
-**Definición:** Notificación automática que avisa al usuario cuando un producto está por agotarse o cerca de su fecha de vencimiento, facilitando la planificación de compras.
+**Definición:** Acción que toma el usuario cuando un producto está por agotarse o cerca de su fecha de vencimiento, facilitando la planificación de compras.
 
 20. **Expiration Alert** (Alerta de Expiración)
 
