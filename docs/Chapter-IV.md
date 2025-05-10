@@ -71,6 +71,10 @@ Un diagrama de componentes es una representación visual que muestra los diferen
 
 ![StockSip Component Diagram Frontend](../img/Chapter%20IV/Software-Architecture/component-diagram-spa.png)
 
+2. **Component Diagram — Backend Application**
+
+![StockSip Component Diagram Backend](../img/Chapter%20IV/Software-Architecture/component-diagram-apirest.png)
+
 ## _4.8. Software Object-Oriented Design_ ##
 
 ### 4.8.1. Class Diagram ###
