@@ -1252,41 +1252,18 @@ Un diagrama de contexto es una representación visual que muestra cómo un siste
 Un diagrama de contenedores es una representación visual que muestra los diferentes contenedores (aplicaciones, bases de datos, servicios, etc.) que componen un sistema y cómo interactúan entre sí. En el caso de StockSip, el diagrama de contenedores ilustra la arquitectura general del sistema, incluyendo la aplicación web, la base de datos y otros componentes relevantes.
 
 ![StockSip Container Diagram](../img/Chapter%20IV/Software-Architecture/container-diagram.png)
-> <p align="center">StockSip Container Diagram</p>
 
 ### 4.7.3. Software Architecture Components Diagrams ###
 
 Un diagrama de componentes es una representación visual que muestra los diferentes componentes de un contenedor y cómo interactúan entre sí. En el caso de StockSip, el diagrama de componentes ilustra la arquitectura interna de la aplicación web de cada bounded context.
 
-1. Reporting Context
+1. **Component Diagram — Frontend Application**
 
-![StockSip Reporting Context Diagram](../img/Chapter%20IV/Software-Architecture/components-diagrams/reporting-component.png)
-> <p align="center">StockSip Reporting Component Diagram</p>
+![StockSip Component Diagram Frontend](../img/Chapter%20IV/Software-Architecture/component-diagram-spa.png)
 
-2. Authentication Context
+2. **Component Diagram — Backend Application**
 
-![StockSip Authentication Context Diagram](../img/Chapter%20IV/Software-Architecture/components-diagrams/authentication-component.png)
-> <p align="center">StockSip Authentication Component Diagram</p>
-
-3. Order Context
-
-![StockSip Order Context Diagram](../img/Chapter%20IV/Software-Architecture/components-diagrams/order-component.png)
-> <p align="center">StockSip Order Component Diagram</p>
-
-4. Notification Context
-
-![StockSip Notification Context Diagram](../img/Chapter%20IV/Software-Architecture/components-diagrams/notification-component.png)
-> <p align="center">StockSip Notification Component Diagram</p>
-
-5. Inventory Context
-
-![StockSip Inventory Context Diagram](../img/Chapter%20IV/Software-Architecture/components-diagrams/inventory-component.png)
-> <p align="center">StockSip Inventory Component Diagram</p>
-
-6. Payment Context
-
-![StockSip Payment Context Diagram](../img/Chapter%20IV/Software-Architecture/components-diagrams/payment-component.png)
-> <p align="center">StockSip Payment Component Diagram</p>
+![StockSip Component Diagram Backend](../img/Chapter%20IV/Software-Architecture/component-diagram-apirest.png)
 
 ## _4.8. Software Object-Oriented Design_ ##
 
