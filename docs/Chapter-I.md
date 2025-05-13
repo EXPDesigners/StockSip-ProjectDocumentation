@@ -169,25 +169,11 @@ Actualmente, los dueños de licorerías carecen de herramientas que les permitan
 
 ##### 1.2.2.2.5 Features #####
 
-Features para el Segmento Objetivo 1: Dueños de licorerías pequeñas y medianas
-
-- Gestion de inventario.
+- Si implementamos una solución digital que permita a los proveedores de licores ver en tiempo real el inventario de sus clientes, con reposiciones automáticas y alertas sobre productos por vencer, entonces se optimizará el proceso logístico y se reducirán las pérdidas por vencimiento.
   
-- Visualizacion de informacion precisa sobre el cuidado y almacenamiento de los productos de licoreria
-  
-- Alertas en tiempo real sobre fecha de vencimiento cercana de productos de licoreria
-  
-- Categorizacion de productos.
-  
-- Alertas cuando se necesita reponer productos
-
-Features para el Segmento Objetivo 2: Proveedores de productos de licorería
-
-- Publicacion de informacion de cuidado de los productos que van a solicitor los duenos de las licorerias.
-  
-- Gestion de inventario y transporte de productos.
-  
-- Apartado de contacto entre el proveedor y sus clientes.
+- Si los dueños de licorerías tienen acceso a una funcionalidad que les brinde información técnica clara y accesible sobre el almacenamiento y manejo adecuado de sus productos, entonces podrán tomar decisiones más informadas que aseguren la calidad y durabilidad del inventarios.
+    
+- Si los dueños de licorerías cuentan con un sistema de alertas visuales e inteligentes sobre productos próximos a vencer y de baja rotación, entonces podrán gestionar proactivamente sus ciclos de venta y reducir pérdidas por vencimiento.
 
 ##### 1.2.2.2.4 User Outcomes #####
 
