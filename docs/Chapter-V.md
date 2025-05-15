@@ -330,10 +330,15 @@ En esta sección, se incluye la matriz de liderazgo y colaboración desarrollada
 Como se mencionó previamente en el planeamiento del sprint número 2, el objetivo del mismo es (OBJETIVO).
 
 Luego de definir el objetivo del sprint, se identificaron las historias de usuario útiles para este sprint. A continuación, se dividió cada historia de usuario en tareas relacionadas a la implementación y cumplimiento de dicha historia. Para ello, se utilizó la aplicación _Trello_ que nos ayuda a gestionar el progreso del sprint. 
+[Link de acceso al Sprint Backlog #2 en Trello](https://trello.com/b/UjadbQbv/stocksip-sprint-backlog-2?filter=label:Aplicaciones%20Web)
 
 <p align="center">
-  <img src="../img/Chapter V/sprint-2/sprint_backlog_2.png" 
-  alt="sprint_backlog_2"/>
+  <img src="../img/Chapter V/sprint-2/sprint-backlog-2_1.png" 
+  alt="Sprint goal y Stories del Sprint #2"/>
+
+  <p align="center">
+  <img src="../img/Chapter V/sprint-2/sprint-backlog-2_2.png" 
+  alt="Sprint Backlog 2 en desarrollo"/>
 
 A continuación, se presenta la tabla con las tareas necesarias para completar satisfactoriamente este segundo sprint. Además, se asignó un miembro del equipo a cada tarea a desarrollar y el estado de cada tarea.
 
