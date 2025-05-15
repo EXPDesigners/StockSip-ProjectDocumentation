@@ -154,14 +154,6 @@ Actualmente, tanto los proveedores de licores como los dueños de licorerías en
     
 - Valoran el control visual del inventario para tomar decisiones diarias.
 
-##### 1.2.2.2.5 Features #####
-
-- Si implementamos una solución digital que permita a los proveedores de licores ver en tiempo real el inventario de sus clientes, con reposiciones automáticas y alertas sobre productos por vencer, entonces se optimizará el proceso logístico y se reducirán las pérdidas por vencimiento.
-  
-- Si los dueños de licorerías tienen acceso a una funcionalidad que les brinde información técnica clara y accesible sobre el almacenamiento y manejo adecuado de sus productos, entonces podrán tomar decisiones más informadas que aseguren la calidad y durabilidad del inventarios.
-    
-- Si los dueños de licorerías cuentan con un sistema de alertas visuales e inteligentes sobre productos próximos a vencer y de baja rotación, entonces podrán gestionar proactivamente sus ciclos de venta y reducir pérdidas por vencimiento.
-
 ##### 1.2.2.2.4 User Outcomes #####
 
 - Los usuarios reportan una mayor organización de su inventario y menos errores de reposición.
@@ -173,6 +165,14 @@ Actualmente, tanto los proveedores de licores como los dueños de licorerías en
 - Recomiendan la herramienta a otros colegas del rubro.
     
 - Disminuyen su dependencia de hojas de cálculo manuales.
+
+##### 1.2.2.2.5 Features #####
+
+- Si implementamos una solución digital que permita a los proveedores de licores ver en tiempo real el inventario de sus clientes, con reposiciones automáticas y alertas sobre productos por vencer, entonces se optimizará el proceso logístico y se reducirán las pérdidas por vencimiento.
+  
+- Si los dueños de licorerías tienen acceso a una funcionalidad que les brinde información técnica clara y accesible sobre el almacenamiento y manejo adecuado de sus productos, entonces podrán tomar decisiones más informadas que aseguren la calidad y durabilidad del inventarios.
+    
+- Si los dueños de licorerías cuentan con un sistema de alertas visuales e inteligentes sobre productos próximos a vencer y de baja rotación, entonces podrán gestionar proactivamente sus ciclos de venta y reducir pérdidas por vencimiento.
 
 ### 1.2.2.3. Lean UX Hypothesis Statements ###
 
