@@ -146,6 +146,8 @@ En esta sección, se especifica la configuración para realizar el despliegue de
 
 ### 5.2.1.1. Sprint Planning 1 ###
 
+A continuación, se detalla, en la tabla siguiente, información sobre el planeameanto del primer sprint. En general, el objetivo de este sprint se centra en el desarrollo y despliegue de la primera versión del sitio web estático de StockSip.
+
 | Sprint #                                     | Sprint 1                                               |
 |----------------------------------------------|--------------------------------------------------------|
 | <b> Sprint planning Background </b>          | --                                                     |
@@ -293,6 +295,8 @@ Grafico de los push y merge realizados por el equipo:
 ### 5.3.1. Sprint 2 ###
 
 ### 5.3.1.1. Sprint Planning 2 ###
+
+A continuación, se detalla, en la tabla siguiente, información sobre el planeameanto del segundo sprint. Además, para este sprint se definieron dos objetivos para cubrir los aspectos de sitio web estático y aplicación front-end. El primer objetivo se centra en desarrollar una mejora visual para el sitio web estático y añadir secciones para Call-To-Action para los visitantes del sitio web. Por otro lado, el segundo objetivo se centra en el desarrollo y despliegue de la primera versión de la aplicación front-end de StockSip.
 
 | Sprint #                                     | Sprint 2                                               |
 |----------------------------------------------|--------------------------------------------------------|
