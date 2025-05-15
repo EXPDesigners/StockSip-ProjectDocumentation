@@ -13,7 +13,7 @@ Fibonacci (1, 2, 3, 5, 8). Se decidió utilizar **Trello** para la creación del
 
 Luego, se adjunta una imagen del product backlog diseñado originalmente en Trello y el enlace para acceder al mismo. Cabe recalcar, que dentro de cada tarjeta que contenga el código de una historia de usuario,
 se encuentra la descripción completa de dicha historia de usuario.
-[Link de acceso al Product Backlog en Trello](https://trello.com/invite/b/6809bfcbc74aacf0c6b7bded/ATTI0549f09fbb738d8e4b1182a2186698342572E555/exp-stocksip-product-backlog)
+[Link de acceso al Product Backlog en Trello](https://trello.com/invite/b/6809aafd2445aeca880920a5/ATTI1da3855816926ef7daf1466b1490408878ACF3F2/stocksip-product-backlog)
 
 <p align="center">
   <img src="../img/Chapter III/product_backlog.png" 
