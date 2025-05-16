@@ -425,13 +425,25 @@ En esta sección, se describen los principales avances de implementación realiz
 
 A continuación, se muestra una tabla que contiene la información sobre los _commits_ hechos que contienen partes de las funcionalidades que debemos implementar para completar el primer sprint.
 
-| Repository                             | Branch                           | Commit Id | Commit Message                                                   | Commited On |
-|----------------------------------------|----------------------------------|-----------|------------------------------------------------------------------|-------------|
-| OpenDoors/StockSip-Front-End-App       |                                  |           |                                                                  |             |
-| OpenDoors/StockSip-Front-End-App       |                                  |           |                                                                  |             |
-| OpenDoors/StockSip-Front-End-App       |                                  |           |                                                                  |             |
-| OpenDoors/StockSip-Front-End-App       |                                  |           |                                                                  |             |
-| OpenDoors/StockSip-Front-End-App       |                                  |           |                                                                  |             |
+| Repository                          | Branch                      | Commit Id   | Commit Message                                                               | Commited On |
+| ----------------------------------- | --------------------------- | ----------- | ---------------------------------------------------------------------------- | ----------- |
+| EXPDesigners/StockSip-Front-End-App | develop                     | 758bdf2     | chore: add domain-driven file structure.                                     | 11/05/2025  |
+| EXPDesigners/StockSip-Front-End-App | develop                     | 80feb21     | chore: add dependencies.                                                     | 11/05/2025  |
+| EXPDesigners/StockSip-Front-End-App | feature/inventory           | 2b62152     | feat(warehouse): add json-server data.                                       | 13/05/2025  |
+| EXPDesigners/StockSip-Front-End-App | feature/profile             | bac777a     | feat(profile): add profile page and components                               | 13/05/2025  |
+| EXPDesigners/StockSip-Front-End-App | feature/i18n                | c36fa88     | feat(i18n): add language switcher component.                                 | 13/05/2025  |
+| EXPDesigners/StockSip-Front-End-App | feature/inventory           | ce55380     | feat(warehouse): add inventory component.                                    | 13/05/2025  |
+| EXPDesigners/StockSip-Front-End-App | feature/inventory           | 66d0aa9     | feat(warehouse): add product component.                                      | 13/05/2025  |
+| EXPDesigners/StockSip-Front-End-App | feature/inventory           | f88e7bc     | feat(warehouse): add warehouse environment endpoints.                        | 13/05/2025  |
+| EXPDesigners/StockSip-Front-End-App | feature/profile             | bac777a     | feat(profile): add profile page and components                               | 14/05/2025  |
+| EXPDesigners/StockSip-Front-End-App | feature/authentication      | e19d7c2     | feat(authentication): add login page and components                          | 14/05/2025  |
+| EXPDesigners/StockSip-Front-End-App | develop                     | 9bfc008     | feat(public): add side navigation bar routing                                | 14/05/2025  |
+| EXPDesigners/StockSip-Front-End-App | feature/dashboard           | 44a318c<br> | feat(analytics-and-reporting): update side navigation bar sections           | 16/05/2025  |
+| EXPDesigners/StockSip-Front-End-App | feature/alerts              | a45f12e     | feat(alerts): add alerts component.                                          | 16/05/2025  |
+| EXPDesigners/StockSip-LandingPage   | feature/i18n                | ddf0f82     | feat(i18n): Add data-i18n attributes to FAQ and statistics sections          | 15/05/2025  |
+| EXPDesigners/StockSip-LandingPage   | develop                     | ac735e5     | chore: add page icon                                                         | 15/05/2025  |
+| EXPDesigners/StockSip-LandingPage   | feature/faq                 | f63ab33c    | feat(faq): add faq section and styles.                                       | 15/05/2025  |
+| EXPDesigners/StockSip-LandingPage   | feature/exploration-off-app | 78e7985     | feat(exploration-of-the-app): add exploration of the application section<br> | 15/05/2025  |
 
 ### 5.3.1.5. Execution Evidence for Sprint Review ###
 
@@ -500,21 +512,31 @@ El objetivo de este sprint fue realizar, en colaboracion con todo el equipo, la 
 ### 5.3.1.6. Team Collaboration Insights durint Sprint ###
 
 El proyecto se realizo mediante repositorio en GitHub. Integrantes participantes:
+
 <p align="center">
   <img src="https://i.imgur.com/DAyXhVR.png"/>
 </p>
 
 Commits de los integrantes en el Landing Page:
+
 <p align="center">
   <img src="https://i.imgur.com/3B3zlvd.png"/>
 </p>
 
 Commits de los integrantes en el Front End:
+
 <p align="center">
   <img src="https://i.imgur.com/Rcpfw7u.png"/>
 </p>
 
 Grafico de los push y merge realizados por el equipo:
+
 <p align="center">
   <img src="https://i.imgur.com/qF08116.png"/>
+</p>
+
+Grafico de los push y merge realizados por el equipo en la aplicación:
+
+<p align="center">
+  <img src="https://i.imgur.com/0k9wVsK.png"/>
 </p>
