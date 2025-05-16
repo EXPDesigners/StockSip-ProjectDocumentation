@@ -88,6 +88,7 @@ Este gráfico ofrece una visualización de las veces que se ha clonado nuestro r
 
 ![git-clones.png](https://i.imgur.com/THBxD5V.png)
 
+
 # Contenido
 
 1. [Capítulo I: Introducción](docs/Chapter-I.md#capítulo-1-introducción-)
