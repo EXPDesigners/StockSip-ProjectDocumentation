@@ -31,6 +31,11 @@
 
   Las pruebas del frontend se realizaron utilizando una fake API mediante JSON Server, que funcionó como una base de datos temporal para validar el correcto funcionamiento de las interfaces y las interacciones con los datos.
 
+* **Software Deployment**
+
+  Para el despliegue del Landing page se uso la el servicio web de github pages, este servicio se especializa en el despliegue de sitios web staticos directamente desde un repositorio.
+  Para el despliegue del Frontend se uso beeceptor y firebase. Beeceptor es una herramienta en línea (basada en la web) que nos permite crear endpoints HTTP falsos (mock) para probar APIs, se uso ver qué datos está enviando nuestra aplicación. Firebase es una plataforma desarrollada por Google que permite crear aplicaciones web y móviles más rápido, sin tener que construir un backend completo desde cero, ofrece servicios listos para usar que se pueden usar para conectar facilmente nuestro Frontend.
+  
 ### 5.1.2. Source Code Management ###
 
 En esta sección, se describen los medios y esquemas de organización para gestionar de manera efectiva los archivos de proyecto relacionados a Landing Page, Web Services y Frontend Web Applications. En el caso de los repositorios, se usará GitHub para almacenar los archivos. Además, se implementará GitFlow. Esta función de GitHub ayudará al equipo, gracias a las ramas de características de lanzamiento, a poder trabajar paralelamente en el proyecto y a tomar el control de versiones de avance del proyecto.
@@ -142,6 +147,83 @@ En esta sección, se especifica la configuración para realizar el despliegue de
   
 <p align="center">
   <img src="https://i.imgur.com/iE4Zzk7.png">
+
+A continuación, se describen los pasos necesarios para desplegar el Frontend del proyecto, empezando por la creación del repositorio hasta el lanzamiento del proyecto.
+
+* **Paso 1: Creación del repositorio**  
+  Como primer paso, se debe crear el repositorio en GitHub que será el lugar donde se aloja todo lo relacionado al Frontend.
+
+<p align="center">
+  <img src="https://i.imgur.com/RKeaB1T.png">
+
+* **Paso 2: Carga de archivos y carpetas necesarios**   
+  Como segundo paso, se importan todos los archivos y carpetas necesarios para el desarrollo del Frontend.
+
+<p align="center">
+  <img src="https://i.imgur.com/GHLAPdd.png">
+
+* **Paso 3: Creacion del proyecto en WebStorm**  
+  Como tercer paso, se creara el proyecto en WebStorm, importamos nuestros features e instalamos las dependencias necesarias. 
+
+<p align="center">
+  <img src="https://i.imgur.com/LD8AKKP.png">
+
+* **Paso 4: Comando npm run build**  
+  Como cuarto paso, ingresaremos el comando npm run build en la consola de nuestro proyecto, este comando creara una carpeta llamada Dist que contiene todo nuestro proyecto.
+
+<p align="center">
+  <img src="https://i.imgur.com/kuCErf7.png">
+
+<p align="center">
+  <img src="https://i.imgur.com/qwP3yJb.png">
+  
+* **Paso 5: Probar el funcionamiento del build**  
+  Ingresamos a la pagina web Beeceptor e iniciamos sesion con nuestra cuenta, crearemos un nuevo mock server y copiaremos el enlace que nos proporciona. Volvemos al WebStorm, nos dirigimos al archivo .env.production y colocamos el enlace en la parte VITE_API_BASE_URL
+
+<p align="center">
+  <img src="https://i.imgur.com/4a5H7PM.png">
+  
+* **Paso 6: Probar el funcionamiento del build con HTTP**  
+  Ingresamos a la pagina web npmjs y buscamos HTTP-server, es un servidor para probar que nuestro build funcione en un entorno de desarrollo, copiamos el comando npm i http-server --save-dev. Luego ingresamos el comando http-server dist y elegimos cualquier de los links presentes. Se podra a acceder a nuestra aplicacion.
+
+<p align="center">
+  <img src="https://i.imgur.com/OMaUvwE.png"> 
+<p align="center">
+  <img src="https://i.imgur.com/mGG35De.png"> 
+
+* **Paso 7: Probar despliegue con Firebase**  
+  Ingresamos a la pagina web Firebase e ingremos con nuestra cuenta de google y vamos a la consola, creamos un nuevo proyecto con el nombre de nuestra aplicacion,
+nos ubicamos en el apartado de hosting
+
+<p align="center">
+  <img src="https://i.imgur.com/LF7yomG.png">
+<p align="center">
+  <img src="https://i.imgur.com/IMS9O5Y.png">
+<p align="center">
+  <img src="https://i.imgur.com/7Fb9T6a.png">
+  
+* **Paso 8: Configurar el despliegue**  
+  Regresamos a nuestro WebStorm y en la consola ingresamos el comando firebase login y decimos NO, nos pedira que ingremos con nuestra cuenta de google con la que creamos el proyecto e inicializamos el firebase con el comando firebase init, con las flechitas del teclado nos desplazamos a la opcion Hosting y presionamos la barra espaciadora para seleccionarlo y damos enter. Elejimos 'Use an existing proyect' y elegimos nuestro proyecto, colocamos solo dist y decimos YES NO NO
+
+<p align="center">
+  <img src="https://i.imgur.com/kyQfbBW.png"> 
+<p align="center">
+  <img src="https://i.imgur.com/K6nvtaP.png">
+<p align="center">
+  <img src="https://i.imgur.com/lJ5Emix.png"> 
+<p align="center">
+  <img src="https://i.imgur.com/9phLLJm.png"> 
+
+* **Paso 9: Desplegar nuestro proyecto**  
+  Nos dirigimos al archivo firebase.json y agregamos una seccion "site": "nombre de nuestro site" e ingresamos el comando firebase deploy, pero antes de eso ingresamos el comando npm run build para actualizar, ingresamos con el enlace que nos proporciona y nuestro proyecto ya estaria desplegado
+
+<p align="center">
+  <img src="https://i.imgur.com/NgjW0yh.png"> 
+<p align="center">
+  <img src="https://i.imgur.com/d5iOzXH.png"> 
+<p align="center">
+  <img src="https://i.imgur.com/NVOGrAD.png"> 
+  
   
 ## _5.2. Landing Page, Services & Applications Implementation_ ##
 
