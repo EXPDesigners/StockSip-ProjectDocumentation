@@ -419,16 +419,24 @@ A continuación, se presenta la tabla con las tareas necesarias para completar s
 
 En esta sección, se describen los principales avances de implementación realizados en este segundo sprint.
 
-A continuación, se muestra una tabla que contiene la información sobre los _commits_ hechos que contienen partes de las funcionalidades que debemos implementar para completar el primer sprint.
+A continuación, se muestra una tabla que contiene la información sobre los _commits_ hechos que contienen partes de las funcionalidades que debemos implementar para completar el segundo sprint.
 
-| Repository                             | Branch                           | Commit Id | Commit Message                                                   | Commited On |
-|----------------------------------------|----------------------------------|-----------|------------------------------------------------------------------|-------------|
-| OpenDoors/StockSip-Front-End-App       |                                  |           |                                                                  |             |
-| OpenDoors/StockSip-Front-End-App       |                                  |           |                                                                  |             |
-| OpenDoors/StockSip-Front-End-App       |                                  |           |                                                                  |             |
-| OpenDoors/StockSip-Front-End-App       |                                  |           |                                                                  |             |
-| OpenDoors/StockSip-Front-End-App       |                                  |           |                                                                  |             |
+| Repository                       | Branch     | Commit Id | Commit Message                                            | Commited On |
+|----------------------------------|------------|-----------|-----------------------------------------------------------|-------------|
+| OpenDoors/StockSip-Front-End-App | warehouses | a34659d   | feat(warehouses): add warehouses environment endpoints.   | 15/05/2025  |
+| OpenDoors/StockSip-Front-End-App | warehouses | 880495d   | feat(warehouses): add warehouse entity class and service. | 15/05/2025  |
+| OpenDoors/StockSip-Front-End-App | warehouses | 31c1cd7   | feat(warehouses): add warehouse item and list component.  | 15/05/2025  |
+| OpenDoors/StockSip-Front-End-App | warehouses | aeade55   | feat(warehouses): add warehouses routes.                  | 16/05/2025  |
+| OpenDoors/StockSip-Front-End-App | warehouses | 742e75c   | feat(warehouses): add toast support.                      | 16/05/2025  |
+| OpenDoors/StockSip-Front-End-App | warehouses | 2d89ece   | feat(public): add cloudinary endpoints.                   | 16/05/2025  |
+| OpenDoors/StockSip-Front-End-App | warehouses | 4836f29   | feat(warehouses): add create and edit warehouses.         | 16/05/2025  |
+| OpenDoors/StockSip-Front-End-App |            |           |                                                           |             |
+| OpenDoors/StockSip-Front-End-App |            |           |                                                           |             |
+| OpenDoors/StockSip-Front-End-App |            |           |                                                           |             |
+| OpenDoors/StockSip-Front-End-App |            |           |                                                           |             |
+| OpenDoors/StockSip-Front-End-App |            |           |                                                           |             |
 
 ### 5.2.1.5. Execution Evidence for Sprint Review ###
 
 ### 5.2.1.6. Team Collaboration Insights durint Sprint ###
+
