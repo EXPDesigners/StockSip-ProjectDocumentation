@@ -438,6 +438,32 @@ A continuación, se muestra una tabla que contiene la información sobre los _co
 
 ### 5.2.1.5. Execution Evidence for Sprint Review ###
 
+El objetivo de este sprint fue realizar, en colaboracion con todo el equipo, la segunda versión del landing page y la primera versión de la aplicación frontend.
+
+<p align="center">
+  <img src="../img/Chapter%20V/execution-evidence/landing-page-1.png"/>
+</p>
+
+<p align="center">
+  <img src="../img/Chapter%20V/execution-evidence/landing-page-2.png"/>
+</p>
+
+<p align="center">
+  <img src="../img/Chapter%20V/execution-evidence/landing-page-3.png"/>
+</p>
+
+<p align="center">
+  <img src="../img/Chapter%20V/execution-evidence/landing-page-4.png"/>
+</p>
+
+<p align="center">
+  <img src="../img/Chapter%20V/execution-evidence/landing-page-5.png"/>
+</p>
+
+<p align="center">
+  <img src="../img/Chapter%20V/execution-evidence/landing-page-6.png"/>
+</p>
+
 ### 5.2.1.6. Team Collaboration Insights durint Sprint ###
 
 El proyecto se realizo mediante repositorio en GitHub. Integrantes participantes:
