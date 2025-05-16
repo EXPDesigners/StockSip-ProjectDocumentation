@@ -542,11 +542,13 @@ El objetivo de este sprint fue realizar, en colaboracion con todo el equipo, la 
 </p>
 
 <br>
+
 **Estadísticas**
 <p align="center">
   <img src="https://i.imgur.com/MO3fXPK.png"/>
 </p>
 <br>
+
 **Propuesta de valor**
 <p align="center">
   <img src="https://i.imgur.com/pSt2Wse.png"/>
@@ -558,6 +560,7 @@ El objetivo de este sprint fue realizar, en colaboracion con todo el equipo, la 
   <img src="https://i.imgur.com/IgEFQLT.png"/>
 </p>
 <br>
+
 **Preguntas frecuentes**
 <p align="center">
   <img src="https://i.imgur.com/POUjGSU.png"/>
@@ -571,23 +574,27 @@ El objetivo de este sprint fue realizar, en colaboracion con todo el equipo, la 
   <img src="https://i.imgur.com/R0Jwexh.png"/>
 </p>
 <br>
+
 **Perfil de usuario**
 
 <p align="center">
   <img src="https://i.imgur.com/ND0kzSd.png"/>
 </p>
 <br>
+
 **Reportes**
 
 <p align="center">
   <img src="https://i.imgur.com/e6GsbX2.png"/>
 </p>
 <br>
+
 **Guías de Conservación**
 <p align="center">
   <img src="https://i.imgur.com/tNrzFR0.png"/>
 </p>
 <br>
+
 **Alertas**
 <p align="center">
   <img src="https://i.imgur.com/Pi1zS2F.png"/>
