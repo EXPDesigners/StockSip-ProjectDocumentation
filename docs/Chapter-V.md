@@ -346,6 +346,8 @@ El objetivo de este sprint fue realizar, en colaboracion con todo el equipo, la 
   <img src="https://i.imgur.com/rwnScm7.png"/>
 </p>
 
+Link al landing page: [Landing_Page_StockSip](https://expdesigners.github.io/StockSip-LandingPage/)
+
 ### 5.2.1.6. Software Deployment Evidence for Sprint Review ###
 La organizacion de nuestro codigo se realizo en un repositorio en GitHub. Para el despliegue del landing page se utilizo GitHub Pages
 * Primero se creo un repositorio para alojar el codigo del landing page
@@ -591,6 +593,11 @@ El objetivo de este sprint fue realizar, en colaboracion con todo el equipo, la 
   <img src="https://i.imgur.com/Pi1zS2F.png"/>
 </p>
 <br>
+
+Link al landing page: [Landing_Page_StockSip](https://expdesigners.github.io/StockSip-LandingPage/)
+
+Link a la aplicación: [App_Front_End_StockSip](https://stocksip-exp-app.web.app/)
+
 
 ### 5.3.1.6. Team Collaboration Insights durint Sprint ###
 
