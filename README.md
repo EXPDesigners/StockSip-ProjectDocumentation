@@ -88,6 +88,16 @@ Este gráfico ofrece una visualización de las veces que se ha clonado nuestro r
 
 ![git-clones.png](https://i.imgur.com/THBxD5V.png)
 
+### Tp1:  Reporte de la colaboración del proyecto:
+
+Este gráfico representa la cantidad de commits realizados por cada miembro del equipo en el repositorio del proyecto. Cada barra representa a un miembro del equipo y la altura de la barra indica el número total de commits realizados por esa persona.
+
+![commits-colaboration.png]()
+
+Este gráfico ofrece una visualización de las veces que se ha clonado nuestro repositorio, junto con las fechas correspondientes a cada evento. También muestran datos sobre el número de visitas que ha recibido el repositorio de nuestro equipo a lo largo del tiempo.
+
+![git-clones.png](img/README/report-insights/graphic-report.png)
+
 
 # Contenido
 
