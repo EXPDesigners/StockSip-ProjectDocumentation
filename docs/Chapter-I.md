@@ -112,25 +112,12 @@ El impacto de una mala gestión de inventario en licorerías puede ser significa
 
 El Lean UX es un enfoque que permite validar las soluciones propuestas para problemas identificados. Este enfoque se centra en las personas que utilizarán nuestro producto. Una vez identificada la problemática a resolver, se empleó este proceso para reconocer áreas clave que contribuirán a dar forma al producto propuesto. <br>
 
-### 1.2.2.1. Lean UX Problems Statements ###
+### 1.2.2.1. Lean UX Problem Statement ###
 
-- **Problem Statement 1**
+Actualmente, tanto los proveedores de licores como los dueños de licorerías enfrentan dificultades por la falta de herramientas digitales que les permitan monitorear en tiempo real el inventario, la demanda y el estado de los productos. Esto genera problemas como desabastecimiento, sobrestock, vencimientos, y mala conservación del licor, afectando la calidad del producto, las ventas y la eficiencia en la reposición. Además, muchos dueños de licorerías no cuentan con acceso práctico a información técnica que les ayude a tomar decisiones informadas sobre el almacenamiento y la gestión de sus productos.
 
-Muchos proveedores de licores no cuentan con herramientas digitales que les permitan monitorear en tiempo real la demanda y el inventario de sus clientes. Esto genera problemas como desabastecimiento, sobrestock, y falta de visibilidad sobre los productos que están siendo mal almacenados o que están próximos a vencer, afectando directamente tanto sus ventas como las de sus clientes.
-
-¿Cómo podríamos diseñar una solución digital que permita a los proveedores de licores tener visibilidad en tiempo real de los inventarios y la demanda de sus clientes, mejorando la eficiencia de la reposición y reduciendo las pérdidas económicas por vencimiento y mal almacenamiento?
-
-- **Problem Statement 2**
-
-En la actualidad, muchos dueños de licorerías no tienen acceso práctico a información útil sobre cómo almacenar y cuidar correctamente sus productos. Por eso, muchas veces toman decisiones basadas en costumbre o intuición, lo que puede afectar la calidad del licor que venden y generar pérdidas por un mal manejo de los productos.
-
-¿Cómo podríamos diseñar la experiencia de acceso a la información técnica dentro de "StockSip" para que los dueños de licorerías tomen decisiones más informadas y aseguren la calidad de sus productos?
-
-- **Problem Statement 3**
-
-Actualmente, los dueños de licorerías carecen de herramientas que les permitan visualizar con anticipación qué productos están por vencer o cuáles presentan baja rotación. Esto impide acciones preventivas como promociones estratégicas o ajustes en los pedidos.
-
-¿Cómo podríamos diseñar "StockSip" para ofrecer alertas inteligentes y visualizaciones claras que ayuden a los dueños de licorerías a anticipar pérdidas y tomar decisiones correctivas, logrando una reducción del 35% en productos vencidos y un aumento del 25% en ventas de productos próximos a vencer?
+¿Cómo podríamos diseñar una solución digital integral que brinde visibilidad en tiempo real del inventario y la demanda, ofrezca información técnica accesible y genere alertas inteligentes y visualizaciones claras para anticipar pérdidas, mejorar la toma de decisiones y aumentar la eficiencia operativa de proveedores y licorerías?
+<br>
 
 
 ### 1.2.2.2. Lean UX Assumptions ###
@@ -167,14 +154,6 @@ Actualmente, los dueños de licorerías carecen de herramientas que les permitan
     
 - Valoran el control visual del inventario para tomar decisiones diarias.
 
-##### 1.2.2.2.5 Features #####
-
-- Si implementamos una solución digital que permita a los proveedores de licores ver en tiempo real el inventario de sus clientes, con reposiciones automáticas y alertas sobre productos por vencer, entonces se optimizará el proceso logístico y se reducirán las pérdidas por vencimiento.
-  
-- Si los dueños de licorerías tienen acceso a una funcionalidad que les brinde información técnica clara y accesible sobre el almacenamiento y manejo adecuado de sus productos, entonces podrán tomar decisiones más informadas que aseguren la calidad y durabilidad del inventarios.
-    
-- Si los dueños de licorerías cuentan con un sistema de alertas visuales e inteligentes sobre productos próximos a vencer y de baja rotación, entonces podrán gestionar proactivamente sus ciclos de venta y reducir pérdidas por vencimiento.
-
 ##### 1.2.2.2.4 User Outcomes #####
 
 - Los usuarios reportan una mayor organización de su inventario y menos errores de reposición.
@@ -186,6 +165,14 @@ Actualmente, los dueños de licorerías carecen de herramientas que les permitan
 - Recomiendan la herramienta a otros colegas del rubro.
     
 - Disminuyen su dependencia de hojas de cálculo manuales.
+
+##### 1.2.2.2.5 Features #####
+
+- Si implementamos una solución digital que permita a los proveedores de licores ver en tiempo real el inventario de sus clientes, con reposiciones automáticas y alertas sobre productos por vencer, entonces se optimizará el proceso logístico y se reducirán las pérdidas por vencimiento.
+  
+- Si los dueños de licorerías tienen acceso a una funcionalidad que les brinde información técnica clara y accesible sobre el almacenamiento y manejo adecuado de sus productos, entonces podrán tomar decisiones más informadas que aseguren la calidad y durabilidad del inventarios.
+    
+- Si los dueños de licorerías cuentan con un sistema de alertas visuales e inteligentes sobre productos próximos a vencer y de baja rotación, entonces podrán gestionar proactivamente sus ciclos de venta y reducir pérdidas por vencimiento.
 
 ### 1.2.2.3. Lean UX Hypothesis Statements ###
 

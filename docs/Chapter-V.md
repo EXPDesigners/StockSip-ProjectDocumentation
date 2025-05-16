@@ -8,7 +8,6 @@
 
   En el aspecto de gestión y desarrollo del ciclo de vida del proyecto se utilizó la aplicación Discord y Google Meet para las reuniones de grupo en las cuales se conversan sobre temas relacionados a avances y corrección de aspectos del proyecto. Luego, para la documentación del proyecto, se utilizó el formato MarkDown
 
-
 * **Requirements Management**
 
   Para el manejo de los requisitos (historias de usuario, product backlog, sprint backlog), se utilizó Trello es una herramienta ideal para gestionar proyectos. Usando esta herramienta, se puede organizar un product backlog, ya que permite estructurar tareas visualmente en un tablero. Puedes crear listas que representen etapas del flujo de trabajo, y en cada lista añadir tarjetas que describan las user stories o tareas individuales. Estas tarjetas permiten detallar información clave, como prioridades, etiquetas de color, descripciones y checklists, facilitando así el seguimiento y la colaboración del equipo.
@@ -22,13 +21,21 @@
 
 * **Software Development**
 
-  Para el desarrollo del Software correspondiente al Landing Page, se utilizarán dos aplicaciones, las cuales son GitHub y JetBrains. La primera ayuda al equipo a gestionar de manera correcta los avances colaborativos del proyecto. Por otro lado, JetBrains ayudará a trabajar el proyecto con lenguajes como HTML5, CSS y JavaScript, y el framework Vue para el desarrollo del landing page, web services y frontend.
+  Para el desarrollo del Software correspondiente al Landing Page, se utilizarán dos aplicaciones, las cuales son GitHub y JetBrains. La primera ayuda al equipo a gestionar de manera correcta los avances colaborativos del proyecto. Por otro lado, JetBrains ayudará a trabajar el proyecto con lenguajes como HTML5, CSS y JavaScript, y el framework Vue para el desarrollo del landing page.
+
+  Para el desarrollo del Frontend Web Application, se utilizaron las aplicaciones de Github y WebStorm. Github nos ayuda a gestionar la documentacion correcta de los avances que realizan los miembros del equipo. Mientras que WebStorm es el programa en el que se codifica nuestra aplicacion Frontend usando los lenguajes HTML5, CSS y JavaScript, asi mismo se utilizo el framework de Vue.
 
 * **Software Testing**
 
-  Las pruebas del Landing Page se realizarán mediante uso del navegador web para verificar que el diseño del mismo cumple con aspectos como el diseño responsivo en cualquier dispositivo desde el que se acceda al landing page del proyecto. Además, para visualizar que se han implementado correctamente elementos visuales que deben aparecer en las distintas secciones de la página.
+  Las pruebas del Landing Page y del Frontend se realizarán mediante uso del navegador web para verificar que el diseño del mismo cumple con aspectos como el diseño responsivo en cualquier dispositivo desde el que se acceda al landing page y al frontend del proyecto. Además, para visualizar que se han implementado correctamente elementos visuales que deben aparecer en las distintas secciones de la página.
 
+  Las pruebas del frontend se realizaron utilizando una fake API mediante JSON Server, que funcionó como una base de datos temporal para validar el correcto funcionamiento de las interfaces y las interacciones con los datos.
 
+* **Software Deployment**
+
+  Para el despliegue del Landing page se uso la el servicio web de github pages, este servicio se especializa en el despliegue de sitios web staticos directamente desde un repositorio.
+  Para el despliegue del Frontend se uso beeceptor y firebase. Beeceptor es una herramienta en línea (basada en la web) que nos permite crear endpoints HTTP falsos (mock) para probar APIs, se uso ver qué datos está enviando nuestra aplicación. Firebase es una plataforma desarrollada por Google que permite crear aplicaciones web y móviles más rápido, sin tener que construir un backend completo desde cero, ofrece servicios listos para usar que se pueden usar para conectar facilmente nuestro Frontend.
+  
 ### 5.1.2. Source Code Management ###
 
 En esta sección, se describen los medios y esquemas de organización para gestionar de manera efectiva los archivos de proyecto relacionados a Landing Page, Web Services y Frontend Web Applications. En el caso de los repositorios, se usará GitHub para almacenar los archivos. Además, se implementará GitFlow. Esta función de GitHub ayudará al equipo, gracias a las ramas de características de lanzamiento, a poder trabajar paralelamente en el proyecto y a tomar el control de versiones de avance del proyecto.
@@ -38,6 +45,7 @@ En esta sección, se describen los medios y esquemas de organización para gesti
 A continuación, se adjuntan los enlaces para acceder a los repositorios donde se almacenarán los archivos de proyecto relacionados al Landing Page.
 
 * **Landing Page: [https://github.com/EXPDesigners/StockSip-LandingPage.git](https://github.com/EXPDesigners/StockSip-LandingPage.git)**
+* **Frontend Web Applications: [https://github.com/EXPDesigners/Stocksip-FrontEndApplication.git](https://github.com/EXPDesigners/Stocksip-FrontEndApplication.git)**
 
 **5.1.2.2. GitFlow**  
 Como se mencionó previamente, GitFlow ayudará al equipo de desarrollo a gestionar de manera efectiva el proyecto en su ciclo de vida. En general, GitHub ayudará a facilitar el desarrollo del proyecto para el equipo ya que es más sencillo desarrollar trabajos en equipo en los repositorios de los archivos de proyecto.
@@ -140,11 +148,90 @@ En esta sección, se especifica la configuración para realizar el despliegue de
 <p align="center">
   <img src="https://i.imgur.com/iE4Zzk7.png">
 
+A continuación, se describen los pasos necesarios para desplegar el Frontend del proyecto, empezando por la creación del repositorio hasta el lanzamiento del proyecto.
+
+* **Paso 1: Creación del repositorio**  
+  Como primer paso, se debe crear el repositorio en GitHub que será el lugar donde se aloja todo lo relacionado al Frontend.
+
+<p align="center">
+  <img src="https://i.imgur.com/RKeaB1T.png">
+
+* **Paso 2: Carga de archivos y carpetas necesarios**   
+  Como segundo paso, se importan todos los archivos y carpetas necesarios para el desarrollo del Frontend.
+
+<p align="center">
+  <img src="https://i.imgur.com/GHLAPdd.png">
+
+* **Paso 3: Creacion del proyecto en WebStorm**  
+  Como tercer paso, se creara el proyecto en WebStorm, importamos nuestros features e instalamos las dependencias necesarias. 
+
+<p align="center">
+  <img src="https://i.imgur.com/LD8AKKP.png">
+
+* **Paso 4: Comando npm run build**  
+  Como cuarto paso, ingresaremos el comando npm run build en la consola de nuestro proyecto, este comando creara una carpeta llamada Dist que contiene todo nuestro proyecto.
+
+<p align="center">
+  <img src="https://i.imgur.com/kuCErf7.png">
+
+<p align="center">
+  <img src="https://i.imgur.com/qwP3yJb.png">
+  
+* **Paso 5: Probar el funcionamiento del build**  
+  Ingresamos a la pagina web Beeceptor e iniciamos sesion con nuestra cuenta, crearemos un nuevo mock server y copiaremos el enlace que nos proporciona. Volvemos al WebStorm, nos dirigimos al archivo .env.production y colocamos el enlace en la parte VITE_API_BASE_URL
+
+<p align="center">
+  <img src="https://i.imgur.com/4a5H7PM.png">
+  
+* **Paso 6: Probar el funcionamiento del build con HTTP**  
+  Ingresamos a la pagina web npmjs y buscamos HTTP-server, es un servidor para probar que nuestro build funcione en un entorno de desarrollo, copiamos el comando npm i http-server --save-dev. Luego ingresamos el comando http-server dist y elegimos cualquier de los links presentes. Se podra a acceder a nuestra aplicacion.
+
+<p align="center">
+  <img src="https://i.imgur.com/OMaUvwE.png"> 
+<p align="center">
+  <img src="https://i.imgur.com/mGG35De.png"> 
+
+* **Paso 7: Probar despliegue con Firebase**  
+  Ingresamos a la pagina web Firebase e ingremos con nuestra cuenta de google y vamos a la consola, creamos un nuevo proyecto con el nombre de nuestra aplicacion,
+nos ubicamos en el apartado de hosting
+
+<p align="center">
+  <img src="https://i.imgur.com/LF7yomG.png">
+<p align="center">
+  <img src="https://i.imgur.com/IMS9O5Y.png">
+<p align="center">
+  <img src="https://i.imgur.com/7Fb9T6a.png">
+  
+* **Paso 8: Configurar el despliegue**  
+  Regresamos a nuestro WebStorm y en la consola ingresamos el comando firebase login y decimos NO, nos pedira que ingremos con nuestra cuenta de google con la que creamos el proyecto e inicializamos el firebase con el comando firebase init, con las flechitas del teclado nos desplazamos a la opcion Hosting y presionamos la barra espaciadora para seleccionarlo y damos enter. Elejimos 'Use an existing proyect' y elegimos nuestro proyecto, colocamos solo dist y decimos YES NO NO
+
+<p align="center">
+  <img src="https://i.imgur.com/kyQfbBW.png"> 
+<p align="center">
+  <img src="https://i.imgur.com/K6nvtaP.png">
+<p align="center">
+  <img src="https://i.imgur.com/lJ5Emix.png"> 
+<p align="center">
+  <img src="https://i.imgur.com/9phLLJm.png"> 
+
+* **Paso 9: Desplegar nuestro proyecto**  
+  Nos dirigimos al archivo firebase.json y agregamos una seccion "site": "nombre de nuestro site" e ingresamos el comando firebase deploy, pero antes de eso ingresamos el comando npm run build para actualizar, ingresamos con el enlace que nos proporciona y nuestro proyecto ya estaria desplegado
+
+<p align="center">
+  <img src="https://i.imgur.com/NgjW0yh.png"> 
+<p align="center">
+  <img src="https://i.imgur.com/d5iOzXH.png"> 
+<p align="center">
+  <img src="https://i.imgur.com/NVOGrAD.png"> 
+  
+  
 ## _5.2. Landing Page, Services & Applications Implementation_ ##
 
 ### 5.2.1. Sprint 1 ###
 
 ### 5.2.1.1. Sprint Planning 1 ###
+
+A continuación, se detalla, en la tabla siguiente, información sobre el planeameanto del primer sprint. En general, el objetivo de este sprint se centra en el desarrollo y despliegue de la primera versión del sitio web estático de StockSip.
 
 | Sprint #                                     | Sprint 1                                               |
 |----------------------------------------------|--------------------------------------------------------|
@@ -156,8 +243,8 @@ En esta sección, se especifica la configuración para realizar el despliegue de
 | Attendees                                    | Huamani Cruz, Camila Victoria / Juarez Leon, Nicolas Emilio Walter / Gonzales Castillo, Angel Martin / Coronel Espinoza, Farid Sebastian |
 | <b> Sprint Goal & User Stories </b>          | --                                                     |
 | Sprint 1 Goal                                | <b> Our focus </b> is on develop and deploy the first version of the landing page <br> <b> We believe it delivers </b> a first view of what our product offers to our target segments <br> <b> This will be confirmed when </b> the target segments are visiting the site and can see and know the benefits on using our product. |
-| Sprint 1 Velocity                            | 25                                                     |
-| Sum of Story Points                          | 21                                                     |
+| Sprint 1 Velocity                            | 20                                                     |
+| Sum of Story Points                          | 16                                                     |
 
 ### 5.2.1.2. Aspect Leaders and Collaborators ###
 
@@ -175,6 +262,7 @@ En esta sección, se incluye la matriz de liderazgo y colaboración desarrollada
 Como se mencionó previamente en el planeamiento del sprint número 1, el objetivo del mismo es el desarrollar y desplegar una primera versión del landing page del producto. Esto conlleva implementar las diversas secciones que presenta un landing page que puedan ayudar a los visitantes del sitio a conocer mejor el producto en desarrollo.
 
 Luego de definir el objetivo del sprint, se identificaron las historias de usuario útiles para este sprint. A continuación, se dividió cada historia de usuario en tareas relacionadas a la implementación y cumplimiento de dicha historia. Para ello, se utilizó la aplicación _Trello_ que nos ayuda a gestionar el progreso del sprint. 
+[Link de acceso al Sprint Backlog #1 en Trello](https://trello.com/invite/b/68254069b45285c273087923/ATTI2507d3d76e72207b9b855c678811f82d3CF68D96/stocksip-sprint-backlog-1)
 
 <p align="center">
   <img src="../img/Chapter V/sprint_backlog_1.png" 
@@ -187,33 +275,34 @@ A continuación, se presenta la tabla con las tareas necesarias para completar s
 | User Stories |                                                               | Work Item/Task                                |                                                                                                            |                    |                |            |
 | Id           | Title                                                         | Id  | Title                                   | Description                                                                                                | Estimation (Hours) | Assigned to    | Status     |
 | US001        | Ver propuesta de valor clara                                  | 001 | Diseñar sección inicio                  | Diseñar el encabezado con logo, menú de navegación y sección principal.                                    | 0.5                | Camila Huamani | Done       |
-|              |                                                               | 002 | Estructura principal de la página       | Crear la estructura principal de la página en HTML y los estilos iniciales en CSS.                         | 0.5                | Camila Huamani | Done       |
+|              |                                                               | 002 | Crear estructura principal del Landing Page  | Crear la estructura principal de la página en HTML y los estilos iniciales en CSS.                         | 0.5                | Camila Huamani | Done       |
 |              |                                                               | 003 | Diseñar sección contacto                | Diseñar el pie de página con información de contacto y enlaces a otras secciones                           | 0.5                | Camila Huamani | Done       |
-|              |                                                               | 004 | Describir visión y misión               | Agregar espacios que detallen la misión y visión de la empresa.                                            | 0.5                | Camila Huamani | Done       |
-|              |                                                               | 005 | Añadir estilos                          | Estilizar las secciones de contacto e inicio para que sean visiblemente agradables y llamativas.           | 0.5                | Camila Huamani | Done       |
-| US002        | Acceder a explicación detallada sobre el uso de la aplicación | 001 | Añadir sección de cómo funciona         | Separar una sección de la estructura general para agregar el contenido de explicación de cómo funciona la aplicación. | 0.3     | Camila Huamani | Done       |
-|              |                                                               | 002 | Descripción de funcionalidades          | Resumir cada funcionalidad que podrá utilizar cada segmento objetivo.                                      | 0.4                | Camila Huamani | Done       |
-|              |                                                               | 003 | Añadir imágenes referenciales           | Para cada funcionalidad detallada, agregar una imágen referencial.                                         | 0.5                | Camila Huamani | Done       |
-|              |                                                               | 004 | Agrupar y ordenar imagenes y descripcion| Ordenar y organizar cada funcionalidad descrita con su imagen.                                             | 0.4                | Camila Huamani | Done       |
-|              |                                                               | 005 | Añadir estilos                          | Usando CSS, añadir estilos a esta sección para que sea visiblemente llamativa.                             | 0.6                | Camila Huamani | Done      |
-| US003        | Ver beneficios para licorerías	                               | 001 | Implementar sección beneficios          | Diseñar la subsección de beneficios para dueños de licorerías agregando tarjetas con listas de beneficios. | 0.6                | Farid Coronel  | Done      |
-|              |                                                               | 002 | Agregar íconos e imágenes               | Añadir imágenes referenciales al segmento objetivo al que son dirigidos los beneficios.                    | 0.5                | Farid Coronel  | Done      |
-|              |                                                               | 003 | Añadir estilos                          | Añadir estilos usando CSS a la subsección para dar detalles visualmente agradables.                        | 0.5                | Farid Coronel  | Done      |
-| US004        | Ver beneficios para proveedores                               | 001 | Implementar sección beneficios          | Diseñar la subsección de beneficios para proveedores agregando tarjetas con listas de beneficios.          | 0.6                | Farid Coronel  | Done      |
-|              |                                                               | 002 | Agregar íconos e imágenes               | Añadir imágenes referenciales al segmento objetivo al que son dirigidos los beneficios.                    | 0.5                | Farid Coronel  | Done      |
-|              |                                                               | 003 | Añadir estilos                          | Añadir estilos usando CSS a la subsección para dar detalles visualmente agradables.                        | 0.5                | Farid Coronel  | Done      |    
+|              |                                                               | 004 | Describir visión y misión del startup   | Agregar espacios que detallen la misión y visión de la empresa.                                            | 0.5                | Camila Huamani | Done       |
+|              |                                                               | 005 | Añadir estilos a la sección Inicio      | Estilizar las secciones de contacto e inicio para que sean visiblemente agradables y llamativas.           | 0.5                | Camila Huamani | Done       |
+| US002        | Acceder a explicación detallada sobre el uso de la aplicación | 001 | Añadir sección sobre funcionamiento de la aplicación | Separar una sección de la estructura general para agregar el contenido de explicación de cómo funciona la aplicación. | 0.3     | Camila Huamani | Done       |
+|              |                                                               | 002 | Describir las funcionalidades           | Resumir cada funcionalidad que podrá utilizar cada segmento objetivo.                                      | 0.4                | Camila Huamani | Done       |
+|              |                                                               | 003 | Añadir imágenes referenciales sobre funcionalidades | Para cada funcionalidad detallada, agregar una imágen referencial.                                         | 0.5                | Camila Huamani | Done       |
+|              |                                                               | 004 | Ordenar las imagenes y las descripciones de funcionalidades | Ordenar y organizar cada funcionalidad descrita con su imagen.                                             | 0.4                | Camila Huamani | Done       |
+|              |                                                               | 005 | Añadir estilos a la sección de funcionamiento | Usando CSS, añadir estilos a esta sección para que sea visiblemente llamativa.                             | 0.6                | Camila Huamani | Done      |
+| US003        | Ver beneficios para licorerías	                               | 001 | Implementar sección beneficios para licorerías         | Diseñar la subsección de beneficios para dueños de licorerías agregando tarjetas con listas de beneficios. | 0.6                | Farid Coronel  | Done      |
+|              |                                                               | 002 | Agregar íconos e imágenes a la sección beneficios para licorerías | Añadir imágenes referenciales al segmento objetivo al que son dirigidos los beneficios.                    | 0.5                | Farid Coronel  | Done      |
+|              |                                                               | 003 | Añadir estilos a la sección de beneficios para licorerías | Añadir estilos usando CSS a la subsección para dar detalles visualmente agradables.                        | 0.5                | Farid Coronel  | Done      |
+| US004        | Ver beneficios para proveedores                               | 001 | Implementar sección beneficios para proveedores | Diseñar la subsección de beneficios para proveedores agregando tarjetas con listas de beneficios.          | 0.6                | Farid Coronel  | Done      |
+|              |                                                               | 002 | Agregar íconos e imágenes a la sección beneficios para proveedores | Añadir imágenes referenciales al segmento objetivo al que son dirigidos los beneficios.                    | 0.5                | Farid Coronel  | Done      |
+|              |                                                               | 003 | Añadir estilos a la sección de beneficios para proveedores | Añadir estilos usando CSS a la subsección para dar detalles visualmente agradables.                        | 0.5                | Farid Coronel  | Done      |    
 | US006        | Leer testimonios de clientes		                               | 001 | Añadir sección para testimonios         | Usando HTML, separar una sección para colocar todo el contenido de esta sección.                           | 0.5                | Nicolas Juarez | Done      |
-|              |                                                               | 002 | Redactar testimonios ideales            | Redacatar uno o varios testimonios para cada segmento objetivo que den su opinión sobre la aplicación.     | 0.4                | Nicolas Juarez | Done      |
-|              |                                                               | 003 | Añadir espacios para cada testimonio    | Crear tarjetas en la estructura. Estas tarjetas contendrán el texto del testimonio.                        | 0.4                | Nicolas Juarez | Done      |
-|              |                                                               | 004 | Añadir imágenes referenciales           | Agregar al lado del texto, una imagen referencial de la persona que está dando su testimonio.              | 0.4                | Nicolas Juarez | Done      |
-|              |                                                               | 005 | Añadir estilos                          | Agregar estilos a la sección usando CSS.                                                                   | 0.6                | Nicolas Juarez | Done      |
-| US007        | Comparar planes gratis y premium	                             | 001 | Añadir sección de planes                | Diseñar la sección de planes con tarjetas que detallen las características de cada plan.                   | 0.5                | Martin Gonzales| Done      |
-|              |                                                               | 002 | Añadir información para ambos segmentos | Añadir texto diferenciando funcionalidades que incluye el plan para cada segmento objetivo.                | 0.6                | Martin Gonzales| Done      |
-|              |                                                               | 003 | Agregar texto comparativo               | Añadir texto en las tarjetas que pueda ser utilizado para saber qué contiene el plan premium.              | 0.6                | Martin Gonzales| Done      |
-|              |                                                               | 004 | Añadir íconos                           | Añadir íconos relacionados a lo que ofrece cada plan para cada segmento objetivo.                          | 0.6                | Martin Gonzales| Done      |  
-|              |                                                               | 005 | Añadir estilos                          | Estilizar la sección usando CSS.                                                                           | 0.5                | Nicolas Juarez | Done      |
-| US008        | Conocer el precio y condiciones	                             | 001 | Añadir espacio para precios             | En la sección de planes, agregar un recuadro que indique el precio para cada plan                          | 0.3                | Nicolas Juarez | Done      |
-|              |                                                               | 002 | Añadir estilos                          | Estilizar los recuadros para precios usando CSS.                                                           | 0.3                | Martin Gonzales| Done      |
+|              |                                                               | 002 | Redactar testimonios de personas sobre la aplicación  | Redactar uno o varios testimonios para cada segmento objetivo que den su opinión sobre la aplicación.     | 0.4                | Nicolas Juarez | Done      |
+|              |                                                               | 003 | Añadir tarjetas para cada testimonio    | Crear tarjetas en la estructura. Estas tarjetas contendrán el texto del testimonio.                        | 0.4                | Nicolas Juarez | Done      |
+|              |                                                               | 004 | Añadir imágenes de personas para testimonios  | Agregar al lado del texto, una imagen referencial de la persona que está dando su testimonio.              | 0.4                | Nicolas Juarez | Done      |
+|              |                                                               | 005 | Añadir estilos a la sección de testimonios | Agregar estilos a la sección usando CSS.                                                                   | 0.6                | Nicolas Juarez | Done      |
+| US007        | Comparar planes gratis y premium	                             | 001 | Añadir sección de planes de suscripción | Diseñar la sección de planes con tarjetas que detallen las características de cada plan.                   | 0.5                | Martin Gonzales| Done      |
+|              |                                                               | 002 | Añadir información para segmentos de dueños de licorería y proveedores | Añadir texto diferenciando funcionalidades que incluye el plan para cada segmento objetivo.                | 0.6                | Martin Gonzales| Done      |
+|              |                                                               | 003 | Agregar comparación entre planes  | Añadir texto en las tarjetas que pueda ser utilizado para saber qué contiene el plan premium.              | 0.6                | Martin Gonzales| Done      |
+|              |                                                               | 004 | Añadir íconos relacionados a planes | Añadir íconos relacionados a lo que ofrece cada plan para cada segmento objetivo.                          | 0.6                | Martin Gonzales| Done      |  
+|              |                                                               | 005 | Añadir estilos a la sección planes | Estilizar la sección usando CSS.                                                                           | 0.5                | Nicolas Juarez | Done      |
+| US008        | Conocer el precio y condiciones	                             | 001 | Añadir espacio para precios en las tarjetas de planes | En la sección de planes, agregar un recuadro que indique el precio para cada plan                          | 0.3                | Nicolas Juarez | Done      |
+|              |                                                               | 002 | Añadir estilos a los precios | Estilizar los recuadros para precios usando CSS.                                                           | 0.3                | Martin Gonzales| Done      |
+
 
 ### 5.2.1.4. Development Evidence for Sprint Review ###
 
@@ -257,6 +346,8 @@ El objetivo de este sprint fue realizar, en colaboracion con todo el equipo, la 
   <img src="https://i.imgur.com/rwnScm7.png"/>
 </p>
 
+Link al landing page: [Landing_Page_StockSip](https://expdesigners.github.io/StockSip-LandingPage/)
+
 ### 5.2.1.6. Software Deployment Evidence for Sprint Review ###
 La organizacion de nuestro codigo se realizo en un repositorio en GitHub. Para el despliegue del landing page se utilizo GitHub Pages
 * Primero se creo un repositorio para alojar el codigo del landing page
@@ -286,4 +377,256 @@ Commits de los integrantes en el Landing Page:
 Grafico de los push y merge realizados por el equipo:
 <p align="center">
   <img src="https://i.imgur.com/6khY971.png"/>
+</p>
+
+### 5.3.1. Sprint 2 ###
+
+### 5.3.1.1. Sprint Planning 2 ###
+
+A continuación, se detalla, en la tabla siguiente, información sobre el planeameanto del segundo sprint. Además, para este sprint se definieron dos objetivos para cubrir los aspectos de sitio web estático y aplicación front-end. El primer objetivo se centra en desarrollar una mejora visual para el sitio web estático y añadir secciones para Call-To-Action para los visitantes del sitio web. Por otro lado, el segundo objetivo se centra en el desarrollo y despliegue de la primera versión de la aplicación front-end de StockSip.
+
+| Sprint #                            | Sprint 2                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| ----------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <b> Sprint planning Background </b> | --                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| Date                                | 2025/04/29                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| Time                                | 11:15 AM                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| Location                            | Reunión presencial en el aula VH107 del curso en la sede Villa                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| Prepared By                         | Gonzales Castillo, Angel Martin                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| Attendees                           | Huamani Cruz, Camila Victoria / Juarez Leon, Nicolas Emilio Walter / Gonzales Castillo, Angel Martin / Coronel Espinoza, Farid Sebastian                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| Sprint 1 Review Summary             | In the previous sprint, the team completed a first view of the Landing Page implementing the basic sections and styles it will need like Benefits, Plans, Information about the Startup.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| Sprint 1 Retrospective Summary      | The principal area the team has to improve is having more communication between the members to let each others know how is the progress is going for each member. Now, the plan for next sprint is to work more organized so each member know what to do.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| <b> Sprint Goal & User Stories </b> | --                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| Sprint 2 Goals                      | <b> Our focus </b> is to offer a more detailed visualization and a greater adaptability of the current StockSip Landing Page. <br> <b> We believe it delivers </b> different forms of accessing the Landing Page from different sizes of screens and languages to target segments and visitors. <br> <b> This will be confirmed when </b> our target segments and visitors access the Landing through different devices. <br><br> <b> Our focus </b> is on implement and deploy the first functional version of the Front-End application with key features like digital warehouses, the dashboard, registration of products, warnings, care guides and basic navigation between sections. <br> <b> We believe it delivers </b> a complete first vision of functionalities the aplication offers to the target segments. <br> <b> This will be confirmed when </b> our target segments register to  the application and use the principal funcionalities like warehouses and care guides. |
+| Sprint 2 Velocity                   | 100                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| Sum of Story Points                 | 99                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+<br>
+
+### 5.3.1.2. Aspect Leaders and Collaborators ###
+
+En esta sección, se incluye la matriz de liderazgo y colaboración desarrollada para este segundo sprint. Los principales aspectos que se toman en cuenta en este sprint se centran en cada las principales secciones que presenta el Front-End Web Application. Para esto, hemos definido las siguientes secciones: Inventarios y Zonas, Productos, Cuenta de Usuario, Reportes (Guía de cuidados y Reprote de pérdidas) y Alertas.
+
+| Team Member                        | GitHub Username | Inventarios y Zonas | Productos | Cuenta de Usuario | Reportes (Guía de cuidados y Reporte de pérdidas) | Alertas |     |
+| ---------------------------------- | --------------- | ------------------- | --------- | ----------------- | ------------------------------------------------- | ------- | --- |
+| Huamani Cruz, Camila Victoria      | victiila06      |                     |           | L                 | C                                                 |         |     |
+| Gonzales Castillo, Angel Martin    | XdiabloX426     |                     |           |                   | L                                                 | L       |     |
+| Coronel Espinoza, Farid Sebastian  | Far14z          | L                   | C         |                   |                                                   |         |     |
+| Juarez Leon, Nicolas Emilio Walter | JuarezLn10      | C                   | L         |                   |                                                   |         |     |
+
+
+### 5.3.1.3. Sprint Backlog 2 ###
+
+Como se mencionó previamente en el planeamiento del sprint número 2, el objetivo del mismo es (OBJETIVO).
+
+Luego de definir el objetivo del sprint, se identificaron las historias de usuario útiles para este sprint. A continuación, se dividió cada historia de usuario en tareas relacionadas a la implementación y cumplimiento de dicha historia. Para ello, se utilizó la aplicación _Trello_ que nos ayuda a gestionar el progreso del sprint. 
+[Link de acceso al Sprint Backlog #2 en Trello](https://trello.com/b/UjadbQbv/stocksip-sprint-backlog-2?filter=label:Aplicaciones%20Web)
+
+<p align="center">
+  <img src="https://i.imgur.com/8rBZn5r.png" 
+  alt="Sprint goal y Stories del Sprint #2"/>
+</p>
+
+  <p align="center">
+  <img src="https://i.imgur.com/e8fotVt.png" 
+  alt="Sprint Backlog 2 en desarrollo"/>
+  </p>
+  
+
+A continuación, se presenta la tabla con las tareas necesarias para completar satisfactoriamente este segundo sprint. Además, se asignó un miembro del equipo a cada tarea a desarrollar y el estado de cada tarea.
+
+| Sprint 2     | Sprint Backlog 2                                              |             |                                                                                    |                                                                                                                                                                     |                    |                 |             |
+|--------------|---------------------------------------------------------------|-------------|------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------|-----------------|-------------|
+| User Stories |                                                               | Work Item/Task                                                                                   |                                                                                                                                                                     |                    |                 |             |
+| Id           | Title                                                         | Id          | Title                                                                              | Description                                                                                                                                                         | Estimation (Hours) | Assigned to     | Status      |
+| US017        | Visualizar lista completa de productos en stock               | US017T001   | Crear una sección para visualizar los productos de un inventario                   | Crear un componente que muestre en una tabla los productos que posee un almacén.                                                                                    | 8                  | Nicolas Juarez  | Done        |
+|              |                                                               | US017T002   | Crear una sección para el almacén seleccionado                                     | Crear una nueva sección que muestre toda la información relacionada al inventario como productos, capacidad, etc.                                                   | 8                  | Nicolas Juarez  | In-Progress |
+|              |                                                               | US017T003   | Incluir un paginador para mostrar cierta cantidad de productos por página          | Implementar un paginador en la sección que ayude a organizar la información del inventario.                                                                         | 6                  | Nicolas Juarez  | In-Progress | 
+|              |                                                               | US017T004   | Incluir un fake-api para simulación de datos de backend                            | Implementar un fake-api que ayude a probar los componentes usados que requieran mostrar, modificar o crear datos.                                                   | 5                  | Nicolas Juarez  | Done        |
+| US016        | Registrar nuevo producto al inventario                        | US016T001   | Integrar un API para carga de imagenes de productos a la aplicación                | Utilizar Cloudinary para carga de URL de la imagen del producto subido.                                                                                             | 5                  | Nicolas Juarez  | In-Progress |
+|              |                                                               | US016T002   | Crear un botón que permita cargar imagenes de productos al usuario                 | Programar un botón que abra el explorador de archivos del usuario para que pueda subir la foto de su producto.                                                      | 4                  | Nicolas Juarez  | In-Progress |
+|              |                                                               | US016T003   | Crear un formulario base para edición y creación de cualquier entidad              | Añadir un componente que sirva de base para otros formularios que sirvan para crear y editar cualquier entidad.                                                     | 4                  | Nicolas Juarez  | Done        |
+|              |                                                               | US016T004   | Crear un formulario para crear un producto en el inventario                        | Crear un componente usando como base el componente genérico de formularios para crear un formulario de creación de productos.                                       | 6                  | Nicolas Juarez  | In-Progress |
+| US025        | Crear guía de conservación por tipo de licor                  | US025T001   | Crear un botón que permita crear una nueva guía de conservación                    | Programar un botón que muestre el formulario para crear una nueva guía de conservación.                                                                             | 4                  | Martin Gonzales | In-Progress |
+|              |                                                               | US025T002   | Crear un formulario para crear una nueva guía de conservación                      | Crear un componente formulario usando como base el formulario base implementado.                                                                                    | 6                  | Martin Gonzales | Done        |
+| US026        | Consultar guía de conservación desde el inventario            | US026T001   | Implementar un método para asignar una guía a un producto                          | Crear un método para asignar una guía de conservación a su respectivo producto.                                                                                     | 5                  | Martin Gonzales | Done        |
+|              |                                                               | US026T002   | Implementar botón para visualizar guía de conservación de un producto              | Crear un botón en la sección de información de un producto en especifíco que muestre la guía de conservación de dicho producto.                                     | 7                  | Martin Gonzales | In-Progress |
+| US024        | Visualizar productos en riesgo de vencimiento o merma         | US024T001   | Crear una sección que muestre los productos a cercanos a su vencimiento            | Crear un componente en el panel de control que muestre la lista de productos cuya fecha de vencimiento esté cerca a la fecha actual.                                | 5                  | Nicolas Juarez  | Done        |      
+|              |                                                               | US024T002   | Crear un botón que redirija al usuario al producto cerca a su vencimiento          | Crear un botón que redirija al usuario a la información de producto del producto que ha seleccionado.                                                               | 6                  | Nicolas Juarez  | In-Progress | 
+| US033        | Crear zonas de almacenamiento dentro del local                | US033T001   | Integrar un API para carga de imagenes referenciales a las zonas de inventario     | Integrar Cloudinary y utilizarlo para carga de URL de la imagen referencial de la zona de inventario creada.                                                        | 5                  | Farid Coronel   | In-Progress |
+|              |                                                               | US033T002   | Crear un botón que permita cargar imagenes de zona de almacenamiento al usuario    | Programar un botón que abra el explorador de archivos del usuario para que pueda subir la foto referencial de su zona de inventario creada.                         | 4                  | Farid Coronel   | Done        |
+|              |                                                               | US016T004   | Crear un formulario para crear un producto en el inventario                        | Crear un componente usando como base el componente genérico de formularios para crear un formulario de creación de zonas de inventario.                             | 6                  | Farid Coronel   | Done        |
+| US027        | Generar reporte de pérdidas por tipo de baja                  | US027T001   | Crear un formulario para generar reporte de pérdidas                               | Crear un componente tomando de base el formulario genérico para crear un formulario para generar un reporte de pérdidas.                                            | 7                  | Martin Gonzales | Done        |                                                              
+| US028        | Visualizar resumen económico de pérdidas                      | US028T001   | Crear un método que calcule el total de pérdidas                                   | Crear un método que calcule las pérdidas de los reportes generados para obtener un total.                                                                           | 4                  | Martin Gonzales | In-Progress |
+|              |                                                               | US028T002   | Crear una sección que muestre el resumen económico de pérdidas                     | Crear un componente que muestre cada valor de pérdida y su total en el panel de control.                                                                            | 8                  | Martin Gonzales | In-Progress |
+| US020        | Detallar el estado de salida de productos del inventario      | US020T001   | Crear una nueva sección para mostrar los movimientos de salida de productos        | Crear una nueva sección donde se mostrará todo lo relacionado a movimientos de salida de los productos.                                                             | 4                  | Nicolas Juarez  | In-Progress |
+|              |                                                               | US020T002   | Crear una sección de historial de movimientos de salida de productos               | Crear una sección dentro de la principal donde se muestre la lista de movimientos de salida realizados por un mismo usuario.                                        | 6                  | Nicolas Juarez  | In-Progress |
+|              |                                                               | US020T003   | Crear un formulario para registrar la salida de un producto                        | Crear un nuevo componente formulario sobre la salida de uno o varios productos del inventario del usuario.                                                          | 5                  | Nicolas Juarez  | In-Progress |
+|              |                                                               | US020T004   | Implementar un método que actualice el stock del producto                          | Crear un método que actualice el stock de un producto que haya sido usado para realizar un movimiento de salida.                                                    | 7                  | Nicolas Juarez  | In-Progress |
+| US036        | Visualizar el mapa general de zonas y productos               | US036T001   | Crear una nueva sección para mostrar los inventarios del usuario                   | Crear una nueva sección en donde únicamente se mostrará las zonas de inventario del usuario.                                                                        | 4                  | Farid Coronel   | Done        |
+|              |                                                               | US036T002   | Crear una sección que enliste los inventarios del usuario                          | Crear un componente que enliste todas las zonas de inventario que el usuario posee.                                                                                 | 5                  | Farid Coronel   | Done        |
+| US022        | Alertas por próximo vencimiento                               | US022T001   | Designar sección para el panel de alertas                                          | Crear una nueva sección solamente para la visualización de alertas.                                                                                                 | 4                  | Martin Gonzales | Done        |
+|              |                                                               | US022T002   | Implementar un método que verifique las fechas de vencimiento de los productos     | Crear un método que verifique las fechas de vencimiento y emita una alerta si la fecha de vencimiento es cercana a la fecha actual.                                 | 8                  | Martin Gonzales | Done        |
+|              |                                                               | US022T003   | Implementar método para que la alerta se muestre en el panel de alertas            | Crear un método que cree la alerta y la almacene en el panel de alertas en cualquier momento.                                                                       | 6                  | Martin Gonzales | In-Progress |
+| US038        | Ver alertas destacadas en el panel de control                 | US038T001   | Implementar método para agregar alertas importantes al panel de control            | Crear un método que coloque las alertas importantes en una sección del panel de control del usuario.                                                                | 4                  | Martin Gonzales | In-Progress |
+|              |                                                               | US038T002   | Crear una sección para las alertas destacadas en el panel de control               | Crear un componente dentro de la sección de panel de control que muestre la lista de alertas destacadas.                                                            | 5                  | Martin Gonzales | In-Progress |
+| US043        | Consultar historial de guías emitidas                         | US043T001   | Crear una sección para Guías de conservación                                       | Crear una sección nueva para que se muestre todo lo relacionado a guías de conservación como creación, edición o historial.                                         | 4                  | Martin Gonzales | In-Progress |
+|              |                                                               | US043T002   | Implementar una sección para el historial de guías                                 | Crear un componente que muestra la lista de guías de conservación creadas.                                                                                          | 6                  | Martin Gonzales | Done        |
+| US034        | Asignar productos a una zona específica                       | US034T001   | Crear un método para mover un producto a otro inventario                           | Crear un método colocado en un botón que permita al usuario cambiar el inventario del producto seleccionado.                                                        | 6                  | Nicolas Juarez  | In-Progress |                                               
+|              |                                                               | US034T002   | Implementar un diálogo de confirmación sobre la transferencia de producto a otro inventario| Crear un diálogo para que el usuario confirme que desea transferir el producto seleccionado a otro inventario.                                              | 4                  | Nicolas Juarez  | Done        | 
+| US021        | Configurar alertas de reposición de productos                 | US021T001   | Implementar una sección para configurar alertas                                    | Crear una sección nueva dentro de la sección de Alertas para la configuración de las mismas.                                                                        | 4                  | Martin Gonzales | In-Progress |
+|              |                                                               | US021T002   | Implementar un método para alterar el stock mínimo que pueda tener un producto     | Crear un método que permita al usuario alterar el número mínimo de productos que puede presentar en su inventario.                                                  | 6                  | Martin Gonzales | In-Progress |
+| US037        | Visualizar resumen general en el panel de control             | US037T001   | Designar sección para el panel de datos                                            | Crear una nueva sección solamente para información del panel de datos o dashboard.                                                                                  | 4                  | Camila Huamani  | Done        |
+|              |                                                               | US037T002   | Usar gráficos estadísticos para la visualización de información clave              | Implementar gráficos estadísticos que utilicen la información de productos e inventarios del usuario.                                                               | 8                  | Camila Huamani  | Done        |
+|              |                                                               | US037T003   | Implementar las alertas en la sección del panel de datos                           | Implementar las alertas generadas sobre diversos aspectos en el panel de datos.                                                                                     | 7                  | Martin Gonzales | In-Progress |
+| US044        | Cambiar estado de una guía a entregado                        | US044T001   | Implementar un método para asociar una guía de cuidado a un producto               | Desde la vista de proveedor, puede asociar una guía creada con un producto que al ser entregado al dueño de licorería, también podrá visualizar la guía.            | 8                  | Martin Gonzales | Done        |
+|              |                                                               | US044T002   | Implementar acceso a la guía asociada al producto desde la información del mismo   | En el apartado de información del producto, dejar un espacio para acceder a la guía de cuidados del producto (si es que tiene una).                                 | 6                  | Nicolas Juarez  | In-Progress |
+| US019        | Eliminar un producto del inventario                           | US019T001   | Implementar un botón que permita eliminar un producto registrado                   | Agregar un botón que permita al usuario eliminar un producto de su inventario.                                                                                      | 4                  | Nicolas Juarez  | In-Progress |
+|              |                                                               | US019T002   | Implementar un diálogo de confirmación antes de eliminar un producto               | Programar un diálogo para que se muestre al presionar el botón de eliminar para que el usuario confirme su acción y no hayan equivocaciones.                        | 4.5                | Nicolas Juarez  | In-Progress |
+|              |                                                               | US019T003   | Implementar un botón para disminuir stock del producto                             | Programar un botón que ayude al usuario a disminuir el contador del stock del producto.                                                                             | 5                  | Nicolas Juarez  | In-Progress |
+| US018        | Editar un producto registrado                                 | US018T001   | Implementar un botón que permita editar un producto registrado                     | Agregar un botón que permita al usuario editar un producto existente en alguno de sus inventarios en la aplicación.                                                 | 4                  | Nicolas Juarez  | In-Progress |
+|              |                                                               | US018T002   | Implementar un formulario para editar un producto registrado                       | Usar como base el formulario genérico para crear un componente formulario para la edición de información del producto seleccionado.                                 | 6                  | Nicolas Juarez  | Done        |
+| US035        | Editar o eliminar una zona de almacenamiento                  | US035T001   | Implementar un botón que permita eliminar una zona de almacenamiento               | Agregar un botón que permita al usuario eliminar una zona de almacenamiento.                                                                                        | 4                  | Farid Coronel   | In-Progress |
+|              |                                                               | US035T002   | Implementar un diálogo de confirmación antes de eliminar una zona de almacenamiento| Programar un diálogo para que se muestre al presionar el botón de eliminar para que el usuario confirme su acción y no hayan equivocaciones.                        | 4.5                | Farid Coronel   | Done        |
+|              |                                                               | US035T003   | Implementar un botón que permita editar una zona de almacenamiento                 | Agregar un botón que permita al usuario editar una zona de almacenamiento existente en la aplicación.                                                               | 4.5                | Farid Coronel   | In-Progress |
+|              |                                                               | US035T004   | Implementar un formulario para editar una zona de almacenamiento                   | Usar como base el formulario genérico para crear un componente formulario para la edición de información de la zona de almacenamiento seleccionada.                 | 6.5                | Farid Coronel   | In-Progress |
+| US005        | Sección sobre la aplicación para el visitante                 | US005T001   | Agregar sección con imágenes de la aplicación                                      | En el Landing Page, se debe agregar una nueva sección que muestra imágenes de algunas pantallas principales de la aplicación.                                       | 4                  | Camila Huamani  | Done        |
+|              |                                                               | US005T002   | Añadir imágenes a la sección sobre la aplicación                                   | En la sección sobre la aplicación del Landing Page, agregar imágenes de las principales secciones de la aplicación.                                                 | 4                  | Camila Huamani  | Done        |
+|              |                                                               | US005T003   | Dar estilo a la sección sobre la aplicación                                        | Usar CSS para darle una mejor vista a la sección sobre la aplicación.                                                                                               | 4                  | Camila Huamani  | Done        |
+|              |                                                               | US005T004   | Agregar un botón para cambiar de idiomas en el Landing Page                        | En el header del Landing Page, agregar un botón que sea programado para que cambie el idioma de la página.                                                          | 5.5                | Camila Huamani  | Done        |
+| US045        | Editar datos personales del perfil                            | US045T001   | Crear una sección para editar información del usuario                              | Crear un componente dentro de la sección Perfil que permita al usuario editar información personal en la aplicación.                                                | 5                  | Camila Huamani  | Done        |
+| US048        | Ver tipo de cuenta y plan actual                              | US048T001   | Crear un pequeño apartado para mostrar información de la cuenta del usuario        | Crear un pequeño componente dentro de la sección Perfil que muestra información sobre la cuenta de usuario como el tipo de cuenta.                                  | 4                  | Camila Huamani  | In-Progress |
+| US046        | Subir y actualizar foto de perfil                             | US046T001   | Integrar un API para carga de imagenes de perfil a la aplicación                   | Utilizar Cloudinary para facilitar la carga de imágenes de perfil de los usuarios.                                                                                  | 4                  | Camila Huamani  | In-Progress |
+|              |                                                               | US046T002   | Crear un pequeño apartado para mostrar la foto de perfil del usuario               | Crear un pequeño componente dentro de la sección Perfil que muestre la imagen del usuario.                                                                          | 4                  | Camila Huamani  | In-Progress |
+
+### 5.3.1.4. Development Evidence for Sprint Review ###
+
+En esta sección, se describen los principales avances de implementación realizados en este segundo sprint.
+
+A continuación, se muestra una tabla que contiene la información sobre los _commits_ hechos que contienen partes de las funcionalidades que debemos implementar para completar el primer sprint.
+
+| Repository                          | Branch                      | Commit Id   | Commit Message                                                               | Commited On |
+| ----------------------------------- | --------------------------- | ----------- | ---------------------------------------------------------------------------- | ----------- |
+| EXPDesigners/StockSip-Front-End-App | develop                     | 758bdf2     | chore: add domain-driven file structure.                                     | 11/05/2025  |
+| EXPDesigners/StockSip-Front-End-App | develop                     | 80feb21     | chore: add dependencies.                                                     | 11/05/2025  |
+| EXPDesigners/StockSip-Front-End-App | feature/inventory           | 2b62152     | feat(warehouse): add json-server data.                                       | 13/05/2025  |
+| EXPDesigners/StockSip-Front-End-App | feature/profile             | bac777a     | feat(profile): add profile page and components                               | 13/05/2025  |
+| EXPDesigners/StockSip-Front-End-App | feature/i18n                | c36fa88     | feat(i18n): add language switcher component.                                 | 13/05/2025  |
+| EXPDesigners/StockSip-Front-End-App | feature/inventory           | ce55380     | feat(warehouse): add inventory component.                                    | 13/05/2025  |
+| EXPDesigners/StockSip-Front-End-App | feature/inventory           | 66d0aa9     | feat(warehouse): add product component.                                      | 13/05/2025  |
+| EXPDesigners/StockSip-Front-End-App | feature/inventory           | f88e7bc     | feat(warehouse): add warehouse environment endpoints.                        | 13/05/2025  |
+| EXPDesigners/StockSip-Front-End-App | feature/profile             | bac777a     | feat(profile): add profile page and components                               | 14/05/2025  |
+| EXPDesigners/StockSip-Front-End-App | feature/authentication      | e19d7c2     | feat(authentication): add login page and components                          | 14/05/2025  |
+| EXPDesigners/StockSip-Front-End-App | develop                     | 9bfc008     | feat(public): add side navigation bar routing                                | 14/05/2025  |
+| EXPDesigners/StockSip-Front-End-App | feature/dashboard           | 44a318c<br> | feat(analytics-and-reporting): update side navigation bar sections           | 16/05/2025  |
+| EXPDesigners/StockSip-Front-End-App | feature/alerts              | a45f12e     | feat(alerts): add alerts component.                                          | 16/05/2025  |
+| EXPDesigners/StockSip-LandingPage   | feature/i18n                | ddf0f82     | feat(i18n): Add data-i18n attributes to FAQ and statistics sections          | 15/05/2025  |
+| EXPDesigners/StockSip-LandingPage   | develop                     | ac735e5     | chore: add page icon                                                         | 15/05/2025  |
+| EXPDesigners/StockSip-LandingPage   | feature/faq                 | f63ab33c    | feat(faq): add faq section and styles.                                       | 15/05/2025  |
+| EXPDesigners/StockSip-LandingPage   | feature/exploration-off-app | 78e7985     | feat(exploration-of-the-app): add exploration of the application section<br> | 15/05/2025  |
+
+### 5.3.1.5. Execution Evidence for Sprint Review ###
+
+El objetivo de este sprint fue realizar, en colaboracion con todo el equipo, la actualización del landing page y la aplicación Front End.
+
+#### **Landing Page**
+
+**Inicio Actualizado**
+<p align="center">
+  <img src="https://i.imgur.com/bWmj21P.png"/>
+</p>
+
+<br>
+
+**Estadísticas**
+<p align="center">
+  <img src="https://i.imgur.com/MO3fXPK.png"/>
+</p>
+<br>
+
+**Propuesta de valor**
+<p align="center">
+  <img src="https://i.imgur.com/pSt2Wse.png"/>
+</p>
+<br>
+
+**Exploración de la Aplicación**
+<p align="center">
+  <img src="https://i.imgur.com/IgEFQLT.png"/>
+</p>
+<br>
+
+**Preguntas frecuentes**
+<p align="center">
+  <img src="https://i.imgur.com/POUjGSU.png"/>
+</p>
+<br>
+
+#### **Front End Application**
+
+**Inicio de sesión**
+<p align="center">
+  <img src="https://i.imgur.com/R0Jwexh.png"/>
+</p>
+<br>
+
+**Perfil de usuario**
+
+<p align="center">
+  <img src="https://i.imgur.com/ND0kzSd.png"/>
+</p>
+<br>
+
+**Reportes**
+
+<p align="center">
+  <img src="https://i.imgur.com/e6GsbX2.png"/>
+</p>
+<br>
+
+**Guías de Conservación**
+<p align="center">
+  <img src="https://i.imgur.com/tNrzFR0.png"/>
+</p>
+<br>
+
+**Alertas**
+<p align="center">
+  <img src="https://i.imgur.com/Pi1zS2F.png"/>
+</p>
+<br>
+
+Link al landing page: [Landing_Page_StockSip](https://expdesigners.github.io/StockSip-LandingPage/)
+
+Link a la aplicación: [App_Front_End_StockSip](https://stocksip-exp-app.web.app/)
+
+
+### 5.3.1.6. Team Collaboration Insights durint Sprint ###
+
+El proyecto se realizo mediante repositorio en GitHub. Integrantes participantes:
+
+<p align="center">
+  <img src="https://i.imgur.com/DAyXhVR.png"/>
+</p>
+
+Commits de los integrantes en el Landing Page:
+
+<p align="center">
+  <img src="https://i.imgur.com/3B3zlvd.png"/>
+</p>
+
+Commits de los integrantes en el Front End:
+
+<p align="center">
+  <img src="https://i.imgur.com/Rcpfw7u.png"/>
+</p>
+
+Grafico de los push y merge realizados por el equipo:
+
+<p align="center">
+  <img src="https://i.imgur.com/qF08116.png"/>
+</p>
+
+Grafico de los push y merge realizados por el equipo en la aplicación:
+
+<p align="center">
+  <img src="https://i.imgur.com/0k9wVsK.png"/>
 </p>

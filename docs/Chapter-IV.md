@@ -804,6 +804,7 @@ En esta sección se presentarán los mockups de la aplicación móvil, los cuale
 <p align="center">
   <img src="https://i.imgur.com/KtmxSDE.png">
 </p>
+
 **Sección Reportes**
 
 <p align="center">
