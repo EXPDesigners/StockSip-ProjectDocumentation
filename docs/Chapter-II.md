@@ -4,7 +4,31 @@
 
 ### 2.1.1. Análisis competitivo ###
 
+Mediante un análisis comparativo, hemos organizado información clave de cada propuesta de valor. Esto nos ayudará a entender mejor en qué se diferencia nuestra solución y compararla con las de nuestros competidores.
+
+| Competitive Analysis Landscape |  |  |  |  |  |
+| :---- | :---- | ----- | :---- | :---- | :---- |
+| ¿Por qué llevar a cabo este análisis? |  | Competidores Directos |  |  |  |
+| Con el fin de reconocer a los competidores y diseñar estrategias comerciales más sólidas que permitan enfrentarlos de manera efectiv |  | StockSip | Alegra | IntiCap | Wisk |
+|  |  | ![](/img/Chapter%20II/stocksip_logo.png) | ![](/img/Chapter%20II/comp1.jpg) | ![](/img/Chapter%20II/comp2.png) | ![](/img/Chapter%20II/comp3.png) |
+| Perfil | Overview | Es una app dedicada a la optimizar la gestión de inventario en licorerías, mediante el manejo y control completo del stock, acceso completo de la descripción del producto e integrar alerta inteligentes para notificar el momento óptimo de restablecer el stock | Alegra ofrece un software de punto de venta (TPV) diseñado para licorerías, permitiendo gestionar inventario, ventas y facturación de manera eficiente. ​ | INTICAP ofrece un sistema de gestión integral para licorerías y cervecerías, que incluye facturación electrónica conforme a la normativa vigente. Sus características abarcan control de inventario, gestión de compras y ventas, y reportes personalizados. | WISK es una solución especializada en la gestión de inventario para bares y establecimientos que sirven licores y vinos. Ofrece funciones como escaneo de códigos de barras, integración con sistemas POS, y análisis de variaciones de costos. |
+|  | Ventaja Competitiva | La propuesta de valor que ofrece es funciones interfaz intuitiva que permite la familiarización rápida con los usuario sin mucha experiencia en tecnología, automatización y alertar para facilitar la reposición de stock | Ofrece una plataforma muy fácil de usar, ideal para pequeñas y medianas licorerías que buscan una solución rápida y eficiente. | Su principal fortaleza es la integración completa con facturación electrónica conforme a normativas locales. Está diseñado específicamente para licorerías y cervecerías, lo que significa que sus funcionalidades están enfocadas en las necesidades reales del rubro.  | Está enfocada en el sector de bares y bebidas, con un alto nivel de especialización en la gestión de inventario y costos.  |
+| Perfil de Marketing | Mercado Objetivo | Proveedores de productos de licorería, dueños de licorerías pequeñas y medianas | Pequeñas y medianas empresas (PYMEs),como licorerías, tiendas de abarrotes, farmacias, etc. | Licorerias y cervecerías, negocios que requieren solución todo-en-uno | Bares, restaurantes y negocios de bebidas alcohólicas |
+|  | Estrategias de marketing | Enfocarnos en distribuir nuestro producto en ferias, para posteriormente publicarlo en redes sociales y Landing page | Publicar su software mediante landing page y reseñas positivas | Patrocinado por diversas marcas que utilizan su software, alianzas académicas de confianza | Patrocinado por marca reconocidas y publicación en redes sociales |
+| Perfil de Producto | Productos & Servicios | Ofrecer servicios generación de reportes, sección de información de productos y una plataforma integral de gestión de inventario con control de stock en tiempo real | Ofrece sistema de punto de venta, facturación electrónica, gestión de inventario, reportes automáticos, acceso en la nube y carga masiva de productos desde excel | Ofrece un sistema de gestión para licorerías y cervecerías, facturación electrónica personalizada, control de inventario completo, gestión de compra y venta y una interfaz sencilla. | Ofrece gestión de inventario avanzado, análisis de costos, escaneo inteligente de facturas y productos, reportes y alertas automáticas, app web y plataforma web. |
+|  | Precios & Costos | Tenemos como objetivo que nuestro producto a lo largo de los años pueda ser más accesible para nuestro usuarios, por lo tanto agregaremos planes mensuales y anuales, con los precios accesibles dependiendo de tamaño del negocio y cantidad del locales | Diversos planes que se ajustan a las necesidades del usuario Emprendedor 8.99 € mensual PYME 16.99 € mensual PRO 29.99 € mensual PLUS 44.99 € mensual  Puedes realizar una prueba gratuita en cada uno de los planes | No definido, se tiene que contactar con un asesor para cotizar un precio dependiendo de tu zona | Planes especializados para cada necesidad del usuario “Lo esencial del bar” $249 mensual/trimestralmente Profesional $399 mensual/trimestralmente Elite $799 mensual/trimestralmente |
+|  | Canales de Distribución | Web y móvil | Web y móvil | Web y móvil | Web y móvil |
+| Análisis SWOT | Fortalezas | Permite una gestión de inventario en tiempo real de manera rápida y eficiente, reduciendo los procesos manuales | Precios accesibles, fácil de usar, cumple con normativas locales y accesible desde la nube | Adaptado a licorerías, cumplimiento fiscal local, soporte personalizado y enfocado en Latinoamérica | Integración con \+60 POS, funciones de análisis y control de pérdidas e ideal para bares grandes y franquicias |
+|  | Debilidades | Requiere una conexión estable | Algunas funciones avanzadas son limitadas y no tan personalizable como soluciones ERP | Sin precios públicos, web poco moderna y puede no ser atractivo para nuevos negocios pequeños | Precio elevado, no especializado exclusivamente en licorerías y requiere cierto nivel técnico |
+|  | Oportunidades | Expansión en las integraciones con otros sistemas de comercio | Expansión a más países de LATAM e integraciones con apps contables y bancos | Mayor digitalización de licorerías tradicionales y posibles alianzas con entes tributarios locales | \-Penetrar nuevos mercados (licorerías especializadas) y asociaciones con marcas de bebidas premium |
+|  | Amenazas | Competidores con softwares desarrollados y con alta experiencia en el mercado | Competidores con mayor escalabilidad o personalización | Entrada de apps más económicas y fáciles de usar y competencia extranjera que entra al mercado local | Apps más económicas y negocios que no necesitan tanto detalle analítico |
+
 ### 2.1.2. Estrategias y tácticas frente a competidores
+
+Una vez realizado la identificación de fortalezas, oportunidades, debilidades y amenazas con el análisis FODA de nuestros competidores en el sector del mercado, pasaremos a plantear las estrategias y tácticas para hacerle frente a estos mismos.
+
+* Expansión de integraciones: Con nuevas plataformas para agregar funciones que faciliten la gestión de inventario, sistemas de puntos de ventas (POS) y cooperar con proveedores como BEES
+* Soporte Postventa:  Soporte y asesorías personalizadas para garantizar al cliente el máximo provecho de cada función y asegurar la fidelidad del cliente.
 
 ## _2.2. Entrevistas_ ##
 
@@ -90,7 +114,6 @@ Entrevista 4:
 | <p align="center"><img src="https://i.imgur.com/nZfIBd4.png"/></p>   | **Distrito:** Villa el Salvador<br>**Entrevistado:** César Suárez |
 | [Link](https://acortar.link/fVXtUt)| **Entrevistador:** Farid Sebastian Coronel Espinoza |
 | Timing: Minuto 19:10-23:00| **Resumen:** César Suárez, de 59 años, es proveedor de licorerías y realiza visitas diarias a numerosos clientes con el objetivo de concretar ventas en cada encuentro. Gracias a su experiencia en el rubro, ha desarrollado una gran capacidad para identificar rápidamente los productos faltantes en los puntos de venta, lo que le permite reponerlos con agilidad y asegurar una oferta constante para los consumidores. Durante sus recorridos, ha notado con frecuencia que muchos negocios no cuentan con un sistema adecuado de almacenamiento y conservación de los productos, lo que puede afectar la calidad de las bebidas y generar pérdidas. Actualmente, utiliza WhatsApp y llamadas telefónicas como sus principales canales de comunicación, tanto para coordinar pedidos como para dar seguimiento a sus clientes. Sin embargo, César considera de gran valor contar con una herramienta digital que le permita compartir especificaciones sobre el cuidado adecuado de los productos, así como mantener una comunicación directa y más eficiente con cada negocio. Para él, la digitalización es clave para el crecimiento del sector: está convencido de que los comercios deben adoptar herramientas tecnológicas que agilicen la gestión del inventario y mejoren la relación con sus proveedores, si desean mantenerse competitivos en un mercado cada vez más dinámico. Utiliza como browser Google Chrome y Edge. Como tecnologias utiliza un celular android y una laptop con sistema operativo Windows.|
-
 Entrevista 5:
 
 | Entrevista | Registro |
@@ -167,15 +190,203 @@ A continuación, se presentan los porcentajes destacados en las respuestas de lo
 
 ## _2.3. Needfinding_ ##
 
+El Needfinding es el proceso por el cual se busca comprender las necesidades que nuestros segmentos objetivos desean satisfacer. Se utilizaron diversas herramientas como el diseño de User Persona por cada segmento objetivo, el User Task Matrix para analizar la importancia y frecuencia de cada tarea que realiza cada segmento objetivo, el Journey Mapping que muestra el camino que sigue cada segmento objetivo para completar un objetivo, el Empathy Mapping para comprender como se siente, piensa y actúa cada segmento objetivo y, finalmente, el As-Is Scenario Map que describe una experiencia existente
+de cada segmento objetivo.
+
 ### 2.3.1. Users Persona ###
+
+Para desarrollar la propuesta de solución, se creará un _User Persona_ por cada segmento objetivo. Este tendrá información relacionada a una persona que pertenezca al segmento objetivo respectivo ya sea información personal, gustos, usos tecnológicos u objetivos. De esta forma, se podrá dar una idea más clara de a qué publico nos estamos acercando con la idea de solución. Además, se realiza una conclusión del análisis de cada User Persona.
+
+<b> User Persona 1: Dueños de licorerías </b>
+
+<p align="center">
+  <img src="../img/Chapter II/user_persona1.png" 
+  alt="user_persona1"/>
+
+  > <p align="center">User Persona del primer segmento objetivo</p>
+</p>
+
+En esta imagen, se colocó información relacionada al primer user persona. El cuadro incluye una descripción breve sobre esta persona y cuáles son sus objetivos y frustraciones respecto a la situación en la que vive. Esta representación ayuda a entender mejor sus necesidades específicas, como la optimización del control de inventario, la reducción de pérdidas y el deseo de contar con herramientas tecnológicas que faciliten la toma de decisiones. Esta información fue clave para diseñar una solución más eficiente y alineada con su realidad diaria como dueño de un negocio de productos de licorería. 
+
+<br>
+
+<b> User Persona 2: Proveedores de productos de licorerías </b>
+
+<p align="center">
+  <img src="../img/Chapter II/user_persona2.png" 
+  alt="user_persona2"/>
+
+  > <p align="center">User Persona del segundo segmento objetivo</p>
+</p>
+
+En esta otra imagen, se colocó información relacionada al segundo user persona. El cuadro incluye una descripción breve sobre esta persona y cuáles son sus objetivos y frustraciones respecto a la situación en la que vive. En este caso, se trata de un proveedor que busca optimizar sus rutas, asegurar ventas completas y fortalecer la relación con sus clientes. Las necesidades y motivaciones identificadas resaltan la importancia de implementar una solución digital que facilite la comunicación, el acceso a información de productos y el uso compartido de herramientas tecnológicas.
+
+<br>
 
 ### 2.3.2. User Task Matrix ###
 
+El _User Task Matrix_ de cada _User Persona_ incluye las actividades que realizan que más destacan en una situación cotidiana. A cada actividad se le asigna un puntaje en cuanto a qué tan frecuente es realizada por el User Persona y otro puntaje en cuanto a qué tanta importancia posee dicha actividad. Gracias a esta herramienta se puede identificar las actividades que necesitan realizar los usuarios y cómo las realizan para hallar formas de mejora que serán parte del producto a diseñar.
+
+Se consideran los dos User Persona previamente definidos que constituyen a los segmentos objetivo de dueños de licorerías y proveedores de productos de licorería, en cada tabla se colocarán las actividades que realizan los User Persona para cumplir sus objetivos. Además, para los niveles de frecuencia e importancia se usan cuatro niveles, siendo estos: **Muy Alta, Alta, Media y Baja.**
+
+|                                                            | ERICK CORONEL |              | CESAR SUAREZ |              |
+|------------------------------------------------------------|---------------|--------------|--------------|--------------|
+|                                                            | Frecuencia    | Importancia  | Frecuencia   | Importancia  |
+| Gestión de inventario                                      | Muy Alta      | Muy Alta     | Muy Alta     | Muy Alta     |
+| Atención al cliente                                        | Alta          | Muy Alta     | Alta         | Muy Alta     |
+| Mantenimiento de los ambientes (almacenes, local de venta) | Media         | Alta         | Alta         | Muy Alta     |
+| Organización de los productos                              | Media         | Media        | Alta         | Media        |
+| Contactar con proveedores                                  | Alta          | Muy Alta     | Alta         | Alta         |
+| Mantener relaciones comerciales                            | Alta          | Alta         | Muy Alta     | Muy Alta     |
+| Distribución y entrega de productos                        | Baja          | Media        | Muy Alta     | Muy Alta     |
+| Promoción de productos                                     | Media         | Muy Alta     | Alta         | Muy Alta     |
+| Gestión administrativa del negocio                         | Alta          | Muy Alta     | Alta         | Muy Alta     |
+| Analizar el mercado de bebidas alcoholicas                 | Media         | Alta         | Alta         | Alta         | 
+
+Como se puede apreciar en el cuadro presentado, ambos User Persona presentan una cantidad considerable de tareas de alta frecuencia e importancia. Por un lado, las tareas más importantes del User Persona que representa al segmento objetivo de los dueños de licorería incluyen actividades como la gestión activa del inventario donde se almacenan los productos para conocer el stock de productos y su estado actual; la atención al cliente para la realización de ventas; la gestión administrativa del negocio para conocer los ingresos y gastos del mes; la promoción de productos para generar más ventas; y, por último, el contacto con los proveedores para asegurar que nunca se agoten los productos. Estas tareas son el sostén del negocio de licorería y son las que lo mantienen estable. Por otra parte, las tareas de mayor importancia en el lado del User Persona que representa al segmento de los proveedores de productos de licorería son similares a las del primer User Persona, con la diferencia de que se agregan las tareas de distribución y entrega de productos para que lleguen a los locales de venta; y, mantener relaciones comerciales tanto con marcas y los dueños de licorería.
+
+Finalmente, no se logra apreciar grandes diferencias entre ambos User Persona, en cambio, se aprecian más similitudes entre las tareas que realizan, esto, ya que ambos venden bebidas alcoholicas pero a distintos niveles, es decir, los dueños de licorerías venden a personas corrientes, en cambio, los proveedores, a locales de venta.
+
 ### 2.3.3. User Journey Mapping ###
+
+El _User Journey Mapping_ muestra paso a paso qué actividades realiza un usuario para cumplir un objetivo. Gracias a este mapa de viaje, podemos entender mejor al usuario, ya que, al describir este proceso nos ponemos en los zapatos del usuario e identificamos cómo se siente, qué hace y qué obstáculos se le presenta al momento de querer cumplir un objetivo.
+
+<b> User Persona 1: Dueños de licorerías </b>
+
+En esta primera imagen que se muestra a continuación, se visualiza el _journey map_ del primer user persona. En esta misma, se desea detallar el proceso por el que pasa este user persona al darse cuenta que sus productos están escaseando y necesita reponerlos. Para ello, acude a su aplicación de software para anotar los productos que le faltan y, finalmente, para actualizar manualmente el stock.
+
+<p align="center">
+  <img src="../img/Chapter II/journey_map-up01.png" 
+  alt="journey_mapping_userpersona_1"/>
+
+<b> User Persona 2: Proveedores de productos de licorerías </b>
+
+En esta primera imagen que se muestra a continuación, se visualiza el _journey map_ del segundo user persona. En esta misma, se desea detallar el proceso por el que pasa este user persona al coordinar y realizar viajes para cerrar nuevas relaciones comerciales con nuevos clientes y, el proceso de recibir llamadas de pedidos y coordinar la entrega de los mismos.
+
+<p align="center">
+  <img src="../img/Chapter II/journey_map-up02.png" 
+  alt="journey_mapping_userpersona_2"/>
 
 ### 2.3.4. Empathy Mapping ###
 
+El _Empathy Mapping_ ayuda a entender de manera más profunda a nuestro User Persona. Con esta herramienta, capturamos lo que el usuario siente, dice, piensa y hace desde la perspectiva del propio usuario. Además, nos ayuda a identificar dolores y metas qué desea cumplir que nos serán útiles para formar ideas de diseño útiles para el producto que servirá como solución. Finalmente, cada mapa de empatía se diseñó en la aplicación UXPressia.
+
+<b> User Persona 1: Dueños de licorerías </b>
+
+<p align="center">
+  <img src="../img/Chapter II/empathy_map-up01.png" 
+  alt="empathy_map_userpersona_1"/>
+
+<b> User Persona 2: Proveedores de productos de licorerías </b>
+
+<p align="center">
+  <img src="../img/Chapter II/empathy_map-up02.png" 
+  alt="empathy_map_userpersona_2"/>
+
 ### 2.3.5. As-Is Scenario Mapping ###
+
+En el _As-Is Scenario Map_ se representa el proceso real que vive un usuario previo a la existencia del producto solución. Este mapa, ayuda a encontrar puntos claves que usualmente forman obstáculos en las metas de los User Persona y ayudan a formar ideas de solución a estos obstáculos que se integran en el producto a diseñar.
+
+De esta forma, se diseñaron ambos mapas _AS-IS_ de cada user persona en la aplicación Miro. El proceso de diseño empezó con la identificación de fases de eventos más resaltantes de cada user persona. Luego, de cada fase, se identificaron labores que realiza comúnmente cada persona. A continuación, nos colocamos en los zapatos de cada persona e imaginamos qué pensamientos surgirían al realizar cada actividad. Finalmente, se identifica el sentimiento del pensamiento y se analiza por qué la aparición de dicho sentimiento. Además, se identificaron áreas positivas y negativas para cada persona dependiendo de su situación.
+
+<b> User Persona 1: Dueños de licorerías </b>
+
+<p align="center">
+  <img src="../img/Chapter II/as_is-up01.png" 
+  alt="as_is_map_userpersona_1"/>
+
+<b> User Persona 2: Proveedores de productos de licorerías </b>
+
+<p align="center">
+  <img src="../img/Chapter II/as_is-up02.png" 
+  alt="as_is_map_userpersona_2"/>
 
 ## _2.4. Ubiquitous Language_ ##
 
+1. **Inventory** (Inventario)
+
+**Definición:** Registro y control digital de todos los productos en stock, incluyendo cantidades, fechas de vencimiento y estado. Es la fuente confiable para gestionar existencias y reposiciones.
+
+2. **Warehouse** (Almacén)
+
+**Definición:** Espacio físico donde se guardan, organizan y manejan los licores u otros productos. Donde se maneja: Ubicaciones específicas y condiciones de almacenamiento.
+
+3. **Movement Log** (Registro de movimientos)
+
+**Definición:** Registro de entradas y salidas de productos del inventario. Pueden ser: salida de productos del inventario debido al uso interno, degustaciones, o promociones dentro de la licorería. Permite distinguir el consumo operativo del comercial.
+
+4. **Inventory Management** (Administración de Inventario)
+
+**Definición:** Proceso mediante por el cual el dueño o encargado de la licorería organiza, controla y actualiza los productos en su tienda o bodega.
+
+5. **Inventory Control Panel** (Panel de control de inventario)
+
+**Definición:** Visualizaciones que muestran el estado general del stock: porcentaje de productos próximos a vencer, nivel de abastecimiento, y eficiencia de rotación.
+
+6. **Liquor** (Licor)
+
+**Definición:** Bebida alcohólica destilada (sin azúcar añadido), con graduación alcohólica media/alta (30%-50% ALC/VOL).
+
+7. **Cream Liqueur** (Licor de Crema)
+
+**Definición:** Bebida alcohólica cremosa y dulce, elaborada con licor base + lácteos (nata/leche) + azúcar. Baja graduación (15%-20% ALC/VOL).
+
+8. **Herb Liqueur** (Licor de Hierba)
+
+**Definición:** Bebida alcohólica aromatizada con mezclas de hierbas, especias, raíces y/o flores, que puede ser destilada o infusionada. Suele tener un sabor intenso y complejo, con graduación alcohólica variable (15%-40% ALC/VOL)
+
+9. **Anise Liqueur** (Licor de Anís / Anisado)
+
+**Definición:** Licor cuyo sabor y aroma predominantes provienen del anís (semillas de Pimpinella anisum o Illicium verum). Pueden ser seco o dulce.
+
+10. **Wine** (Vino)
+
+**Definición:** Bebida alcohólica obtenida por fermentación de uvas (o frutas/uvas pasas en algunos casos). Se clasifica por tipo, color, cuerpo, añejamiento y origen.
+
+11. **RTD** (Listo para tomar)
+
+**Definición:** Bebidas alcohólicas premezcladas y listas para consumir, en formatos como latas o botellas, que no requieren preparación adicional.
+
+12. **Care Guide** (Guía de Cuidados)
+
+**Definición:** Documento físico o digital que describe las características y cuidados de cada bebida alcohólica: temperatura de conservación, sensibilidad a la luz, durabilidad, y observaciones del proveedor.
+
+13. **Conservation Guide** (Guia de Conservación)
+
+**Definición:** Registro digital donde se documentan prácticas de cuidado aplicadas a los productos (temperatura, iluminación, limpieza del área, entre otros). Permite asegurar el cumplimiento de estándares relacionados con calidad.
+
+14. **Loss Report** (Reporte de pérdidas)
+
+**Definición:** Registro que documenta las pérdidas de producto por razones como vencimiento, mal almacenamiento, daños físicos o evaporación. Ayuda a evaluar riesgos y tomar acciones correctivas.
+
+15. **Internal Referral Guide** (Guía de remisión interna)
+
+**Definición:** Documento (físico/digital) que respalda el traslado de productos entre distintas zonas de los almacenes o sucursales. Incluye información de origen, destino, cantidades y responsable del movimiento.
+
+16. **Invoice** (Factura)
+
+**Definición:** Registro formal de la compra o venta de productos entre la licorería y un proveedor o cliente. Incluye fecha, tipo de producto, cantidades, condiciones de entrega y estado del pago.
+
+17. **Purchase Order** (Orden de compra)
+
+**Definición:** Documento formal emitido por la licorería para solicitar productos a un proveedor. Detalla la fecha, tipo de producto, cantidades, precios acordados, condiciones de entrega y formas de pago. Sirve como compromiso de compra previo a la emisión de la factura y garantiza que ambas partes estén alineadas sobre los términos de la transacción.
+
+18. **Sales Order** (Orden de venta)
+
+**Definición:** Documento formal emitido por la licorería para confirmar la venta de productos a un cliente. Sirve como compromiso de venta antes de generar la factura y garantiza el acuerdo entre la licorería y el cliente.
+
+19. **Replenishment** (Reposición)
+
+**Definición:** Acción que toma el usuario cuando un producto está por agotarse o cerca de su fecha de vencimiento, facilitando la planificación de compras.
+
+20. **Expiration date** (Fecha de expiración)
+
+**Definición:** Fecha límite de consumo de un producto, que puede ser determinada por el fabricante o la legislación. Es importante para garantizar la calidad y seguridad del producto. En el caso de los licores, se refiere a la fecha en que el producto pierde su calidad óptima, aunque no necesariamente indica que esté en mal estado. La fecha de vencimiento es especialmente relevante para productos como licores de crema, que tienen una vida útil más corta debido a su contenido lácteo.
+
+21. **Replenishment Plan** (Plan de Reabastecimiento)
+
+**Definición:** Funcionalidad que permite al proveedor crear planes para enviar los pedidos de sus clientes con cierta frecuencia. Ayuda al proveedor a tener en cuenta el tiempo que le toma a un dueño de licorería solicitar productos para abastecerse.
+
+22. **Purchase suggestion** (Sugerencia de compra)
+
+**Definición:** Sugerencias que el dueño o proveedor toma a la hora de compra productos (nuevos o ya existentes), basadas en tus niveles de stock y patrones de consumo.
