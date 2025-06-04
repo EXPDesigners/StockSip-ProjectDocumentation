@@ -162,6 +162,16 @@ A continuación, se presentan los porcentajes destacados en las respuestas de lo
     
   En esta imagen, se visualiza una relación de respuestas sobre el tema planteado. Luego del análisis a este gráfico, se concluye que todos los entrevistados requieren de mejores herramientas para el crecimiento de sus negocios.  
 
+* Browser utilizados:
+<p align="center"><img src="https://i.imgur.com/pTLIvza.png"/>
+
+ En esta imagen, se visualiza una relación de respuestas sobre el tema planteado. Luego del análisis a este gráfico, se concluye que las mayoria de los entrevistados utilizan los navegadores de Google Chrome y Edge.
+ 
+* Tecnologias utilizadas:
+<p align="center"><img src="https://i.imgur.com/xDaQtAd.png"/>
+
+En esta imagen, se visualiza una relación de respuestas sobre el tema planteado. Luego del análisis a este gráfico, se concluye que las mayoria de los entrevistados utilizan los dispositivos celular android y laptop con sistema operativos windows
+
 Segundo, con base en las tres entrevistas realizadas al segundo segmento objetivo, conformado por los proveedores de licores, se puede concluir lo siguiente:
 
 * Los proveedores reconocen que algunos comerciantes aún no comprenden del todo cómo se maneja adecuadamente la venta y el control de licores, lo cual puede generar errores en el inventario o incumplimientos en la normativa vigente.  
@@ -187,6 +197,16 @@ A continuación, se presentan los porcentajes destacados en las respuestas de lo
   	<p align="center"><img src="https://i.imgur.com/HfowS83.png"/></p>
   	
   	En esta imagen, se visualiza una relación de respuestas sobre el tema planteado. Luego del análisis a este gráfico, se concluye que todos los entrevistados consideran que las licorerías deben de hacer uso de herramientas digitales.
+
+* Browser utilizados:
+<p align="center"><img src="https://i.imgur.com/pTLIvza.png"/>
+
+ En esta imagen, se visualiza una relación de respuestas sobre el tema planteado. Luego del análisis a este gráfico, se concluye que las mayoria de los entrevistados utilizan los navegadores de Google Chrome y Edge.
+ 
+* Tecnologias utilizadas:
+<p align="center"><img src="https://i.imgur.com/xDaQtAd.png"/>
+
+En esta imagen, se visualiza una relación de respuestas sobre el tema planteado. Luego del análisis a este gráfico, se concluye que las mayoria de los entrevistados utilizan los dispositivos celular android y laptop con sistema operativos windows
 
 ## _2.3. Needfinding_ ##
 
