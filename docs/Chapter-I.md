@@ -136,11 +136,11 @@ Actualmente, tanto los proveedores de licores como los dueños de licorerías en
 
 ##### 1.2.2.2.2 Business Outcomes #####
 
-- Generar oportunidades de monetización, ya sea por suscripción mensual o alianzas con proveedores.
+- Queremos que los usuarios se suscriban a un plan mensual de pago como señal de que perciben valor en el servicio, que realicen compras repetidas a través de los proveedores aliados dentro de la plataforma y que soliciten conexiones con proveedores externos usando las herramientas que les ofrecemos.
 
-- Validar el enfoque de diseño centrado en el usuario para futuras soluciones tecnológicas.
+- Buscamos que los usuarios completen tareas clave dentro del sistema sin requerir asistencia adicional, que expresen satisfacción mediante el envío de comentarios positivos o sugerencias, y que regresen con frecuencia al producto, usando su funcionalidad principal al menos tres veces por semana.
     
-- Obtener métricas clave que puedan utilizarse para atraer inversores o fondos.
+- Queremos que los usuarios completen el proceso de onboarding en menos de tres minutos, que al menos el 40% de ellos regresen semanalmente a la plataforma y que, luego de los primeros siete días de uso, recomienden el producto a otros usuarios.
 
 ##### 1.2.2.2.3 User Assumptions #####
 
