@@ -224,6 +224,74 @@ nos ubicamos en el apartado de hosting
 <p align="center">
   <img src="https://i.imgur.com/NVOGrAD.png"> 
   
+   A continuación, se describen los pasos necesarios para desplegar el BackEnd del proyecto, empezando por la creación del repositorio hasta el lanzamiento del proyecto.
+
+* **Paso 1: Creación del repositorio**  
+  Como primer paso, se debe crear el repositorio en GitHub que será el lugar donde se aloja todo lo relacionado al BackEnd.
+
+<p align="center">
+  <img src="https://i.imgur.com/Nfhzpv8.png">
+
+* **Paso 2: Carga de archivos necesarios**   
+  Como segundo paso, se importan todos los archivos y carpetas necesarios para el desarrollo del BackEnd.
+
+<p align="center">
+  <img src="https://i.imgur.com/t126A62.png">
+
+  * **Paso 3: Creacion del proyecto en Rider**  
+  Como tercer paso, se creara el proyecto en Rider, importamos nuestros features e instalamos las dependencias necesarias. 
+
+<p align="center">
+  <img src="https://i.imgur.com/GZJ5ZVF.png">
+
+* **Paso 4: Creacion dockerfile**  
+  Como cuarto paso, crearemos el archivo llamado dockerfile que estara ubicado en la raiz de nuestro proyecto
+
+<p align="center">
+  <img src="https://i.imgur.com/ETOoIYi.png">
+
+* **Paso 5: Ingresar a la pagina FreeSQLDatabase**  
+  Ingresamos a la pagina web FreeSQLDatabase e iniciamos sesion con nuestra cuenta y nos aparece la pagina para crear nuestra base de datos en la nube. Asignamos un servidor y creamos la base de datos desplegada en la nube
+
+<p align="center">
+  <img src="https://i.imgur.com/yrNekjG.png">
+<p align="center">
+  <img src="https://i.imgur.com/QoLNHNM.png">
+<p align="center">
+  <img src="https://i.imgur.com/FDSbgdX.png">
+
+
+* **Paso 6: Configuracion del dockerfile**  
+  Volvemos a nuestro rider, nos dirigimos al archivo y creamos la configuracion necesaria para el despliegue con docker.
+
+<p align="center">
+  <img src="https://i.imgur.com/wd9yp2s.png"> 
+
+
+* **Paso 7: Creacion del archivo appsettings.Production**  
+  Creamos un archivo llamado appsetting.Production.json en la raiz del proyecto, cambiamos en DefaultConnection el server por nuestro DatabaseHost, user por nuestro Database Username, passwoard por nuestro DatabasePasswoard y database por nuestro DatabaseName. 
+
+<p align="center">
+  <img src="https://i.imgur.com/y8OYcNP.png">
+
+  
+* **Paso 8: Ingresar a la pagina Render**  
+  Ingresaremos a la pagina web render, ingresamos con nuestra cuenta, importamos nuestro repositorio,  asignamos la rama en la que se realizara el deploy y confirmamos el despliegue, esperamos a que la propia pagina verifique el deploy y nos entregue una URL publica.
+
+<p align="center">
+  <img src="https://i.imgur.com/02heKNc.png"> 
+<p align="center">
+  <img src="https://i.imgur.com/3QF2uQu.png">
+<p align="center">
+  <img src="https://i.imgur.com/wowQCCl.png"> 
+
+
+* **Paso 9: Comprobar el despliegue**  
+  Ingresamos a la URL publica que nos proporciono la pagina y podemos verificar el se logro el despliegue de nuesta aplicacion BackEnd
+
+<p align="center">
+  <img src="https://i.imgur.com/vbBRLzg.png"> 
+
   
 ## _5.2. Landing Page, Services & Applications Implementation_ ##
 
