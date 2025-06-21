@@ -775,7 +775,7 @@ El alcance de esta evaluación incluye la revisión de la usabilidad de las sigu
 
 ##### DESCRIPCIÓN DE PROBLEMAS
 
-###### PROBLEMA #1: No hay un control que permita regresar a la tienda durante el trámite de compra  
+###### PROBLEMA #1: Faltan validaciones para asegurar que un usuario agregue un correo electronico correctamente.
 
 **Severidad:** 3  
 **Heurística violada:** Usability - Ayudar a los usuarios a reconocer, diagnosticar y recuperarse de errores
