@@ -712,9 +712,7 @@ A continuación, se muestra una tabla que contiene la información sobre los _co
 
 
 
-<div style="page-break-after: always; visibility: hidden">
-\pagebreak
-</div>
+
 
 ## 5.3. Validation Interviews
 
