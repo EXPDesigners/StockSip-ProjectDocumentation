@@ -730,21 +730,20 @@ A continuación, se muestra una tabla que contiene la información sobre los _co
 El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
 
 1. Registro de un usuario nuevo  
-2. Publicación de un post  
-3. Búsqueda de un paquete turístico  
-4. Reserva de un viaje  
-5. Cancelación de una reserva  
-6. Agregar ítems a un pedido  
-7. Pago de un paquete turístico  
-8. Etc.
+2. Inicio de sesión de un usuario
+3. Creación de un almacén
+4. Visualización de las alertas de la aplicación
+5. Visualización de almacenes creados
+6. Insertar una imagen a un almacén
+7. Carga de alertas en la aplicación
+8. Realización de una orden de compra
 
 **No están incluidas en esta versión de la evaluación las siguientes tareas:**
 
-1. Compartir reservas entre usuarios  
-2. Presentar ofertas de último minuto  
-3. Administrar puntos del programa de fidelización de viajes  
-4. Guardar “alerta de paquetes”  
-5. Etc.
+1. Asignar un producto a un inventario
+2. Registrar salidas de productos
+3. Proceso de adquisición de una membresía
+4. Registrar reportes de pérdidas
 
 ---
 
