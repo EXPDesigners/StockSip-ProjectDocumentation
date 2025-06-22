@@ -22,12 +22,25 @@
 
 * **Software Development**
 
-  Para el desarrollo del Software correspondiente al Landing Page, se utilizarán dos aplicaciones, las cuales son GitHub y JetBrains. La primera ayuda al equipo a gestionar de manera correcta los avances colaborativos del proyecto. Por otro lado, JetBrains ayudará a trabajar el proyecto con lenguajes como HTML5, CSS y JavaScript, y el framework Vue para el desarrollo del landing page, web services y frontend.
+  Para el desarrollo del Software correspondiente al Landing Page, se utilizarán dos aplicaciones, las cuales son GitHub y JetBrains. La primera ayuda al equipo a gestionar de manera correcta los avances colaborativos del proyecto. Por otro lado, JetBrains ayudará a trabajar el proyecto con lenguajes como HTML5, CSS y JavaScript, y el framework Vue para el desarrollo del landing page.
 
+  Para el desarrollo del Frontend Web Application, se utilizaron las aplicaciones de Github y WebStorm. Github nos ayuda a gestionar la documentacion correcta de los avances que realizan los miembros del equipo. Mientras que WebStorm es el programa en el que se codifica nuestra aplicacion Frontend usando los lenguajes HTML5, CSS y JavaScript, asi mismo se utilizo el framework de Vue.
+  
+  Para el desarrollo del Web Services, se utilizaron las aplicacionde de Github. Github nos ayuda a gestionar la documentacion correcta de los avances que realizan los miembros del equipo. Mientras que WebStorm es el programa en el que se codifica nuestra aplicacion BackEnd usando el lenguaje de C#, asi mismo se utilizo el framework de ASP.NET.
+ 
 * **Software Testing**
 
   Las pruebas del Landing Page se realizarán mediante uso del navegador web para verificar que el diseño del mismo cumple con aspectos como el diseño responsivo en cualquier dispositivo desde el que se acceda al landing page del proyecto. Además, para visualizar que se han implementado correctamente elementos visuales que deben aparecer en las distintas secciones de la página.
 
+  Las pruebas del frontend se realizaron utilizando una fake API mediante JSON Server, que funcionó como una base de datos temporal para validar el correcto funcionamiento de las interfaces y las interacciones con los datos.
+  
+  Las pruebas del backend se realizaron mediante Swagger UI y Postman, herramientas que facilitaron la ejecución de consultas y solicitudes HTTP de manera visual e intuitiva, permitiendo verificar el correcto funcionamiento de los endpoints expuestos por la API. Gracias a estas herramientas, fue posible simular distintos escenarios de uso, validar las respuestas del servidor, analizar los códigos de estado HTTP y garantizar que la lógica del backend respondiera adecuadamente ante entradas válidas y erróneas.
+
+* **Software Deployment**
+
+  Para el despliegue del Landing page se uso la el servicio web de github pages, este servicio se especializa en el despliegue de sitios web staticos directamente desde un repositorio.
+  Para el despliegue del Frontend se uso beeceptor y firebase. Beeceptor es una herramienta en línea (basada en la web) que nos permite crear endpoints HTTP falsos (mock) para probar APIs, se uso ver qué datos está enviando nuestra aplicación. Firebase es una plataforma desarrollada por Google que permite crear aplicaciones web y móviles más rápido, sin tener que construir un backend completo desde cero, ofrece servicios listos para usar que se pueden usar para conectar facilmente nuestro Frontend.
+  Para el despliegue del Backend se utilizo Render. Render es una plataforma en la nube que permite desplegar aplicaciones web, APIs, bases de datos, sitios estáticos y más de forma sencilla y automatizada, sin necesidad de gestionar servidores manualmente. Permite que una aplicación backend esté disponible públicamente en internet, funcionando 24/7 con un dominio propio o asignado automáticamente.
 
 ### 5.1.2. Source Code Management ###
 
@@ -38,7 +51,9 @@ En esta sección, se describen los medios y esquemas de organización para gesti
 A continuación, se adjuntan los enlaces para acceder a los repositorios donde se almacenarán los archivos de proyecto relacionados al Landing Page.
 
 * **Landing Page: [https://github.com/EXPDesigners/StockSip-LandingPage.git](https://github.com/EXPDesigners/StockSip-LandingPage.git)**
-
+* **Frontend Web Applications: [https://github.com/EXPDesigners/Stocksip-FrontEndApplication.git](https://github.com/EXPDesigners/Stocksip-FrontEndApplication.git)**
+* **Web Services: [https://github.com/EXPDesigners/Stocksip-BackEndApplication.git](https://github.com/EXPDesigners/Stocksip-BackEndApplication.git)**
+ 
 **5.1.2.2. GitFlow**  
 Como se mencionó previamente, GitFlow ayudará al equipo de desarrollo a gestionar de manera efectiva el proyecto en su ciclo de vida. En general, GitHub ayudará a facilitar el desarrollo del proyecto para el equipo ya que es más sencillo desarrollar trabajos en equipo en los repositorios de los archivos de proyecto.
 
@@ -107,6 +122,10 @@ En esta sección, se definen las referencias que se usaron para adoptar estrateg
   Para la codificación del proyecto en C\#, se utilizará el artículo *“C\# Coding Conventions”.* Este artículo contiene información útil y necesaria para conocer cómo debe ser la nomenclatura de los diversos aspectos que conforman un proyecto desarrollado en C\#, según las convenciones oficiales de codificación establecidas por Microsoft. Se trata de la guía de convenciones de estilo de código para C\# publicada por Microsoft, la cual proporciona una serie de recomendaciones para escribir código claro, coherente y mantenible en aplicaciones .NET. A continuación se adjunta el enlace para acceder al artículo de referencia:  [https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style/coding-conventions](https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style/coding-conventions)  
   Finalmente, se aplicará el contenido del artículo para el Web Services de StockSip.
 
+* **Nomenclatura en ASP.NET:**  
+  Para la codificación del proyecto en ASP.NET, se utilizará el artículo *“Microsoft ASP.NET Core Coding Guidelines”.* Este artículo contiene información útil y necesaria para conocer cómo debe ser la nomenclatura y el estilo de los diversos aspectos que conforman un proyecto desarrollado con ASP.NET Core. Se trata de la guía de ingeniería oficial del equipo de ASP.NET Core, en la cual se detallan las convenciones recomendadas para escribir código claro, consistente y fácil de mantener. Esta guía organiza sus recomendaciones en distintos apartados que abarcan desde el formato del código, el uso de tipos y palabras clave, la compatibilidad multiplataforma, hasta el control de cambios en versiones del framework. Cada sección tiene como propósito establecer prácticas que favorezcan la legibilidad, el rendimiento, y la calidad del desarrollo colaborativo a gran escala.. A continuación se adjunta el enlace para acceder al artículo de referencia:  [https://github.com/dotnet/aspnetcore/wiki/Engineering-guidelines#codingguidelines](https://github.com/dotnet/aspnetcore/wiki/Engineering-guidelines#codingguidelines)  
+  Finalmente, se aplicará el contenido del artículo para el Web Services de StockSip
+  
 ### 5.1.4. Software Deployment Configuration ###
 
 En esta sección, se especifica la configuración para realizar el despliegue de la solución en el repositorio. Para realizar esto, se usó GitHub Pages para lanzar el landing page, Web Services y Frontend Web Applications. A continuación, se describen los pasos necesarios para desplegar el Landing Page del proyecto, empezando por la creación del repositorio hasta el lanzamiento del proyecto.
@@ -146,6 +165,150 @@ En esta sección, se especifica la configuración para realizar el despliegue de
   <img src="https://i.imgur.com/iE4Zzk7.png">
 </p>
 
+A continuación, se describen los pasos necesarios para desplegar el Frontend del proyecto, empezando por la creación del repositorio hasta el lanzamiento del proyecto.
+
+* **Paso 1: Creación del repositorio**  
+  Como primer paso, se debe crear el repositorio en GitHub que será el lugar donde se aloja todo lo relacionado al Frontend.
+
+<p align="center">
+  <img src="https://i.imgur.com/RKeaB1T.png">
+
+* **Paso 2: Carga de archivos y carpetas necesarios**   
+  Como segundo paso, se importan todos los archivos y carpetas necesarios para el desarrollo del Frontend.
+
+<p align="center">
+  <img src="https://i.imgur.com/GHLAPdd.png">
+
+* **Paso 3: Creacion del proyecto en WebStorm**  
+  Como tercer paso, se creara el proyecto en WebStorm, importamos nuestros features e instalamos las dependencias necesarias. 
+
+<p align="center">
+  <img src="https://i.imgur.com/LD8AKKP.png">
+
+* **Paso 4: Comando npm run build**  
+  Como cuarto paso, ingresaremos el comando npm run build en la consola de nuestro proyecto, este comando creara una carpeta llamada Dist que contiene todo nuestro proyecto.
+
+<p align="center">
+  <img src="https://i.imgur.com/kuCErf7.png">
+
+<p align="center">
+  <img src="https://i.imgur.com/qwP3yJb.png">
+  
+* **Paso 5: Probar el funcionamiento del build**  
+  Ingresamos a la pagina web Beeceptor e iniciamos sesion con nuestra cuenta, crearemos un nuevo mock server y copiaremos el enlace que nos proporciona. Volvemos al WebStorm, nos dirigimos al archivo .env.production y colocamos el enlace en la parte VITE_API_BASE_URL
+
+<p align="center">
+  <img src="https://i.imgur.com/4a5H7PM.png">
+  
+* **Paso 6: Probar el funcionamiento del build con HTTP**  
+  Ingresamos a la pagina web npmjs y buscamos HTTP-server, es un servidor para probar que nuestro build funcione en un entorno de desarrollo, copiamos el comando npm i http-server --save-dev. Luego ingresamos el comando http-server dist y elegimos cualquier de los links presentes. Se podra a acceder a nuestra aplicacion.
+
+<p align="center">
+  <img src="https://i.imgur.com/OMaUvwE.png"> 
+<p align="center">
+  <img src="https://i.imgur.com/mGG35De.png"> 
+
+* **Paso 7: Probar despliegue con Firebase**  
+  Ingresamos a la pagina web Firebase e ingremos con nuestra cuenta de google y vamos a la consola, creamos un nuevo proyecto con el nombre de nuestra aplicacion,
+nos ubicamos en el apartado de hosting
+
+<p align="center">
+  <img src="https://i.imgur.com/LF7yomG.png">
+<p align="center">
+  <img src="https://i.imgur.com/IMS9O5Y.png">
+<p align="center">
+  <img src="https://i.imgur.com/7Fb9T6a.png">
+  
+* **Paso 8: Configurar el despliegue**  
+  Regresamos a nuestro WebStorm y en la consola ingresamos el comando firebase login y decimos NO, nos pedira que ingremos con nuestra cuenta de google con la que creamos el proyecto e inicializamos el firebase con el comando firebase init, con las flechitas del teclado nos desplazamos a la opcion Hosting y presionamos la barra espaciadora para seleccionarlo y damos enter. Elejimos 'Use an existing proyect' y elegimos nuestro proyecto, colocamos solo dist y decimos YES NO NO
+
+<p align="center">
+  <img src="https://i.imgur.com/kyQfbBW.png"> 
+<p align="center">
+  <img src="https://i.imgur.com/K6nvtaP.png">
+<p align="center">
+  <img src="https://i.imgur.com/lJ5Emix.png"> 
+<p align="center">
+  <img src="https://i.imgur.com/9phLLJm.png"> 
+
+* **Paso 9: Desplegar nuestro proyecto**  
+  Nos dirigimos al archivo firebase.json y agregamos una seccion "site": "nombre de nuestro site" e ingresamos el comando firebase deploy, pero antes de eso ingresamos el comando npm run build para actualizar, ingresamos con el enlace que nos proporciona y nuestro proyecto ya estaria desplegado
+
+<p align="center">
+  <img src="https://i.imgur.com/NgjW0yh.png"> 
+<p align="center">
+  <img src="https://i.imgur.com/d5iOzXH.png"> 
+<p align="center">
+  <img src="https://i.imgur.com/NVOGrAD.png"> 
+  
+ A continuación, se describen los pasos necesarios para desplegar el BackEnd del proyecto, empezando por la creación del repositorio hasta el lanzamiento del proyecto.
+
+* **Paso 1: Creación del repositorio**  
+  Como primer paso, se debe crear el repositorio en GitHub que será el lugar donde se aloja todo lo relacionado al BackEnd.
+
+<p align="center">
+  <img src="https://i.imgur.com/Nfhzpv8.png">
+
+* **Paso 2: Carga de archivos necesarios**   
+  Como segundo paso, se importan todos los archivos y carpetas necesarios para el desarrollo del BackEnd.
+
+<p align="center">
+  <img src="https://i.imgur.com/t126A62.png">
+
+  * **Paso 3: Creacion del proyecto en Rider**  
+  Como tercer paso, se creara el proyecto en Rider, importamos nuestros features e instalamos las dependencias necesarias. 
+
+<p align="center">
+  <img src="https://i.imgur.com/GZJ5ZVF.png">
+
+* **Paso 4: Creacion dockerfile**  
+  Como cuarto paso, crearemos el archivo llamado dockerfile que estara ubicado en la raiz de nuestro proyecto
+
+<p align="center">
+  <img src="https://i.imgur.com/ETOoIYi.png">
+
+* **Paso 5: Ingresar a la pagina FreeSQLDatabase**  
+  Ingresamos a la pagina web FreeSQLDatabase e iniciamos sesion con nuestra cuenta y nos aparece la pagina para crear nuestra base de datos en la nube. Asignamos un servidor y creamos la base de datos desplegada en la nube
+
+<p align="center">
+  <img src="https://i.imgur.com/yrNekjG.png">
+<p align="center">
+  <img src="https://i.imgur.com/QoLNHNM.png">
+<p align="center">
+  <img src="https://i.imgur.com/FDSbgdX.png">
+
+
+* **Paso 6: Configuracion del dockerfile**  
+  Volvemos a nuestro rider, nos dirigimos al archivo y creamos la configuracion necesaria para el despliegue con docker.
+
+<p align="center">
+  <img src="https://i.imgur.com/wd9yp2s.png"> 
+
+
+* **Paso 7: Creacion del archivo appsettings.Production**  
+  Creamos un archivo llamado appsetting.Production.json en la raiz del proyecto, cambiamos en DefaultConnection el server por nuestro DatabaseHost, user por nuestro Database Username, passwoard por nuestro DatabasePasswoard y database por nuestro DatabaseName. 
+
+<p align="center">
+  <img src="https://i.imgur.com/y8OYcNP.png">
+
+  
+* **Paso 8: Ingresar a la pagina Render**  
+  Ingresaremos a la pagina web render, ingresamos con nuestra cuenta, importamos nuestro repositorio,  asignamos la rama en la que se realizara el deploy y confirmamos el despliegue, esperamos a que la propia pagina verifique el deploy y nos entregue una URL publica.
+
+<p align="center">
+  <img src="https://i.imgur.com/02heKNc.png"> 
+<p align="center">
+  <img src="https://i.imgur.com/3QF2uQu.png">
+<p align="center">
+  <img src="https://i.imgur.com/wowQCCl.png"> 
+
+
+* **Paso 9: Comprobar el despliegue**  
+  Ingresamos a la URL publica que nos proporciono la pagina y podemos verificar el se logro el despliegue de nuesta aplicacion BackEnd
+
+<p align="center">
+  <img src="https://i.imgur.com/vbBRLzg.png"> 
+  
 ## _5.2. Landing Page, Services & Applications Implementation_ ##
 
 ### 5.2.1. Sprint 1 ###
