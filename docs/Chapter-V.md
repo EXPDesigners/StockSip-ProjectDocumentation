@@ -745,13 +745,20 @@ En esta sección, se describen los principales avances de implementación realiz
 
 A continuación, se muestra una tabla que contiene la información sobre los _commits_ hechos que contienen partes de las funcionalidades que debemos implementar para completar el tercer sprint.
 
-| Repository                             | Branch                           | Commit Id | Commit Message                                                   | Commited On |
-|----------------------------------------|----------------------------------|-----------|------------------------------------------------------------------|-------------|
-| OpenDoors/StockSip-Back-End-App        |                                  |           |                                                                  |             |
-| OpenDoors/StockSip-Back-End-App        |                                  |           |                                                                  |             |
-| OpenDoors/StockSip-Back-End-App        |                                  |           |                                                                  |             |
-| OpenDoors/StockSip-Back-End-App        |                                  |           |                                                                  |             |
-| OpenDoors/StockSip-Back-End-App        |                                  |           |                                                                  |             |
+| Repository                      | Branch                   | Commit Id | Commit Message                                                                        | Commited On  |
+| ------------------------------- | ------------------------ | --------- | ------------------------------------------------------------------------------------- | ------------ |
+| OpenDoors/StockSip-Back-End-App | inventories              | a996184   | feat(inventory-management): add account warehouses inbound service.                   | Jun 22, 2025 |
+| OpenDoors/StockSip-Back-End-App | inventories              | 8475722   | feat(inventories): add resources and assemblers.                                      | Jun 22, 2025 |
+| OpenDoors/StockSip-Back-End-App | products                 | 79d402e   | feat(products): add command for updating only the minimum stock level.                | Jun 22, 2025 |
+| OpenDoors/StockSip-Back-End-App | inventories              | b7a66ad   | feat(inventories): add queries.                                                       | Jun 22, 2025 |
+| OpenDoors/StockSip-Back-End-App | care-guides              | 3a892b5   | feat(care-guides): add repository implementation.                                     | Jun 22, 2025 |
+| OpenDoors/StockSip-Back-End-App | care-guides              | 344f781   | feat(care-guides): add care guide command service contract.                           | Jun 22, 2025 |
+| OpenDoors/StockSip-Back-End-App | care-guides              | e77812c   | feat(care-guides): add commands.                                                      | Jun 22, 2025 |
+| OpenDoors/StockSip-Back-End-App | release                  | 0f86516   | chore: add dockerfile.                                                                | Jun 22, 2025 |
+| OpenDoors/StockSip-Back-End-App | alerts                   | 9384e3a   | feat(alerts-and-notifications): add external service in inventory management context. | Jun 20, 2025 |
+| OpenDoors/StockSip-Back-End-App | alerts                   | 2caef51   | feat(alerts-and-notifications): add anti-corruption layer implementation.             | Jun 20, 2025 |
+| OpenDoors/StockSip-Back-End-App | alerts                   | 92d34d    | feat(alerts): add alert commands.                                                     | Jun 20, 2025 |
+
 
 #### 5.2.3.5. Execution Evidence for Sprint Review
 
@@ -759,8 +766,25 @@ A continuación, se muestra una tabla que contiene la información sobre los _co
 
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review
 
-#### 5.2.3.8. Team Collaboration Insights durint Sprint
+#### Despliegue del Back End
+* Primero, se creó un repositorio en GitHub para alojar el código fuente del Backend, permitiendo así una gestión centralizada y control de versiones
+* Segundo, cada miembro del equipo creó una rama individual para desarrollar una función específica del BackEnd, lo que permitió trabajar en paralelo de manera organizada.
+<p align="center">
+  <img src="https://i.imgur.com/e31bJ1F.png"/>
+</p>
 
+* Tercero, se creó un proyecto en Rider y se conectó al repositorio remoto, facilitando la integración del código con el control de versiones desde el entorno de desarrollo.
+* Cuarto, se implementaron las diferentes funcionalidades asignadas y se realizaron los commits respectivos, siguiendo buenas prácticas para mantener un historial de cambios claro.
+* Quinto, una vez completado el desarrollo, se hizo merge de las ramas individuales a develop, donde se resolvieron conflictos y se corrigieron errores detectados en la integración.
+* Sexto, tras verificar el correcto funcionamiento en develop, se realizó el merge final hacia la rama release, consolidando una versión estable del proyecto.
+* Septimo, se configuró el archivo dockerfile y appsettings.production para poder utilizar la web render para su despliegue exitoso.
+* Octavo, se configuro la pagina FreeSQLDatabase para poder desplegar nuestra base de datos en la nube.
+* Noveno, se realizó el despliegue del Backend a través de Render. A continuación, se muestra la evidencia del despliegue:
+<p align="center">
+  <img src="https://i.imgur.com/vbBRLzg.png"/>
+</p>
+
+#### 5.2.3.8. Team Collaboration Insights durint Sprint
 
 
 <div style="page-break-after: always; visibility: hidden">
