@@ -869,6 +869,232 @@ A continuación, se muestra una tabla que contiene la información sobre los _co
 
 #### 5.2.3.6. Services Documentation Evidence for Sprint Review
 
+| Módulo      | Endpoint                                                                                            | Acción                                    | Verbo HTTP | Sintaxis                                       | Parámetros principales                                        | Enlace a Swagger                                              |
+| ----------- | --------------------------------------------------------------------------------------------------- | ----------------------------------------- | ---------- | ---------------------------------------------- | ------------------------------------------------------------- | ------------------------------------------------------------- |
+| Care Guides | `/api/v1/care-guides/{careGuideId}`                                                                 | Obtener guía por ID                       | GET        | `/api/v1/care-guides/123`                      | `careGuideId`, `accountId`                                    | [Ver Link](https://stocksip-backendapplication.onrender.com/) |
+| Care Guides | `/api/v1/care-guides/{careGuideId}`                                                                 | Actualizar guía                           | PUT        | `/api/v1/care-guides/123`                      | Body con nuevos campos                                        | [Ver Link](https://stocksip-backendapplication.onrender.com/) |
+| Care Guides | `/api/v1/care-guides/{careGuideId}`                                                                 | Eliminar guía                             | DELETE     | `/api/v1/care-guides/123`                      | `careGuideId`                                                 | [Ver Link](https://stocksip-backendapplication.onrender.com/) |
+| Care Guides | `/api/v1/care-guides/{careGuideId}/deallocations`                                                   | Desasignar guía                           | PUT        | `/api/v1/care-guides/123/deallocations`        | `careGuideId`                                                 | [Ver Link](https://stocksip-backendapplication.onrender.com/) |
+| Care Guides | `/api/v1/care-guides/{careGuideId}/allocations/{productId}`                                         | Asignar guía a producto                   | PUT        | `/api/v1/care-guides/123/allocations/45`       | `careGuideId`, `productId`                                    | [Ver Link](https://stocksip-backendapplication.onrender.com/) |
+| Products    | `/api/v1/products/{productId}/care-guide`                                                           | Obtener guía por producto                 | GET        | `/api/v1/products/45/care-guide`               | `productId`                                                   | [Ver Link](https://stocksip-backendapplication.onrender.com/) |
+| Products    | `/api/v1/products/{productId}/exits`                                                                | Obtener salidas por producto              | GET        | `/api/v1/products/45/exits`                    | `productId`                                                   | [Ver Link](https://stocksip-backendapplication.onrender.com/) |
+| Products    | `/api/v1/products/{productId}`                                                                      | Obtener producto por ID                   | GET        | `/api/v1/products/45`                          | `productId`                                                   | [Ver Link](https://stocksip-backendapplication.onrender.com/) |
+| Products    | `/api/v1/products/{productId}`                                                                      | Actualizar producto                       | PUT        | `/api/v1/products/45`                          | Body con valores actualizados                                 | [Ver Link](https://stocksip-backendapplication.onrender.com/) |
+| Products    | `/api/v1/products`                                                                                  | Crear producto                            | POST       | `/api/v1/products`                             | Body con nuevos campos                                        | [Ver Link](https://stocksip-backendapplication.onrender.com/) |
+| Products    | `/api/v1/products`                                                                                  | Obtener productos por perfil              | GET        | `/api/v1/products?profileId=10`                | `profileId`                                                   | [Ver Link](https://stocksip-backendapplication.onrender.com/) |
+| Warehouses  | `/api/v1/warehouses`                                                                                | Obtener todos los almacenes               | GET        | `/api/v1/warehouses`                           | —                                                             | [Ver Link](https://stocksip-backendapplication.onrender.com/) |
+| Warehouses  | `/api/v1/warehouses`                                                                                | Crear un almacén                          | POST       | `/api/v1/warehouses`                           | Body con datos del almacén                                    | [Ver Link](https://stocksip-backendapplication.onrender.com/) |
+| Warehouses  | `/api/v1/warehouses/{warehouseId}`                                                                  | Obtener almacén por ID                    | GET        | `/api/v1/warehouses/123`                       | `warehouseId`                                                 | [Ver Link](https://stocksip-backendapplication.onrender.com/) |
+| Warehouses  | `/api/v1/warehouses/{warehouseId}`                                                                  | Actualizar almacén                        | PUT        | `/api/v1/warehouses/123`                       | Body actualizado + `warehouseId`                              | [Ver Link](https://stocksip-backendapplication.onrender.com/) |
+| Warehouses  | `/api/v1/warehouses/{warehouseId}`                                                                  | Eliminar almacén                          | DELETE     | `/api/v1/warehouses/123`                       | `warehouseId`                                                 | [Ver Link](https://stocksip-backendapplication.onrender.com/) |
+| Warehouses  | `/api/v1/warehouses/{warehouseId}/inventories/product/{productId}`                                  | Agregar stock a producto                  | POST       | `/warehouses/123/inventories/product/456`      | `expirationDate`, `quantity`                                  | [Ver Link](https://stocksip-backendapplication.onrender.com/) |
+| Warehouses  | `/api/v1/warehouses/{warehouseId}/inventories/product/{productId}/additions`                        | Añadir stock                              | PUT        | `.../additions`                                | `addedQuantity`, `stockExpirationDate`                        | [Ver Link](https://stocksip-backendapplication.onrender.com/) |
+| Warehouses  | `/api/v1/warehouses/{warehouseId}/inventories/{productId}/substractions`                            | Quitar stock                              | PUT        | `.../substractions`                            | `removedQuantity`, `expirationDate`                           | [Ver Link](https://stocksip-backendapplication.onrender.com/) |
+| Warehouses  | `/api/v1/warehouses/{warehouseId}/inventories/product/{productId}/moves`                            | Mover stock entre almacenes               | PUT        | `.../moves`                                    | `newWarehouseId`, `movedQuantity`, `movedStockExpirationDate` | [Ver Link](https://stocksip-backendapplication.onrender.com/) |
+| Warehouses  | `/api/v1/warehouses/{warehouseId}/inventories/product/{productId}/expiration-date/{expirationDate}` | Obtener inventario por fecha              | GET        | `/.../expiration-date/2025-06-22`              | `warehouseId`, `productId`, `expirationDate`                  | [Ver Link](https://stocksip-backendapplication.onrender.com/) |
+| Warehouses  | `/api/v1/warehouses/{warehouseId}/inventories/product/{productId}`                                  | Eliminar stock con fecha                  | DELETE     | `/.../product/456` (en body: `expirationDate`) | `warehouseId`, `productId`                                    | [Ver Link](https://stocksip-backendapplication.onrender.com/) |
+| Warehouses  | `/api/v1/warehouses/{warehouseId}/product-exits/{productId}`                                        | Registrar salida de producto              | POST       | `.../product-exits/456`                        | `expirationDate`, `quantityExited`, `exitReason`              | [Ver Link](https://stocksip-backendapplication.onrender.com/) |
+| Warehouses  | `/api/v1/warehouses/{warehouseId}/product-exits/{productId}`                                        | Obtener salidas por producto              | GET        | `.../product-exits/456`                        | `warehouseId`, `productId`                                    | [Ver Link](https://stocksip-backendapplication.onrender.com/) |
+| Warehouses  | `/api/v1/warehouses/{warehouseId}/product-exits`                                                    | Obtener salidas por almacén               | GET        | `/.../product-exits`                           | `warehouseId`                                                 | [Ver Link](https://stocksip-backendapplication.onrender.com/) |
+| Warehouses  | `/api/v1/warehouses/{warehouseId}/products`                                                         | Obtener productos por almacén             | GET        | `/.../products`                                | `warehouseId`                                                 | [Ver Link](https://stocksip-backendapplication.onrender.com/) |
+| Warehouses  | `/api/v1/warehouses/{warehouseId}/products/provider/{providerId}`                                   | Obtener productos por proveedor y almacén | GET        | `/.../products/provider/789`                   | `warehouseId`, `providerId`                                   | [Ver Link](https://stocksip-backendapplication.onrender.com/) |
+| Alerts      | `/api/v1/alerts/{alertId}`                                                                          | Obtener alerta por ID                     | GET        | `/api/v1/alerts/123`                           | `alertId`                                                     | [Ver Link](https://stocksip-backendapplication.onrender.com/) |
+| Accounts    | `/api/v1/accounts/{accountId}/care-guides/{careGuideId}`                                            | Obtener Care Guide por ID                 | GET        | `/accounts/1/care-guides/10`                   | `accountId`, `careGuideId`                                    | [Ver Link](https://stocksip-backendapplication.onrender.com/) |
+| Accounts    | `/api/v1/accounts/{accountId}/care-guides`                                                          | Obtener todos los Care Guides             | GET        | `/accounts/1/care-guides`                      | `accountId`                                                   | [Ver Link](https://stocksip-backendapplication.onrender.com/) |
+| Accounts    | `/api/v1/accounts/{accountId}/care-guides`                                                          | Crear Care Guide sin producto             | POST       | `/accounts/1/care-guides`                      | `accountId`, Body                                             | [Ver Link](https://stocksip-backendapplication.onrender.com/) |
+| Accounts    | `/api/v1/accounts/{accountId}/care-guides/product/{productId}`                                      | Crear Care Guide con producto             | POST       | `/accounts/1/care-guides/product/99`           | `accountId`, `productId`, Body                                | [Ver Link](https://stocksip-backendapplication.onrender.com/) |
+| Accounts    | `/api/v1/accounts/{accountId}/products`                                                             | Obtener productos por cuenta              | GET        | `/accounts/1/products`                         | `accountId`                                                   | [Ver Link](https://stocksip-backendapplication.onrender.com/) |
+| Accounts    | `/api/v1/accounts/{accountId}/warehouses`                                                           | Obtener almacenes por cuenta              | GET        | `/accounts/1/warehouses`                       | `accountId`                                                   | [Ver Link](https://stocksip-backendapplication.onrender.com/) |
+| Accounts    | `/api/v1/accounts/{accountId}/alerts`                                                               | Obtener alertas por cuenta                | GET        | `/accounts/1/alerts`                           | `accountId`                                                   | [Ver Link](https://stocksip-backendapplication.onrender.com/) |
+
+## **Ejemplos Detallados**
+
+
+### Care Guides
+
+#### Endpoint: Endpoint: `/api/v1/care-guides/{careGuideId}` – `GET`
+
+- **Descripción:** Crea una nueva guía de cuidado sin asociarla inicialmente a un producto.
+    
+- **Parámetros:**
+    
+    - `careGuideId` (path)
+    - `accountId` (path)
+        
+- **Ejemplo de llamada:**
+
+	- GET /api/v1/care-guides/123
+    
+- **Respuesta (`200 Ok`):**
+    
+	{
+	  "id": "123",
+	  "accountId": "456",
+	  "productId": "789",
+	  "title": "Guía de Almacenamiento",
+	  "summary": "Instrucciones para conservar el producto",
+	  "minTemp": 5,
+	  "maxTemp": 15,
+	  "placeStorage": "Ambiente fresco",
+	  "recommendation": "Evitar exposición solar directa"
+	}
+
+
+### Products
+
+### Endpoint: `/api/v1/products` – `POST`
+
+- **Descripción:** Crea un nuevo producto asociado a un proveedor.
+    
+- **Body:**
+
+	{
+	  "additionalName": "Whisky Etiqueta Azul",
+	  "liquorType": "Whisky",
+	  "brandName": "Blue Label",
+	  "unitPriceAmount": 250,
+	  "minimumStock": 10,
+	  "imageUrl": "http://example.com/image.png",
+	  "providerId": "sup123"
+	}
+	
+- **Respuesta exitosa (`201 Created`):**
+
+	{
+	  "id": "prod678",
+	  "imageUrl": "http://example.com/image.png",
+	  "name": "Whisky Etiqueta Azul",
+	  "brandName": "Blue Label",
+	  "liquorType": "Whisky",
+	  "unitPriceAmount": 250,
+	  "minimumStock": 10,
+	  "providerId": "sup123"
+	}
+	
+- **Respuesta de error (`400`):**  
+    `"Product could not be created..."`
+
+
+### Warehouses
+
+### Endpoint: `/api/v1/warehouses/{warehouseId}/inventories/product/{productId}` – `POST`
+
+- **Descripción:** Añade stock a un producto en un almacén determinado, registrando su fecha de expiración.
+    
+- **Parámetros:**
+    
+    - `warehouseId`: ID del almacén
+        
+    - `productId`: ID del producto
+        
+ - Body:
+        
+	 {
+	  "expirationDate": "2025-12-01T00:00:00",
+	  "quantity": 100
+	 }
+        
+- **Respuesta exitosa (`201 Created`):**
+
+	{
+	  "id": "inv123",
+	  "productId": "prod456",
+	  "warehouseId": "wh789",
+	  "bestBeforeDate": "2025-12-01T00:00:00",
+	  "stock": 100,
+	  "productState": "FRESH"
+	}
+
+
+
+### Alerts
+
+### Endpoint: `/api/v1/alerts/{alertId}` – `GET`
+
+- **Descripción:** Recupera una alerta del sistema según su identificador único.
+    
+- **Parámetros:**
+    
+    - `alertId` (path): ID de la alerta.
+        
+- **Ejemplo de llamada:**
+    
+    `GET /api/v1/alerts/a123`
+    
+- **Ejemplo de respuesta (`200 OK`):**
+    
+    {
+	  "id": "a123",
+	  "title": "Alerta de Temperatura",
+	  "message": "La temperatura ha superado el límite permitido.",
+	  "severity": "HIGH",
+	  "type": "STORAGE_CONDITION",
+	  "productId": "p456",
+	  "warehouseId": "w789"
+	}
+    
+- **Respuesta de error (`404 Not Found`):**
+    
+    `Alert not found...`
+
+
+### Account
+
+### Endpoint: `/api/v1/accounts/{accountId}/care-guides` – `POST`
+
+- **Descripción:** Crea una nueva guía de cuidado sin asociarla inicialmente a un producto.
+    
+- **Parámetros:**
+    
+    - `accountId` (path): ID de la cuenta.
+        
+- **Body:**
+    
+	{
+	  "title": "Guía de temperatura baja",
+	  "summary": "Almacenar bajo 8 °C",
+	  "minTemp": 2,
+	  "maxTemp": 8,
+	  "placeStorage": "Refrigerado",
+	  "recommendation": "Evitar exposición al calor."
+	}
+    
+- **Respuesta (`201 Created`):**
+    
+	{
+	  "id": "cg01",
+	  "accountId": "acc01",
+	  "productId": null,
+	  "title": "Guía de temperatura baja",
+	  "summary": "Almacenar bajo 8 °C",
+	  "minTemp": 2,
+	  "maxTemp": 8,
+	  "placeStorage": "Refrigerado",
+	  "recommendation": "Evitar exposición al calor."
+	}
+	
+
+## **Repositorio y Commits Relevantes**
+
+ Repositorio: [https://github.com/EXPDesigners/Stocksip-BackEndApplication](https://github.com/EXPDesigners/Stocksip-BackEndApplication)
+
+| Repository                       | Branch                           | Commit Id | Commit Message                                                                                              | Commited On |
+| -------------------------------- | -------------------------------- | --------- | ----------------------------------------------------------------------------------------------------------- | ----------- |
+| EXPDesigners/StockSip-BackEndApp | feature/inventory                | a1f92d3   | feat(inventories): add inventory repository implementation.                                                 | 16/06/2025  |
+| EXPDesigners/StockSip-BackEndApp | feature/inventory                | b3c58a9   | fix: send methods to inventory repository.                                                                  | 16/06/2025  |
+| EXPDesigners/StockSip-BackEndApp | feature/inventory                | c7e21bb   | feat(inventories): add inventory command and query services contracts.                                      | 16/06/2025  |
+| EXPDesigners/StockSip-BackEndApp | feature/inventory                | d1a44ef   | feat(inventories): add inventory repository contract.                                                       | 17/06/2025  |
+| EXPDesigners/StockSip-BackEndApp | feature/inventory                | e46c2d0   | feat(inventories): add queries.                                                                             | 17/06/2025  |
+| EXPDesigners/StockSip-BackEndApp | feature/products                 | b3f21da   | feat(care-guides): add care guide command service implementation.                                           | 20/06/2025  |
+| EXPDesigners/StockSip-BackEndApp | feature/products                 | c9a48e1   | feat(care-guides): add repository implementation.                                                           | 17/06/2025  |
+| EXPDesigners/StockSip-BackEndApp | feature/products                 | d2e1a57   | feat(care-guides): add care guide query service contract.                                                   | 18/06/2025  |
+| EXPDesigners/StockSip-BackEndApp | feature/alerts-and-notifications | b82a4e7   | feat(alerts-and-notifications): add alert creation for product problem event handler.                       | 16/06/2025  |
+| EXPDesigners/StockSip-BackEndApp | feature/alerts-and-notifications | c14bf90   | feat(alerts-and-notifications): add alert creation for product problem event.                               | 18/06/2025  |
+| EXPDesigners/StockSip-BackEndApp | feature/alerts-and-notifications | 09d472e   | feat(alerts-and-notifications): add inbound services.                                                       | 19/06/2025  |
+| EXPDesigners/StockSip-BackEndApp | feature/alerts-and-notifications | 1aa3dbe   | feat(alerts): add alert assemblers.                                                                         | 20/06/2025  |
+| EXPDesigners/StockSip-BackEndApp | feature/alerts-and-notifications | 2e4f810   | feat(alerts): add alert resources.                                                                          | 20/06/2025  |
+
+
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review
 
 #### 5.2.3.8. Team Collaboration Insights durint Sprint
