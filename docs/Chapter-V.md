@@ -22,12 +22,25 @@
 
 * **Software Development**
 
-  Para el desarrollo del Software correspondiente al Landing Page, se utilizarán dos aplicaciones, las cuales son GitHub y JetBrains. La primera ayuda al equipo a gestionar de manera correcta los avances colaborativos del proyecto. Por otro lado, JetBrains ayudará a trabajar el proyecto con lenguajes como HTML5, CSS y JavaScript, y el framework Vue para el desarrollo del landing page, web services y frontend.
+  Para el desarrollo del Software correspondiente al Landing Page, se utilizarán dos aplicaciones, las cuales son GitHub y JetBrains. La primera ayuda al equipo a gestionar de manera correcta los avances colaborativos del proyecto. Por otro lado, JetBrains ayudará a trabajar el proyecto con lenguajes como HTML5, CSS y JavaScript, y el framework Vue para el desarrollo del landing page.
 
+  Para el desarrollo del Frontend Web Application, se utilizaron las aplicaciones de Github y WebStorm. Github nos ayuda a gestionar la documentacion correcta de los avances que realizan los miembros del equipo. Mientras que WebStorm es el programa en el que se codifica nuestra aplicacion Frontend usando los lenguajes HTML5, CSS y JavaScript, asi mismo se utilizo el framework de Vue.
+  
+  Para el desarrollo del Web Services, se utilizaron las aplicacionde de Github. Github nos ayuda a gestionar la documentacion correcta de los avances que realizan los miembros del equipo. Mientras que WebStorm es el programa en el que se codifica nuestra aplicacion BackEnd usando el lenguaje de C#, asi mismo se utilizo el framework de ASP.NET.
+ 
 * **Software Testing**
 
   Las pruebas del Landing Page se realizarán mediante uso del navegador web para verificar que el diseño del mismo cumple con aspectos como el diseño responsivo en cualquier dispositivo desde el que se acceda al landing page del proyecto. Además, para visualizar que se han implementado correctamente elementos visuales que deben aparecer en las distintas secciones de la página.
 
+  Las pruebas del frontend se realizaron utilizando una fake API mediante JSON Server, que funcionó como una base de datos temporal para validar el correcto funcionamiento de las interfaces y las interacciones con los datos.
+  
+  Las pruebas del backend se realizaron mediante Swagger UI y Postman, herramientas que facilitaron la ejecución de consultas y solicitudes HTTP de manera visual e intuitiva, permitiendo verificar el correcto funcionamiento de los endpoints expuestos por la API. Gracias a estas herramientas, fue posible simular distintos escenarios de uso, validar las respuestas del servidor, analizar los códigos de estado HTTP y garantizar que la lógica del backend respondiera adecuadamente ante entradas válidas y erróneas.
+
+* **Software Deployment**
+
+  Para el despliegue del Landing page se uso la el servicio web de github pages, este servicio se especializa en el despliegue de sitios web staticos directamente desde un repositorio.
+  Para el despliegue del Frontend se uso beeceptor y firebase. Beeceptor es una herramienta en línea (basada en la web) que nos permite crear endpoints HTTP falsos (mock) para probar APIs, se uso ver qué datos está enviando nuestra aplicación. Firebase es una plataforma desarrollada por Google que permite crear aplicaciones web y móviles más rápido, sin tener que construir un backend completo desde cero, ofrece servicios listos para usar que se pueden usar para conectar facilmente nuestro Frontend.
+  Para el despliegue del Backend se utilizo Render. Render es una plataforma en la nube que permite desplegar aplicaciones web, APIs, bases de datos, sitios estáticos y más de forma sencilla y automatizada, sin necesidad de gestionar servidores manualmente. Permite que una aplicación backend esté disponible públicamente en internet, funcionando 24/7 con un dominio propio o asignado automáticamente.
 
 ### 5.1.2. Source Code Management ###
 
@@ -38,7 +51,9 @@ En esta sección, se describen los medios y esquemas de organización para gesti
 A continuación, se adjuntan los enlaces para acceder a los repositorios donde se almacenarán los archivos de proyecto relacionados al Landing Page.
 
 * **Landing Page: [https://github.com/EXPDesigners/StockSip-LandingPage.git](https://github.com/EXPDesigners/StockSip-LandingPage.git)**
-
+* **Frontend Web Applications: [https://github.com/EXPDesigners/Stocksip-FrontEndApplication.git](https://github.com/EXPDesigners/Stocksip-FrontEndApplication.git)**
+* **Web Services: [https://github.com/EXPDesigners/Stocksip-BackEndApplication.git](https://github.com/EXPDesigners/Stocksip-BackEndApplication.git)**
+ 
 **5.1.2.2. GitFlow**  
 Como se mencionó previamente, GitFlow ayudará al equipo de desarrollo a gestionar de manera efectiva el proyecto en su ciclo de vida. En general, GitHub ayudará a facilitar el desarrollo del proyecto para el equipo ya que es más sencillo desarrollar trabajos en equipo en los repositorios de los archivos de proyecto.
 
@@ -107,6 +122,10 @@ En esta sección, se definen las referencias que se usaron para adoptar estrateg
   Para la codificación del proyecto en C\#, se utilizará el artículo *“C\# Coding Conventions”.* Este artículo contiene información útil y necesaria para conocer cómo debe ser la nomenclatura de los diversos aspectos que conforman un proyecto desarrollado en C\#, según las convenciones oficiales de codificación establecidas por Microsoft. Se trata de la guía de convenciones de estilo de código para C\# publicada por Microsoft, la cual proporciona una serie de recomendaciones para escribir código claro, coherente y mantenible en aplicaciones .NET. A continuación se adjunta el enlace para acceder al artículo de referencia:  [https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style/coding-conventions](https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style/coding-conventions)  
   Finalmente, se aplicará el contenido del artículo para el Web Services de StockSip.
 
+* **Nomenclatura en ASP.NET:**  
+  Para la codificación del proyecto en ASP.NET, se utilizará el artículo *“Microsoft ASP.NET Core Coding Guidelines”.* Este artículo contiene información útil y necesaria para conocer cómo debe ser la nomenclatura y el estilo de los diversos aspectos que conforman un proyecto desarrollado con ASP.NET Core. Se trata de la guía de ingeniería oficial del equipo de ASP.NET Core, en la cual se detallan las convenciones recomendadas para escribir código claro, consistente y fácil de mantener. Esta guía organiza sus recomendaciones en distintos apartados que abarcan desde el formato del código, el uso de tipos y palabras clave, la compatibilidad multiplataforma, hasta el control de cambios en versiones del framework. Cada sección tiene como propósito establecer prácticas que favorezcan la legibilidad, el rendimiento, y la calidad del desarrollo colaborativo a gran escala.. A continuación se adjunta el enlace para acceder al artículo de referencia:  [https://github.com/dotnet/aspnetcore/wiki/Engineering-guidelines#codingguidelines](https://github.com/dotnet/aspnetcore/wiki/Engineering-guidelines#codingguidelines)  
+  Finalmente, se aplicará el contenido del artículo para el Web Services de StockSip
+  
 ### 5.1.4. Software Deployment Configuration ###
 
 En esta sección, se especifica la configuración para realizar el despliegue de la solución en el repositorio. Para realizar esto, se usó GitHub Pages para lanzar el landing page, Web Services y Frontend Web Applications. A continuación, se describen los pasos necesarios para desplegar el Landing Page del proyecto, empezando por la creación del repositorio hasta el lanzamiento del proyecto.
@@ -146,6 +165,150 @@ En esta sección, se especifica la configuración para realizar el despliegue de
   <img src="https://i.imgur.com/iE4Zzk7.png">
 </p>
 
+A continuación, se describen los pasos necesarios para desplegar el Frontend del proyecto, empezando por la creación del repositorio hasta el lanzamiento del proyecto.
+
+* **Paso 1: Creación del repositorio**  
+  Como primer paso, se debe crear el repositorio en GitHub que será el lugar donde se aloja todo lo relacionado al Frontend.
+
+<p align="center">
+  <img src="https://i.imgur.com/RKeaB1T.png">
+
+* **Paso 2: Carga de archivos y carpetas necesarios**   
+  Como segundo paso, se importan todos los archivos y carpetas necesarios para el desarrollo del Frontend.
+
+<p align="center">
+  <img src="https://i.imgur.com/GHLAPdd.png">
+
+* **Paso 3: Creacion del proyecto en WebStorm**  
+  Como tercer paso, se creara el proyecto en WebStorm, importamos nuestros features e instalamos las dependencias necesarias. 
+
+<p align="center">
+  <img src="https://i.imgur.com/LD8AKKP.png">
+
+* **Paso 4: Comando npm run build**  
+  Como cuarto paso, ingresaremos el comando npm run build en la consola de nuestro proyecto, este comando creara una carpeta llamada Dist que contiene todo nuestro proyecto.
+
+<p align="center">
+  <img src="https://i.imgur.com/kuCErf7.png">
+
+<p align="center">
+  <img src="https://i.imgur.com/qwP3yJb.png">
+  
+* **Paso 5: Probar el funcionamiento del build**  
+  Ingresamos a la pagina web Beeceptor e iniciamos sesion con nuestra cuenta, crearemos un nuevo mock server y copiaremos el enlace que nos proporciona. Volvemos al WebStorm, nos dirigimos al archivo .env.production y colocamos el enlace en la parte VITE_API_BASE_URL
+
+<p align="center">
+  <img src="https://i.imgur.com/4a5H7PM.png">
+  
+* **Paso 6: Probar el funcionamiento del build con HTTP**  
+  Ingresamos a la pagina web npmjs y buscamos HTTP-server, es un servidor para probar que nuestro build funcione en un entorno de desarrollo, copiamos el comando npm i http-server --save-dev. Luego ingresamos el comando http-server dist y elegimos cualquier de los links presentes. Se podra a acceder a nuestra aplicacion.
+
+<p align="center">
+  <img src="https://i.imgur.com/OMaUvwE.png"> 
+<p align="center">
+  <img src="https://i.imgur.com/mGG35De.png"> 
+
+* **Paso 7: Probar despliegue con Firebase**  
+  Ingresamos a la pagina web Firebase e ingremos con nuestra cuenta de google y vamos a la consola, creamos un nuevo proyecto con el nombre de nuestra aplicacion,
+nos ubicamos en el apartado de hosting
+
+<p align="center">
+  <img src="https://i.imgur.com/LF7yomG.png">
+<p align="center">
+  <img src="https://i.imgur.com/IMS9O5Y.png">
+<p align="center">
+  <img src="https://i.imgur.com/7Fb9T6a.png">
+  
+* **Paso 8: Configurar el despliegue**  
+  Regresamos a nuestro WebStorm y en la consola ingresamos el comando firebase login y decimos NO, nos pedira que ingremos con nuestra cuenta de google con la que creamos el proyecto e inicializamos el firebase con el comando firebase init, con las flechitas del teclado nos desplazamos a la opcion Hosting y presionamos la barra espaciadora para seleccionarlo y damos enter. Elejimos 'Use an existing proyect' y elegimos nuestro proyecto, colocamos solo dist y decimos YES NO NO
+
+<p align="center">
+  <img src="https://i.imgur.com/kyQfbBW.png"> 
+<p align="center">
+  <img src="https://i.imgur.com/K6nvtaP.png">
+<p align="center">
+  <img src="https://i.imgur.com/lJ5Emix.png"> 
+<p align="center">
+  <img src="https://i.imgur.com/9phLLJm.png"> 
+
+* **Paso 9: Desplegar nuestro proyecto**  
+  Nos dirigimos al archivo firebase.json y agregamos una seccion "site": "nombre de nuestro site" e ingresamos el comando firebase deploy, pero antes de eso ingresamos el comando npm run build para actualizar, ingresamos con el enlace que nos proporciona y nuestro proyecto ya estaria desplegado
+
+<p align="center">
+  <img src="https://i.imgur.com/NgjW0yh.png"> 
+<p align="center">
+  <img src="https://i.imgur.com/d5iOzXH.png"> 
+<p align="center">
+  <img src="https://i.imgur.com/NVOGrAD.png"> 
+  
+ A continuación, se describen los pasos necesarios para desplegar el BackEnd del proyecto, empezando por la creación del repositorio hasta el lanzamiento del proyecto.
+
+* **Paso 1: Creación del repositorio**  
+  Como primer paso, se debe crear el repositorio en GitHub que será el lugar donde se aloja todo lo relacionado al BackEnd.
+
+<p align="center">
+  <img src="https://i.imgur.com/Nfhzpv8.png">
+
+* **Paso 2: Carga de archivos necesarios**   
+  Como segundo paso, se importan todos los archivos y carpetas necesarios para el desarrollo del BackEnd.
+
+<p align="center">
+  <img src="https://i.imgur.com/t126A62.png">
+
+  * **Paso 3: Creacion del proyecto en Rider**  
+  Como tercer paso, se creara el proyecto en Rider, importamos nuestros features e instalamos las dependencias necesarias. 
+
+<p align="center">
+  <img src="https://i.imgur.com/GZJ5ZVF.png">
+
+* **Paso 4: Creacion dockerfile**  
+  Como cuarto paso, crearemos el archivo llamado dockerfile que estara ubicado en la raiz de nuestro proyecto
+
+<p align="center">
+  <img src="https://i.imgur.com/ETOoIYi.png">
+
+* **Paso 5: Ingresar a la pagina FreeSQLDatabase**  
+  Ingresamos a la pagina web FreeSQLDatabase e iniciamos sesion con nuestra cuenta y nos aparece la pagina para crear nuestra base de datos en la nube. Asignamos un servidor y creamos la base de datos desplegada en la nube
+
+<p align="center">
+  <img src="https://i.imgur.com/yrNekjG.png">
+<p align="center">
+  <img src="https://i.imgur.com/QoLNHNM.png">
+<p align="center">
+  <img src="https://i.imgur.com/FDSbgdX.png">
+
+
+* **Paso 6: Configuracion del dockerfile**  
+  Volvemos a nuestro rider, nos dirigimos al archivo y creamos la configuracion necesaria para el despliegue con docker.
+
+<p align="center">
+  <img src="https://i.imgur.com/wd9yp2s.png"> 
+
+
+* **Paso 7: Creacion del archivo appsettings.Production**  
+  Creamos un archivo llamado appsetting.Production.json en la raiz del proyecto, cambiamos en DefaultConnection el server por nuestro DatabaseHost, user por nuestro Database Username, passwoard por nuestro DatabasePasswoard y database por nuestro DatabaseName. 
+
+<p align="center">
+  <img src="https://i.imgur.com/y8OYcNP.png">
+
+  
+* **Paso 8: Ingresar a la pagina Render**  
+  Ingresaremos a la pagina web render, ingresamos con nuestra cuenta, importamos nuestro repositorio,  asignamos la rama en la que se realizara el deploy y confirmamos el despliegue, esperamos a que la propia pagina verifique el deploy y nos entregue una URL publica.
+
+<p align="center">
+  <img src="https://i.imgur.com/02heKNc.png"> 
+<p align="center">
+  <img src="https://i.imgur.com/3QF2uQu.png">
+<p align="center">
+  <img src="https://i.imgur.com/wowQCCl.png"> 
+
+
+* **Paso 9: Comprobar el despliegue**  
+  Ingresamos a la URL publica que nos proporciono la pagina y podemos verificar el se logro el despliegue de nuesta aplicacion BackEnd
+
+<p align="center">
+  <img src="https://i.imgur.com/vbBRLzg.png"> 
+  
 ## _5.2. Landing Page, Services & Applications Implementation_ ##
 
 ### 5.2.1. Sprint 1 ###
@@ -628,13 +791,20 @@ A continuación, se detalla, en la tabla siguiente, información sobre el planea
 | Sprint 2 Review Summary             | In the previous sprint, the team completed a first view of the Landing Page implementing the basic sections and styles it will need like Benefits, Plans, Information about the Startup.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 | Sprint 2 Retrospective Summary      | The principal area the team has to improve is having more communication between the members to let each others know how is the progress is going for each member. Now, the plan for next sprint is to work more organized so each member know what to do.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 | <b> Sprint Goal & User Stories </b> | --                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-| Sprint 3 Goal                       | <b> Our focus </b> is to offer information, content and a video about the product and an introduction video about the team behind. <br> <b> We believe it delivers </b> different forms of accessing the Landing Page from different sizes of screens and languages to target segments and visitors. <br> <b> This will be confirmed when </b> our target segments and visitors access the Landing through different devices. <br><br> <b> Our focus </b> is on implement and deploy the first functional version of the Front-End application with key features like digital warehouses, the dashboard, registration of products, warnings, care guides and basic navigation between sections. <br> <b> We believe it delivers </b> a complete first vision of functionalities the aplication offers to the target segments. <br> <b> This will be confirmed when </b> our target segments register to  the application and use the principal funcionalities like warehouses and care guides. |
+| Sprint 3 Goal                       | Our goal is to offer information, content and a video about the product and an introduction video about the team behind the platform, a visualization of the catalog of the providers, the ability to make purchase orders and increment the possibilities to implement features related to creating zone inventories; creating and editing information about products; creating guides and loss reports; receiving alerts about products; profile preferences; creating an account with a subscription and making orders. We believe it delivers the business value proposition, the knowledge of the potential benefits of using the application and trust to the visitors; flexibility about the products the provider offers to their clients and ease in the product acquisition process to the liquor store owners; a better control of the sales orders to the providers and opportunities to implement features related to creating zone inventories; creating and editing information about products; creating guides and loss reports; receiving alerts about products; profile preferences; creating an account with a subscription and making orders.This will be confirmed when the user registration numbers increment, the liquor store owners make purchase orders to their providers constantly using the application; the providers can change the state of their sales orders and the web developers implement features related to creating zone inventories; creating and editing information about products; creating guides and loss reports; receiving alerts about products; profile preferences; creating an account with a subscription and making orders. |
 | Sprint 3 Velocity                   | 100                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 | Sum of Story Points                 | 156                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 
 #### 5.2.3.2. Aspect Leaders and Collaborators
 
 En esta sección, se incluye la matriz de liderazgo y colaboración desarrollada para este tercer sprint. Los principales aspectos que se toman en cuenta en este sprint se centran en cada las principales secciones que presenta el Front-End Web Application y en su contraparte para el Back-End Application. Para esto, hemos definido las siguientes secciones: Inventarios y Zonas, Productos, Cuenta de Usuario, Reportes, Ordenes de compra y Alertas.
+
+| Team Member                        | GitHub Username | Alerts and Notifications | Analytics and Reporting | Authentication | Inventory Management  | Order Operation and Monitoring | Payment and Subscriptions | Profile Management |
+|------------------------------------|-----------------|--------------------------|-------------------------|----------------|-----------------------|--------------------------------|---------------------------|--------------------|
+| Huamani Cruz, Camila Victoria      | victiila06      |                          |                         | L              |                       |                                |                           | L                  |
+| Gonzales Castillo, Angel Martin    | XdiabloX426     | L                        |           L             |                |                       |                                |                           |                    |
+| Coronel Espinoza, Farid Sebastian  | Far14z          |                          |                         |                | L                     |                                | L                         |                    |
+| Juarez Leon, Nicolas Emilio Walter | JuarezLn10      |                          |                         |                |                       | L                              |                           |                    |
 
 #### 5.2.3.3. Sprint Backlog 3
 
@@ -743,20 +913,23 @@ En esta sección, se describen los principales avances de implementación realiz
 
 A continuación, se muestra una tabla que contiene la información sobre los _commits_ hechos que contienen partes de las funcionalidades que debemos implementar para completar el tercer sprint.
 
-| Repository                      | Branch                   | Commit Id | Commit Message                                                                        | Commited On  |
-| ------------------------------- | ------------------------ | --------- | ------------------------------------------------------------------------------------- | ------------ |
-| OpenDoors/StockSip-Back-End-App | inventories              | a996184   | feat(inventory-management): add account warehouses inbound service.                   | Jun 22, 2025 |
-| OpenDoors/StockSip-Back-End-App | inventories              | 8475722   | feat(inventories): add resources and assemblers.                                      | Jun 22, 2025 |
-| OpenDoors/StockSip-Back-End-App | products                 | 79d402e   | feat(products): add command for updating only the minimum stock level.                | Jun 22, 2025 |
-| OpenDoors/StockSip-Back-End-App | inventories              | b7a66ad   | feat(inventories): add queries.                                                       | Jun 22, 2025 |
-| OpenDoors/StockSip-Back-End-App | care-guides              | 3a892b5   | feat(care-guides): add repository implementation.                                     | Jun 22, 2025 |
-| OpenDoors/StockSip-Back-End-App | care-guides              | 344f781   | feat(care-guides): add care guide command service contract.                           | Jun 22, 2025 |
-| OpenDoors/StockSip-Back-End-App | care-guides              | e77812c   | feat(care-guides): add commands.                                                      | Jun 22, 2025 |
-| OpenDoors/StockSip-Back-End-App | release                  | 0f86516   | chore: add dockerfile.                                                                | Jun 22, 2025 |
-| OpenDoors/StockSip-Back-End-App | alerts                   | 9384e3a   | feat(alerts-and-notifications): add external service in inventory management context. | Jun 20, 2025 |
-| OpenDoors/StockSip-Back-End-App | alerts                   | 2caef51   | feat(alerts-and-notifications): add anti-corruption layer implementation.             | Jun 20, 2025 |
-| OpenDoors/StockSip-Back-End-App | alerts                   | 92d34d    | feat(alerts): add alert commands.                                                     | Jun 20, 2025 |
+ Repositorio: [https://github.com/EXPDesigners/Stocksip-BackEndApplication](https://github.com/EXPDesigners/Stocksip-BackEndApplication)
 
+| Repository                       | Branch                           | Commit Id | Commit Message                                                                                              | Commited On |
+| -------------------------------- | -------------------------------- | --------- | ----------------------------------------------------------------------------------------------------------- | ----------- |
+| EXPDesigners/StockSip-BackEndApp | feature/inventory                | a1f92d3   | feat(inventories): add inventory repository implementation.                                                 | 16/06/2025  |
+| EXPDesigners/StockSip-BackEndApp | feature/inventory                | b3c58a9   | fix: send methods to inventory repository.                                                                  | 16/06/2025  |
+| EXPDesigners/StockSip-BackEndApp | feature/inventory                | c7e21bb   | feat(inventories): add inventory command and query services contracts.                                      | 16/06/2025  |
+| EXPDesigners/StockSip-BackEndApp | feature/inventory                | d1a44ef   | feat(inventories): add inventory repository contract.                                                       | 17/06/2025  |
+| EXPDesigners/StockSip-BackEndApp | feature/inventory                | e46c2d0   | feat(inventories): add queries.                                                                             | 17/06/2025  |
+| EXPDesigners/StockSip-BackEndApp | feature/products                 | b3f21da   | feat(care-guides): add care guide command service implementation.                                           | 20/06/2025  |
+| EXPDesigners/StockSip-BackEndApp | feature/products                 | c9a48e1   | feat(care-guides): add repository implementation.                                                           | 17/06/2025  |
+| EXPDesigners/StockSip-BackEndApp | feature/products                 | d2e1a57   | feat(care-guides): add care guide query service contract.                                                   | 18/06/2025  |
+| EXPDesigners/StockSip-BackEndApp | feature/alerts-and-notifications | b82a4e7   | feat(alerts-and-notifications): add alert creation for product problem event handler.                       | 16/06/2025  |
+| EXPDesigners/StockSip-BackEndApp | feature/alerts-and-notifications | c14bf90   | feat(alerts-and-notifications): add alert creation for product problem event.                               | 18/06/2025  |
+| EXPDesigners/StockSip-BackEndApp | feature/alerts-and-notifications | 09d472e   | feat(alerts-and-notifications): add inbound services.                                                       | 19/06/2025  |
+| EXPDesigners/StockSip-BackEndApp | feature/alerts-and-notifications | 1aa3dbe   | feat(alerts): add alert assemblers.                                                                         | 20/06/2025  |
+| EXPDesigners/StockSip-BackEndApp | feature/alerts-and-notifications | 2e4f810   | feat(alerts): add alert resources.                                                                          | 20/06/2025  |
 
 #### 5.2.3.5. Execution Evidence for Sprint Review
 
@@ -990,16 +1163,72 @@ En esta seccion, se describe la evidencia de documentacion de los endpoints que 
 
 #### 5.2.3.8. Team Collaboration Insights durint Sprint
 
-
-<div style="page-break-after: always; visibility: hidden">
-\pagebreak
-</div>
-
 ## 5.3. Validation Interviews
 
 ### 5.3.1. Diseño de entrevistas
 
+
+En las entrevistas de validación se incluirá:
+
+- **Exploración del Landing Page:**
+    
+    - ¿Comprendieron el propósito de la aplicación?
+        
+    - ¿Fue clara la propuesta de valor?
+        
+- **Validación de la Aplicación Web:**
+    
+    - Se validarán las funcionalidades clave según el flujo de cada user goal.
+        
+    - Se observarán comportamientos, puntos de confusión, y reacciones espontáneas.
+        
+- **Registro de métricas cualitativas y cuantitativas:**
+        
+    - Nivel de comprensión (autoevaluación del usuario).
+        
+    - Comentarios de usabilidad y experiencia.
+        
+    - Satisfacción con el flujo (escala del 1 al 5).
+	
+- **Flujos a Desarrollar:**
+
+| **User Goal** | **Descripción del Flujo**                                                                                                 | **Objetivo de Validación**                                                   |
+| ------------- | ------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------- |
+| **UG 1**      | El usuario accede al Landing Page, se registra con sus datos, y se le asigna un plan gratuito.                            | Validar claridad del formulario de registro y comprensión del plan gratuito. |
+| **UG 2**      | El usuario inicia sesión con su cuenta y selecciona plan premium si aplica.                                               | Validar facilidad de login y claridad en elección de plan.                   |
+| **UG 4**      | Desde el dashboard, el licorero accede fácilmente a la sección de inventario.                                             | Confirmar acceso intuitivo al inventario desde cualquier punto.              |
+| **UG 5**      | El licorero accede al inventario, agrega un nuevo producto llenando el formulario, y el producto se asocia correctamente. | Validar comprensión y facilidad del formulario de producto.                  |
+| **UG 8**      | El licorero navega desde cualquier parte a la sección Reportes utilizando el icono correspondiente.                       | Verificar navegación clara y sin fricción hacia reportes.                    |
+| **UG 9**      | Desde la sección Reportes, el licorero crea un nuevo reporte llenando los datos solicitados.                              | Validar flujo lógico y claridad de campos al generar reportes.               |
+| **UG 11**     | El licorero crea una nueva orden de compra: elige productos, cantidad y proveedor. Luego la envía.                        | Verificar fluidez del proceso y facilidad para seleccionar y enviar pedidos. |
+| **UG 12**     | El proveedor accede a la sección de Conservación, genera una nueva guía completando datos, y la visualiza.                | Validar comprensión del proceso de creación de guías de conservación.        |
+
 ### 5.3.2. Registro de entrevistas
+
+
+**Entrevista 1**
+
+| Entrevista                                                         | Registro                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| ------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| <p align="center"><img src="https://i.imgur.com/fJEnnVU.png"/></p> | **Distrito:** Villa el Salvador<br>**Entrevistado:** Erick Coronel                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| [Link](https://acortar.link/8Nl8Ms)                                | **Entrevistador:** Farid Sebastian Coronel Espinoza                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| Timing: Minuto 00:06-15:30                                         | **Resumen:** La entrevista se realizo a Erick Coronel, de 59 años, con el fin de validar dos productos de software enfocados en empresas de licores. La evaluación se centró en la landing page, el flujo de navegación, claridad de contenido y funcionalidad de las secciones clave (planes, testimonios, dashboard, almacenes, alertas, perfil y reportes). Erick valoró positivamente la estructura general del sitio, destacando la claridad de los testimonios, los beneficios de los planes y el seguimiento en tiempo real de inventario. Mencionó que sería conveniente aumentar ligeramente el tamaño de la fuente para una mejor legibilidad. También sugirió que la opción multilingüe (español-inglés) debería estar disponible en todas las secciones, ya que el contenido en inglés no siempre resulta accesible. Apreció los iconos y accesos rápidos del dashboard, considerándolos intuitivos. Opinó que la sección de almacenes es clara, aunque recomendó incluir más visibilidad de ciertos datos como precio y cantidad por botella. Consideró que las alertas de productos próximos a vencer y de bajo stock son funcionales y útiles para la toma de decisiones. Respecto al registro y perfil, destacó que el diseño es amigable y los colores ayudan a guiar el proceso. También le pareció útil incluir redes sociales en el perfil. Finalmente, evaluó como clara y precisa la sección de reportes, indicando que no requiere mejoras importantes en su diseño o ubicación. Satisfaccion de flujo: 4.5/5|
+
+**Entrevista 2**
+
+| Entrevista                                                         | Registro                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| ------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| <p align="center"><img src="https://i.imgur.com/B0hSLHp.png"/></p> | **Distrito:** Chorrillos<br>**Entrevistado:** Luis Alfonzo Jimenez                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| [Link](https://acortar.link/8Nl8Ms)                                | **Entrevistador:** Camila Victoria Huamani Cruz                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| Timing: Minuto 15:40-28:04                                         | **Resumen:** La entrevista se realizo a Luis Alfonzo Jimenez, de 55 años, participó en la validación de la aplicación Stock, diseñada para la gestión de inventario en licorerías. Durante la prueba, creó una cuenta, seleccionó su rol como dueño de licorería, y accedió sin problemas al dashboard, el cual le permitió visualizar ventas, productos en stock y alertas relevantes. Exploró la sección de almacenamiento, donde creó un producto nuevo ingresando datos como tipo de licor, marca, precio e imagen. También navegó por la sección de reportes y generó una guía de conservación, configurando temperatura, duración del producto abierto y comentarios útiles para sus trabajadores. Luis continuó creando una orden de compra desde la sección correspondiente, seleccionando productos del catálogo y asignando un proveedor. Finalmente, accedió al perfil para modificar su información personal, revisar su rol y consultar los beneficios del plan premium. En su opinión, la aplicación es muy amigable, clara y sencilla de manejar. Destacó como funcionalidad clave la gestión del stock mínimo y la emisión de alertas, que considera fundamentales para tomar decisiones de reposición, sobre todo en fechas críticas como fines de semana. Valoró positivamente la estructura general de la app, aunque aclaró que un mayor uso permitiría familiarizarse aún más con ella. Satisfaccion de flujo: 4.8/5| 
+**Entrevista 3**
+
+| Entrevista                                                         | Registro                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| ------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| <p align="center"><img src="https://i.imgur.com/AshFnYN.png"/></p> | **Distrito:** Villa el Salvador<br>**Entrevistado:** Brayner Coronel                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| [Link](https://acortar.link/8Nl8Ms)                                | **Entrevistador:** Farid Sebastian Coronel Espinoza                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| Timing: Minuto 28:06-41:29                                         | **Resumen:** La entrevista se realizo a Brayner Coronel, de 28 años, participó en la entrevista de validación de nuestra aplicacion. Se evaluó principalmente el flujo de navegación y la experiencia visual en la landing page y distintas secciones del sistema. Brayner destacó positivamente la estructura de la landing page, valorando la inclusión de testimonios, preguntas frecuentes, soporte bilingüe (español e inglés) y planes diferenciados (gratuito y premium). Considera que estos elementos ayudan al visitante a orientarse, confiar en el servicio y tomar decisiones. Sugirió que los nombres en los almacenes podrían omitir palabras redundantes como "vino" si ya están en el contexto de un almacén de vinos, para mejorar la visualización. Respecto al diseño, valoró los colores y la organización visual de las secciones. Le pareció comprensible la navegación mediante iconos en la barra lateral, considerando que estos son suficientemente descriptivos. También resaltó como útil la funcionalidad de selección de roles al registrarse, el perfil de usuario editable, y la posibilidad de cambiar idioma fácilmente. En cuanto al inventario, consideró clara la visualización de productos, imágenes, precio, stock y capacidad de edición o creación de nuevos ítems. En la sección de reportes, entendió correctamente las distintas funciones: pérdidas, transportes, reposiciones y conservación. Opinó que los reportes son fáciles de navegar y bien segmentados. Finalmente, destacó la utilidad de las alertas por productos próximos a vencer o con stock crítico, y sugirió que algunos accesos clave, como los catálogos y pedidos, deberían estar disponibles desde accesos rápidos para agilizar la interacción. Satisfaccion de flujo: 4.7/5|
+
 
 ### 5.3.3. Evaluación según heurísticas
 
@@ -1011,21 +1240,20 @@ En esta seccion, se describe la evidencia de documentacion de los endpoints que 
 El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
 
 1. Registro de un usuario nuevo  
-2. Publicación de un post  
-3. Búsqueda de un paquete turístico  
-4. Reserva de un viaje  
-5. Cancelación de una reserva  
-6. Agregar ítems a un pedido  
-7. Pago de un paquete turístico  
-8. Etc.
+2. Inicio de sesión de un usuario
+3. Creación de un almacén
+4. Visualización de las alertas de la aplicación
+5. Visualización de almacenes creados
+6. Insertar una imagen a un almacén
+7. Carga de alertas en la aplicación
+8. Realización de una orden de compra
 
 **No están incluidas en esta versión de la evaluación las siguientes tareas:**
 
-1. Compartir reservas entre usuarios  
-2. Presentar ofertas de último minuto  
-3. Administrar puntos del programa de fidelización de viajes  
-4. Guardar “alerta de paquetes”  
-5. Etc.
+1. Asignar un producto a un inventario
+2. Registrar salidas de productos
+3. Proceso de adquisición de una membresía
+4. Registrar reportes de pérdidas
 
 ---
 
@@ -1056,7 +1284,7 @@ El alcance de esta evaluación incluye la revisión de la usabilidad de las sigu
 
 ##### DESCRIPCIÓN DE PROBLEMAS
 
-###### PROBLEMA #1: No hay un control que permita regresar a la tienda durante el trámite de compra  
+###### PROBLEMA #1: Faltan validaciones para asegurar que un usuario agregue un correo electronico correctamente.
 
 **Severidad:** 3  
 **Heurística violada:** Usability - Ayudar a los usuarios a reconocer, diagnosticar y recuperarse de errores
