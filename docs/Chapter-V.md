@@ -436,7 +436,6 @@ Link al Landing Page: [Landing_Page_Stocksip](https://expdesigners.github.io/Sto
 
 
 #### 5.2.1.6. Software Deployment Evidence for Sprint Review
-
 La organizacion de nuestro codigo se realizo en un repositorio en GitHub. Para el despliegue del landing page se utilizo GitHub Pages
 * Primero se creo un repositorio para alojar el codigo del landing page
 * Segundo, cada integrante del equipo creo una rama de cada funcion del landing page
@@ -452,7 +451,6 @@ La organizacion de nuestro codigo se realizo en un repositorio en GitHub. Para e
 </p>
 
 #### 5.2.1.7. Team Collaboration Insights durint Sprint
-
 
 El proyecto se realizo mediante repositorio en GitHub. Integrantes participantes:
 <p align="center">
@@ -486,7 +484,7 @@ A continuación, se detalla, en la tabla siguiente, información sobre el planea
 | Sprint 1 Review Summary             | In the previous sprint, the team completed a first view of the Landing Page implementing the basic sections and styles it will need like Benefits, Plans, Information about the Startup.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 | Sprint 1 Retrospective Summary      | The principal area the team has to improve is having more communication between the members to let each others know how is the progress is going for each member. Now, the plan for next sprint is to work more organized so each member know what to do.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 | <b> Sprint Goal & User Stories </b> | --                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-| Sprint 2 Goals                      | <b> Our focus </b> is to offer a more detailed visualization and a greater adaptability of the current StockSip Landing Page. <br> <b> We believe it delivers </b> different forms of accessing the Landing Page from different sizes of screens and languages to target segments and visitors. <br> <b> This will be confirmed when </b> our target segments and visitors access the Landing through different devices. <br><br> <b> Our focus </b> is on implement and deploy the first functional version of the Front-End application with key features like digital warehouses, the dashboard, registration of products, warnings, care guides and basic navigation between sections. <br> <b> We believe it delivers </b> a complete first vision of functionalities the aplication offers to the target segments. <br> <b> This will be confirmed when </b> our target segments register to  the application and use the principal funcionalities like warehouses and care guides. |
+| Sprint 2 Goal                      | <b> Our focus </b> is to offer a more detailed visualization and a greater adaptability of the current StockSip Landing Page and implement and deploy the first functional version of the Front-End application with key features like digital warehouses, the dashboard, registration of products, warnings, care guides and basic navigation between sections. <br> <b> We believe it delivers </b> different forms of accessing the Landing Page from different sizes of screens and languages to target segments and visitors and a complete first vision of functionalities the aplication offers to the target segments. <br> <b> This will be confirmed when </b> our target segments and visitors access the Landing through different devices and when our target segments register to the application and use the principal funcionalities like warehouses and care guides. |
 | Sprint 2 Velocity                   | 100                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 | Sum of Story Points                 | 99                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 <br>
@@ -626,7 +624,7 @@ A continuación, se muestra una tabla que contiene la información sobre los _co
 
 #### 5.2.2.5. Execution Evidence for Sprint Review
 
-El objetivo de este sprint fue realizar, en colaboracion con todo el equipo, la actualización del landing page y la aplicación Front End.
+El objetivo de este sprint fue, mediante un trabajo colaborativo entre todos los integrantes del equipo, realizar la actualización tanto del landing page como de la aplicación Frontend. Esta tarea incluyó la mejora de aspectos visuales y funcionales, así como la integración de los cambios en los repositorios correspondientes para su posterior despliegue.
 
 #### **Landing Page**
 
@@ -636,11 +634,13 @@ El objetivo de este sprint fue realizar, en colaboracion con todo el equipo, la 
 </p>
 
 <br>
+
 **Estadísticas**
 <p align="center">
   <img src="https://i.imgur.com/MO3fXPK.png"/>
 </p>
 <br>
+
 **Propuesta de valor**
 <p align="center">
   <img src="https://i.imgur.com/pSt2Wse.png"/>
@@ -652,6 +652,7 @@ El objetivo de este sprint fue realizar, en colaboracion con todo el equipo, la 
   <img src="https://i.imgur.com/IgEFQLT.png"/>
 </p>
 <br>
+
 **Preguntas frecuentes**
 <p align="center">
   <img src="https://i.imgur.com/POUjGSU.png"/>
@@ -665,23 +666,27 @@ El objetivo de este sprint fue realizar, en colaboracion con todo el equipo, la 
   <img src="https://i.imgur.com/R0Jwexh.png"/>
 </p>
 <br>
+
 **Perfil de usuario**
 
 <p align="center">
   <img src="https://i.imgur.com/ND0kzSd.png"/>
 </p>
 <br>
+
 **Reportes**
 
 <p align="center">
   <img src="https://i.imgur.com/e6GsbX2.png"/>
 </p>
 <br>
+
 **Guías de Conservación**
 <p align="center">
   <img src="https://i.imgur.com/tNrzFR0.png"/>
 </p>
 <br>
+
 **Alertas**
 <p align="center">
   <img src="https://i.imgur.com/Pi1zS2F.png"/>
@@ -692,13 +697,59 @@ Link al landing page: [Landing_Page_StockSip](https://expdesigners.github.io/Sto
 
 Link a la aplicación: [App_Front_End_StockSip](https://stocksip-exp-app.web.app/)
 
+### 5.2.2.6. Software Deployment Evidence for Sprint Review ###
 
-#### 5.2.2.6. Team Collaboration Insights durint Sprint
+Para asegurar un desarrollo estructurado y un despliegue eficiente, se organizaron los componentes del proyecto en dos partes principales: el Landing Page y el Frontend funcional. Cada uno fue alojado en su propio repositorio de GitHub, con procesos de desarrollo independientes y métodos de despliegue distintos. A continuación, se detalla el flujo de trabajo seguido en cada caso, junto con evidencia visual del resultado final.
+
+#### Despliegue del Landing Page
+La organizacion de nuestro codigo relacionado al Landing page se realizo en un repositorio en GitHub. Para el despliegue del landing page se utilizo GitHub Pages
+* Primero se creo un repositorio para alojar el codigo del landing page
+* Segundo, cada integrante del equipo creo una rama de cada funcion del landing page
+<p align="center">
+  <img src="https://i.imgur.com/WLeViFN.png"/>
+</p>
+
+* Tercero, se realizo el merge a develop para corregir errores
+* Cuarto, cuando se corrigieron los errores, se realizo merge al master
+* Quinto, se desplego el landing page mediante GitHub Pages, evidencia:
+<p align="center">
+  <img src="https://i.imgur.com/bWmj21P.pngg"/>
+</p>
+
+#### Despliegue del Frontend
+La organizacion de nuestro codigo relacionado al Frontend se realizo en un repositorio en GitHub y la codificacion de este mismo se realizo en JetBrains WebStorm. Para el despliegue del frontend se utilizo Firebase
+* Primero, se creó un repositorio en GitHub para alojar el código fuente del Frontend, permitiendo así una gestión centralizada y control de versiones
+* Segundo, cada miembro del equipo creó una rama individual para desarrollar una función específica del Frontend, lo que permitió trabajar en paralelo de manera organizada.
+<p align="center">
+  <img src="https://i.imgur.com/mGniKQ9.png"/>
+</p>
+
+* Tercero, se creó un proyecto en WebStorm y se conectó al repositorio remoto, facilitando la integración del código con el control de versiones desde el entorno de desarrollo.
+* Cuarto, se implementaron las diferentes funcionalidades asignadas y se realizaron los commits respectivos, siguiendo buenas prácticas para mantener un historial de cambios claro.
+* Quinto, una vez completado el desarrollo, se hizo merge de las ramas individuales a develop, donde se resolvieron conflictos y se corrigieron errores detectados en la integración.
+* Sexto, tras verificar el correcto funcionamiento en develop, se realizó el merge final hacia la rama master, consolidando una versión estable del proyecto.
+* Septimo, se configuró Firebase como herramienta de despliegue, preparando los archivos necesarios y definiendo el entorno adecuado.
+* Octavo, se realizó el despliegue del Frontend a través de Firebase. A continuación, se muestra la evidencia del despliegue:
+<p align="center">
+  <img src="https://i.imgur.com/R0Jwexh.png"/>
+</p>
+
+Link a la aplicación: [App_Front_End_StockSip](https://stocksip-exp-app.web.app/)
+
+
+#### 5.2.2.7. Team Collaboration Insights durint Sprint ###
+En esta sección se detalla cómo se llevaron a cabo las actividades de implementación durante el sprint, así como la participación de cada miembro del equipo. Para este sprint, el equipo se organizó en torno a los dos principales productos: Landing Page y Web Application (Frontend). Cada integrante asumió responsabilidades específicas en uno o más de estos componentes, trabajando mediante ramas individuales y siguiendo una estrategia de integración continua.
 
 El proyecto se realizo mediante repositorio en GitHub. Integrantes participantes:
 <p align="center">
   <img src="https://i.imgur.com/DAyXhVR.png"/>
 </p>
+
+A continuacion de detallara el trabajo que realizo cada integrante del equipo:
+- El integrante Martín Gonzales fue responsable de implementar la sección de alertas y reportes en el Frontend, dentro de la seccion reportes agrego las guias de conservacion, asegurando su correcto funcionamiento e integración con el resto de la aplicación.
+- La integrante Camila Huamani implementó correcciones en el landing page, asi mismo agrego las secciones de exploracion de la aplicacion y preguntas frecuentes. En el Frontend se encargo de realizar la autenticacion, en ella creo los formularios de registro e inicio de sesion, tambien se encargo de implementar el perfil del usuario y el dashboard.
+- El integrante Farid Coronel fue responsable de implementar la seccion de inventarios en el Frontend, se aseguro el correcto funcionamiento.
+- El integrante Nicolas Juarez implementó la seccion de productos en el Frontend, asegurandose su correcto funcionamiento.
 
 Commits de los integrantes en el Landing Page:
 <p align="center">
@@ -856,25 +907,35 @@ A continuación, se presenta la tabla con las tareas necesarias para completar s
 |              |                                                          | TS025T003      | Manejar errores de PayPal (fondos insuficientes)                              | Procesar código INSUFFICIENT\_FUNDS y retornar error 402                                                                                                     | 2                  | Farid Coronel   | Done   |
 
 
-
-
 #### 5.2.3.4. Development Evidence for Sprint Review
 
 En esta sección, se describen los principales avances de implementación realizados en este tercer sprint.
 
 A continuación, se muestra una tabla que contiene la información sobre los _commits_ hechos que contienen partes de las funcionalidades que debemos implementar para completar el tercer sprint.
 
-| Repository                             | Branch                           | Commit Id | Commit Message                                                   | Commited On |
-|----------------------------------------|----------------------------------|-----------|------------------------------------------------------------------|-------------|
-| OpenDoors/StockSip-Back-End-App        |                                  |           |                                                                  |             |
-| OpenDoors/StockSip-Back-End-App        |                                  |           |                                                                  |             |
-| OpenDoors/StockSip-Back-End-App        |                                  |           |                                                                  |             |
-| OpenDoors/StockSip-Back-End-App        |                                  |           |                                                                  |             |
-| OpenDoors/StockSip-Back-End-App        |                                  |           |                                                                  |             |
+ Repositorio: [https://github.com/EXPDesigners/Stocksip-BackEndApplication](https://github.com/EXPDesigners/Stocksip-BackEndApplication)
+
+| Repository                       | Branch                           | Commit Id | Commit Message                                                                                              | Commited On |
+| -------------------------------- | -------------------------------- | --------- | ----------------------------------------------------------------------------------------------------------- | ----------- |
+| EXPDesigners/StockSip-BackEndApp | feature/inventory                | a1f92d3   | feat(inventories): add inventory repository implementation.                                                 | 16/06/2025  |
+| EXPDesigners/StockSip-BackEndApp | feature/inventory                | b3c58a9   | fix: send methods to inventory repository.                                                                  | 16/06/2025  |
+| EXPDesigners/StockSip-BackEndApp | feature/inventory                | c7e21bb   | feat(inventories): add inventory command and query services contracts.                                      | 16/06/2025  |
+| EXPDesigners/StockSip-BackEndApp | feature/inventory                | d1a44ef   | feat(inventories): add inventory repository contract.                                                       | 17/06/2025  |
+| EXPDesigners/StockSip-BackEndApp | feature/inventory                | e46c2d0   | feat(inventories): add queries.                                                                             | 17/06/2025  |
+| EXPDesigners/StockSip-BackEndApp | feature/products                 | b3f21da   | feat(care-guides): add care guide command service implementation.                                           | 20/06/2025  |
+| EXPDesigners/StockSip-BackEndApp | feature/products                 | c9a48e1   | feat(care-guides): add repository implementation.                                                           | 17/06/2025  |
+| EXPDesigners/StockSip-BackEndApp | feature/products                 | d2e1a57   | feat(care-guides): add care guide query service contract.                                                   | 18/06/2025  |
+| EXPDesigners/StockSip-BackEndApp | feature/alerts-and-notifications | b82a4e7   | feat(alerts-and-notifications): add alert creation for product problem event handler.                       | 16/06/2025  |
+| EXPDesigners/StockSip-BackEndApp | feature/alerts-and-notifications | c14bf90   | feat(alerts-and-notifications): add alert creation for product problem event.                               | 18/06/2025  |
+| EXPDesigners/StockSip-BackEndApp | feature/alerts-and-notifications | 09d472e   | feat(alerts-and-notifications): add inbound services.                                                       | 19/06/2025  |
+| EXPDesigners/StockSip-BackEndApp | feature/alerts-and-notifications | 1aa3dbe   | feat(alerts): add alert assemblers.                                                                         | 20/06/2025  |
+| EXPDesigners/StockSip-BackEndApp | feature/alerts-and-notifications | 2e4f810   | feat(alerts): add alert resources.                                                                          | 20/06/2025  |
 
 #### 5.2.3.5. Execution Evidence for Sprint Review
 
 #### 5.2.3.6. Services Documentation Evidence for Sprint Review
+
+En esta seccion, se describe la evidencia de documentacion de los endpoints que se han implementado en la aplicacion backend de nuestro proyecto. A continuacion, se muestra la tabla que contiene una breve descripcion de las acciones y requisitos de cada endpoint implementado.
 
 | Módulo      | Endpoint                                                                                            | Acción                                    | Verbo HTTP | Sintaxis                                       | Parámetros principales                                        | Enlace a Swagger                                              |
 | ----------- | --------------------------------------------------------------------------------------------------- | ----------------------------------------- | ---------- | ---------------------------------------------- | ------------------------------------------------------------- | ------------------------------------------------------------- |
@@ -915,7 +976,6 @@ A continuación, se muestra una tabla que contiene la información sobre los _co
 | Accounts    | `/api/v1/accounts/{accountId}/alerts`                                                               | Obtener alertas por cuenta                | GET        | `/accounts/1/alerts`                           | `accountId`                                                   | [Ver Link](https://stocksip-backendapplication.onrender.com/) |
 
 ## **Ejemplos Detallados**
-
 
 ### Care Guides
 
@@ -1079,36 +1139,29 @@ A continuación, se muestra una tabla que contiene la información sobre los _co
 	  "placeStorage": "Refrigerado",
 	  "recommendation": "Evitar exposición al calor."
 	}
-	
-
-## **Repositorio y Commits Relevantes**
-
- Repositorio: [https://github.com/EXPDesigners/Stocksip-BackEndApplication](https://github.com/EXPDesigners/Stocksip-BackEndApplication)
-
-| Repository                       | Branch                           | Commit Id | Commit Message                                                                                              | Commited On |
-| -------------------------------- | -------------------------------- | --------- | ----------------------------------------------------------------------------------------------------------- | ----------- |
-| EXPDesigners/StockSip-BackEndApp | feature/inventory                | a1f92d3   | feat(inventories): add inventory repository implementation.                                                 | 16/06/2025  |
-| EXPDesigners/StockSip-BackEndApp | feature/inventory                | b3c58a9   | fix: send methods to inventory repository.                                                                  | 16/06/2025  |
-| EXPDesigners/StockSip-BackEndApp | feature/inventory                | c7e21bb   | feat(inventories): add inventory command and query services contracts.                                      | 16/06/2025  |
-| EXPDesigners/StockSip-BackEndApp | feature/inventory                | d1a44ef   | feat(inventories): add inventory repository contract.                                                       | 17/06/2025  |
-| EXPDesigners/StockSip-BackEndApp | feature/inventory                | e46c2d0   | feat(inventories): add queries.                                                                             | 17/06/2025  |
-| EXPDesigners/StockSip-BackEndApp | feature/products                 | b3f21da   | feat(care-guides): add care guide command service implementation.                                           | 20/06/2025  |
-| EXPDesigners/StockSip-BackEndApp | feature/products                 | c9a48e1   | feat(care-guides): add repository implementation.                                                           | 17/06/2025  |
-| EXPDesigners/StockSip-BackEndApp | feature/products                 | d2e1a57   | feat(care-guides): add care guide query service contract.                                                   | 18/06/2025  |
-| EXPDesigners/StockSip-BackEndApp | feature/alerts-and-notifications | b82a4e7   | feat(alerts-and-notifications): add alert creation for product problem event handler.                       | 16/06/2025  |
-| EXPDesigners/StockSip-BackEndApp | feature/alerts-and-notifications | c14bf90   | feat(alerts-and-notifications): add alert creation for product problem event.                               | 18/06/2025  |
-| EXPDesigners/StockSip-BackEndApp | feature/alerts-and-notifications | 09d472e   | feat(alerts-and-notifications): add inbound services.                                                       | 19/06/2025  |
-| EXPDesigners/StockSip-BackEndApp | feature/alerts-and-notifications | 1aa3dbe   | feat(alerts): add alert assemblers.                                                                         | 20/06/2025  |
-| EXPDesigners/StockSip-BackEndApp | feature/alerts-and-notifications | 2e4f810   | feat(alerts): add alert resources.                                                                          | 20/06/2025  |
 
 
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review
 
+#### Despliegue del Back End
+* Primero, se creó un repositorio en GitHub para alojar el código fuente del Backend, permitiendo así una gestión centralizada y control de versiones
+* Segundo, cada miembro del equipo creó una rama individual para desarrollar una función específica del BackEnd, lo que permitió trabajar en paralelo de manera organizada.
+<p align="center">
+  <img src="https://i.imgur.com/e31bJ1F.png"/>
+</p>
+
+* Tercero, se creó un proyecto en Rider y se conectó al repositorio remoto, facilitando la integración del código con el control de versiones desde el entorno de desarrollo.
+* Cuarto, se implementaron las diferentes funcionalidades asignadas y se realizaron los commits respectivos, siguiendo buenas prácticas para mantener un historial de cambios claro.
+* Quinto, una vez completado el desarrollo, se hizo merge de las ramas individuales a develop, donde se resolvieron conflictos y se corrigieron errores detectados en la integración.
+* Sexto, tras verificar el correcto funcionamiento en develop, se realizó el merge final hacia la rama release, consolidando una versión estable del proyecto.
+* Septimo, se configuró el archivo dockerfile y appsettings.production para poder utilizar la web render para su despliegue exitoso.
+* Octavo, se configuro la pagina FreeSQLDatabase para poder desplegar nuestra base de datos en la nube.
+* Noveno, se realizó el despliegue del Backend a través de Render. A continuación, se muestra la evidencia del despliegue:
+<p align="center">
+  <img src="https://i.imgur.com/vbBRLzg.png"/>
+</p>
+
 #### 5.2.3.8. Team Collaboration Insights durint Sprint
-
-
-
-
 
 ## 5.3. Validation Interviews
 
@@ -1337,5 +1390,8 @@ Las alertas críticas como “Urgent Repositioning” no destacan visualmente fr
 Usar color de fondo, bordes o íconos para distinguir prioridades.
 
 ## 5.4. Video About The Product
+En esta seccion, se adjunta el enlace al video sobre el producto de software desarrollado. En este video, se detallan funcionalidades principales y beneficios que ofrece la aplicacion a los usuarios finales que usaran la aplicacion web para sus negocios.
 
-## 5.5. Video About The Team
+Enlace al video en YouTube: [[COLOCAR ENLACE]]
+
+[[COLOCAR IMAGEN]]
