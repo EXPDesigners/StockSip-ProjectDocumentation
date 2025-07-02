@@ -2,45 +2,57 @@
 
 ## _5.1. Software Configuration Management_ ##
 
+En esta sección, se detalla la configuración de la tecnología a usar en el ciclo de vida de desarrollo del proyecto del curso.
+
 ### 5.1.1. Software Development Environment Configuration ###
+
+En esta sección, se explica los entornos en donde se decidió llevar a cabo el ciclo de vida de desarrollo de los productos de software relacionados al proyecto del curso.
 
 * **Project Management**
 
-  En el aspecto de gestión y desarrollo del ciclo de vida del proyecto se utilizó la aplicación Discord y Google Meet para las reuniones de grupo en las cuales se conversan sobre temas relacionados a avances y corrección de aspectos del proyecto. Luego, para la documentación del proyecto, se utilizó el formato MarkDown
-
+  - En el aspecto de gestión y desarrollo del ciclo de vida del proyecto se utilizó la aplicación DISCORD y GOOGLE MEET para las reuniones de grupo en las cuales se conversan sobre temas relacionados a avances y corrección de aspectos del proyecto. Además, para la documentación del proyecto, se utilizó el formato Mark Down en un repositorio de GitHub para el control de versiones del informe.
 
 * **Requirements Management**
 
-  Para el manejo de los requisitos (historias de usuario, product backlog, sprint backlog), se utilizó Trello es una herramienta ideal para gestionar proyectos. Usando esta herramienta, se puede organizar un product backlog, ya que permite estructurar tareas visualmente en un tablero. Puedes crear listas que representen etapas del flujo de trabajo, y en cada lista añadir tarjetas que describan las user stories o tareas individuales. Estas tarjetas permiten detallar información clave, como prioridades, etiquetas de color, descripciones y checklists, facilitando así el seguimiento y la colaboración del equipo.
+  - Para el manejo de los requisitos (historias de usuario, product backlog, sprint backlog) del producto, se utilizó TRELLO la cual es una herramienta ideal para gestionar proyectos. Además, usando esta herramienta, se puede organizar un product backlog, ya que permite estructurar tareas visualmente en un tablero. También puedes crear listas que representen etapas del flujo de trabajo, y en cada lista añadir tarjetas que describan las user stories o tareas individuales. Estas tarjetas permiten detallar información clave, como prioridades, etiquetas de color, descripciones y checklists, facilitando así el seguimiento y la colaboración del equipo.
 
 * **Product UX/UI Design**
 
-  Para el desarrollo de plantillas de los User Persona  y del Impact Mapping se utilizó UXPressia. Es una plataforma especializada en la creación de mapas de experiencia del usuario ofreciendo una interfaz enfocada exclusivamente en UX que facilita la estructuración clara y profesional de estos elementos. Destaca por sus plantillas personalizables, la posibilidad de añadir datos reales, imágenes y métricas, y por permitir la colaboración en tiempo real. Para la creación del Lean UX Canvas se utilizó la aplicación canva. Esta aplicación es una herramienta versátil para crear diversos diseños. Canva facilita la colaboración del equipo y la exportación de los proyectos en archivo PNG o PDF, manteniendo el proceso creativo ordenado y atractivo. Para los Journey Mapping, Empathy Mapping, entre otros mapas,  se decidió utilizar Miro. Esta aplicación permite una colaboración en tiempo real entre equipos, ofrece una interfaz visual e intuitiva, y cuenta con plantillas prediseñadas que agilizan el proceso sin perder calidad metodológica.
+  - Para el desarrollo de plantillas de los User Personas, de los Impact Maps y los User Journey Maps se utilizó la aplicación UXPRESSIA la cual es una plataforma especializada en la creación de mapas de experiencia del usuario ofreciendo una interfaz enfocada exclusivamente en UX que facilita la estructuración clara y profesional de estos elementos. Destaca por sus plantillas personalizables, la posibilidad de añadir datos reales, imágenes y métricas, y por permitir la colaboración en tiempo real.
 
-  Luego, para el desarrollo de wireframes, mockups y prototipos de aplicación, se decidió utilizar Figma. Esta es una herramienta que facilita el diseño de interfaces, permitiéndonos trabajar con colores, imágenes, formas, y otros elementos visuales para crear nuestra aplicación. Nos ofrece la posibilidad de probar diversos modelos de dispositivos. Además, esta plataforma será clave en la creación de nuestro prototipo, ya que brinda una simulación interactiva que permite visualizar y experimentar el proyecto desde la perspectiva del usuario.
+  - Para la creación del Lean UX Canvas se utilizó la aplicación de diseño CANVA. Esta aplicación es una herramienta versátil para crear diversos diseños. Canva facilita la colaboración del equipo y la exportación de los proyectos en archivo PNG o PDF, manteniendo el proceso creativo ordenado y atractivo. Para los Journey Mapping, Empathy Mapping, entre otros mapas,  se decidió utilizar Miro. Esta aplicación permite una colaboración en tiempo real entre equipos, ofrece una interfaz visual e intuitiva, y cuenta con plantillas prediseñadas que agilizan el proceso sin perder calidad metodológica.
 
+  - Finalmente, para el desarrollo de interfaces de usuario (wireframes, mockups y prototipos de aplicación) se decidió utilizar FIGMA. Esta es una herramienta que facilita el diseño de interfaces, permitiéndonos trabajar con colores, imágenes, formas, y otros elementos visuales para crear nuestra aplicación. Nos ofrece la posibilidad de probar diversos modelos de dispositivos. Además, esta plataforma será clave en la creación de nuestro prototipo, ya que brinda una simulación interactiva que permite visualizar y experimentar el proyecto desde la perspectiva del usuario.
 
 * **Software Development**
 
-  Para el desarrollo del Software correspondiente al Landing Page, se utilizarán dos aplicaciones, las cuales son GitHub y JetBrains. La primera ayuda al equipo a gestionar de manera correcta los avances colaborativos del proyecto. Por otro lado, JetBrains ayudará a trabajar el proyecto con lenguajes como HTML5, CSS y JavaScript, y el framework Vue para el desarrollo del landing page.
+  - Para el desarrollo del producto de software correspondiente al Landing Page, se utilizarán dos aplicaciones, las cuales son GITHUB y JETBRAINS WEBSTORM. La primera ayuda al equipo a gestionar de manera correcta los avances colaborativos del proyecto. Por otro lado, JetBrains WebStorm ayudará a trabajar el proyecto con lenguajes como HTML5, CSS y JavaScript para el desarrollo del landing page.
 
-  Para el desarrollo del Frontend Web Application, se utilizaron las aplicaciones de Github y WebStorm. Github nos ayuda a gestionar la documentacion correcta de los avances que realizan los miembros del equipo. Mientras que WebStorm es el programa en el que se codifica nuestra aplicacion Frontend usando los lenguajes HTML5, CSS y JavaScript, asi mismo se utilizo el framework de Vue.
+  - Para el desarrollo de la aplicación Front-End, se utilizaron las aplicaciones de GITHUB y JETBRAINS WEBSTORM. Por un lado, Github nos ayuda a gestionar la documentacion correcta de los avances que realizan los miembros del equipo. Mientras que, por otro lado, JetBrains WebStorm es el programa en el que se codifica nuestra aplicacion Frontend usando los lenguajes HTML5, CSS y JavaScript, asi mismo se utilizo el framework de Vue para los componentes de la aplicación.
   
-  Para el desarrollo del Web Services, se utilizaron las aplicacionde de Github. Github nos ayuda a gestionar la documentacion correcta de los avances que realizan los miembros del equipo. Mientras que WebStorm es el programa en el que se codifica nuestra aplicacion BackEnd usando el lenguaje de C#, asi mismo se utilizo el framework de ASP.NET.
+  - Para el desarrollo de los Web Services o la Aplicación Back-End, se utilizaron las aplicaciones de de GITHUB Y JETBRAINS RIDER. Por un lado, Github nos ayuda a gestionar la documentacion correcta de los avances que realizan los miembros del equipo y a llever un control de los avances que realiza cada miembro del equipo. Mientras que JetBrains Rider es el programa en el que se codifica nuestra aplicacion BackEnd usando el lenguaje de C#, asi mismo se utilizo el framework de ASP.NET Core para el desarrollo de los endpoinst correspondientes al producto de software.
+ 
+  - Finalmente, para la creación del esquema de base de datos, se usó MYSQL y el cliente MYSQL WORKBENCH. Gracias a algunas extensiones para ASP.NET Core, se puede generar un esquema relacional en MySql respecto a lo que se implementa en la aplicación Backend. Además, con MySql Workbench, se pueden comprobar las creaciones de datos y los datos almacenados en ella.
  
 * **Software Testing**
 
-  Las pruebas del Landing Page se realizarán mediante uso del navegador web para verificar que el diseño del mismo cumple con aspectos como el diseño responsivo en cualquier dispositivo desde el que se acceda al landing page del proyecto. Además, para visualizar que se han implementado correctamente elementos visuales que deben aparecer en las distintas secciones de la página.
+  - Las pruebas del Landing Page se realizarán mediante uso del navegador web GOOGLE para verificar que el diseño del mismo cumple con aspectos como el diseño responsivo en cualquier dispositivo desde el que se acceda al landing page del proyecto. Además, para visualizar que se han implementado correctamente elementos visuales que deben aparecer en las distintas secciones de la página.
 
-  Las pruebas del frontend se realizaron utilizando una fake API mediante JSON Server, que funcionó como una base de datos temporal para validar el correcto funcionamiento de las interfaces y las interacciones con los datos.
+  -  Las pruebas de la aplicación Front-End se realizaron utilizando una fake API que usa la dependencia JSON SERVER que simula el consumo de datos traidos de una base de datos temporal para validar el correcto funcionamiento de las interfaces y las interacciones con los datos.
   
-  Las pruebas del backend se realizaron mediante Swagger UI y Postman, herramientas que facilitaron la ejecución de consultas y solicitudes HTTP de manera visual e intuitiva, permitiendo verificar el correcto funcionamiento de los endpoints expuestos por la API. Gracias a estas herramientas, fue posible simular distintos escenarios de uso, validar las respuestas del servidor, analizar los códigos de estado HTTP y garantizar que la lógica del backend respondiera adecuadamente ante entradas válidas y erróneas.
+  - Finalmente, las pruebas de la Aplicación Back-End se realizaron mediante SWAGGER UI y POSTMAN, herramientas que facilitaron la ejecución de consultas y solicitudes HTTP de manera visual e intuitiva, permitiendo verificar el correcto funcionamiento de los endpoints expuestos por la API. Gracias a estas herramientas, fue posible simular distintos escenarios de uso, validar las respuestas del servidor, analizar los códigos de estado HTTP y garantizar que la lógica del backend respondiera adecuadamente ante entradas válidas y erróneas.
 
 * **Software Deployment**
 
-  Para el despliegue del Landing page se uso la el servicio web de github pages, este servicio se especializa en el despliegue de sitios web staticos directamente desde un repositorio.
-  Para el despliegue del Frontend se uso beeceptor y firebase. Beeceptor es una herramienta en línea (basada en la web) que nos permite crear endpoints HTTP falsos (mock) para probar APIs, se uso ver qué datos está enviando nuestra aplicación. Firebase es una plataforma desarrollada por Google que permite crear aplicaciones web y móviles más rápido, sin tener que construir un backend completo desde cero, ofrece servicios listos para usar que se pueden usar para conectar facilmente nuestro Frontend.
-  Para el despliegue del Backend se utilizo Render. Render es una plataforma en la nube que permite desplegar aplicaciones web, APIs, bases de datos, sitios estáticos y más de forma sencilla y automatizada, sin necesidad de gestionar servidores manualmente. Permite que una aplicación backend esté disponible públicamente en internet, funcionando 24/7 con un dominio propio o asignado automáticamente.
+  - Para los despliegues del Landing Page se uso el servicio web de GITHUB PAGES, este servicio se especializa en el despliegue de sitios web staticos directamente desde un repositorio creado en GitHub.
+  
+  - Para el primer y segundo despliegue de la aplicación Front-End se usaron las aplicaciones BEECEPTOR y FIREBASE. Por un lado, Beeceptor es una herramienta en línea (basada en la web) que nos permite crear endpoints HTTP falsos (mock) para probar APIs, se uso ver qué datos está enviando nuestra aplicación. Por otro lado, Firebase es una plataforma desarrollada por Google que permite crear aplicaciones web y móviles más rápido, sin tener que construir un backend completo desde cero, ofrece servicios listos para usar que se pueden usar para conectar facilmente nuestro Frontend.
+
+  - Para el último despliegue de la la aplicación Front-End se usó únicamente FIREBASE ya que desde la propia aplicación, se integró la conexión con el último despliegue de la aplicación Back-End.
+   
+  - Para los despliegues de la Aplicación Back-End se utilizo RENDER. Render es una plataforma en la nube que permite desplegar aplicaciones web, APIs, bases de datos, sitios estáticos y más de forma sencilla y automatizada, sin necesidad de gestionar servidores manualmente. Permite que una aplicación backend esté disponible públicamente en internet, funcionando 24/7 con un dominio propio o asignado automáticamente.
+
+  - Finalmente, para los despliegues de la Base de Datos se utilizó FREESQLDATABASE. Esta aplicación web es gratuita y nos ayuda a desplegar fácilmente la base de datos con la que va a interactuar la aplicación Backend para almacenar, obtener y crear datos.
 
 ### 5.1.2. Source Code Management ###
 
@@ -48,20 +60,19 @@ En esta sección, se describen los medios y esquemas de organización para gesti
 
 #### **5.1.2.1. Repositorios**
 
-A continuación, se adjuntan los enlaces para acceder a los repositorios donde se almacenarán los archivos de proyecto relacionados al Landing Page.
+A continuación, se adjuntan los enlaces para acceder a los repositorios donde se almacenarán los archivos y avances de proyecto relacionados al Landing Page, Front-End y Back-End Application.
 
 * **Landing Page: [https://github.com/EXPDesigners/StockSip-LandingPage.git](https://github.com/EXPDesigners/StockSip-LandingPage.git)**
-* **Frontend Web Applications: [https://github.com/EXPDesigners/Stocksip-FrontEndApplication.git](https://github.com/EXPDesigners/Stocksip-FrontEndApplication.git)**
-* **Web Services: [https://github.com/EXPDesigners/Stocksip-BackEndApplication.git](https://github.com/EXPDesigners/Stocksip-BackEndApplication.git)**
+* **Frontend Web Application: [https://github.com/EXPDesigners/Stocksip-FrontEndApplication.git](https://github.com/EXPDesigners/Stocksip-FrontEndApplication.git)**
+* **Backend Web Application: [https://github.com/EXPDesigners/Stocksip-BackEndApplication.git](https://github.com/EXPDesigners/Stocksip-BackEndApplication.git)**
  
 **5.1.2.2. GitFlow**  
-Como se mencionó previamente, GitFlow ayudará al equipo de desarrollo a gestionar de manera efectiva el proyecto en su ciclo de vida. En general, GitHub ayudará a facilitar el desarrollo del proyecto para el equipo ya que es más sencillo desarrollar trabajos en equipo en los repositorios de los archivos de proyecto.
+Para el desarrollo de este proyecto, GITFLOW ayudará al equipo de desarrollo a gestionar de manera efectiva el proyecto en su ciclo de vida. En general, GITHUB ayudará a facilitar el desarrollo del proyecto para el equipo ya que es más sencillo desarrollar trabajos en equipo en los repositorios de los archivos de proyecto.
 
 ##### **5.1.2.2.1. Main Branches**
 
 * **Main Branch**   
   Llamada también rama principal del proyecto, esta es la rama predeterminada del proyecto creado en el repositorio. Esta rama representa el historial del proyecto lo que ayuda a llevar el control de versiones del mismo.
-
     
 * **Develop Branch**  
   Llamada también rama de desarrollo del proyecto. Esta rama es una bifurcación de código original del proyecto para definir nuevos rumbos respecto del proyecto original que servirá para evaluar variaciones del proyecto para su evolución. Además, ayudan a incorporar nuevas funciones al proyecto.
@@ -73,7 +84,6 @@ Como se mencionó previamente, GitFlow ayudará al equipo de desarrollo a gestio
 
 * **Release Branch**  
   También llamada rama de lanzamiento del proyecto, es una versión de código del proyecto que se usa para empezar un nuevo ciclo de lanzamiento del producto de software. Además, en esta rama se pueden realizar correcciones de errores de la versión pasada del proyecto. Finalmente, una vez terminada con esta rama, se suma a la rama principal del proyecto y se le asigna un nuevo número de versión de proyecto.
-
     
 * **Hotfix Branch**  
   También llamada rama de corrección del proyecto, es una rama que permite dar mantenimiento al código del proyecto. Se utiliza principalmente para arreglar errores en alguna sección del producto de software de manera rápida.
@@ -123,13 +133,22 @@ En esta sección, se definen las referencias que se usaron para adoptar estrateg
   Finalmente, se aplicará el contenido del artículo para el Web Services de StockSip.
 
 * **Nomenclatura en ASP.NET:**  
-  Para la codificación del proyecto en ASP.NET, se utilizará el artículo *“Microsoft ASP.NET Core Coding Guidelines”.* Este artículo contiene información útil y necesaria para conocer cómo debe ser la nomenclatura y el estilo de los diversos aspectos que conforman un proyecto desarrollado con ASP.NET Core. Se trata de la guía de ingeniería oficial del equipo de ASP.NET Core, en la cual se detallan las convenciones recomendadas para escribir código claro, consistente y fácil de mantener. Esta guía organiza sus recomendaciones en distintos apartados que abarcan desde el formato del código, el uso de tipos y palabras clave, la compatibilidad multiplataforma, hasta el control de cambios en versiones del framework. Cada sección tiene como propósito establecer prácticas que favorezcan la legibilidad, el rendimiento, y la calidad del desarrollo colaborativo a gran escala.. A continuación se adjunta el enlace para acceder al artículo de referencia:  [https://github.com/dotnet/aspnetcore/wiki/Engineering-guidelines#codingguidelines](https://github.com/dotnet/aspnetcore/wiki/Engineering-guidelines#codingguidelines)  
+  Para la codificación del proyecto en ASP.NET, se utilizará el artículo *“Microsoft ASP.NET Core Coding Guidelines”.* Este artículo contiene información útil y necesaria para conocer cómo debe ser la nomenclatura y el estilo de los diversos aspectos que conforman un proyecto desarrollado con ASP.NET Core. Se trata de la guía de ingeniería oficial del equipo de ASP.NET Core, en la cual se detallan las convenciones recomendadas para escribir código claro, consistente y fácil de mantener. Esta guía organiza sus recomendaciones en distintos apartados que abarcan desde el formato del código, el uso de tipos y palabras clave, la compatibilidad multiplataforma, hasta el control de cambios en versiones del framework. Cada sección tiene como propósito establecer prácticas que favorezcan la legibilidad, el rendimiento, y la calidad del desarrollo colaborativo a gran escala. A continuación se adjunta el enlace para acceder al artículo de referencia:  [https://github.com/dotnet/aspnetcore/wiki/Engineering-guidelines#codingguidelines](https://github.com/dotnet/aspnetcore/wiki/Engineering-guidelines#codingguidelines)  
   Finalmente, se aplicará el contenido del artículo para el Web Services de StockSip
+
+* **Nomenclatura para RESTful API:**
+
+  Para la nomenclatura de endpoints a implementar en la aplicación Back-End, se usó el artículo *"REST API URI Naming Conventions and Best Practices".* Este mismo contiene información sobre consejos y buenas prácticas al momento de nombrar correctamente a los endpoints en una aplicación back-end que use el esquema REST. A continuación se adjunta el enlace para acceder al artículo de referencia: [https://restfulapi.net/resource-naming/](https://restfulapi.net/resource-naming/).
+
+* **Nomenclatura en MySQL:**
+
+  Para la nomenclatura de objetos en una base de datos relacional usando MySQL, se usó el artículo *"MYSQL Naming Conventions"* como base para la correcta nomenclatura de tablas y columnas. A continuación, se adjunta el enlace para acceder al artículo de referencia: [(https://medium.com/@centizennationwide/mysql-naming-conventions-e3a6f6219efe)](https://medium.com/@centizennationwide/mysql-naming-conventions-e3a6f6219efe) .
   
 ### 5.1.4. Software Deployment Configuration ###
 
-En esta sección, se especifica la configuración para realizar el despliegue de la solución en el repositorio. Para realizar esto, se usó GitHub Pages para lanzar el landing page, Web Services y Frontend Web Applications. A continuación, se describen los pasos necesarios para desplegar el Landing Page del proyecto, empezando por la creación del repositorio hasta el lanzamiento del proyecto.
+En esta sección, se especifica la configuración para realizar el despliegue de la solución en el repositorio. Para realizar esto, se usó GITHUB PAGES para desplegar el landing page, RENDER para la aplicación Backend y FIREBASE para la aplicación Frontend. A continuación, se describen los pasos necesarios para desplegar el Landing Page del proyecto, empezando por la creación del repositorio hasta el lanzamiento del proyecto.
 
+## Sitio web estático ##
 * **Paso 1: Creación del repositorio**  
   Como primer paso, se debe crear el repositorio en GitHub que será el lugar donde se aloja todo lo relacionado al Landing Page.
 
@@ -151,7 +170,7 @@ En esta sección, se especifica la configuración para realizar el despliegue de
   <img src="https://i.imgur.com/KtKEa2v.png">
 </p>
 
-* **Paso 4: Lanzar el Landing Page**  
+* **Paso 4: Desplegar el Landing Page**  
   Como cuarto paso, cuando todo se encuentre en la rama principal, se accede a la sección Configuración del repositorio, luego, se selecciona la opción “GitHub Pages” y se seleccionará la rama principal que es la que se desea desplegar.
 
 <p align="center">
@@ -165,6 +184,7 @@ En esta sección, se especifica la configuración para realizar el despliegue de
   <img src="https://i.imgur.com/iE4Zzk7.png">
 </p>
 
+## Aplicación Frontend ## 
 A continuación, se describen los pasos necesarios para desplegar el Frontend del proyecto, empezando por la creación del repositorio hasta el lanzamiento del proyecto.
 
 * **Paso 1: Creación del repositorio**  
@@ -186,7 +206,7 @@ A continuación, se describen los pasos necesarios para desplegar el Frontend de
   <img src="https://i.imgur.com/LD8AKKP.png">
 
 * **Paso 4: Comando npm run build**  
-  Como cuarto paso, ingresaremos el comando npm run build en la consola de nuestro proyecto, este comando creara una carpeta llamada Dist que contiene todo nuestro proyecto.
+  Como cuarto paso, ejecutamos el comando npm run build en la consola de nuestro proyecto, este comando creara una carpeta llamada Dist que contiene todo nuestro proyecto.
 
 <p align="center">
   <img src="https://i.imgur.com/kuCErf7.png">
@@ -209,7 +229,7 @@ A continuación, se describen los pasos necesarios para desplegar el Frontend de
   <img src="https://i.imgur.com/mGG35De.png"> 
 
 * **Paso 7: Probar despliegue con Firebase**  
-  Ingresamos a la pagina web Firebase e ingremos con nuestra cuenta de google y vamos a la consola, creamos un nuevo proyecto con el nombre de nuestra aplicacion,
+  Ingresamos a la pagina web Firebase e ingresamos con nuestra cuenta de Google y vamos a la consola, creamos un nuevo proyecto con el nombre de nuestra aplicacion,
 nos ubicamos en el apartado de hosting
 
 <p align="center">
@@ -240,8 +260,9 @@ nos ubicamos en el apartado de hosting
   <img src="https://i.imgur.com/d5iOzXH.png"> 
 <p align="center">
   <img src="https://i.imgur.com/NVOGrAD.png"> 
-  
- A continuación, se describen los pasos necesarios para desplegar el BackEnd del proyecto, empezando por la creación del repositorio hasta el lanzamiento del proyecto.
+
+## Aplicación Backend y Base de Datos ##
+A continuación, se describen los pasos necesarios para desplegar el BackEnd junto con la base de datos del proyecto, empezando por la creación del repositorio hasta el lanzamiento del proyecto.
 
 * **Paso 1: Creación del repositorio**  
   Como primer paso, se debe crear el repositorio en GitHub que será el lugar donde se aloja todo lo relacionado al BackEnd.
@@ -267,7 +288,7 @@ nos ubicamos en el apartado de hosting
 <p align="center">
   <img src="https://i.imgur.com/ETOoIYi.png">
 
-* **Paso 5: Ingresar a la pagina FreeSQLDatabase**  
+* **Paso 5: Ingresar a la pagina FreeSQLDatabase para desplegar la base de datos**  
   Ingresamos a la pagina web FreeSQLDatabase e iniciamos sesion con nuestra cuenta y nos aparece la pagina para crear nuestra base de datos en la nube. Asignamos un servidor y creamos la base de datos desplegada en la nube
 
 <p align="center">
@@ -277,13 +298,11 @@ nos ubicamos en el apartado de hosting
 <p align="center">
   <img src="https://i.imgur.com/FDSbgdX.png">
 
-
-* **Paso 6: Configuracion del dockerfile**  
-  Volvemos a nuestro rider, nos dirigimos al archivo y creamos la configuracion necesaria para el despliegue con docker.
+* **Paso 6: Configuracion del Dockerfile**  
+  Volvemos a Rider, nos dirigimos al archivo y creamos la configuracion necesaria para el despliegue con docker.
 
 <p align="center">
   <img src="https://i.imgur.com/wd9yp2s.png"> 
-
 
 * **Paso 7: Creacion del archivo appsettings.Production**  
   Creamos un archivo llamado appsetting.Production.json en la raiz del proyecto, cambiamos en DefaultConnection el server por nuestro DatabaseHost, user por nuestro Database Username, passwoard por nuestro DatabasePasswoard y database por nuestro DatabaseName. 
@@ -291,7 +310,6 @@ nos ubicamos en el apartado de hosting
 <p align="center">
   <img src="https://i.imgur.com/y8OYcNP.png">
 
-  
 * **Paso 8: Ingresar a la pagina Render**  
   Ingresaremos a la pagina web render, ingresamos con nuestra cuenta, importamos nuestro repositorio,  asignamos la rama en la que se realizara el deploy y confirmamos el despliegue, esperamos a que la propia pagina verifique el deploy y nos entregue una URL publica.
 
@@ -301,7 +319,6 @@ nos ubicamos en el apartado de hosting
   <img src="https://i.imgur.com/3QF2uQu.png">
 <p align="center">
   <img src="https://i.imgur.com/wowQCCl.png"> 
-
 
 * **Paso 9: Comprobar el despliegue**  
   Ingresamos a la URL publica que nos proporciono la pagina y podemos verificar el se logro el despliegue de nuesta aplicacion BackEnd
@@ -315,7 +332,7 @@ nos ubicamos en el apartado de hosting
 
 #### 5.2.1.1. Sprint Planning 1
 
-A continuación, se detalla, en la tabla siguiente, información sobre el planeameanto del primer sprint. En general, el objetivo de este sprint se centra en el desarrollo y despliegue de la primera versión del sitio web estático de StockSip.
+A continuación, se detalla, en la tabla siguiente, información sobre el planeameanto del primer sprint. En general, el objetivo de este sprint se centra en el desarrollo y despliegue de la primera versión del sitio web estático de StockSip que contiene las principales secciones como beneficios, información sobre el Startup, testimonios, características de la aplicación y planes de suscripción.
 
 | Sprint #                                     | Sprint 1                                               |
 |----------------------------------------------|--------------------------------------------------------|
@@ -327,8 +344,8 @@ A continuación, se detalla, en la tabla siguiente, información sobre el planea
 | Attendees                                    | Huamani Cruz, Camila Victoria / Juarez Leon, Nicolas Emilio Walter / Gonzales Castillo, Angel Martin / Coronel Espinoza, Farid Sebastian |
 | <b> Sprint Goal & User Stories </b>          | --                                                     |
 | Sprint 1 Goal                                | <b> Our focus </b> is on develop and deploy the first version of the landing page <br> <b> We believe it delivers </b> a first view of what our product offers to our target segments <br> <b> This will be confirmed when </b> the target segments are visiting the site and can see and know the benefits on using our product. |
-| Sprint 1 Velocity                            | 20                                                     |
-| Sum of Story Points                          | 16                                                     |
+| Sprint 1 Velocity                            | 14                                                     |
+| Sum of Story Points                          | 14                                                     |
 
 #### 5.2.1.2. Aspect Leaders and Collaborators
 
@@ -346,7 +363,7 @@ En esta sección, se incluye la matriz de liderazgo y colaboración desarrollada
 Como se mencionó previamente en el planeamiento del sprint número 1, el objetivo del mismo es el desarrollar y desplegar una primera versión del landing page del producto. Esto conlleva implementar las diversas secciones que presenta un landing page que puedan ayudar a los visitantes del sitio a conocer mejor el producto en desarrollo.
 
 Luego de definir el objetivo del sprint, se identificaron las historias de usuario útiles para este sprint. A continuación, se dividió cada historia de usuario en tareas relacionadas a la implementación y cumplimiento de dicha historia. Para ello, se utilizó la aplicación _Trello_ que nos ayuda a gestionar el progreso del sprint. 
-[Link de acceso al Sprint Backlog #1 en Trello](https://trello.com/invite/b/68254069b45285c273087923/ATTI2507d3d76e72207b9b855c678811f82d3CF68D96/stocksip-sprint-backlog-1)
+[https://trello.com/invite/b/68254069b45285c273087923/ATTI2507d3d76e72207b9b855c678811f82d3CF68D96/stocksip-sprint-backlog-1](https://trello.com/invite/b/68254069b45285c273087923/ATTI2507d3d76e72207b9b855c678811f82d3CF68D96/stocksip-sprint-backlog-1)
 
 <p align="center">
   <img src="https://i.imgur.com/aEuyvEm.png" 
@@ -414,55 +431,91 @@ A continuación, se muestra una tabla que contiene la información sobre los _co
 
 #### 5.2.1.5. Execution Evidence for Sprint Review
 
-El objetivo de este sprint fue realizar, en colaboracion con todo el equipo, la creacion del landing page.
+El objetivo de este sprint fue realizar, en colaboracion con todo el equipo, la creacion del landing page. A continuación, se explica a detalle la evidencia del proceso de ejecución del sitio web estático.
 
+Se adjunta el enlace para acceder al sitio web estático desplegado: [https://expdesigners.github.io/StockSip-LandingPage/](https://expdesigners.github.io/StockSip-LandingPage/)
+
+Se implementó la sección de inicio que contiene información general sobre el producto y sobre el startup detrás del producto. Además, se incluye la visión general del startup relacionado con el producto y los valores del equipo de desarrollo. Esto tiene un motivo de implementación y es el de llamar la atención de los visitantes del sitio web estático.
 <p align="center">
   <img src="https://i.imgur.com/iE4Zzk7.png"/>
 </p>
+
+También, se implementó una sección con un resumen de las funcionalidades que ofrece la aplicación web a los visitantes que decidan convertirse en usuarios de la aplicación.
 <p align="center">
   <img src="https://i.imgur.com/AtWUtPY.png"/>
 </p>
+
+Además, se implementó una sección que contiene algunos testimonios de usuarios que usaron previamente la aplicación web y deciden dar una opinión respecto a su experiencia con el uso de la misma y como les ha ayudado en su situación.
 <p align="center">
   <img src="https://i.imgur.com/T5F4i5T.png"/>
 </p>
+
+También, se implementó la sección que informa de los potenciales beneficios que ofrece el uso de la aplicación web a los visitantes interesados en usar el producto para el desarrollo de sus actividades.
 <p align="center">
   <img src="https://i.imgur.com/wyFDw0M.png"/>
 </p>
+
+Finalmente, se implementó la sección con información acerca de los planes de suscripción para los visitantes. Esta sección incluye las restricciones que aplica cada plan a los usuarios que decidan crear una cuenta nueva.
 <p align="center">
   <img src="https://i.imgur.com/rwnScm7.png"/>
 </p>
 
-Link al Landing Page: [Landing_Page_Stocksip](https://expdesigners.github.io/StockSip-LandingPage/)
-
-
 #### 5.2.1.6. Software Deployment Evidence for Sprint Review
-La organizacion de nuestro codigo se realizo en un repositorio en GitHub. Para el despliegue del landing page se utilizo GitHub Pages
-* Primero se creo un repositorio para alojar el codigo del landing page
-* Segundo, cada integrante del equipo creo una rama de cada funcion del landing page
+La organizacion de nuestro codigo se realizo en un repositorio en GitHub y para el despliegue del landing page se utilizo GitHub Pages. Para el paso inicial, nos basamos en la configuración inicial de los repositorios de los productos a desarrollar (Sección 5.1.4.). A continuación, se explica del proceso de despliegue del sitio web estático.
+
+Se adjunta el enlace para acceder al sitio web estático desplegado: [https://expdesigners.github.io/StockSip-LandingPage/](https://expdesigners.github.io/StockSip-LandingPage/)
+
+* Partimos de la rama develop del repositorio del sitio web estático con todos los cambios realizados para el sprint actual.
 <p align="center">
-  <img src="https://i.imgur.com/WLeViFN.png"/>
+  <img src="https://i.imgur.com/T7oPQGS.png"/>
 </p>
 
-* Tercero, se realizo el merge a develop para corregir errores
-* Cuarto, cuando se corrigieron los errores, se realizo merge al master
-* Quinto, se desplego el landing page mediante GitHub Pages, evidencia:
+* Luego, enviamos todos los cambios realizados en el sprint desde la rama de desarrollo a una nueva rama de tipo release "release/landing-page-v1.0". Desde esa rama, se realizará el despliegue del sitio web estático.
+<p align="center">
+  <img src="https://i.imgur.com/WFZ2Ldm.png"/>
+</p>
+
+* A continuación, nos dirigimos a la sección de Configuración del repositorio (Settings). Luego, accedemos a la opción de páginas (Pages) dentro del bloque de secciones de código y automatización (Code and automation).
+<p align="center">
+  <img src="https://i.imgur.com/0TJGzpU.png"/>
+</p>
+
+* Después, elegimos el tipo de origen para que despliegue desde una rama que escojamos. Luego, buscamos la rama de lanzamiento que hemos creado para realizar el despliegue de esta versión y guardamos la configuración.
+<p align="center">
+  <img src="https://i.imgur.com/E8TLSWz.png"/>
+</p>
+
+* A continuación, aparecerá el enlace público generado para poder acceder al sitio web estático desplegado.
+<p align="center">
+  <img src="https://i.imgur.com/iWq4Sm3.png"/>
+</p>
+
+* Finalmente, se accede el sitio web desplegado gracias a GitHub Pages y se adjunta la siguiente evidencia.
 <p align="center">
   <img src="https://i.imgur.com/iE4Zzk7.png"/>
 </p>
 
-#### 5.2.1.7. Team Collaboration Insights durint Sprint
-
-El proyecto se realizo mediante repositorio en GitHub. Integrantes participantes:
+#### 5.2.1.7. Team Collaboration Insights durint Sprint 
+En esta sección, se explica la colaboración aportada por cada miembro del equipo durante este sprint. Este proyecto se realizo mediante repositorio en GitHub con los siguientes integrantes participantes:
 <p align="center">
   <img src="https://i.imgur.com/DAyXhVR.png"/>
 </p>
 
-Commits de los integrantes en el Landing Page:
+Respecto del avance realizado por cada integrante en este sprint, se detallan las secciones realizadas por cada integrante:
+- **Nicolas Juarez**: El integrante implementó y aplicó estilos en la sección de testimonios en el sitio web estático, siendo un total de 2 beneficios para la página. Además, el integrante cumplió con la entrega de su aporte a tiempo para poder ser probado y verificar que la implementación haya sido correcta.
+- **Camila Huamani**: La integrante implementó y aplicó estilos en la sección de inicio y funcionamiento de la aplicación. Dicho esto, la integrante cumplió con todas las tareas respectivas que correspondían al alcance de su aporte en este sprint.
+- **Farid Coronel**: El integrante implementó y aplicó estilos en la sección de beneficios que ofrece la aplicación a los usuarios. Al igual que los demás, el integrante entregó su avance a tiempo y con todas sus tareas completadas.
+- **Martin Gonzales**: El integrante implementó y aplicó estilos en la sección de planes de suscripción para los usuarios de la aplicación. También, completó todas sus tareas a tiempo.
+
+Respecto de la retroalimentación como equipo, nosotros creemos que en este sprint se entregó al completo con las actividades designadas correspondientes al proceso de investigación de la problemático y diseño del producto de software tanto como de la implementación de la primera versión del sitio web estático.
+Sin embargo, se siente que aún hay que mejorar mucho la comunicación interna entre los integrantes. Este problema será resuelto poco a poco conforme el equipo se sienta más seguro en el desarrollo del producto de software.
+
+A continuación, se adjunta el gráfico con la cantidad de commits realizados por cada integrante del equipo durante este sprint para el desarrollo de la primera versión del sitio web estático:
 <p align="center">
   <img src="https://i.imgur.com/YdN51Bf.png"/>
 </p>
 
-Grafico de los push y merge realizados por el equipo:
+Finalmennte, se muestra el gráfico los avances realizados por los integrantes en las ramas creadas para cada característica que se implementó al sitio web estático en este sprint:
 <p align="center">
   <img src="https://i.imgur.com/6khY971.png"/>
 </p>
@@ -1179,20 +1232,128 @@ A continuación, se detalla, en la tabla siguiente, información sobre el planea
 | Location                            | Reunión presencial en el aula VH107 del curso en la sede Villa                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 | Prepared By                         | Huamani Cruz, Camila Victoria                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
 | Attendees                           | Huamani Cruz, Camila Victoria / Juarez Leon, Nicolas Emilio Walter / Gonzales Castillo, Angel Martin / Coronel Espinoza, Farid Sebastian                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
-| Sprint 3 Review Summary             |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-| Sprint 3 Retrospective Summary      |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| Sprint 3 Review Summary             | In the previous sprint, the team finished to implement the videos about the team and about the product in the Landing Page. Also, completed most of the sections of the front-end application and making sure it works with the fake API server. Finaly, the principal endpoints for the back-end application like warehouses, products, inventories, alerts and care guides were implemented.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| Sprint 3 Retrospective Summary      | In this sprint, the team improved the internal communication between all the members and achieve another level in trust and communication. This will help the team to finish all the remaining tasks left for the final sprint and complete the develop of the product.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 | <b> Sprint Goal & User Stories </b> | --                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-| Sprint 4 Goal                       |     |
-| Sprint 4 Velocity                   | 100                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
-| Sum of Story Points                 | 50                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| Sprint 4 Goal                       | Our goal is to offer the complete information and a detailed video about all benefits and features related to the product and the final video with complete details of the team behind the platform in the life cycle of the product development, implement web service consumption for endpoints related to products, warehouses, inventories, alerts, care guides, orders, accounts, users, profiles and authentication in the front end application and increment the possibilities to implement features related to profile preferences; creating an account with a subscription and making orders. We believe it delivers the complete knowledge of the potential benefits of using the application and trust of usage to the visitors; consumption, manipulation and creation of real-time data regarding products, warehouses, inventories, alerts, orders, care guides, accounts, profiles, users and authentication to the liquor store owners and providers and opportunities to implement features related to profile preferences; creating an account with a subscription and making orders to the developers. This will be confirmed when the user registration numbers increment, the liquor store owners use the application to help them to do the inventory control of their stores; the providers use the application to do the inventory control and do the reception and check of the orders to deliver to its clients and the web developers implement features related to profile preferences; creating an account with a subscription and making orders. |
+| Sprint 4 Velocity                   | 94                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| Sum of Story Points                 | 94                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 
+#### 5.2.4.2. Aspect Leaders and Collaborators
 
+En esta sección, se incluye la matriz de liderazgo y colaboración desarrollada para este último sprint. Los principales aspectos que se toman en cuenta en este sprint se centran en cada las principales secciones que presenta el Front-End Web Application y en su contraparte para el Back-End Application. Para esto, hemos definido las siguientes secciones: Inventarios y Zonas, Productos, Cuenta de Usuario, Reportes, Ordenes de compra y Alertas.
+
+| Team Member                        | GitHub Username | Alerts and Notifications | Analytics and Reporting | Authentication | Inventory Management  | Order Operation and Monitoring | Payment and Subscriptions | Profile Management |
+|------------------------------------|-----------------|--------------------------|-------------------------|----------------|-----------------------|--------------------------------|---------------------------|--------------------|
+| Huamani Cruz, Camila Victoria      | victiila06      |                          |                         | L              |                       | L                              |                           | L                  |
+| Gonzales Castillo, Angel Martin    | XdiabloX426     | L                        |           L             |                |                       |                                |                           |                    |
+| Coronel Espinoza, Farid Sebastian  | Far14z          |                          |                         | C              | C                     |                                | L                         |                    |
+| Juarez Leon, Nicolas Emilio Walter | JuarezLn10      | C                        |                         | C              | L                     | C                              |                           |                    |
+
+#### 5.2.4.3. Sprint Backlog 4
+
+Como se mencionó previamente en el planeamiento del sprint número 3, el objetivo del mismo es concluir con el sitio web estatico integrando secciones que informen a los visitantes sobre los desarrolladores del producto y sobre el producto en si; implementar caracteristicas relacionadas con la realizacion de ordenes de compra en la aplicacion web e implementar endpoints en la aplicacion backend necesarios para la implementacion de caracteristicas fundamentales en la aplicacion web.
+
+Luego de definir el objetivo del sprint, se identificaron las historias de usuario útiles para este sprint. A continuación, se dividió cada historia de usuario en tareas relacionadas a la implementación y cumplimiento de dicha historia. Para ello, se utilizó la aplicación _Trello_ que nos ayuda a gestionar el progreso del sprint. 
+[Link de acceso al Sprint Backlog #3 en Trello](https://trello.com/b/UjadbQbv/stocksip-sprint-backlog-2?filter=label:Desarrollo%20de%20Aplicaciones%20Open%20Source)
+
+<p align="center">
+  <img src="../img/Chapter V/sprint-3/sprint-backlog-3_1.png" 
+  alt="Sprint goal y Stories del Sprint #3"/>
+</p>
+
+  <p align="center">
+  <img src="../img/Chapter V/sprint-3/sprint-backlog-3_2.png" 
+  alt="Sprint Backlog 3 en desarrollo"/>
+  </p>
+
+A continuación, se presenta la tabla con las tareas necesarias para completar satisfactoriamente este segundo sprint. Además, se asignó un miembro del equipo a cada tarea a desarrollar y el estado de cada tarea.
+
+| Sprint 3     | Sprint Backlog 3                                         |                |                                                                               |                                                                                                                                                              |                    |                 |        |
+| ------------ | -------------------------------------------------------- | -------------- | ----------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------ | --------------- | ------ |
+| User Stories |                                                          | Work Item/Task |                                                                               |                                                                                                                                                              |                    |                 |        |
+| Id           | Title                                                    | Id             | Title                                                                         | Description                                                                                                                                                  | Estimation (Hours) | Assigned to     | Status |
+| US059        | Generar orden de compra                                  | US059T001      | Crear formulario de nueva orden de compra                                     | Diseño e implementación del formulario para crear manualmente una orden de compra.                                                                           | 4                  | Nicolas Juarez  | Done   |
+|              |                                                          | US059T002      | Validar productos en orden                                                    | Validación para evitar el envío de órdenes vacías.                                                                                                           | 3                  | Nicolas Juarez  | Done   |
+|              |                                                          | US059T003      | Implementar un snackbar para las notificaciones                               | Diseño e implementación de un componente snackbar para las notificaciones de órdenes creadas.                                                                | 3                  | Nicolas Juarez  | Done   |
+|              |                                                          | US059T004      | Conexión con proveedor                                                        | Implementar la lógica para enviar la orden generada al proveedor correspondiente.                                                                            | 3                  | Nicolas Juarez  | Done   |
+| US060        | Visualizar estado de la orden de compra                  | US060T001      | Crear vista de seguimiento de órdenes                                         | Vista para mostrar las órdenes realizadas por el usuario.                                                                                                    | 4                  | Nicolas Juarez  | Done   |
+| US061        | Notificaciones sobre el estado de una orden              | US061T001      | Configurar notificación inicial                                               | Enviar notificación cuando se crea una orden de compra.                                                                                                      | 3                  | Nicolas Juarez  | Done   |
+|              |                                                          | US061T003      | Crear notificaciones de orden aceptada o rechazada                            | Crear funcionalidad para enviar y mostrar notificación al dueño cuando la orden sea aceptada.                                                                | 4                  | Nicolas Juarez  | Done   |
+| US062        | Coordinar fecha de entrega                               | US062T001      | Implementar función de propuesta de horario de entrega                        | Funcionalidad para que el proveedor proponga un horario al cliente.                                                                                          | 4                  | Nicolas Juarez  | Done   |
+|              |                                                          | US062T002      | Crear función para aceptar/rechazar propuesta de horario                      | Implementar funcionalidad para que el cliente pueda aceptar o rechazar la propuesta del proveedor.                                                           | 3                  | Nicolas Juarez  | Done   |
+|              |                                                          | US062T003      | Guardar fecha acordada en orden                                               | Persistencia de la fecha y hora confirmada entre ambas partes en la orden correspondiente.                                                                   | 3                  | Nicolas Juarez  | Done   |
+| US056        | Creación de catálogo                                     | US056T001      | Crear formulario de catálogo                                                  | Diseño e implementación del formulario para crear un catálogo manualmente.                                                                                   | 4                  | Camila Huamani  | Done   |
+|              |                                                          | US056T002      | Validar no publicación de catálogo vacío\|                                    | Implementar validación para impedir publicar catálogo sin productos.                                                                                         | 2                  | Camila Huamani  | Done   |
+|              |                                                          | US056T003      | Implementar funcionalidad para publicar catálogo con productos                | Implementación de funcionalidad para publicar catálogo con productos visibles para clientes.                                                                 | 3                  | Camila Huamani  | Done   |
+| US057        | Agregar producto al catálogo                             | US057T001      | Implementar funcionalidad para añadir producto con información completa       | Crear formulario y funcionalidad para agregar producto con datos completos al catálogo.                                                                      | 3                  | Camila Huamani  | Done   |
+|              |                                                          | US057T002      | Implementar validación para campos obligatorios                               | Implementar validación para impedir añadir producto con campos incompletos o vacíos.                                                                         | 3                  | Camila Huamani  | Done   |
+|              |                                                          | US057T003      | Crear función para agregar producto desde inventario                          | Crear funcionalidad para agregar productos ya existentes en inventario directamente al catálogo                                                              | 3                  | Camila Huamani  | Done   |
+| US058        |                                                          | US058T001      | Crear funcionalidad para detectar productos sin stock y marcar en catálogo    | Agregar una funcionalidad que permita identificar productos sin stock y marcarlos como no disponibles en catálogo.                                           | 5                  | Camila Huamani  | Done   |
+|              |                                                          | US058T002      | Crear funcionalidad para eliminar producto manualmente del catálogo           | Funcionalidad para que proveedor elimine manualmente un producto del catálogo sin eliminarlo del inventario.                                                 | 5                  | Camila Huamani  | Done   |
+| US063        | Actualizar estado de la orden de venta                   | US063T001      | Implementar funcionalidad para actualizar el estado de una orden de venta.    | Crear una funcionalidad que permita al usuario cambiar el estado de una orden de venta a "Aceptado", "En preparación", "Enviando", "Entregado" o "Cancelado" | 2                  | Nicolas Juarez  | Done   |
+|              |                                                          | US063T002      | Agregar funcionalidad para enviar notificaciones por orden cancelada          | Implementar una funcionalidad que envíe una notificación al dueño de licorería si su orden de compra se canceló por el proveedor.                            | 3                  | Nicolas Juarez  | Done   |
+| US064        |                                                          | US064T001      | Actualizar stock automáticamente al recibir pedido                            | Agregar método para incrementar stock en almacén digital al confirmar entrega.                                                                               | 4                  | Nicolas Juarez  | Done   |
+|              |                                                          | US064T002      | Crear producto nuevo en inventario                                            | Implementar método para agregar nuevos productos recibidos y no existentes en almacén digital.                                                               | 4                  | Nicolas Juarez  | Done   |
+| US020        | Detallar el estado de salida de productos                | US020T001      | Crear métodos para registrar el motivo de salida de productos                 | Crear un método para permitir al dueño de licorería registrar una salida de producto como venta                                                              | 3                  | Nicolás Juarez  | Done   |
+| US021        | Configurar alertas de reposición                         | US021T001      | Crear función para definir umbral de stock mínimo                             | Crear un método para permitir que el dueño establezca un nivel mínimo por producto                                                                           | 3                  | Martin Gonzales | Done   |
+|              |                                                          | US021T002      | Crear una función para generar alerta cuando stock esté por debajo del mínimo | Automatizar alerta al alcanzar o pasar el umbral definido                                                                                                    | 3                  | Martin Gonzales | Done   |
+| US022        | Alertas por próximo vencimiento                          | US022T001      | Configurar margen de vencimiento                                              | Implementar opción para definir días previos al vencimiento para generar alerta                                                                              | 3                  | Martin Gonzales | Done   |
+|              |                                                          | US022T002      | Crear un componente para visualizar productos próximos a vencer               | Mostrar claramente los productos en riesgo de vencimiento próximo en un componente "card"                                                                    | 3                  | Martin Gonzales | Done   |
+| US039        | Crear un plan de reabastecimiento                        | US039T001      | Implementar una opción para crear plan de reabastecimiento para licorería     | Crear un formulario para ingresar datos de plan (cliente, productos, frecuencia)                                                                             | 4                  | Martin Gonzales | Done   |
+|              |                                                          | US039T002      | Implementar un método para validar campos obligatorios                        | Añadir validaciones para asegurar datos completos antes de guardar                                                                                           | 2                  | Martin Gonzales | Done   |
+| US040        | Editar plan de reabastecimiento existente                | US040T001      | Crear una opción para editar un plan existente                                | Permitir edición de datos en planes ya creados                                                                                                               | 3                  | Martin Gonzales | Done   |
+|              |                                                          | US040T002      | Crear botón para cancelar edición sin guardar                                 | Implementar botón de cancelación que preserve los datos originales                                                                                           | 2                  | Martin Gonzales | Done   |
+| US028        | Visualizar resumen económico de pérdidas                 | US028T001      | Crear una función para mostrar valor total de pérdidas                        | Calcular y mostrar el total monetario de pérdidas según precio de compra                                                                                     | 4                  | Martin Gonzales | Done   |
+|              |                                                          | US030T002      | Aplicar desglose por tipo de pérdida                                          | Mostrar subtotales por tipo: merma, consumo interno, donación                                                                                                | 3                  | Martin Gonzales | Done   |
+| US030        | Asociar productos comprados a inventario                 | US028T001      | Asociar productos de factura al inventario                                    | Registrar productos de una factura directamente en el stock                                                                                                  | 4                  | Farid Coronel   | Done   |
+|              |                                                          | US030T002      | Agregar validaciones para evitar duplicados al ingresar productos             | Verificar existencia de producto y sumar unidades en lugar de duplicar                                                                                       | 3                  | Farid Coronel   | Done   |
+| US031        | Registro de pedidos a proveedores                        | US031T001      | Crear una vista del historial de compras por proveedor                        | Mostrar pedidos pasados al seleccionar un proveedor                                                                                                          | 3                  | Farid Coronel   | Done   |
+|              |                                                          | US031T002      | Filtrar historial por producto                                                | Implementar filtro de búsqueda por nombre de producto en historial                                                                                           | 3                  | Farid Coronel   | Done   |
+| US065        | Visualización y elección del plan gratuito               | US065T001      | Definir estructura de datos para los planes                                   | Crear entidad o configuración para almacenar beneficios de los planes                                                                                        | 3                  | Farid Coronel   | Done   |
+|              |                                                          | US065T002      | Implementar lógica para activar plan gratuito                                 | Asociar beneficios del plan gratuito al usuario                                                                                                              | 3                  | Farid Coronel   | Done   |
+|              |                                                          | US065T003      | Crear vista/interfaz para mostrar plan gratuito                               | Mostrar los beneficios del plan de manera clara en la interfaz                                                                                               | 2                  | Farid Coronel   | Done   |
+| US066        | Visualización y elección del plan premium                | US066T001      | Crear vista/interfaz para mostrar plan premium                                | Mostrar beneficios y comparativa con el plan gratuito                                                                                                        | 4                  | Farid Coronel   | Done   |
+|              |                                                          | US066T002      | Implementar lógica para seleccionar plan premium                              | Activar plan premium en el sistema al usuario luego del pago                                                                                                 | 4                  | Farid Coronel   | Done   |
+|              |                                                          | US066T003      | Integrar visualización con flujo de pago PayPal                               | Asegurar coherencia entre información mostrada y el proceso de pago                                                                                          | 3                  | Farid Coronel   | Done   |
+| TS006        | Registrar productos en el inventario                     | TS006T001      | Crear modelo de producto                                                      | Definir esquema del producto: nombre, cantidad, tipo, fecha de vencimiento                                                                                   | 2                  | Nicolas Juarez  | Done   |
+|              |                                                          | TS006T002      | Implementar POST para registrar productos en el inventario                    | Crear endpoint para registrar productos en inventario                                                                                                        | 3                  | Nicolas Juarez  | Done   |
+|              |                                                          | TS006T003      | Validar duplicados y datos incompletos                                        | Controlar duplicación y campos requeridos                                                                                                                    | 2                  | Nicolas Juarez  | Done   |
+| TS007        | Consultar inventario                                     | TS007T001      | Implementar GET para devolver un inventario                                   | Crear endpoint para devolver lista de productos del inventario                                                                                               | 2                  | Farid Coronel   | Done   |
+|              |                                                          | TS007T002      | Crear función para manejar inventario vacío                                   | Crear una funcionalidad para devolver lista vacía con código 200 si no hay productos                                                                         | 1                  | Farid Coronel   | Done   |
+| TS008        | Configurar alertas de reposición                         | TS008T001      | Crear modelo de alerta                                                        | Definir esquema para alertas (producto, umbral)                                                                                                              | 2                  | Martin Gonzales | Done   |
+|              |                                                          | TS008T002      | Implementar consulta POST para alertas                                        | Crear endpoint para guardar configuraciones de alerta                                                                                                        | 2                  | Martin Gonzales | Done   |
+| TS011        | Registrar guía de conservación                           | TS011T001      | Crear modelo de guía de conservación                                          | Definir estructura de guía (producto, condiciones de conservación, etc.)                                                                                     | 2                  | Martin Gonzales | Done   |
+|              |                                                          | TS011T002      | Implementar consulta POST para registrar guías                                | Crear endpoint para registrar una nueva guía de conservación.                                                                                                | 2                  | Martin Gonzales | Done   |
+|              |                                                          | TS011T003      | Validar campos obligatorios en las guías                                      | Manejar errores por datos incompletos                                                                                                                        | 1                  | Martin Gonzales | Done   |
+| TS001        | Endpoint para registrar nuevo usuario                    | TS001T001      | Crear modelo y validaciones de usuario                                        | Definir esquema del usuario (nombre, correo, contraseña, rol) y validar campos requeridos                                                                    | 3                  | Camila Huamani  | Done   |
+|              |                                                          | TS001T002      | Implementar consulta POST para registro de usuarios                           | Crear endpoint para registrar nuevos usuarios en la plataforma, creando su respectivo perfil                                                                 | 3                  | Camila Huamani  | Done   |
+|              |                                                          | TS001T003      | Manejar errores por datos incompletos y duplicados                            | Incluir manejo de errores 400 (campos faltantes) y 409 (correo existente)                                                                                    | 2                  | Camila Huamani  | Done   |
+| TS002        | Endpoint para iniciar sesión                             | TS002T001      | Implementar lógica de autenticación                                           | Verificar correo y contraseña del usuario                                                                                                                    | 2                  | Camila Huamani  | Done   |
+|              |                                                          | TS002T002      | Implementar método para generar y devolver token JWT                          | Configurar JWT y retornarlo con datos del usuario                                                                                                            | 2                  | Camila Huamani  | Done   |
+|              |                                                          | TS002T003      | Crear métodos para validar cuenta activa del usuario                          | Verificar si el usuario está activo antes de permitir acceso                                                                                                 | 1                  | Camila Huamani  | Done   |
+| TS012        | Generar reporte de pérdidas                              | TS012T001      | Implementar lógica para detectar pérdidas                                     | Detectar productos vencidos, merma u otros criterios de pérdida                                                                                              | 3                  | Martin Gonzales | Done   |
+|              |                                                          | TS012T002      | Implementar consulta GET para obtener perdidas                                | Crear endpoint que devuelva las pérdidas encontradas                                                                                                         | 2                  | Martin Gonzales | Done   |
+| TS014        | Endpoint para registrar una nueva zona de almacenamiento | TS014T001      | Crear modelo y migración para zona de almacenamiento                          | Definir estructura de datos para zonas (nombre, descripción) y crear migración en base de datos                                                              | 3                  | Farid Coronel   | Done   |
+|              |                                                          | TS014T002      | Implementar endpoint POST para registrar zonas                                | Crear lógica de controlador para registrar nueva zona de almacenamiento                                                                                      | 4                  | Farid Coronel   | Done   |
+|              |                                                          | TS014T003      | Validar datos de entrada y verificar duplicados                               | Verificar que no falten campos obligatorios y que la zona no exista ya en BD                                                                                 | 2                  | Farid Coronel   | Done   |
+| TS015        | Endpoint para obtener resumen del panel del usuario      | TS015T001      | Diseñar DTO/respuesta para panel del usuario                                  | Definir estructura de respuesta del panel (alertas, inventario, movimientos)                                                                                 | 2                  | Camila Huamani  | Done   |
+|              |                                                          | TS015T002      | Implementar endpoint para obtener panel de usuario                            | Consultar datos relevantes y retornarlos en el formato definido y por tipo de rol de usuario (dueño de licorería o proveedor)                                | 4                  | Camila Huamani  | Done   |
+|              |                                                          | TS015T003      | Añadir middleware de autenticación                                            | Asegurar que solo usuarios autenticados accedan al panel                                                                                                     | 1                  | Camila Huamani  | Done   |
+| TS021        | Endpoint para generar una orden de compra                | TS021T001      | Diseñar estructura de orden de compra                                         | Definir modelo con sus relaciones (productos, cantidades, usuario)                                                                                           | 3                  | Nicolas Juarez  | Done   |
+|              |                                                          | TS021T002      | Implementar endpoint POST para pedidos                                        | Crear lógica para registrar orden de compra y manejar errores                                                                                                | 4                  | Nicolas Juarez  | Done   |
+|              |                                                          | TS021T003      | Validar productos en orden                                                    | Verificar que la orden no esté vacía                                                                                                                         | 1                  | Nicolas Juarez  | Done   |
+| TS023        | Endpoint para actualizar estados de los pedidos          | TS023T001      | Definir lógica de transición de estados                                       | Permitir solo cambios válidos de estado (p. ej., pendiente → enviado)                                                                                        | 2                  | Nicolas Juarez  | Done   |
+|              |                                                          | TS023T002      | Implementar endpoint PUT para pedidos                                         | Crear lógica de actualización de estado y respuesta adecuada                                                                                                 | 3                  | Nicolas Juarez  | Done   |
+|              |                                                          | TS023T003      | Agregar validaciones de negocio (estado entregado)                            | Bloquear cambios a pedidos entregados                                                                                                                        | 1                  | Nicolas Juarez  | Done   |
+| TS025        | Endpoint para validar un pago                            | TS025T001      | Configurar integración con API de PayPal                                      | Establecer conexión segura para validar pagos desde cliente                                                                                                  | 3                  | Farid Coronel   | Done   |
+|              |                                                          | TS025T002      | Implementar endpoint POST /api/paypal                                         | Crear lógica para procesar y validar respuesta del pago                                                                                                      | 4                  | Farid Coronel   | Done   |
+|              |                                                          | TS025T003      | Manejar errores de PayPal (fondos insuficientes)                              | Procesar código INSUFFICIENT\_FUNDS y retornar error 402                                                                                                     | 2                  | Farid Coronel   | Done   |
 
 
 ## 5.3. Validation Interviews
 
 ### 5.3.1. Diseño de entrevistas
-
 
 En las entrevistas de validación se incluirá:
 
