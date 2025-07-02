@@ -933,6 +933,103 @@ A continuación, se muestra una tabla que contiene la información sobre los _co
 
 #### 5.2.3.5. Execution Evidence for Sprint Review
 
+El objetivo de este sprint fue realizar, en colaboracion con todo el equipo, la actualización del landing page y la aplicación Front End.
+
+
+#### **Front End Application**
+
+**Órdenes de compra (vista proveedor)**
+<p align="center">
+  <img src="https://i.imgur.com/aE3pz6Q.png"/>
+</p>
+<br>
+**Órdenes de compra (vista dueño de licorería)**
+
+<p align="center">
+  <img src="https://i.imgur.com/7UtvH2N.png"/>
+</p>
+
+<p align="center">
+  <img src="https://i.imgur.com/NBg1Zhb.png"/>
+</p>
+<br>
+**Guías de conservación**
+
+<p align="center">
+  <img src="https://i.imgur.com/yn7nzd9.png"/>
+</p>
+
+<p align="center">
+  <img src="https://i.imgur.com/iJpRoGB.png"/>
+</p>
+<br>
+**Inventario**
+<p align="center">
+  <img src="https://i.imgur.com/AwDz0V0.png"/>
+</p>
+<br>
+
+**Catálogo (Vista de proveedor)**
+<p align="center">
+  <img src="https://i.imgur.com/5bB0UD2.png"/>
+</p>
+<p align="center">
+  <img src="https://i.imgur.com/ZB0SESe.png"/>
+</p>
+
+
+<div style="page-break-after: always; visibility: hidden">
+\pagebreak
+</div>
+
+
+#### **Back End Application**
+
+
+**Guías de conservación**
+
+<p align="center">
+  <img src="https://i.imgur.com/XNIqd6P.png"/>
+</p>
+<br>
+
+
+**Products**
+
+<p align="center">
+  <img src="https://i.imgur.com/a8zscYY.png"/>
+</p>
+<br>
+
+**Warehouses**
+
+<p align="center">
+  <img src="https://i.imgur.com/8oNQg8T.png"/>
+</p>
+<br>
+
+**Alertas**
+
+<p align="center">
+  <img src="https://i.imgur.com/11AyEJM.png"/>
+</p>
+<br>
+
+**Cuentas de usuario**
+
+<p align="center">
+  <img src="https://i.imgur.com/QIKIRpE.png"/>
+</p>
+
+
+
+Link al landing page: [Landing_Page_StockSip](https://expdesigners.github.io/StockSip-LandingPage/)
+
+Link a la aplicación Frontend: [App_Front_End_StockSip](https://stocksip-exp-app.web.app/)
+
+Link a la aplicación Backend: [App_Back_End_StockSip](https://stocksip-backendapplication.onrender.com)
+
+
 #### 5.2.3.6. Services Documentation Evidence for Sprint Review
 
 En esta seccion, se describe la evidencia de documentacion de los endpoints que se han implementado en la aplicacion backend de nuestro proyecto. A continuacion, se muestra la tabla que contiene una breve descripcion de las acciones y requisitos de cada endpoint implementado.
@@ -1163,6 +1260,44 @@ En esta seccion, se describe la evidencia de documentacion de los endpoints que 
 
 #### 5.2.3.8. Team Collaboration Insights durint Sprint
 
+El proyecto se realizo mediante repositorio en GitHub. Integrantes participantes:
+<p align="center">
+  <img src="https://i.imgur.com/DAyXhVR.png"/>
+</p>
+
+
+Commits de los integrantes en el FrontEnd:
+<p align="center">
+  <img src="https://i.imgur.com/Rcpfw7u.png"/>
+</p>
+
+Commits de los integrantes en el BackEnd:
+<p align="center">
+  <img src="https://i.imgur.com/VgjqQJT.png"/>
+</p>
+
+
+Grafico de los push y merge realizados por el equipo en la aplicación Frontend:
+
+<p align="center">
+  <img src="https://i.imgur.com/qcDq5Ef.png" width=500/>
+</p>
+
+Grafico de los push y merge realizados por el equipo en la aplicación Backend:
+
+<p align="center">
+  <img src="https://i.imgur.com/Zvc8sit.png" width=500/>
+</p>
+
+
+A continuacion de detallara el trabajo que realizo cada integrante del equipo en este segundo sprint:
+- El integrante Martín Gonzales fue responsable de mejorar la sección de alertas en el Frontend, agregando datos dinámicos que dependan de los cambios en un producto. Además, mejoró la sección de reportes en el Frontend para que un usuario pueda crear guías de conservación y visualizarlas correctamente. En el Backend, realizó los respectivos endpoints para las alertas en el bounded context "Alertas And Notifications."
+- La integrante Camila Huamani agregó las secciones about the product y about the team en el landing page. En el Frontend se encargo de mejorar la autenticación, la edición de perfiles de usuario, agregó la sección de órdenes de compra, catálogos y productos. En el Backend se encargó de realizar los endpoints para el bounded context de "Profile Management".
+- El integrante Farid Coronel fue responsable de mejorar la sección de almacenes en el Frontend y se encargó de realizar los respectivos endpoints para esta sección en la aplicación Backend.
+- El integrante Nicolas Juarez implementó los endpoints de productos y guías de conservación para el bounded context "Inventory Management".
+
+
+
 ## 5.3. Validation Interviews
 
 ### 5.3.1. Diseño de entrevistas
@@ -1216,11 +1351,11 @@ En las entrevistas de validación se incluirá:
 
 **Entrevista 2**
 
-| Entrevista                                                         | Registro                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-| ------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| <p align="center"><img src="https://i.imgur.com/B0hSLHp.png"/></p> | **Distrito:** Chorrillos<br>**Entrevistado:** Luis Alfonzo Jimenez                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
-| [Link](https://acortar.link/8Nl8Ms)                                | **Entrevistador:** Camila Victoria Huamani Cruz                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
-| Timing: Minuto 15:40-28:04                                         | **Resumen:** La entrevista se realizo a Luis Alfonzo Jimenez, de 55 años, participó en la validación de la aplicación Stock, diseñada para la gestión de inventario en licorerías. Durante la prueba, creó una cuenta, seleccionó su rol como dueño de licorería, y accedió sin problemas al dashboard, el cual le permitió visualizar ventas, productos en stock y alertas relevantes. Exploró la sección de almacenamiento, donde creó un producto nuevo ingresando datos como tipo de licor, marca, precio e imagen. También navegó por la sección de reportes y generó una guía de conservación, configurando temperatura, duración del producto abierto y comentarios útiles para sus trabajadores. Luis continuó creando una orden de compra desde la sección correspondiente, seleccionando productos del catálogo y asignando un proveedor. Finalmente, accedió al perfil para modificar su información personal, revisar su rol y consultar los beneficios del plan premium. En su opinión, la aplicación es muy amigable, clara y sencilla de manejar. Destacó como funcionalidad clave la gestión del stock mínimo y la emisión de alertas, que considera fundamentales para tomar decisiones de reposición, sobre todo en fechas críticas como fines de semana. Valoró positivamente la estructura general de la app, aunque aclaró que un mayor uso permitiría familiarizarse aún más con ella. Satisfaccion de flujo: 4.8/5| 
+| Entrevista                                                         | Registro                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| ------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <p align="center"><img src="https://i.imgur.com/B0hSLHp.png"/></p> | **Distrito:** Chorrillos<br>**Entrevistado:** Luis Alfonzo Jimenez                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| [Link](https://acortar.link/8Nl8Ms)                                | **Entrevistador:** Camila Victoria Huamani Cruz                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| Timing: Minuto 15:40-28:04                                         | **Resumen:** La entrevista se realizo a Luis Alfonzo Jimenez, de 55 años, participó en la validación de la aplicación Stock, diseñada para la gestión de inventario en licorerías. Durante la prueba, creó una cuenta, seleccionó su rol como dueño de licorería, y accedió sin problemas al dashboard, el cual le permitió visualizar ventas, productos en stock y alertas relevantes. Exploró la sección de almacenamiento, donde creó un producto nuevo ingresando datos como tipo de licor, marca, precio e imagen. También navegó por la sección de reportes y generó una guía de conservación, configurando temperatura, duración del producto abierto y comentarios útiles para sus trabajadores. Luis continuó creando una orden de compra desde la sección correspondiente, seleccionando productos del catálogo y asignando un proveedor. Finalmente, accedió al perfil para modificar su información personal, revisar su rol y consultar los beneficios del plan premium. En su opinión, la aplicación es muy amigable, clara y sencilla de manejar. Destacó como funcionalidad clave la gestión del stock mínimo y la emisión de alertas, que considera fundamentales para tomar decisiones de reposición, sobre todo en fechas críticas como fines de semana. Valoró positivamente la estructura general de la app, aunque aclaró que un mayor uso permitiría familiarizarse aún más con ella. Satisfaccion de flujo: 4.8/5 |
 **Entrevista 3**
 
 | Entrevista                                                         | Registro                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
@@ -1228,6 +1363,8 @@ En las entrevistas de validación se incluirá:
 | <p align="center"><img src="https://i.imgur.com/AshFnYN.png"/></p> | **Distrito:** Villa el Salvador<br>**Entrevistado:** Brayner Coronel                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 | [Link](https://acortar.link/8Nl8Ms)                                | **Entrevistador:** Farid Sebastian Coronel Espinoza                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 | Timing: Minuto 28:06-41:29                                         | **Resumen:** La entrevista se realizo a Brayner Coronel, de 28 años, participó en la entrevista de validación de nuestra aplicacion. Se evaluó principalmente el flujo de navegación y la experiencia visual en la landing page y distintas secciones del sistema. Brayner destacó positivamente la estructura de la landing page, valorando la inclusión de testimonios, preguntas frecuentes, soporte bilingüe (español e inglés) y planes diferenciados (gratuito y premium). Considera que estos elementos ayudan al visitante a orientarse, confiar en el servicio y tomar decisiones. Sugirió que los nombres en los almacenes podrían omitir palabras redundantes como "vino" si ya están en el contexto de un almacén de vinos, para mejorar la visualización. Respecto al diseño, valoró los colores y la organización visual de las secciones. Le pareció comprensible la navegación mediante iconos en la barra lateral, considerando que estos son suficientemente descriptivos. También resaltó como útil la funcionalidad de selección de roles al registrarse, el perfil de usuario editable, y la posibilidad de cambiar idioma fácilmente. En cuanto al inventario, consideró clara la visualización de productos, imágenes, precio, stock y capacidad de edición o creación de nuevos ítems. En la sección de reportes, entendió correctamente las distintas funciones: pérdidas, transportes, reposiciones y conservación. Opinó que los reportes son fáciles de navegar y bien segmentados. Finalmente, destacó la utilidad de las alertas por productos próximos a vencer o con stock crítico, y sugirió que algunos accesos clave, como los catálogos y pedidos, deberían estar disponibles desde accesos rápidos para agilizar la interacción. Satisfaccion de flujo: 4.7/5|
+
+
 
 
 ### 5.3.3. Evaluación según heurísticas
@@ -1284,7 +1421,7 @@ El alcance de esta evaluación incluye la revisión de la usabilidad de las sigu
 
 ##### DESCRIPCIÓN DE PROBLEMAS
 
-###### PROBLEMA #1: Faltan validaciones para asegurar que un usuario agregue un correo electronico correctamente.
+###### PROBLEMA #1: No hay un control que permita regresar a la tienda durante el trámite de compra  
 
 **Severidad:** 3  
 **Heurística violada:** Usability - Ayudar a los usuarios a reconocer, diagnosticar y recuperarse de errores
@@ -1390,8 +1527,16 @@ Las alertas críticas como “Urgent Repositioning” no destacan visualmente fr
 Usar color de fondo, bordes o íconos para distinguir prioridades.
 
 ## 5.4. Video About The Product
-En esta seccion, se adjunta el enlace al video sobre el producto de software desarrollado. En este video, se detallan funcionalidades principales y beneficios que ofrece la aplicacion a los usuarios finales que usaran la aplicacion web para sus negocios.
 
-Enlace al video en YouTube: [[COLOCAR ENLACE]]
 
-[[COLOCAR IMAGEN]]
+A continuación se adjunta el link al video about the product: [Link de acceso al video About The Product](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202315234_upc_edu_pe/EZBB269V7vNDuzFqTJf3Ib4Bb1nprepvyCfUuhwnh34EKg?e=x7bw8f&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+<p align="center">
+  <img src="https://i.imgur.com/0JlUL4j.png">
+</p>
+
+## 5.5. Video About The Team
+
+A continuación se adjunta el link al video about the team: [Link de acceso al video About The Team](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202319724_upc_edu_pe/EZveF8KwWZxLj1QrvVRvIYoBDkW5_O7tkjQ9tWwIqj37oA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=c6vs8B)
+<p align="center">
+  <img src="https://i.imgur.com/FveTpkH.png">
+</p>
