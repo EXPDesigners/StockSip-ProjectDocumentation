@@ -18,7 +18,7 @@ En esta sección, se explica los entornos en donde se decidió llevar a cabo el 
 
 * **Product UX/UI Design**
 
-  - Para el desarrollo de plantillas de los User Personas, de los Impact Maps y los User Journey Maps se utilizó la aplicación UXPRESSIA la cual es una plataforma especializada en la creación de mapas de experiencia del usuario ofreciendo una interfaz enfocada exclusivamente en UX que facilita la estructuración clara y profesional de estos elementos. Destaca por sus plantillas personalizables, la posibilidad de añadir datos reales, imágenes y métricas, y por permitir la colaboración en tiempo real.
+  - Para el desarrollo de plantillas de los user persona, de los Impact Maps y los User Journey Maps se utilizó la aplicación UXPRESSIA la cual es una plataforma especializada en la creación de mapas de experiencia del usuario ofreciendo una interfaz enfocada exclusivamente en UX que facilita la estructuración clara y profesional de estos elementos. Destaca por sus plantillas personalizables, la posibilidad de añadir datos reales, imágenes y métricas, y por permitir la colaboración en tiempo real.
 
   - Para la creación del Lean UX Canvas se utilizó la aplicación de diseño CANVA. Esta aplicación es una herramienta versátil para crear diversos diseños. Canva facilita la colaboración del equipo y la exportación de los proyectos en archivo PNG o PDF, manteniendo el proceso creativo ordenado y atractivo. Para los Journey Mapping, Empathy Mapping, entre otros mapas,  se decidió utilizar Miro. Esta aplicación permite una colaboración en tiempo real entre equipos, ofrece una interfaz visual e intuitiva, y cuenta con plantillas prediseñadas que agilizan el proceso sin perder calidad metodológica.
 
@@ -36,7 +36,7 @@ En esta sección, se explica los entornos en donde se decidió llevar a cabo el 
  
 * **Software Testing**
 
-  - Las pruebas del Landing Page se realizarán mediante uso del navegador web GOOGLE para verificar que el diseño del mismo cumple con aspectos como el diseño responsivo en cualquier dispositivo desde el que se acceda al landing page del proyecto. Además, para visualizar que se han implementado correctamente elementos visuales que deben aparecer en las distintas secciones de la página.
+  - Las pruebas de la Landing Page se realizarán mediante uso del navegador web GOOGLE para verificar que el diseño del mismo cumple con aspectos como el diseño responsivo en cualquier dispositivo desde el que se acceda al landing page del proyecto. Además, para visualizar que se han implementado correctamente elementos visuales que deben aparecer en las distintas secciones de la página.
 
   -  Las pruebas de la aplicación Front-End se realizaron utilizando una fake API que usa la dependencia JSON SERVER que simula el consumo de datos traidos de una base de datos temporal para validar el correcto funcionamiento de las interfaces y las interacciones con los datos.
   
@@ -44,11 +44,11 @@ En esta sección, se explica los entornos en donde se decidió llevar a cabo el 
 
 * **Software Deployment**
 
-  - Para los despliegues del Landing Page se uso el servicio web de GITHUB PAGES, este servicio se especializa en el despliegue de sitios web staticos directamente desde un repositorio creado en GitHub.
+  - Para los despliegues de la Landing Page se uso el servicio web de GITHUB PAGES, este servicio se especializa en el despliegue de sitios web staticos directamente desde un repositorio creado en GitHub.
   
   - Para el primer y segundo despliegue de la aplicación Front-End se usaron las aplicaciones BEECEPTOR y FIREBASE. Por un lado, Beeceptor es una herramienta en línea (basada en la web) que nos permite crear endpoints HTTP falsos (mock) para probar APIs, se uso ver qué datos está enviando nuestra aplicación. Por otro lado, Firebase es una plataforma desarrollada por Google que permite crear aplicaciones web y móviles más rápido, sin tener que construir un backend completo desde cero, ofrece servicios listos para usar que se pueden usar para conectar facilmente nuestro Frontend.
 
-  - Para el último despliegue de la la aplicación Front-End se usó únicamente FIREBASE ya que desde la propia aplicación, se integró la conexión con el último despliegue de la aplicación Back-End.
+  - Para el último despliegue de la aplicación Front-End se usó únicamente FIREBASE ya que desde la propia aplicación, se integró la conexión con el último despliegue de la aplicación Back-End.
    
   - Para los despliegues de la Aplicación Back-End se utilizo RENDER. Render es una plataforma en la nube que permite desplegar aplicaciones web, APIs, bases de datos, sitios estáticos y más de forma sencilla y automatizada, sin necesidad de gestionar servidores manualmente. Permite que una aplicación backend esté disponible públicamente en internet, funcionando 24/7 con un dominio propio o asignado automáticamente.
 
@@ -90,7 +90,7 @@ Para el desarrollo de este proyecto, GITFLOW ayudará al equipo de desarrollo a 
 
 #### **5.1.2.3. Release Versioning Conventions**
 
-Para la nomenclatura de los lanzamientos del Landing Page, se utilizará Semantic Versioning que consta de tres partes para describir cambios mayores, cambios menores y parches para corrección de bugs, según la siguiente estructura:
+Para la nomenclatura de los lanzamientos de la Landing Page, se utilizará Semantic Versioning que consta de tres partes para describir cambios mayores, cambios menores y parches para corrección de bugs, según la siguiente estructura:
 
 * Número principal: Incrementa cuando se realiza un cambio mayor y significativo al proyecto.  
 * Número secundario: Incrementa cuando se realiza un cambio menor al proyecto como arreglo de errores o agregación de características.  
@@ -114,7 +114,7 @@ En esta sección, se definen las referencias que se usaron para adoptar estrateg
 
 * **Nomenclatura en HTML:**  
   Para la codificación del proyecto en HTML, se utilizará el artículo *“HTML Style Guide and Coding Conventions”.* Este artículo contiene información útil y necesaria para conocer cómo debe ser la nomenclatura de los diversos aspectos que incluye la programación en HTML como si se debe escribir en minúsculas o mayúsculas las secciones del cuerpo del documento. A continuación se adjunta el enlace para acceder al artículo de referencia: [https://www.w3schools.com/html/html5\_syntax.asp](https://www.w3schools.com/html/html5_syntax.asp)   
-  Finalmente, se aplicará el contenido del artículo para la nomenclatura en HTML para el landing page de StockSip a desarrollar.
+  Finalmente, se aplicará el contenido del artículo para la nomenclatura en HTML para la landing page de StockSip a desarrollar.
 
 * **Nomenclatura en CSS:**  
   Para la codificación del proyecto en Cascading Style Sheets (CSS), se utilizará el artículo *“Google HTML/CSS Style Guide”.* Este artículo contiene información útil y necesaria para conocer cómo debe ser la nomenclatura de los diversos aspectos que incluye la programación en CSS como capitalización en código de colores, referencias a imágenes, etc. A continuación se adjunta el enlace para acceder al artículo de referencia: [https://google.github.io/styleguide/htmlcssguide.html](https://google.github.io/styleguide/htmlcssguide.html)   
@@ -153,35 +153,35 @@ En esta sección, se especifica la configuración para realizar el despliegue de
   Como primer paso, se debe crear el repositorio en GitHub que será el lugar donde se aloja todo lo relacionado al Landing Page.
 
 <p align="center">
-  <img src="https://i.imgur.com/Kz79wpm.png" alt="Crear">
+  <img src="https://i.imgur.com/Kz79wpm.png" alt="Repository creation">
 </p>
 
-* **Paso 2: Carga de archivos necesarios**   
-  Como segundo paso, se importan todos los archivos necesarios para el desarrollo del landing page como imágenes, archivos HTML, CSS y JavaScript.
+* **Paso 2: Carga de archivos necesarios**  
+  Como segundo paso, se importan todos los archivos necesarios para el desarrollo de la landing page como imágenes, archivos HTML, CSS y JavaScript.
 
 <p align="center">
-  <img src="https://i.imgur.com/RNjUuSV.png">
+  <img src="https://i.imgur.com/RNjUuSV.png" alt="File organization">
 </p>
 
 * **Paso 3: Preparar el lanzamiento**  
   Como tercer paso, se juntan todas las características del proyecto en una sola para verificar el correcto funcionamiento de cada una. Luego, se envía todo a la rama principal donde se encuentra, por defecto, el proyecto.
 
 <p align="center">
-  <img src="https://i.imgur.com/KtKEa2v.png">
+  <img src="https://i.imgur.com/KtKEa2v.png" alt="Master branch">
 </p>
 
-* **Paso 4: Desplegar el Landing Page**  
+* **Paso 4: Desplegar la Landing Page**  
   Como cuarto paso, cuando todo se encuentre en la rama principal, se accede a la sección Configuración del repositorio, luego, se selecciona la opción “GitHub Pages” y se seleccionará la rama principal que es la que se desea desplegar.
 
 <p align="center">
-  <img src="https://i.imgur.com/rIxAdyy.png">
+  <img src="https://i.imgur.com/rIxAdyy.png" alt="List of deployments.">
 </p>
 
 * **Paso 5: Acceder al Landing Page**  
   Como paso final, el entorno otorgará un enlace para poder acceder al proyecto desplegado.
   
 <p align="center">
-  <img src="https://i.imgur.com/iE4Zzk7.png">
+  <img src="https://i.imgur.com/iE4Zzk7.png" alt="View of the Landing Page">
 </p>
 
 ## Aplicación Frontend ## 
@@ -191,37 +191,37 @@ A continuación, se describen los pasos necesarios para desplegar el Frontend de
   Como primer paso, se debe crear el repositorio en GitHub que será el lugar donde se aloja todo lo relacionado al Frontend.
 
 <p align="center">
-  <img src="https://i.imgur.com/RKeaB1T.png">
+  <img src="https://i.imgur.com/RKeaB1T.png" alt="Frontend application repository creation">
 
-* **Paso 2: Carga de archivos y carpetas necesarios**   
+* **Paso 2: Carga de archivos y carpetas necesarios**
   Como segundo paso, se importan todos los archivos y carpetas necesarios para el desarrollo del Frontend.
 
 <p align="center">
-  <img src="https://i.imgur.com/GHLAPdd.png">
+  <img src="https://i.imgur.com/GHLAPdd.png" alt="Repository organization">
 
-* **Paso 3: Creacion del proyecto en WebStorm**  
+* **Paso 3: Creación del proyecto en WebStorm**  
   Como tercer paso, se creara el proyecto en WebStorm, importamos nuestros features e instalamos las dependencias necesarias. 
 
 <p align="center">
-  <img src="https://i.imgur.com/LD8AKKP.png">
+  <img src="https://i.imgur.com/LD8AKKP.png" alt="Project creation on JetBrains WebStorm">
 
 * **Paso 4: Comando npm run build**  
   Como cuarto paso, ejecutamos el comando npm run build en la consola de nuestro proyecto, este comando creara una carpeta llamada Dist que contiene todo nuestro proyecto.
 
 <p align="center">
-  <img src="https://i.imgur.com/kuCErf7.png">
+  <img src="https://i.imgur.com/kuCErf7.png" alt="Execution of npm run build command">
 
 <p align="center">
-  <img src="https://i.imgur.com/qwP3yJb.png">
+  <img src="https://i.imgur.com/qwP3yJb.png" alt="Creation of the dist folder">
   
 * **Paso 5: Probar el funcionamiento del build**  
-  Ingresamos a la pagina web Beeceptor e iniciamos sesion con nuestra cuenta, crearemos un nuevo mock server y copiaremos el enlace que nos proporciona. Volvemos al WebStorm, nos dirigimos al archivo .env.production y colocamos el enlace en la parte VITE_API_BASE_URL
+  Ingresamos a la página web Beeceptor e iniciamos sesión con nuestra cuenta, crearemos un nuevo mock server y copiaremos el enlace que nos proporciona. Volvemos al WebStorm, nos dirigimos al archivo .env.production y colocamos el enlace en la parte VITE_API_BASE_URL
 
 <p align="center">
-  <img src="https://i.imgur.com/4a5H7PM.png">
+  <img src="https://i.imgur.com/4a5H7PM.png" alt="View of the environment variables of production mode.">
   
 * **Paso 6: Probar el funcionamiento del build con HTTP**  
-  Ingresamos a la pagina web npmjs y buscamos HTTP-server, es un servidor para probar que nuestro build funcione en un entorno de desarrollo, copiamos el comando npm i http-server --save-dev. Luego ingresamos el comando http-server dist y elegimos cualquier de los links presentes. Se podra a acceder a nuestra aplicacion.
+  Ingresamos a la página web npmjs y buscamos HTTP-server, es un servidor para probar que nuestro build funcione en un entorno de desarrollo, copiamos el comando npm i http-server --save-dev. Luego ingresamos el comando http-server dist y elegimos cualquier de los links presentes. Se podra a acceder a nuestra aplicacion.
 
 <p align="center">
   <img src="https://i.imgur.com/OMaUvwE.png"> 
@@ -252,7 +252,7 @@ nos ubicamos en el apartado de hosting
   <img src="https://i.imgur.com/9phLLJm.png"> 
 
 * **Paso 9: Desplegar nuestro proyecto**  
-  Nos dirigimos al archivo firebase.json y agregamos una seccion "site": "nombre de nuestro site" e ingresamos el comando firebase deploy, pero antes de eso ingresamos el comando npm run build para actualizar, ingresamos con el enlace que nos proporciona y nuestro proyecto ya estaria desplegado
+  Nos dirigimos al archivo firebase.json y agregamos una sección "site": "nombre de nuestro site" e ingresamos el comando firebase deploy, pero antes de eso ingresamos el comando npm run build para actualizar, ingresamos con el enlace que nos proporciona y nuestro proyecto ya estaria desplegado
 
 <p align="center">
   <img src="https://i.imgur.com/NgjW0yh.png"> 
@@ -276,20 +276,20 @@ A continuación, se describen los pasos necesarios para desplegar el BackEnd jun
 <p align="center">
   <img src="https://i.imgur.com/t126A62.png">
 
-  * **Paso 3: Creacion del proyecto en Rider**  
+  * **Paso 3: Creación del proyecto en Rider**  
   Como tercer paso, se creara el proyecto en Rider, importamos nuestros features e instalamos las dependencias necesarias. 
 
 <p align="center">
   <img src="https://i.imgur.com/GZJ5ZVF.png">
 
-* **Paso 4: Creacion dockerfile**  
-  Como cuarto paso, crearemos el archivo llamado dockerfile que estara ubicado en la raiz de nuestro proyecto
+* **Paso 4: Creación del Dockerfile**  
+  Como cuarto paso, crearemos el archivo llamado dockerfile que estará ubicado en la raíz de nuestro proyecto
 
 <p align="center">
   <img src="https://i.imgur.com/ETOoIYi.png">
 
 * **Paso 5: Ingresar a la pagina FreeSQLDatabase para desplegar la base de datos**  
-  Ingresamos a la pagina web FreeSQLDatabase e iniciamos sesion con nuestra cuenta y nos aparece la pagina para crear nuestra base de datos en la nube. Asignamos un servidor y creamos la base de datos desplegada en la nube
+  Ingresamos a la pagina web FreeSQLDatabase e iniciamos sesión con nuestra cuenta y nos aparece la pagina para crear nuestra base de datos en la nube. Asignamos un servidor y creamos la base de datos desplegada en la nube
 
 <p align="center">
   <img src="https://i.imgur.com/yrNekjG.png">
@@ -298,20 +298,20 @@ A continuación, se describen los pasos necesarios para desplegar el BackEnd jun
 <p align="center">
   <img src="https://i.imgur.com/FDSbgdX.png">
 
-* **Paso 6: Configuracion del Dockerfile**  
-  Volvemos a Rider, nos dirigimos al archivo y creamos la configuracion necesaria para el despliegue con docker.
+* **Paso 6: Configuración del Dockerfile**  
+  Volvemos a Rider, nos dirigimos al archivo y creamos la configuración necesaria para el despliegue con docker.
 
 <p align="center">
   <img src="https://i.imgur.com/wd9yp2s.png"> 
 
-* **Paso 7: Creacion del archivo appsettings.Production**  
+* **Paso 7: Creación del archivo appsettings.Production**  
   Creamos un archivo llamado appsetting.Production.json en la raiz del proyecto, cambiamos en DefaultConnection el server por nuestro DatabaseHost, user por nuestro Database Username, passwoard por nuestro DatabasePasswoard y database por nuestro DatabaseName. 
 
 <p align="center">
   <img src="https://i.imgur.com/y8OYcNP.png">
 
-* **Paso 8: Ingresar a la pagina Render**  
-  Ingresaremos a la pagina web render, ingresamos con nuestra cuenta, importamos nuestro repositorio,  asignamos la rama en la que se realizara el deploy y confirmamos el despliegue, esperamos a que la propia pagina verifique el deploy y nos entregue una URL publica.
+* **Paso 8: Ingresar a la página Render**  
+  Ingresaremos a la página web render, ingresamos con nuestra cuenta, importamos nuestro repositorio,  asignamos la rama en la que se realizara el deploy y confirmamos el despliegue, esperamos a que la propia pagina verifique el deploy y nos entregue una URL publica.
 
 <p align="center">
   <img src="https://i.imgur.com/02heKNc.png"> 
@@ -332,7 +332,7 @@ A continuación, se describen los pasos necesarios para desplegar el BackEnd jun
 
 #### 5.2.1.1. Sprint Planning 1
 
-A continuación, se detalla, en la tabla siguiente, información sobre el planeameanto del primer sprint. En general, el objetivo de este sprint se centra en el desarrollo y despliegue de la primera versión del sitio web estático de StockSip que contiene las principales secciones como beneficios, información sobre el Startup, testimonios, características de la aplicación y planes de suscripción.
+A continuación, se detalla, en la tabla siguiente, información sobre el planeamiento del primer sprint. En general, el objetivo de este sprint se centra en el desarrollo y despliegue de la primera versión del sitio web estático de StockSip que contiene las principales secciones como beneficios, información sobre el Startup, testimonios, características de la aplicación y planes de suscripción.
 
 | Sprint #                                     | Sprint 1                                               |
 |----------------------------------------------|--------------------------------------------------------|
@@ -372,44 +372,44 @@ Luego de definir el objetivo del sprint, se identificaron las historias de usuar
 
 A continuación, se presenta la tabla con las tareas necesarias para completar satisfactoriamente este primer sprint. Además, se asignó un miembro del equipo a cada tarea a desarrollar y el estado de cada tarea.
 
-| Sprint 1     | Sprint Backlog 1                                              |     |                                         |                                                                                                            |                    |                |            |
-|--------------|---------------------------------------------------------------|-----|-----------------------------------------|------------------------------------------------------------------------------------------------------------|--------------------|----------------|------------|
-| User Stories |                                                               | Work Item/Task                                |                                                                                                            |                    |                |            |
-| Id           | Title                                                         | Id  | Title                                   | Description                                                                                                | Estimation (Hours) | Assigned to    | Status     |
-| US001        | Ver propuesta de valor clara                                  | 001 | Diseñar sección inicio                  | Diseñar el encabezado con logo, menú de navegación y sección principal.                                    | 0.5                | Camila Huamani | Done       |
-|              |                                                               | 002 | Crear estructura principal del Landing Page  | Crear la estructura principal de la página en HTML y los estilos iniciales en CSS.                         | 0.5                | Camila Huamani | Done       |
-|              |                                                               | 003 | Diseñar sección contacto                | Diseñar el pie de página con información de contacto y enlaces a otras secciones                           | 0.5                | Camila Huamani | Done       |
-|              |                                                               | 004 | Describir visión y misión del startup   | Agregar espacios que detallen la misión y visión de la empresa.                                            | 0.5                | Camila Huamani | Done       |
-|              |                                                               | 005 | Añadir estilos a la sección Inicio      | Estilizar las secciones de contacto e inicio para que sean visiblemente agradables y llamativas.           | 0.5                | Camila Huamani | Done       |
-| US002        | Acceder a explicación detallada sobre el uso de la aplicación | 001 | Añadir sección sobre funcionamiento de la aplicación | Separar una sección de la estructura general para agregar el contenido de explicación de cómo funciona la aplicación. | 0.3     | Camila Huamani | Done       |
-|              |                                                               | 002 | Describir las funcionalidades           | Resumir cada funcionalidad que podrá utilizar cada segmento objetivo.                                      | 0.4                | Camila Huamani | Done       |
-|              |                                                               | 003 | Añadir imágenes referenciales sobre funcionalidades | Para cada funcionalidad detallada, agregar una imágen referencial.                                         | 0.5                | Camila Huamani | Done       |
-|              |                                                               | 004 | Ordenar las imagenes y las descripciones de funcionalidades | Ordenar y organizar cada funcionalidad descrita con su imagen.                                             | 0.4                | Camila Huamani | Done       |
-|              |                                                               | 005 | Añadir estilos a la sección de funcionamiento | Usando CSS, añadir estilos a esta sección para que sea visiblemente llamativa.                             | 0.6                | Camila Huamani | Done      |
-| US003        | Ver beneficios para licorerías	                               | 001 | Implementar sección beneficios para licorerías         | Diseñar la subsección de beneficios para dueños de licorerías agregando tarjetas con listas de beneficios. | 0.6                | Farid Coronel  | Done      |
-|              |                                                               | 002 | Agregar íconos e imágenes a la sección beneficios para licorerías | Añadir imágenes referenciales al segmento objetivo al que son dirigidos los beneficios.                    | 0.5                | Farid Coronel  | Done      |
-|              |                                                               | 003 | Añadir estilos a la sección de beneficios para licorerías | Añadir estilos usando CSS a la subsección para dar detalles visualmente agradables.                        | 0.5                | Farid Coronel  | Done      |
-| US004        | Ver beneficios para proveedores                               | 001 | Implementar sección beneficios para proveedores | Diseñar la subsección de beneficios para proveedores agregando tarjetas con listas de beneficios.          | 0.6                | Farid Coronel  | Done      |
-|              |                                                               | 002 | Agregar íconos e imágenes a la sección beneficios para proveedores | Añadir imágenes referenciales al segmento objetivo al que son dirigidos los beneficios.                    | 0.5                | Farid Coronel  | Done      |
-|              |                                                               | 003 | Añadir estilos a la sección de beneficios para proveedores | Añadir estilos usando CSS a la subsección para dar detalles visualmente agradables.                        | 0.5                | Farid Coronel  | Done      |    
-| US006        | Leer testimonios de clientes		                               | 001 | Añadir sección para testimonios         | Usando HTML, separar una sección para colocar todo el contenido de esta sección.                           | 0.5                | Nicolas Juarez | Done      |
-|              |                                                               | 002 | Redactar testimonios de personas sobre la aplicación  | Redactar uno o varios testimonios para cada segmento objetivo que den su opinión sobre la aplicación.     | 0.4                | Nicolas Juarez | Done      |
-|              |                                                               | 003 | Añadir tarjetas para cada testimonio    | Crear tarjetas en la estructura. Estas tarjetas contendrán el texto del testimonio.                        | 0.4                | Nicolas Juarez | Done      |
-|              |                                                               | 004 | Añadir imágenes de personas para testimonios  | Agregar al lado del texto, una imagen referencial de la persona que está dando su testimonio.              | 0.4                | Nicolas Juarez | Done      |
-|              |                                                               | 005 | Añadir estilos a la sección de testimonios | Agregar estilos a la sección usando CSS.                                                                   | 0.6                | Nicolas Juarez | Done      |
-| US007        | Comparar planes gratis y premium	                             | 001 | Añadir sección de planes de suscripción | Diseñar la sección de planes con tarjetas que detallen las características de cada plan.                   | 0.5                | Martin Gonzales| Done      |
-|              |                                                               | 002 | Añadir información para segmentos de dueños de licorería y proveedores | Añadir texto diferenciando funcionalidades que incluye el plan para cada segmento objetivo.                | 0.6                | Martin Gonzales| Done      |
-|              |                                                               | 003 | Agregar comparación entre planes  | Añadir texto en las tarjetas que pueda ser utilizado para saber qué contiene el plan premium.              | 0.6                | Martin Gonzales| Done      |
-|              |                                                               | 004 | Añadir íconos relacionados a planes | Añadir íconos relacionados a lo que ofrece cada plan para cada segmento objetivo.                          | 0.6                | Martin Gonzales| Done      |  
-|              |                                                               | 005 | Añadir estilos a la sección planes | Estilizar la sección usando CSS.                                                                           | 0.5                | Nicolas Juarez | Done      |
-| US008        | Conocer el precio y condiciones	                             | 001 | Añadir espacio para precios en las tarjetas de planes | En la sección de planes, agregar un recuadro que indique el precio para cada plan                          | 0.3                | Nicolas Juarez | Done      |
-|              |                                                               | 002 | Añadir estilos a los precios | Estilizar los recuadros para precios usando CSS.                                                           | 0.3                | Martin Gonzales| Done      |
+| Sprint 1     | Sprint Backlog 1                                              |                |                                                                        |                                                                                                                       |                    |                 |        |
+|--------------|---------------------------------------------------------------|----------------|------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|--------------------|-----------------|--------|
+| User Stories |                                                               | Work Item/Task |                                                                        |                                                                                                                       |                    |                 |
+| Id           | Title                                                         | Id             | Title                                                                  | Description                                                                                                           | Estimation (Hours) | Assigned to     | Status |
+| US001        | Ver propuesta de valor clara                                  | 001            | Diseñar sección inicio                                                 | Diseñar el encabezado con logo, menú de navegación y sección principal.                                               | 0.5                | Camila Huamani  | Done   |
+|              |                                                               | 002            | Crear estructura principal del Landing Page                            | Crear la estructura principal de la página en HTML y los estilos iniciales en CSS.                                    | 0.5                | Camila Huamani  | Done   |
+|              |                                                               | 003            | Diseñar sección contacto                                               | Diseñar el pie de página con información de contacto y enlaces a otras secciones                                      | 0.5                | Camila Huamani  | Done   |
+|              |                                                               | 004            | Describir visión y misión del startup                                  | Agregar espacios que detallen la misión y visión de la empresa.                                                       | 0.5                | Camila Huamani  | Done   |
+|              |                                                               | 005            | Añadir estilos a la sección Inicio                                     | Estilizar las secciones de contacto e inicio para que sean visiblemente agradables y llamativas.                      | 0.5                | Camila Huamani  | Done   |
+| US002        | Acceder a explicación detallada sobre el uso de la aplicación | 001            | Añadir sección sobre funcionamiento de la aplicación                   | Separar una sección de la estructura general para agregar el contenido de explicación de cómo funciona la aplicación. | 0.3                | Camila Huamani  | Done   |
+|              |                                                               | 002            | Describir las funcionalidades                                          | Resumir cada funcionalidad que podrá utilizar cada segmento objetivo.                                                 | 0.4                | Camila Huamani  | Done   |
+|              |                                                               | 003            | Añadir imágenes referenciales sobre funcionalidades                    | Para cada funcionalidad detallada, agregar una imágen referencial.                                                    | 0.5                | Camila Huamani  | Done   |
+|              |                                                               | 004            | Ordenar las imagenes y las descripciones de funcionalidades            | Ordenar y organizar cada funcionalidad descrita con su imagen.                                                        | 0.4                | Camila Huamani  | Done   |
+|              |                                                               | 005            | Añadir estilos a la sección de funcionamiento                          | Usando CSS, añadir estilos a esta sección para que sea visiblemente llamativa.                                        | 0.6                | Camila Huamani  | Done   |
+| US003        | Ver beneficios para licorerías	                               | 001            | Implementar sección beneficios para licorerías                         | Diseñar la subsección de beneficios para dueños de licorerías agregando tarjetas con listas de beneficios.            | 0.6                | Farid Coronel   | Done   |
+|              |                                                               | 002            | Agregar íconos e imágenes a la sección beneficios para licorerías      | Añadir imágenes referenciales al segmento objetivo al que son dirigidos los beneficios.                               | 0.5                | Farid Coronel   | Done   |
+|              |                                                               | 003            | Añadir estilos a la sección de beneficios para licorerías              | Añadir estilos usando CSS a la subsección para dar detalles visualmente agradables.                                   | 0.5                | Farid Coronel   | Done   |
+| US004        | Ver beneficios para proveedores                               | 001            | Implementar sección beneficios para proveedores                        | Diseñar la subsección de beneficios para proveedores agregando tarjetas con listas de beneficios.                     | 0.6                | Farid Coronel   | Done   |
+|              |                                                               | 002            | Agregar íconos e imágenes a la sección beneficios para proveedores     | Añadir imágenes referenciales al segmento objetivo al que son dirigidos los beneficios.                               | 0.5                | Farid Coronel   | Done   |
+|              |                                                               | 003            | Añadir estilos a la sección de beneficios para proveedores             | Añadir estilos usando CSS a la subsección para dar detalles visualmente agradables.                                   | 0.5                | Farid Coronel   | Done   |    
+| US006        | Leer testimonios de clientes		                                | 001            | Añadir sección para testimonios                                        | Usando HTML, separar una sección para colocar todo el contenido de esta sección.                                      | 0.5                | Nicolas Juarez  | Done   |
+|              |                                                               | 002            | Redactar testimonios de personas sobre la aplicación                   | Redactar uno o varios testimonios para cada segmento objetivo que den su opinión sobre la aplicación.                 | 0.4                | Nicolas Juarez  | Done   |
+|              |                                                               | 003            | Añadir tarjetas para cada testimonio                                   | Crear tarjetas en la estructura. Estas tarjetas contendrán el texto del testimonio.                                   | 0.4                | Nicolas Juarez  | Done   |
+|              |                                                               | 004            | Añadir imágenes de personas para testimonios                           | Agregar al lado del texto, una imagen referencial de la persona que está dando su testimonio.                         | 0.4                | Nicolas Juarez  | Done   |
+|              |                                                               | 005            | Añadir estilos a la sección de testimonios                             | Agregar estilos a la sección usando CSS.                                                                              | 0.6                | Nicolas Juarez  | Done   |
+| US007        | Comparar planes gratis y premium	                             | 001            | Añadir sección de planes de suscripción                                | Diseñar la sección de planes con tarjetas que detallen las características de cada plan.                              | 0.5                | Martin Gonzales | Done   |
+|              |                                                               | 002            | Añadir información para segmentos de dueños de licorería y proveedores | Añadir texto diferenciando funcionalidades que incluye el plan para cada segmento objetivo.                           | 0.6                | Martin Gonzales | Done   |
+|              |                                                               | 003            | Agregar comparación entre planes                                       | Añadir texto en las tarjetas que pueda ser utilizado para saber qué contiene el plan premium.                         | 0.6                | Martin Gonzales | Done   |
+|              |                                                               | 004            | Añadir íconos relacionados a planes                                    | Añadir íconos relacionados a lo que ofrece cada plan para cada segmento objetivo.                                     | 0.6                | Martin Gonzales | Done   |  
+|              |                                                               | 005            | Añadir estilos a la sección planes                                     | Estilizar la sección usando CSS.                                                                                      | 0.5                | Nicolas Juarez  | Done   |
+| US008        | Conocer el precio y condiciones	                              | 001            | Añadir espacio para precios en las tarjetas de planes                  | En la sección de planes, agregar un recuadro que indique el precio para cada plan                                     | 0.3                | Nicolas Juarez  | Done   |
+|              |                                                               | 002            | Añadir estilos a los precios                                           | Estilizar los recuadros para precios usando CSS.                                                                      | 0.3                | Martin Gonzales | Done   |
 
 
 #### 5.2.1.4. Development Evidence for Sprint Review
 
 En esta sección, se describen los principales avances de implementación realizados en este primer sprint. Se tiene como principal avance la implementación de cada sección del landing page en su primera versión.
-Cada miembro del equipo avanzó progresivamente con cada sección del landing page. Finalmente, se añadieron estilos a las secciones usando CSS.
+Cada miembro del equipo avanzó progresivamente con cada sección de la landing page. Finalmente, se añadieron estilos a las secciones usando CSS.
 
 A continuación, se muestra una tabla que contiene la información sobre los _commits_ hechos que contienen partes de las funcionalidades que debemos implementar para completar el primer sprint.
 
@@ -431,11 +431,9 @@ A continuación, se muestra una tabla que contiene la información sobre los _co
 
 #### 5.2.1.5. Execution Evidence for Sprint Review
 
-El objetivo de este sprint fue realizar, en colaboracion con todo el equipo, la creacion del landing page. A continuación, se explica a detalle la evidencia del proceso de ejecución del sitio web estático.
+El objetivo de este sprint fue realizar, en collaboration con todo el equipo, la creación de la landing page. A continuación, se explica a detalle la evidencia del proceso de ejecución del sitio web estático.
 
-Se adjunta el enlace para acceder al sitio web estático desplegado: [https://expdesigners.github.io/StockSip-LandingPage/](https://expdesigners.github.io/StockSip-LandingPage/)
-
-Se implementó la sección de inicio que contiene información general sobre el producto y sobre el startup detrás del producto. Además, se incluye la visión general del startup relacionado con el producto y los valores del equipo de desarrollo. Esto tiene un motivo de implementación y es el de llamar la atención de los visitantes del sitio web estático.
+Se implementó la sección de inicio que contiene información general sobre el producto y sobre la startup detrás del producto. Además, se incluye la visión general de la startup relacionada con el producto y los valores del equipo de desarrollo. Esto tiene un motivo de implementación y es el de llamar la atención de los visitantes del sitio web estático.
 <p align="center">
   <img src="https://i.imgur.com/iE4Zzk7.png"/>
 </p>
@@ -455,13 +453,18 @@ También, se implementó la sección que informa de los potenciales beneficios q
   <img src="https://i.imgur.com/wyFDw0M.png"/>
 </p>
 
-Finalmente, se implementó la sección con información acerca de los planes de suscripción para los visitantes. Esta sección incluye las restricciones que aplica cada plan a los usuarios que decidan crear una cuenta nueva.
+También, se implementó la sección con información acerca de los planes de suscripción para los visitantes. Esta sección incluye las restricciones que aplica cada plan a los usuarios que decidan crear una cuenta nueva.
 <p align="center">
   <img src="https://i.imgur.com/rwnScm7.png"/>
 </p>
 
+Finalmente, se adjuntan los enlaces para acceder al sitio web desplegado y al vídeo de ejecución del sitio web estático. El vídeo muestra el funcionamiento de cada sección del sitio web y cómo se ve en un navegador web.
+- Sitio web estático desplegado: [https://expdesigners.github.io/StockSip-LandingPage/](https://expdesigners.github.io/StockSip-LandingPage/)
+- Vídeo de ejecución: [[PONER ENLACE]]
+
+
 #### 5.2.1.6. Software Deployment Evidence for Sprint Review
-La organizacion de nuestro codigo se realizo en un repositorio en GitHub y para el despliegue del landing page se utilizo GitHub Pages. Para el paso inicial, nos basamos en la configuración inicial de los repositorios de los productos a desarrollar (Sección 5.1.4.). A continuación, se explica del proceso de despliegue del sitio web estático.
+La organization de nuestro code se realizó en un repositorio en GitHub y para el despliegue de la landing page se utilizó GitHub Pages. Para el paso inicial, nos basamos en la configuración inicial de los repositorios de los productos a desarrollar (Sección 5.1.4.). A continuación, se explica del proceso de despliegue del sitio web estático.
 
 Se adjunta el enlace para acceder al sitio web estático desplegado: [https://expdesigners.github.io/StockSip-LandingPage/](https://expdesigners.github.io/StockSip-LandingPage/)
 
@@ -495,7 +498,7 @@ Se adjunta el enlace para acceder al sitio web estático desplegado: [https://ex
   <img src="https://i.imgur.com/iE4Zzk7.png"/>
 </p>
 
-#### 5.2.1.7. Team Collaboration Insights durint Sprint 
+#### 5.2.1.7. Team Collaboration Insights during Sprint 
 En esta sección, se explica la colaboración aportada por cada miembro del equipo durante este sprint. Este proyecto se realizo mediante repositorio en GitHub con los siguientes integrantes participantes:
 <p align="center">
   <img src="https://i.imgur.com/DAyXhVR.png"/>
@@ -515,7 +518,7 @@ A continuación, se adjunta el gráfico con la cantidad de commits realizados po
   <img src="https://i.imgur.com/YdN51Bf.png"/>
 </p>
 
-Finalmennte, se muestra el gráfico los avances realizados por los integrantes en las ramas creadas para cada característica que se implementó al sitio web estático en este sprint:
+Finalmente, se muestra el gráfico los avances realizados por los integrantes en las ramas creadas para cada característica que se implementó al sitio web estático en este sprint:
 <p align="center">
   <img src="https://i.imgur.com/6khY971.png"/>
 </p>
@@ -524,42 +527,42 @@ Finalmennte, se muestra el gráfico los avances realizados por los integrantes e
 
 #### 5.2.2.1. Sprint Planning 2
 
-A continuación, se detalla, en la tabla siguiente, información sobre el planeameanto del segundo sprint. Además, para este sprint se definieron dos objetivos para cubrir los aspectos de sitio web estático y aplicación front-end. El primer objetivo se centra en desarrollar una mejora visual para el sitio web estático y añadir secciones para Call-To-Action para los visitantes del sitio web. Por otro lado, el segundo objetivo se centra en el desarrollo y despliegue de la primera versión de la aplicación front-end de StockSip.
+A continuación, se detalla, en la tabla siguiente, información sobre el planeamiento del segundo sprint. Además, para este sprint se definieron dos objetivos para cubrir los aspectos de sitio web estático y aplicación front-end. El primer objetivo se centra en desarrollar una mejora visual para el sitio web estático y añadir secciones de llamada a la acción (Call-To-Action) para los visitantes del sitio web. Por otro lado, el segundo objetivo se centra en el desarrollo y despliegue de la primera versión de la aplicación front-end de StockSip incluyendo secciones como almacenes, productos, alertas y guías de conservación.
 
-| Sprint #                            | Sprint 2                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
-| ----------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <b> Sprint planning Background </b> | --                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-| Date                                | 2025/04/29                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
-| Time                                | 11:15 AM                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
-| Location                            | Reunión presencial en el aula VH107 del curso en la sede Villa                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
-| Prepared By                         | Gonzales Castillo, Angel Martin                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
-| Attendees                           | Huamani Cruz, Camila Victoria / Juarez Leon, Nicolas Emilio Walter / Gonzales Castillo, Angel Martin / Coronel Espinoza, Farid Sebastian                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
-| Sprint 1 Review Summary             | In the previous sprint, the team completed a first view of the Landing Page implementing the basic sections and styles it will need like Benefits, Plans, Information about the Startup.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
-| Sprint 1 Retrospective Summary      | The principal area the team has to improve is having more communication between the members to let each others know how is the progress is going for each member. Now, the plan for next sprint is to work more organized so each member know what to do.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
-| <b> Sprint Goal & User Stories </b> | --                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-| Sprint 2 Goal                      | <b> Our focus </b> is to offer a more detailed visualization and a greater adaptability of the current StockSip Landing Page and implement and deploy the first functional version of the Front-End application with key features like digital warehouses, the dashboard, registration of products, warnings, care guides and basic navigation between sections. <br> <b> We believe it delivers </b> different forms of accessing the Landing Page from different sizes of screens and languages to target segments and visitors and a complete first vision of functionalities the aplication offers to the target segments. <br> <b> This will be confirmed when </b> our target segments and visitors access the Landing through different devices and when our target segments register to the application and use the principal funcionalities like warehouses and care guides. |
-| Sprint 2 Velocity                   | 100                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
-| Sum of Story Points                 | 99                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| Sprint #                             | Sprint 2                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+|--------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <b> Sprint planning Background </b>  | --                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| Date                                 | 2025/04/29                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| Time                                 | 11:15 AM                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| Location                             | Reunión presencial en el aula VH107 del curso en la sede Villa                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| Prepared By                          | Huamani Cruz, Camila Victoria                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| Attendees                            | Huamani Cruz, Camila Victoria / Juarez Leon, Nicolas Emilio Walter / Gonzales Castillo, Angel Martin / Coronel Espinoza, Farid Sebastian                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| Sprint 1 Review Summary              | In the previous sprint, the team completed a first view of the Landing Page implementing the basic sections and styles it will need like Benefits, Plans, Information about the Startup.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| Sprint 1 Retrospective Summary       | The principal area the team has to improve is having more communication between the members to let each others know how is the progress is going for each member. Now, the plan for next sprint is to work more organized so each member know what to do.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| <b> Sprint Goal & User Stories </b>  | --                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| Sprint 2 Goal                        | <b> Our focus </b> is to offer a more detailed visualization and a greater adaptability of the current StockSip Landing Page and implement and deploy the first functional version of the Front-End application with key features like digital warehouses, the dashboard, registration of products, warnings, care guides and basic navigation between sections. <br> <b> We believe it delivers </b> different forms of accessing the Landing Page from different sizes of screens and languages to target segments and visitors and a complete first vision of functionalities the aplication offers to the target segments. <br> <b> This will be confirmed when </b> our target segments and visitors access the Landing through different devices and when our target segments register to the application and use the principal funcionalities like warehouses and care guides. |
+| Sprint 2 Velocity                    | 74                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| Sum of Story Points                  | 99                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 <br>
 
 #### 5.2.2.2. Aspect Leaders and Collaborators
 
-En esta sección, se incluye la matriz de liderazgo y colaboración desarrollada para este segundo sprint. Los principales aspectos que se toman en cuenta en este sprint se centran en cada las principales secciones que presenta el Front-End Web Application. Para esto, hemos definido las siguientes secciones: Inventarios y Zonas, Productos, Cuenta de Usuario, Reportes (Guía de cuidados y Reprote de pérdidas) y Alertas.
+En esta sección, se incluye la matriz de liderazgo y colaboración desarrollada para este segundo sprint. Los principales aspectos que se toman en cuenta en este sprint se centran en cada las principales secciones que presenta el Front-End Web Application. Para esto, hemos definido las siguientes secciones: Inventarios y Zonas, Productos, Cuenta de Usuario, Reportes (Guía de cuidados y Reporte de pérdidas) y Alertas.
 
-| Team Member                        | GitHub Username | Inventarios y Zonas | Productos | Cuenta de Usuario | Reportes (Guía de cuidados y Reporte de pérdidas) | Alertas |     |
-| ---------------------------------- | --------------- | ------------------- | --------- | ----------------- | ------------------------------------------------- | ------- | --- |
-| Huamani Cruz, Camila Victoria      | victiila06      |                     |           | L                 | C                                                 |         |     |
-| Gonzales Castillo, Angel Martin    | XdiabloX426     |                     |           |                   | L                                                 | L       |     |
-| Coronel Espinoza, Farid Sebastian  | Far14z          | L                   | C         |                   |                                                   |         |     |
-| Juarez Leon, Nicolas Emilio Walter | JuarezLn10      | C                   | L         |                   |                                                   |         |     |
+| Team Member                        | GitHub Username | Inventarios y Zonas | Productos | Cuenta de Usuario | Reportes (Guía de cuidados y Reporte de pérdidas) | Alertas |
+| ---------------------------------- | --------------- | ------------------- | --------- | ----------------- | ------------------------------------------------- | ------- |
+| Huamani Cruz, Camila Victoria      | victiila06      |                     |           | L                 | C                                                 |         |
+| Gonzales Castillo, Angel Martin    | XdiabloX426     |                     |           |                   | L                                                 | L       |
+| Coronel Espinoza, Farid Sebastian  | Far14z          | L                   | C         |                   |                                                   |         |
+| Juarez Leon, Nicolas Emilio Walter | JuarezLn10      | C                   | L         |                   |                                                   |         |
 
 
 #### 5.2.2.3. Sprint Backlog 2
 
-Como se mencionó previamente en el planeamiento del sprint número 2, el objetivo del mismo es (OBJETIVO).
+Como se mencionó previamente en el planeamiento del sprint número 2, el objetivo del mismo es implementar secciones para que los usuarios puedan ser redirigidos a la aplicación web desde el sitio web estático e implementar secciones importantes como inventarios, almacenes, productos, alertas y guías en la aplicación front end del proyecto.
 
-Luego de definir el objetivo del sprint, se identificaron las historias de usuario útiles para este sprint. A continuación, se dividió cada historia de usuario en tareas relacionadas a la implementación y cumplimiento de dicha historia. Para ello, se utilizó la aplicación _Trello_ que nos ayuda a gestionar el progreso del sprint. 
-[Link de acceso al Sprint Backlog #2 en Trello](https://trello.com/b/UjadbQbv/stocksip-sprint-backlog-2?filter=label:Aplicaciones%20Web)
+Luego de definir el objetivo del sprint, se identificaron las historias de usuario útiles para este sprint. A continuación, se dividió cada historia de usuario en tareas relacionadas a la implementación y cumplimiento de dicha historia. Para ello, se utilizó la aplicación TRELLO que nos ayuda a gestionar el progreso del sprint. 
+[https://trello.com/b/UjadbQbv/stocksip-sprint-backlog-2?filter=label:Aplicaciones%20Web](https://trello.com/b/UjadbQbv/stocksip-sprint-backlog-2?filter=label:Aplicaciones%20Web)
 
 <p align="center">
   <img src="https://i.imgur.com/8rBZn5r.png" 
@@ -651,7 +654,7 @@ A continuación, se presenta la tabla con las tareas necesarias para completar s
 
 En esta sección, se describen los principales avances de implementación realizados en este segundo sprint.
 
-A continuación, se muestra una tabla que contiene la información sobre los _commits_ hechos que contienen partes de las funcionalidades que debemos implementar para completar el primer sprint.
+A continuación, se muestra una tabla que contiene la información sobre los commits hechos que contienen partes de las funcionalidades que debemos implementar para completar el primer sprint.
 
 | Repository                          | Branch                      | Commit Id   | Commit Message                                                               | Commited On |
 | ----------------------------------- | --------------------------- | ----------- | ---------------------------------------------------------------------------- | ----------- |
@@ -677,11 +680,21 @@ A continuación, se muestra una tabla que contiene la información sobre los _co
 
 #### 5.2.2.5. Execution Evidence for Sprint Review
 
-El objetivo de este sprint fue, mediante un trabajo colaborativo entre todos los integrantes del equipo, realizar la actualización tanto del landing page como de la aplicación Frontend. Esta tarea incluyó la mejora de aspectos visuales y funcionales, así como la integración de los cambios en los repositorios correspondientes para su posterior despliegue.
+En esta sección, se explica lo logrado en este sprint con pruebas de lo implementado. 
+Primero, los logros de este sprint incluyen la mejora de aspectos visuales y funcionales del sitio web estático, entre ellos, la implementación de secciones de Call-To-Action para los visitantes del sitio web, así como la implementación de secciones relacionadas a almacenes, productos, inventarios, alertas y guías de cuidado en la aplicación front-end de StockSip.
 
-#### **Landing Page**
+A continuación, se muestran las capturas de pantalla de las secciones implementadas en el Landing Page y la aplicación Front End. Estas imágenes reflejan el progreso realizado en el sprint y sirven como evidencia del trabajo completado.
+
+## **Landing Page**
+
+Se adjuntan los enlaces para acceder al sitio web desplegado y al vídeo de ejecución del sitio web estático. El vídeo muestra el funcionamiento de cada sección del sitio web y cómo se ve en un navegador web.
+- Sitio web estático desplegado: [https://expdesigners.github.io/StockSip-LandingPage/](https://expdesigners.github.io/StockSip-LandingPage/)
+- Vídeo de ejecución: [https://youtu.be/Ozjk589Vb8I?si=z9-rKQgwx0Jp2sSu](https://youtu.be/Ozjk589Vb8I?si=z9-rKQgwx0Jp2sSu)
+
 
 **Inicio Actualizado**
+
+Empezamos con la mejora de la sección de Inicio. En esta actualización, se mejoró visualmente los estilos y se agregó la parte superior de la misma para navegar a través de la página.
 <p align="center">
   <img src="https://i.imgur.com/bWmj21P.png"/>
 </p>
@@ -689,32 +702,46 @@ El objetivo de este sprint fue, mediante un trabajo colaborativo entre todos los
 <br>
 
 **Estadísticas**
+
+En esta versión, se añadió una sección de estadísticas relacionadas a la aplicación, mostrando datos relevantes sobre su uso y beneficios. El motivo de añadir esta sección se centra en proporcionar a los visitantes una visión clara de la efectividad y el impacto positivo de la aplicación StockSip en el sector de las licorerías.
 <p align="center">
   <img src="https://i.imgur.com/MO3fXPK.png"/>
 </p>
 <br>
 
 **Propuesta de valor**
+
+En esta sección, se destaca la propuesta de valor de StockSip, enfatizando los beneficios que ofrece a los dueños de licorerías y proveedores. Se busca transmitir la importancia de la aplicación en la optimización de procesos y mejora de la gestión de inventarios.
 <p align="center">
   <img src="https://i.imgur.com/pSt2Wse.png"/>
 </p>
 <br>
 
 **Exploración de la Aplicación**
+
+En esta sección, se proporciona una vista previa de las principales características y funcionalidades de la aplicación StockSip. Se busca que los visitantes puedan explorar visualmente cómo la aplicación puede ayudarles en la gestión de sus negocios.
 <p align="center">
   <img src="https://i.imgur.com/IgEFQLT.png"/>
 </p>
 <br>
 
 **Preguntas frecuentes**
+
+En esta sección, se abordan las preguntas más comunes que los visitantes pueden tener sobre la aplicación StockSip. Se busca proporcionar respuestas claras y concisas para resolver dudas y fomentar la confianza en el uso de la aplicación.
 <p align="center">
   <img src="https://i.imgur.com/POUjGSU.png"/>
 </p>
-<br>
 
-#### **Front End Application**
+
+## **Front End Application**
+
+Se adjuntan los enlaces para acceder a la aplicación frontend desplegado y al vídeo de ejecución de la misma. El vídeo muestra el funcionamiento de cada sección implementada y cómo se ve en un navegador web.
+- Aplicación Frontend desplegada: [https://stocksip-exp-app.web.app/](https://stocksip-exp-app.web.app/)
+- Vídeo de ejecución de la Aplicación Frontend: [https://youtu.be/28ouj79KbAg](https://youtu.be/28ouj79KbAg)
 
 **Inicio de sesión**
+
+Se implementó la sección de inicio de sesión, permitiendo a los usuarios registrados acceder a sus cuentas de StockSip. Esta funcionalidad es esencial para que los usuarios puedan interactuar con la aplicación y gestionar sus inventarios y productos.
 <p align="center">
   <img src="https://i.imgur.com/R0Jwexh.png"/>
 </p>
@@ -722,6 +749,7 @@ El objetivo de este sprint fue, mediante un trabajo colaborativo entre todos los
 
 **Perfil de usuario**
 
+Se desarrolló la sección de perfil de usuario, donde los usuarios pueden ver y editar su información personal, así como gestionar sus preferencias. Esta sección es crucial para que los usuarios mantengan actualizados sus datos y personalicen su experiencia en la aplicación.
 <p align="center">
   <img src="https://i.imgur.com/ND0kzSd.png"/>
 </p>
@@ -729,102 +757,206 @@ El objetivo de este sprint fue, mediante un trabajo colaborativo entre todos los
 
 **Reportes**
 
+Se implementó la sección de reportes, donde los usuarios pueden generar y visualizar informes relacionados con sus inventarios y productos. Esta funcionalidad permite a los usuarios tener un control más detallado sobre su negocio y tomar decisiones informadas.
 <p align="center">
   <img src="https://i.imgur.com/e6GsbX2.png"/>
 </p>
 <br>
 
 **Guías de Conservación**
+
+Se desarrolló la sección de guías de conservación, donde los usuarios pueden crear, editar y consultar guías relacionadas con el cuidado de sus productos. Esta funcionalidad es importante para ayudar a los usuarios a mantener sus productos en óptimas condiciones y prolongar su vida útil.
 <p align="center">
   <img src="https://i.imgur.com/tNrzFR0.png"/>
 </p>
 <br>
 
 **Alertas**
+
+Se implementó la sección de alertas, donde los usuarios pueden recibir notificaciones sobre productos cercanos a su vencimiento o con bajo stock. Esta funcionalidad es esencial para que los usuarios puedan gestionar proactivamente sus inventarios y evitar pérdidas.
 <p align="center">
   <img src="https://i.imgur.com/Pi1zS2F.png"/>
 </p>
 <br>
 
-Link al landing page: [Landing_Page_StockSip](https://expdesigners.github.io/StockSip-LandingPage/)
-
-Link a la aplicación: [App_Front_End_StockSip](https://stocksip-exp-app.web.app/)
-
 ### 5.2.2.6. Software Deployment Evidence for Sprint Review ###
+Para asegurar un desarrollo estructurado y un despliegue eficiente, se organizaron los componentes del proyecto en dos partes principales: la Landing Page y el Frontend funcional. Cada uno fue alojado en su propio repositorio de GitHub, con procesos de desarrollo independientes y métodos de despliegue distintos. A continuación, se detalla el flujo de trabajo seguido en cada caso, junto con evidencia visual del resultado final. 
+Para el paso inicial, nos basamos en la configuración inicial de los repositorios de los productos a desarrollar (Sección 5.1.4.). A continuación, se explica del proceso de despliegue del sitio web estático.
 
-Para asegurar un desarrollo estructurado y un despliegue eficiente, se organizaron los componentes del proyecto en dos partes principales: el Landing Page y el Frontend funcional. Cada uno fue alojado en su propio repositorio de GitHub, con procesos de desarrollo independientes y métodos de despliegue distintos. A continuación, se detalla el flujo de trabajo seguido en cada caso, junto con evidencia visual del resultado final.
+### Despliegue del Landing Page
+Para el despliegue del sitio web estático, usamos GitHub Pages, una herramienta que permite alojar sitios web estáticos directamente desde un repositorio de GitHub. A continuación, se detalla el proceso seguido para el despliegue del sitio web estático:
 
-#### Despliegue del Landing Page
-La organizacion de nuestro codigo relacionado al Landing page se realizo en un repositorio en GitHub. Para el despliegue del landing page se utilizo GitHub Pages
-* Primero se creo un repositorio para alojar el codigo del landing page
-* Segundo, cada integrante del equipo creo una rama de cada funcion del landing page
+Se adjunta el enlace para acceder al sitio web estático desplegado: [https://expdesigners.github.io/StockSip-LandingPage/](https://expdesigners.github.io/StockSip-LandingPage/)
+
+* Partimos de la rama develop del repositorio del sitio web estático con todos los cambios realizados para el sprint actual.
 <p align="center">
-  <img src="https://i.imgur.com/WLeViFN.png"/>
+  <img src="https://i.imgur.com/T7oPQGS.png"/>
 </p>
 
-* Tercero, se realizo el merge a develop para corregir errores
-* Cuarto, cuando se corrigieron los errores, se realizo merge al master
-* Quinto, se desplego el landing page mediante GitHub Pages, evidencia:
+* Luego, enviamos todos los cambios realizados en este segundo sprint desde la rama de desarrollo a una nueva rama de tipo release "release/landing-page-v2.0". Desde esa rama, se realizará un nuevo despliegue del sitio web estático.
 <p align="center">
-  <img src="https://i.imgur.com/bWmj21P.pngg"/>
+  <img src="https://i.imgur.com/keIfkaH.png"/>
 </p>
 
-#### Despliegue del Frontend
-La organizacion de nuestro codigo relacionado al Frontend se realizo en un repositorio en GitHub y la codificacion de este mismo se realizo en JetBrains WebStorm. Para el despliegue del frontend se utilizo Firebase
-* Primero, se creó un repositorio en GitHub para alojar el código fuente del Frontend, permitiendo así una gestión centralizada y control de versiones
-* Segundo, cada miembro del equipo creó una rama individual para desarrollar una función específica del Frontend, lo que permitió trabajar en paralelo de manera organizada.
+* A continuación, nos dirigimos a la sección de Configuración del repositorio (Settings). Luego, accedemos a la opción de páginas (Pages) dentro del bloque de secciones de código y automatización (Code and automation).
 <p align="center">
-  <img src="https://i.imgur.com/mGniKQ9.png"/>
+  <img src="https://i.imgur.com/0TJGzpU.png"/>
 </p>
 
-* Tercero, se creó un proyecto en WebStorm y se conectó al repositorio remoto, facilitando la integración del código con el control de versiones desde el entorno de desarrollo.
-* Cuarto, se implementaron las diferentes funcionalidades asignadas y se realizaron los commits respectivos, siguiendo buenas prácticas para mantener un historial de cambios claro.
-* Quinto, una vez completado el desarrollo, se hizo merge de las ramas individuales a develop, donde se resolvieron conflictos y se corrigieron errores detectados en la integración.
-* Sexto, tras verificar el correcto funcionamiento en develop, se realizó el merge final hacia la rama master, consolidando una versión estable del proyecto.
-* Septimo, se configuró Firebase como herramienta de despliegue, preparando los archivos necesarios y definiendo el entorno adecuado.
-* Octavo, se realizó el despliegue del Frontend a través de Firebase. A continuación, se muestra la evidencia del despliegue:
+* Después, elegimos el tipo de origen para que despliegue desde una rama que escojamos. Luego, buscamos la rama de lanzamiento que hemos creado para realizar el despliegue de esta versión y guardamos la configuración.
+<p align="center">
+  <img src="https://i.imgur.com/E8TLSWz.png"/>
+</p>
+
+* A continuación, aparecerá el enlace público generado para poder acceder al sitio web estático desplegado.
+<p align="center">
+  <img src="https://i.imgur.com/iWq4Sm3.png"/>
+</p>
+
+* Finalmente, se accede el sitio web desplegado gracias a GitHub Pages y se adjunta la siguiente evidencia.
+<p align="center">
+  <img src="https://i.imgur.com/bWmj21P.png"/>
+</p>
+
+
+### Despliegue de la Aplicación Frontend
+Para el despliegue de esta aplicación, se utilizó Firebase Hosting, una plataforma que permite alojar aplicaciones web de manera sencilla y eficiente.
+Para el paso inicial, nos basamos en la configuración inicial de los repositorios de los productos a desarrollar (Sección 5.1.4.). A continuación, se explica del proceso de despliegue de la aplicación Frontend:
+
+Se adjunta el enlace a la aplicación frontend desplegada: [https://stocksip-exp-app.web.app/](https://stocksip-exp-app.web.app/)
+
+* Partimos de la rama develop del repositorio de la aplicación frontend con todos los cambios realizados para el sprint actual.
+<p align="center">
+  <img src="https://i.imgur.com/ZVkeCUj.png"/>
+</p>
+
+* Luego, enviamos todos los cambios realizados en este segundo sprint desde la rama de desarrollo a una nueva rama de tipo release "release/front-end-app-v1.0". Desde esa rama, se realizará el primer despliegue de la aplicación front-end.
+<p align="center">
+  <img src="https://i.imgur.com/gOLmvW2.png"/>
+</p>
+
+* A continuación, se instaló Firebase CLI en el equipo de desarrollo, lo que permite gestionar y desplegar aplicaciones en Firebase. Luego, se inicializó el proyecto de Firebase en la carpeta del Frontend.
+[[IMAGEN]]
+
+
+* Luego, ejecutamos el comando npm run build en la consola de nuestro proyecto, este comando creara una carpeta llamada Dist que contiene todo nuestro proyecto.
+
+<p align="center">
+  <img src="https://i.imgur.com/kuCErf7.png" alt="Execution of npm run build command">
+
+<p align="center">
+  <img src="https://i.imgur.com/qwP3yJb.png" alt="Creation of the dist folder">
+
+* Después, ingresamos a la página web Beeceptor e iniciamos sesión con nuestra cuenta, crearemos un nuevo mock server y copiaremos el enlace que nos proporciona. Volvemos a WebStorm, nos dirigimos al archivo .env.production y colocamos el enlace en la parte VITE_API_BASE_URL
+
+<p align="center">
+  <img src="https://i.imgur.com/4a5H7PM.png" alt="View of the environment variables of production mode.">
+
+* A continuación, ingresamos a la página web npmjs y buscamos HTTP-server, es un servidor para probar que nuestro build funcione en un entorno de desarrollo, copiamos el comando npm i http-server --save-dev. Luego ingresamos el comando http-server dist y elegimos cualquier de los links presentes. Se podra a acceder a nuestra aplicacion.
+
+<p align="center">
+  <img src="https://i.imgur.com/OMaUvwE.png"> 
+<p align="center">
+  <img src="https://i.imgur.com/mGG35De.png"> 
+
+* Luego, ingresamos a la pagina web Firebase e ingresamos con nuestra cuenta de Google y vamos a la consola, creamos un nuevo proyecto con el nombre de nuestra aplicación.
+
+<p align="center">
+  <img src="https://i.imgur.com/LF7yomG.png">
+
+* Después, nos ubicamos en el apartado de hosting.
+<p align="center">
+  <img src="https://i.imgur.com/IMS9O5Y.png">
+
+* Y se procede a agregar un nuevo sitio web, colocamos el nombre de nuestro sitio y damos clic en Agregar sitio.
+<p align="center">
+  <img src="https://i.imgur.com/7Fb9T6a.png">
+
+* Regresamos a WebStorm y en la consola ingresamos el comando "firebase login" y decimos NO. Luego, nos solicitará que ingresemos con nuestra cuenta de Google con la que creamos el proyecto.
+<p align="center">
+  <img src="https://i.imgur.com/kyQfbBW.png"> 
+
+* A continuación, se nos muestra una pantalla de inicio de sesión exitoso, lo que significa que hemos realizado correcto el anterior paso.
+<p align="center">
+  <img src="https://i.imgur.com/K6nvtaP.png">
+
+* Inmediatamente, inicializamos Firebase con el comando "firebase init".
+<p align="center">
+  <img src="https://i.imgur.com/lJ5Emix.png"> 
+
+* Con las teclas direccionales del teclado nos desplazamos a la opción Hosting y presionamos la barra espaciadora para seleccionarlo y damos enter. Elejimos 'Use an existing proyect' y elegimos nuestro proyecto, colocamos solo dist y respondemos con el siguiente orden a las preguntas que realiza FireBase: YES, NO, NO.
+<p align="center">
+  <img src="https://i.imgur.com/9phLLJm.png"> 
+
+* Nos dirigimos al archivo firebase.json creado en nuestro proyecto y agregamos una sección "site": "nombre de nuestro site".
+<p align="center">
+  <img src="https://i.imgur.com/NgjW0yh.png"> 
+
+* A continuación, ingresamos el comando firebase deploy, pero antes de eso ingresamos el comando npm run build para construir una nueva versión del proyecto con todos los últimos cambios.
+<p align="center">
+  <img src="https://i.imgur.com/d5iOzXH.png"> 
+
+* Luego, ingresamos con el enlace que nos proporciona y podremos visualizar el proyecto desplegado
+<p align="center">
+  <img src="https://i.imgur.com/NVOGrAD.png"> 
+
+* Finalmente, tras la ejecución del despliegue del Frontend a través de Firebase, se muestra la evidencia del despliegue:
 <p align="center">
   <img src="https://i.imgur.com/R0Jwexh.png"/>
 </p>
 
-Link a la aplicación: [App_Front_End_StockSip](https://stocksip-exp-app.web.app/)
 
-
-#### 5.2.2.7. Team Collaboration Insights durint Sprint ###
+#### 5.2.2.7. Team Collaboration Insights during Sprint ###
 En esta sección se detalla cómo se llevaron a cabo las actividades de implementación durante el sprint, así como la participación de cada miembro del equipo. Para este sprint, el equipo se organizó en torno a los dos principales productos: Landing Page y Web Application (Frontend). Cada integrante asumió responsabilidades específicas en uno o más de estos componentes, trabajando mediante ramas individuales y siguiendo una estrategia de integración continua.
 
-El proyecto se realizo mediante repositorio en GitHub. Integrantes participantes:
+El proyecto se realizó mediante un repositorio en GitHub con los siguientes integrantes participantes:
 <p align="center">
   <img src="https://i.imgur.com/DAyXhVR.png"/>
 </p>
 
-A continuacion de detallara el trabajo que realizo cada integrante del equipo:
-- El integrante Martín Gonzales fue responsable de implementar la sección de alertas y reportes en el Frontend, dentro de la seccion reportes agrego las guias de conservacion, asegurando su correcto funcionamiento e integración con el resto de la aplicación.
-- La integrante Camila Huamani implementó correcciones en el landing page, asi mismo agrego las secciones de exploracion de la aplicacion y preguntas frecuentes. En el Frontend se encargo de realizar la autenticacion, en ella creo los formularios de registro e inicio de sesion, tambien se encargo de implementar el perfil del usuario y el dashboard.
-- El integrante Farid Coronel fue responsable de implementar la seccion de inventarios en el Frontend, se aseguro el correcto funcionamiento.
-- El integrante Nicolas Juarez implementó la seccion de productos en el Frontend, asegurandose su correcto funcionamiento.
+A continuation, se detallará el trabajo que realizo cada integrante del equipo para cada producto avanzado en este sprint:
 
-Commits de los integrantes en el Landing Page:
+### Landing Page ###
+
+- El integrante Martín Gonzales fue responsable de implementar una mejora visual en la sección de planes.
+- La integrante Camila Huamani implementó correcciones en la landing page, asi mismo agrego las secciones de exploracion de la aplicacion y preguntas frecuentes.
+- El integrante Farid Coronel implementó mejoras visuales en la sección de beneficios.
+- El integrante Nicolas Juarez mejoró visualmente la sección de testimonios.
+
+A continuación, se adjunta el gráfico con la cantidad de commits realizados por cada integrante del equipo durante este sprint para el desarrollo de la segundo versión del sitio web estático.  Cada barra indica la cantidad de commits realizados en cada rama, reflejando el progreso del equipo en el desarrollo de las actualizaciones de las diferentes secciones del sitio web.
 <p align="center">
   <img src="https://i.imgur.com/3B3zlvd.png"/>
 </p>
 
-Commits de los integrantes en el Front End:
-<p align="center">
-  <img src="https://i.imgur.com/Rcpfw7u.png"/>
-</p>
-
-Grafico de los push y merge realizados por el equipo en el Landing Page:
+También, se adjunta el gráfico del avance realizado por cada rama de funcionalidades por el equipo en la Landing Page. En este gráfico se puede observar el flujo de desarrollo del sitio web estático, donde cada rama representa una funcionalidad específica que se implementó durante el sprint.
 
 <p align="center">
   <img src="https://i.imgur.com/qF08116.png"/>
 </p>
 
-Grafico de los push y merge realizados por el equipo en la aplicación:
+### Aplicación Frontend ###
+
+- El integrante Martín Gonzales fue responsable de implementar la sección de alertas y reportes en el Frontend, dentro de la sección reportes agrego las guías de conservación, asegurando su correcto funcionamiento e integración con el resto de la aplicación.
+- La integrante Camila Huamani se encargó de realizar la autenticación, en ella creo los formularios de registro e inicio de sesión, también se encargó de implementar el perfil del usuario y el dashboard.
+- El integrante Farid Coronel fue responsable de implementar la sección de inventarios en el Frontend y se aseguró del correcto funcionamiento.
+- El integrante Nicolas Juarez implementó la sección de productos en el Frontend, asegurándose su correcto funcionamiento.
+
+A continuación, se muestra la cantidad de commits realizados por los integrantes para el avance de la primera versión de la aplicación Frontend. Cada barra indica la cantidad de commits realizados en cada rama, reflejando el progreso del equipo en la implementación de las diferentes secciones de la primera versión de la aplicación.
+<p align="center">
+  <img src="https://i.imgur.com/Rcpfw7u.png"/>
+</p>
+
+También, se adjunta el gráfico del avance realizado por cada rama de funcionalidades por el equipo en la aplicación front end. Este gráfico indica el flujo de desarrollo de la aplicación, donde cada rama representa una funcionalidad específica que se implementó durante el sprint para la aplicación frontend, entre ellas se incluye secciones para productos, almacenes, entre otras.
 
 <p align="center">
   <img src="https://i.imgur.com/0k9wVsK.png"/>
 </p>
+
+### Reflexión del equipo ###
+
+Finalmente, respecto a la retroalimentación como equipo, nosotros creemos que en este sprint se entregó al completo con las actividades designadas correspondientes al proceso de investigación de la problemático y diseño del producto de software tanto como de la implementación de la primera versión del sitio web estático.
+Sin embargo, se siente que aún hay que mejorar mucho la comunicación interna entre los integrantes. Este problema será resuelto poco a poco conforme el equipo se sienta más seguro en el desarrollo del producto de software.
+
 
 
 ### 5.2.3. Sprint 3 ###
