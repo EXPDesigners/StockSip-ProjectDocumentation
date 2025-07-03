@@ -17,6 +17,9 @@ https://google.github.io/styleguide/jsguide.html
 HTML Style Guide and Coding Conventions
 https://www.w3schools.com/html/html5_syntax.asp
 
+Implementación en Render
+https://render.com/docs/deploys
+
 LicoresEsurez. (s.f.). Cómo Almacenar y Conservar Correctamente Diferentes Tipos de Licores. LicoresEsurez. Recuperado de https://www.licoresesurez.com/como-almacenar-y-conservar-correctamente-diferentes-tipos-de-licores/ el 20 de abril de 2025.
 
 Microsoft ASP.NET Core Coding Guidelines
@@ -24,6 +27,9 @@ https://learn.microsoft.com/en-us/aspnet/core/fundamentals/best-practices?view=a
 
 MYSQL Naming Conventions
 https://medium.com/@centizennationwide/mysql-naming-conventions-e3a6f6219efe
+
+Primeros pasos con Firebase Hosting
+https://firebase.google.com/docs/hosting/quickstart?hl=es-419
 
 QuadMinds. (s.f.). _¿Qué es la gestión de inventarios y por qué es importante?_ Recuperado de https://www.quadminds.com/blog/gestion-de-inventarios
 
