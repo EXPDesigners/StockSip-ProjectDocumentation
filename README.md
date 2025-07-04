@@ -64,6 +64,15 @@
 | 2.0     | 14-05-2025 | Camila Huamani  | Se corrigieron los user personas en el capítulo 2.                                                                   |
 | 2.0     | 15-05-2025 | Camila Huamani  | Se añadió la sección de Development Evidence, Collaboration Insights y Team Collaboration Insights en el capítulo 5. |
 | 2.0     | 15-05-2025 | Camila Huamani  | Se corrigieron criterios de aceptación en las historias de usuario en el capítulo 3.                                 |
+| 3.0     | 09-06-2025 | Martin Gonzales | Se corrigió la sección de report collaboration insights.                                                             |
+| 3.0     | 09-06-2025 | Martin Gonzales | Se corrigió la sección de registro de entrevistas.                                                                   |
+| 3.0     | 10-06-2025 | Martin Gonzales | Se corrigió la sección de análisis de entrevistas.                                                                   |
+| 3.0     | 10-06-2025 | Camila Huamani  | Se realizó el sprint backlog 3.                                                                                      |
+| 3.0     | 13-06-2025 | Camila Huamani  | Se corrigió la sección de business outcomes.                                                                         |
+| 3.0     | 19-06-2025 | Camila Huamani  | Se añadió la sección de registro de entrevistas.                                                                     |
+| 3.0     | 19-06-2025 | Camila Huamani  | Se añadió la sección de validación según heurísticas.                                                                |
+| 3.0     | 20-06-2025 | Camila Huamani  | Se añadió la sección de validación según heurísticas.                                                                |
+| 3.0     | 17-06-2025 | Farid Coronel   | Se corrigieron los diagramas de componentes en la aplicación Front End y Back End.                                   |
 
 # Student OutCome
  
@@ -78,25 +87,72 @@ Repositorio del **Project Report**: https://github.com/EXPDesigners/StockSip-Pro
 
 Link de la organización **EXPDesigners**: https://github.com/EXPDesigners
 
-### Tb1:  Reporte de la colaboración del proyecto:
+## Primer Avance (TB1) ##
 
-Este gráfico representa la cantidad de commits realizados por cada miembro del equipo en el repositorio del proyecto. Cada barra representa a un miembro del equipo y la altura de la barra indica el número total de commits realizados por esa persona.
+### Reporte de la colaboración del avance proyecto:
 
-![commits-colaboration.png](https://i.imgur.com/VlChh3a.png)
+Respecto del primer avance del proyecto, cada miembro del equipo realizó un aporte en las secciones de este informe. A continuación, se describen los aportes principales realizados por cada integrante:
+- El integrante Martin Gonzales realizó la descripción del resumen de las entrevistas realizadas a personas pertenecientes a nuestros segmentos objetivos. Lean UX Assumptions. Además, ayudó con el diseño de Wireframes para la aplicación front-end y con la descripción de tecnologías que se usarán para el desarrollo del proyecto.
+- La integrante Camila Huamani participó del proceso Lean UX al redactar el Problem Statement en el informe y los Hyphoteses Statements. Además, realizó la descripción de User Personas por cada segmento objetivo; la redacción de historias de usuario con criterios de aceptación; el diseño de mapas de impacto y el diseño de Wireframes y Mockups para la aplicación front-end.
+- El integrante Farid Coronel participó del proceso de Eventstorming para la identificación de Bounded Contexts del negocio. Además, se encargó del diseño de la arquitectura de software que se usará.
+- El integrante Matias Diaz diseñó el Lean UX Canvas tras la finalización del proceso Lean UX. Además, formó parte del proceso de Eventstorming.
+- El integrante Nicolas Juarez se encargó del proceso de Needfinding para hallar las necesidades de nuestros segmentos objetivos. Además, ayudó con la descripción de historias de usuario con criterios de aceptación; realizó el Product Backlog del negocio y se encargó del diseño del diagrama de clases. 
+
+
+Finalmente, este gráfico representa la cantidad de commits realizados por cada miembro del equipo en el repositorio del proyecto. Cada barra representa a un miembro del equipo y la altura de la barra indica el número total de commits realizados por esa persona.
+
+![commits-colaboration.png](https://i.imgur.com/Ust9XIo.png)
+<br>
+### Ramificación del proyecto usando GitFlow:
 
 Este gráfico ofrece una visualización de las veces que se ha clonado nuestro repositorio, junto con las fechas correspondientes a cada evento. También muestran datos sobre el número de visitas que ha recibido el repositorio de nuestro equipo a lo largo del tiempo.
 
-![git-clones.png](https://i.imgur.com/THBxD5V.png)
+![git-clones.png](https://i.imgur.com/l2j2IYX.png)
 
-### Tp1:  Reporte de la colaboración del proyecto:
+## Segundo Avance (Trabajo Parcial) ##
 
-Este gráfico representa la cantidad de commits realizados por cada miembro del equipo en el repositorio del proyecto. Cada barra representa a un miembro del equipo y la altura de la barra indica el número total de commits realizados por esa persona.
+### Reporte de la colaboración del avance proyecto:
 
-![commits-colaboration.png]()
+Respecto del segundo avance del proyecto, cada miembro del equipo realizó en mayor cantidad correcciones sobre algunos aspectos del primer avance e incorporación de la sección del segundo sprint. A continuación, se describen los aportes principales realizados por cada integrante:
+- El integrante Martin Gonzales implementó correcciones sobre las entrevistas agregando mayor información sobre cada entrevista realizada.
+- La integrante Camila Huamani implementó correcciones en el Problem Statement al redactar una único declaración en lugar de las tres existentes. Además, realizó correcciones a las historias de usuario y criterios de aceptación eliminando el factor diseño y solo manteniendo el factor de comportamiento.
+- El integrante Farid Coronel implementó correcciones en la arquitectura de software colocando a la aplicación como monolítica.
+- El integrante Nicolas Juarez implementó correcciones en el Product Backlog del negocio organizándolo según el valor que da cada historia al negocio y no por el valor de los puntos de historia. Además, añadió las descripciones como el Sprint Planning, Aspect Leaders, etc. en la sección del Sprint 2. 
+
+Finalmente, se pueden ver los gráficos que representan la cantidad de commits realizados por cada miembro del equipo en el repositorio del proyecto.
+
+
+![commits-colaboration.png](https://i.imgur.com/Ust9XIo.png)
+
+![commits-colaboration2.png](https://i.imgur.com/sDYlnSI.png)
+
+### Ramificación del proyecto usando GitFlow:
+
+
+![commits-colaboration2.png](https://i.imgur.com/sVOPaQ1.png)
+
+<br>
+
+## Tercer Avance (TB2) ##
+
+### Reporte de la colaboración del avance proyecto:
+
+Respecto de este tercer avance del proyecto, se implementaron correcciones y actualizaciones de las secciones que no fueron corregidas correctamente en el avance previo. A continuación, se realiza un resumen de las actividades respecto del informe realizadas en este avance: 
+- El integrante Martin Gonzales implementó correcciones sobre las entrevistas agregando mayor información sobre browser y dispositivos que usan los usuarios de las entrevistas realizadas. Además, realizó un registro de las evidencias del despliegue de las versiones de las aplicaciones relacionadas al tercer sprint.
+- La integrante Camila Huamani implementó correcciones respecto de los Business Outcomes redactándolos de manera que sean medibles. Además, realizó el diseño de entrevistas de validación, la evaluación según heurísticas y el video "about-the-product".
+- El integrante Farid Coronel implementó correcciones en los bounded contexts añadiendo uno nuevo que trata el perfil del usuario. También, realizó el registro de entrevistas de validación realizadas a los usuarios.
+- El integrante Nicolas Juarez implementó correcciones en el Product Backlog del negocio colocando al inicio las historias de usuario para visitantes y al final las historias técnicas para la aplicación back-end. Además, añadió las descripciones como el Sprint Planning, Aspect Leaders, etc. en la sección del Sprint 3 y la corrección de los collaboration insights tanto de los sprints como del informe del proyecto. 
+
+Finalmente, se muestra commits realizados por cada miembro del equipo en el repositorio del proyecto. 
+
+![commits-colaboration.png](https://i.imgur.com/Ust9XIo.png)
+### Ramificación del proyecto usando GitFlow:
 
 Este gráfico ofrece una visualización de las veces que se ha clonado nuestro repositorio, junto con las fechas correspondientes a cada evento. También muestran datos sobre el número de visitas que ha recibido el repositorio de nuestro equipo a lo largo del tiempo.
 
-![git-clones.png](img/README/report-insights/graphic-report.png)
+
+![commits-colaboration.png](https://i.imgur.com/AyEAtpt.png)
+
 
 
 # Contenido
@@ -193,13 +249,21 @@ Este gráfico ofrece una visualización de las veces que se ha clonado nuestro r
             - [5.2.1.6. Services Documentation Evidence for Sprint Review](docs/Chapter-V.md#5216-services-documentation-evidence-for-sprint-review-)
             - [5.2.1.7. Software Deployment Evidence for Sprint Review](docs/Chapter-V.md#5217-software-deployment-evidence-for-sprint-review-)
             - [5.2.1.8. Team Collaboration Insights during Sprint](docs/Chapter-V.md#5218-team-collaboration-insights-during-sprint-)
-        - [5.3.1. Sprint 2](docs/Chapter-V.md#531-sprint-2-)
-            - [5.3.1.1. Sprint Planing 2](docs/Chapter-V.md#5311-sprint-planning-2-)
-            - [5.3.1.2. Aspect Leaders and Collaborators](docs/Chapter-V.md#5312-aspect-leaders-and-collaborators-)
-            - [5.3.1.3. Sprint Backlog 2](docs/Chapter-V.md#5313-sprint-backlog-2-)
-            - [5.3.1.4. Development Evidence for Sprint Review](docs/Chapter-V.md#5314-development-evidence-for-sprint-review-)
-            - [5.3.1.5. Execution Evidence for Sprint Review](docs/Chapter-V.md#5315-execution-evidence-for-sprint-review-)
-            - [5.3.1.6. Services Documentation Evidence for Sprint Review](docs/Chapter-V.md#5316-services-documentation-evidence-for-sprint-review-)
-            - [5.3.1.7. Software Deployment Evidence for Sprint Review](docs/Chapter-V.md#5317-software-deployment-evidence-for-sprint-review-)
-            - [5.3.1.8. Team Collaboration Insights during Sprint](docs/Chapter-V.md#5318-team-collaboration-insights-during-sprint-)
-
+        - [5.2.2. Sprint 2](docs/Chapter-V.md#521-sprint-2-)
+            - [5.3.1.1. Sprint Planing 2](docs/Chapter-V.md#5211-sprint-planning-1-)
+            - [5.3.1.2. Aspect Leaders and Collaborators](docs/Chapter-V.md#5212-aspect-leaders-and-collaborators-)
+            - [5.3.1.3. Sprint Backlog 2](docs/Chapter-V.md#5213-sprint-backlog-1-)
+            - [5.3.1.4. Development Evidence for Sprint Review](docs/Chapter-V.md#5214-development-evidence-for-sprint-review-)
+            - [5.3.1.5. Execution Evidence for Sprint Review](docs/Chapter-V.md#5215-execution-evidence-for-sprint-review-)
+            - [5.3.1.6. Services Documentation Evidence for Sprint Review](docs/Chapter-V.md#5216-services-documentation-evidence-for-sprint-review-)
+            - [5.3.1.7. Software Deployment Evidence for Sprint Review](docs/Chapter-V.md#5217-software-deployment-evidence-for-sprint-review-)
+            - [5.3.1.8. Team Collaboration Insights during Sprint](docs/Chapter-V.md#5218-team-collaboration-insights-during-sprint-)
+        -  [5.2.3. Sprint 3](docs/Chapter-V.md#521-sprint-2-)
+            - [5.3.1.1. Sprint Planing 3](docs/Chapter-V.md#5211-sprint-planning-1-)
+            - [5.3.1.2. Aspect Leaders and Collaborators](docs/Chapter-V.md#5212-aspect-leaders-and-collaborators-)
+            - [5.3.1.3. Sprint Backlog 3](docs/Chapter-V.md#5213-sprint-backlog-1-)
+            - [5.3.1.4. Development Evidence for Sprint Review](docs/Chapter-V.md#5214-development-evidence-for-sprint-review-)
+            - [5.3.1.5. Execution Evidence for Sprint Review](docs/Chapter-V.md#5215-execution-evidence-for-sprint-review-)
+            - [5.3.1.6. Services Documentation Evidence for Sprint Review](docs/Chapter-V.md#5216-services-documentation-evidence-for-sprint-review-)
+            - [5.3.1.7. Software Deployment Evidence for Sprint Review](docs/Chapter-V.md#5217-software-deployment-evidence-for-sprint-review-)
+            - [5.3.1.8. Team Collaboration Insights during Sprint](docs/Chapter-V.md#5218-team-collaboration-insights-during-sprint-)
