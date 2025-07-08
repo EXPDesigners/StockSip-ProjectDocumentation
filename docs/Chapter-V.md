@@ -1722,14 +1722,14 @@ Luego de definir el objetivo del sprint, se identificaron las historias de usuar
 [https://trello.com/invite/b/68656a625110370ffdc6aad5/ATTIc7cfb2ae142da72c21ec87c8b1b3e6ad2FABEAB6/stocksip-sprint-backlog-4](https://trello.com/invite/b/68656a625110370ffdc6aad5/ATTIc7cfb2ae142da72c21ec87c8b1b3e6ad2FABEAB6/stocksip-sprint-backlog-4)
 
 <p align="center">
-  <img src="../img/Chapter V/sprint-3/sprint-backlog-3_1.png" 
-  alt="Sprint goal y Stories del Sprint #3"/>
+  <img src="https://i.imgur.com/LrEoKOj.png" 
+  alt="Sprint goal and Stories of Sprint #4"/>
 </p>
 
-  <p align="center">
-  <img src="../img/Chapter V/sprint-3/sprint-backlog-3_2.png" 
-  alt="Sprint Backlog 3 en desarrollo"/>
-  </p>
+<p align="center">
+  <img src="https://i.imgur.com/4h53kmm.png" 
+  alt="Sprint Backlog 4 in progress"/>
+</p>
 
 A continuación, se presenta la tabla con las tareas necesarias para completar satisfactoriamente este último sprint. Además, se asignó un miembro del equipo a cada tarea a desarrollar y el estado de cada tarea.
 
