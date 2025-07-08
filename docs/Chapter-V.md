@@ -1712,7 +1712,7 @@ En esta sección, se incluye la matriz de liderazgo y colaboración desarrollada
 | Huamani Cruz, Camila Victoria      | victiila06      |                          |                         | L              |                       | L                              |                           | L                  |
 | Gonzales Castillo, Angel Martin    | XdiabloX426     | L                        |           L             |                |                       |                                |                           |                    |
 | Coronel Espinoza, Farid Sebastian  | Far14z          |                          |                         | C              | C                     |                                | L                         |                    |
-| Juarez Leon, Nicolas Emilio Walter | JuarezLn10      | C                        |                         | C              | L                     | C                              |                           | C                  |
+| Juarez Leon, Nicolas Emilio Walter | JuarezLn10      | C                        |                         | C              | L                     |                                |                           | C                  |
 
 #### 5.2.4.3. Sprint Backlog 4
 
