@@ -1788,24 +1788,37 @@ También, los logros incluyen la implementación en la aplicación frontend de p
 
 A continuación, se muestran las capturas de pantalla de las secciones implementadas en la Landing Page, aplicación Front End y aplicación Backend. Estas imágenes reflejan el progreso realizado en el sprint y sirven como evidencia del trabajo completado.
 
+- Video ejecución de los tres productos con progreso notable en este sprint: https://youtu.be/vOnm1Gve-Ys
+
 ## **Landing Page**
-Se adjuntan los enlaces para acceder al sitio web desplegado y al vídeo de ejecución del sitio web estático. El vídeo muestra el funcionamiento de cada sección del sitio web y cómo se ve en un navegador web.
+Se adjunta el enlace para acceder al sitio web desplegado.
 - Sitio web de negocio desplegado: https://expdesigners.github.io/StockSip-LandingPage/
 - Vídeo de ejecución del sitio web de negocio: 
 
+Sección de About the Team
+<p align="center">
+  <img src="https://i.imgur.com/aWY8uIj.png">
+
+Sección de About the Product
+<p align="center">
+  <img src="https://i.imgur.com/gFrza3I.png">
 
 ## **Front End Application**
-Se adjuntan los enlaces para acceder a la aplicación frontend desplegada y al vídeo de ejecución de la misma. El vídeo muestra el funcionamiento de cada sección implementada y cómo se ve en un navegador web.
+Se adjunta el enlace para acceder a la aplicación frontend desplegada.
 - Aplicación Frontend desplegada: https://stocksip-exp-app.web.app/
 - Vídeo de ejecución de la Aplicación Frontend: 
 
+Sección de inicio de sesión de la aplicación
+<p align="center">
+  <img src="https://i.imgur.com/kMe3Hqr.png">
 
 ### **Back End Application**
-Se adjuntan los enlaces para acceder a la aplicación backend desplegada y al vídeo de ejecución de la misma. El vídeo muestra el funcionamiento de cada sección implementada y cómo fueron nombradas las rutas de los endpoints implementados.
+Se adjunta el enlace para acceder a la aplicación backend desplegada.
 - Aplicación Backend desplegada: https://stocksip-backendapplication.onrender.com
-- Vídeo de ejecución de la Aplicación Backend: 
 
-
+Los endpoints implementados respecto a las órdenes que se pueden realizar en la aplicación.
+<p align="center">
+  <img src="https://i.imgur.com/rmgmBJC.png">
 
 
 #### 5.2.4.6. Services Documentation Evidence for Sprint Review
@@ -1886,7 +1899,7 @@ Se adjunta el enlace a la aplicación frontend desplegada: https://stocksip-exp-
   <img src="https://i.imgur.com/ZVkeCUj.png"/>
 </p>
 
-* Luego, enviamos todos los cambios realizados en este tercer sprint desde la rama de desarrollo a una nueva rama de tipo release "release/front-end-app-v3.0". Desde esa rama, se realizará el tercer y último despliegue de la aplicación front-end.
+* Luego, enviamos todos los cambios realizados en este cuarto sprint desde la rama de desarrollo a una nueva rama de tipo release "release/front-end-app-v4.0". Desde esa rama, se realizará el tercer y último despliegue de la aplicación front-end.
 <p align="center">
   <img src="https://i.imgur.com/foaO8rj.png"/>
 </p>
@@ -1916,8 +1929,9 @@ Se adjunta el enlace a la aplicación frontend desplegada: https://stocksip-exp-
 
 * En esta imagen se puede visualizar el despliegue realizado en firebase con la fecha y hora de la última actualización.
 <p align="center">
-  <img src="https://i.imgur.com/HcQdkQG.png"/>
+  <img src="https://i.imgur.com/X34SuO4.png"/>
 </p>
+
 
 * Finalmente, tras la ejecución del despliegue del Frontend a través de Firebase, se muestra la evidencia del despliegue:
 <p align="center">
@@ -1955,8 +1969,10 @@ Se adjunta el enlace a la aplicación backend desplegada: https://stocksip-backe
   <img src="https://i.imgur.com/02heKNc.png"> 
 <p align="center">
   <img src="https://i.imgur.com/3QF2uQu.png">
+
+* A continuación, podemos visualizar la consola de render con el deploy realizado.
 <p align="center">
-  <img src="https://i.imgur.com/wowQCCl.png"> 
+  <img src="https://i.imgur.com/bdaryhb.png"> 
 
 * Luego, ingresamos a la URL pública que nos proporcionó Render y podemos verificar que se logró el despliegue de nuestra aplicación Backend.
 <p align="center">
