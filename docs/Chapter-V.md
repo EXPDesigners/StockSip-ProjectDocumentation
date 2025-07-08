@@ -1687,7 +1687,6 @@ Aunque, la comunicación interna del equipo ha mejorado, aún hay aspectos que s
 ### 5.2.4. Sprint 4 ###
 
 #### 5.2.4.1. Sprint Planning 4
-
 A continuación, se detalla, en la tabla siguiente, información sobre el planeamiento del último sprint del proyecto. Además, para este sprint se definió un objetivo para cubrir los aspectos de sitio web estático, aplicación front-end y aplicación back-end. Una sección del objetivo se centra en desarrollar una mejora visual para el sitio web estático y añadir mejoras para secciones para los videos acerca del producto y del equipo de desarrollo para los visitantes del sitio web. Por otro lado, el segundo objetivo se centra en la implementación de consumo de servicios de la aplicación backend para la aplicación front-end de StockSip. Finalmente, el último objetivo del sprint se centra en la implementación de endpoints relacionados con órdenes de compra y autenticación de usuarios.
 
 | Sprint #                            | Sprint 4                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
@@ -1706,7 +1705,6 @@ A continuación, se detalla, en la tabla siguiente, información sobre el planea
 | Sum of Story Points                 | 56                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 
 #### 5.2.4.2. Aspect Leaders and Collaborators
-
 En esta sección, se incluye la matriz de liderazgo y colaboración desarrollada para este último sprint. Los principales aspectos que se toman en cuenta en este sprint se centran en cada las principales secciones que presenta el Front-End Web Application y en su contraparte para el Back-End Application. Para esto, hemos definido las siguientes secciones: Inventarios y Zonas, Productos, Cuenta de Usuario, Reportes, Órdenes de compra y Alertas.
 
 | Team Member                        | GitHub Username | Alerts and Notifications | Analytics and Reporting | Authentication | Inventory Management  | Order Operation and Monitoring | Payment and Subscriptions | Profile Management |
@@ -1735,22 +1733,38 @@ Luego de definir el objetivo del sprint, se identificaron las historias de usuar
 
 A continuación, se presenta la tabla con las tareas necesarias para completar satisfactoriamente este último sprint. Además, se asignó un miembro del equipo a cada tarea a desarrollar y el estado de cada tarea.
 
-| Sprint 4     | Sprint Backlog 4                                 |                |                                                                               |                                                                                                                                                              |                    |                |        |
-|--------------|--------------------------------------------------|----------------|-------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------|----------------|--------|
-| User Stories |                                                  | Work Item/Task |                                                                               |                                                                                                                                                              |                    |                |        |
-| Id           | Title                                            | Id             | Title                                                                         | Description                                                                                                                                                  | Estimation (Hours) | Assigned to    | Status |
-| TS003        | Endpoint para recuperar contraseña               | TS005T001      | Implementar lógica para validar códigos generados para restablecer contraseña | Implementar lógica que permita validar el código enviado al correo electrónico del usuario que desea restablecer su contraseña.                              | 6                  | Camila Huamani | To-Do  |
-| TS004        | Endpoint para recuperar contraseña               | TS005T001      | Implementar lógica para validar códigos generados para restablecer contraseña | Implementar lógica que permita validar el código enviado al correo electrónico del usuario que desea restablecer su contraseña.                              | 6                  | Camila Huamani | To-Do  |
-|              |                                                  | TS005T002      | Implementar un endpoint para actualizar contraseña                            | Desarrollar un endpoint que permita la actualización de contraseñas de los usuarios.                                                                         | 5                  | Camila Huamani | Done   |
-| US014        | Cambiar contraseña desde configuración           | US014T001      |                                                                               | En la aplicación frontend, se debe implementar un botón que redirija al usuario a una sección donde pueda realizar el proceso de recuperación de contraseña. | 4                  | Camila Huamani | Done   |
-| US047        | Cambiar contraseña desde el perfil               | US047T001      |                                                                               | En la aplicación frontend, se debe implementar un botón que redirija al usuario a una sección donde pueda realizar el proceso de recuperación de contraseña. | 4                  | Camila Huamani | Done   |
-| US012        | Recuperar contraseña mediante correo electrónico | US012T001      | Implementar botón para acceder a la sección de recuperación de contraseña     | En la aplicación frontend, se debe implementar un botón que redirija al usuario a una sección donde pueda realizar el proceso de recuperación de contraseña. | 4                  | Camila Huamani | Done   |
-|              |                                                  | US012T002      | Implementar un servicio de email para enviar correos electrónicos             | Implementar un servicio de terceros con el que se pueda enviar correos electrónicos para recuperación de contraseñas.                                        | 6                  | Camila Huamani | To-Do  |
-|              |                                                  | US012T003      | Implementar lógica para validar códigos generados                             | Implementar lógica que permita validar el código enviado al correo electrónico del usuario que desea recuperar su contraseña.                                | 8                  | Camila Huamani | To-Do  |
-| US015        | Cerrar sesión manualmente                        | US015T001      | Implementar botón para cerrar sesión                                          | En la aplicación frontend, se debe implementar un botón para que el usuario pueda cerrar sesión de su cuenta                                                 | 4                  | Camila Huamani | Done   |
-|              |                                                  | US015T002      | Implementar la lógica necesaria para cerrar la sesión del usuario             | Implementar la funcionalidad que permita borrar la información que permite al usuario realizar actividades en la aplicación.                                 | 4                  | Camila Huamani | Done   |
-| US013        | Elegir una contraseña segura                     | US013T001      | Implementar un método que valide la contraseña                                | Implementar un método que revise la contraseña y valide el nivel de seguridad que posea.                                                                     | 4                  | Camila Huamani | Done   |
-|              |                                                  | US013T002      | Probar el método de validación de la contraseña                               | Probar que el método funcione para verificar su funcionamiento esperado.                                                                                     | 4                  | Camila Huamani | Done   |
+| Sprint 4     | Sprint Backlog 4                                  |                |                                                                               |                                                                                                                                                              |                    |                 |        |
+|--------------|---------------------------------------------------|----------------|-------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------|-----------------|--------|
+| User Stories |                                                   | Work Item/Task |                                                                               |                                                                                                                                                              |                    |                 |        |
+| Id           | Title                                             | Id             | Title                                                                         | Description                                                                                                                                                  | Estimation (Hours) | Assigned to     | Status |
+| US052        | Consultar historial de facturación                | US052T001      | Desarrollar sección que muestre historial de ordenes                          | Desarrollar una sección en el front end que muestre todas las órdenes realizadas.                                                                            | 6                  | Camila Huamani  | Done   |
+|              |                                                   | US052T002      | Implementar endpoint para obtener todas las ordenes de un usuario             | Desarrollar un endpoint que permita obtener todas las ordenes de un determinado usuario.                                                                     | 6                  | Camila Huamani  | Done   |
+| US066        | Acceder al plan premium                           | US066T001      | Desarrollar una sección que permita a los usuarios elegir su plan             | Desarrollar una sección que muestre información del plan premium y el precio del mismo.                                                                      | 6                  | Farid Coronel   | Done   |
+|              |                                                   | US066T002      | Implementar el API de PayPal para realizar pagos                              | Implementar el API de PayPal para validar los pagos.                                                                                                         | 8                  | Farid Coronel   | Done   |
+| US065        | Acceder al plan gratuito                          | US065T001      | Desarrollar una sección que muestre información del plan gratuito             | Desarrollar una sección que muestre información del plan gratuito.                                                                                           | 4                  | Farid Coronel   | Done   | 
+| TS002        | Endpoint para iniciar sesión                      | TS002T001      | Desarrollar un endpoint para inicio de sesión                                 | Desarrollar un endpoint que autentique usuarios para el inicio de sesión.                                                                                    | 5                  | Nicolas Juarez  | Done   |
+|              |                                                   | TS002T002      | Implementar JWT para la generación de Tokens                                  | Implementar JSON Web Tokens para la generación de Tokens con Bearer para la validación.                                                                      | 4                  | Nicolas Juarez  | Done   |
+| TS001        | Endpoint para registrar nuevo usuario             | TS001T001      | Desarrollar un endpoint para el registro de usuarios                          | Desarrollar un endpoint que registre nuevos usuarios.                                                                                                        | 6                  | Nicolas Juarez  | Done   |
+| US042        | Crear guía de remisión interna                    | US042T001      | Desarrollar lógica para trasladar producto a otro inventario                  | Desarrollar lógica de negocio relacionada con traslado de mercadería internamente.                                                                           | 6                  | Nicolas Juarez  | Done   |
+| TS017        | Endpoint para registrar guía de remisión          | TS017T001      | Desarrollar un endpoint para trasladar productos a otro inventario            | Desarrollar un endpoint para poder trasladar productos a otro inventario.                                                                                    | 6                  | Nicolas Juarez  | Done   |
+| TS009        | Endpoint para configurar alertas de vencimiento   | TS009T001      | Desarrollar un endpoint que permita configurar alertas                        | Desarrollar un endpoint para poder modificar la configuración de las alertas.                                                                                | 6                  | Martin Gonzales | Done   |
+| TS022        | Endpoint para visualizar el estado de los pedidos | TS022T001      | Desarrollar un endpoint para obtener las ordenes realizadas                   | Desarrollar un endpoint que permita obtener las ordenes de un usuario específico.                                                                            | 8                  | Camila Huamani  | Done   |
+| TS016        | Endpoint para generar plan de reabastecimiento    | TS016T001      | Desarrollar un botón para trasladar productos a otro inventario               | Desarrollar un botón que permita utilizar el endpoint para trasladar productos de un inventario a otro.                                                      | 6                  | Farid Coronel   | Done   |
+| US032        | Visualizar historial de facturación de compras    | US032T001      | Desarrollar un endpoint para obtener todos las ordenes de una cuenta          | Desarrollar el endpoint que permita obtener las ordenes hechas por una cuenta específica.                                                                    | 8                  | Camila Huamani  | Done   |
+|              |                                                   | US032T002      | Desarrollar un endpoint para obtener todos las ordenes de un proveedor        | Desarrollar el endpoint que permita obtener las ordenes enviadas hacia un proveedor específico.                                                              | 6                  | Camila Huamani  | Done   |
+| TS018        | Endpoint para actualizar perfil del usuario       | TS018T001      | Desarrollar un endpoint para creación de perfiles                             | Desarrollar un endpoint que permita crear perfiles para un usuario.                                                                                          | 6                  | Farid Coronel   | Done   |
+|              |                                                   | TS018T002      | Desarrollar un endpoint para actualizar perfiles                              | Desarrollar un endpoint que permita actualizar el perfil para un usuario.                                                                                    | 6                  | Farid Coronel   | Done   |
+| TS004        | Endpoint para recuperar contraseña                | TS004T001      | Implementar lógica para validar códigos generados para restablecer contraseña | Implementar lógica que permita validar el código enviado al correo electrónico del usuario que desea restablecer su contraseña.                              | 6                  | Camila Huamani  | To-Do  |
+|              |                                                   | TS004T002      | Implementar un endpoint para actualizar contraseña                            | Desarrollar un endpoint que permita la actualización de contraseñas de los usuarios.                                                                         | 5                  | Camila Huamani  | Done   |
+| US014        | Cambiar contraseña desde configuración            | US014T001      |                                                                               | En la aplicación frontend, se debe implementar un botón que redirija al usuario a una sección donde pueda realizar el proceso de recuperación de contraseña. | 4                  | Camila Huamani  | Done   |
+| US047        | Cambiar contraseña desde el perfil                | US047T001      |                                                                               | En la aplicación frontend, se debe implementar un botón que redirija al usuario a una sección donde pueda realizar el proceso de recuperación de contraseña. | 4                  | Camila Huamani  | Done   |
+| US012        | Recuperar contraseña mediante correo electrónico  | US012T001      | Implementar botón para acceder a la sección de recuperación de contraseña     | En la aplicación frontend, se debe implementar un botón que redirija al usuario a una sección donde pueda realizar el proceso de recuperación de contraseña. | 4                  | Camila Huamani  | Done   |
+|              |                                                   | US012T002      | Implementar un servicio de email para enviar correos electrónicos             | Implementar un servicio de terceros con el que se pueda enviar correos electrónicos para recuperación de contraseñas.                                        | 6                  | Camila Huamani  | To-Do  |
+|              |                                                   | US012T003      | Implementar lógica para validar códigos generados                             | Implementar lógica que permita validar el código enviado al correo electrónico del usuario que desea recuperar su contraseña.                                | 8                  | Camila Huamani  | To-Do  |
+| US015        | Cerrar sesión manualmente                         | US015T001      | Implementar botón para cerrar sesión                                          | En la aplicación frontend, se debe implementar un botón para que el usuario pueda cerrar sesión de su cuenta                                                 | 4                  | Camila Huamani  | Done   |
+|              |                                                   | US015T002      | Implementar la lógica necesaria para cerrar la sesión del usuario             | Implementar la funcionalidad que permita borrar la información que permite al usuario realizar actividades en la aplicación.                                 | 4                  | Camila Huamani  | Done   |
+| US013        | Elegir una contraseña segura                      | US013T001      | Implementar un método que valide la contraseña                                | Implementar un método que revise la contraseña y valide el nivel de seguridad que posea.                                                                     | 4                  | Camila Huamani  | Done   |
+|              |                                                   | US013T002      | Probar el método de validación de la contraseña                               | Probar que el método funcione para verificar su funcionamiento esperado.                                                                                     | 4                  | Camila Huamani  | Done   |
 
 #### 5.2.4.4. Development Evidence for Sprint Review
 En esta sección, se describen los principales avances de implementación realizados en este último sprint.
@@ -1761,9 +1775,10 @@ Repositorio del sitio web estático: [https://github.com/EXPDesigners/Stocksip-L
 Repositorio de la aplicación Frontend: [https://github.com/EXPDesigners/Stocksip-FrontEndApplication](https://github.com/EXPDesigners/Stocksip-FrontEndApplication)
 Repositorio de la aplicación Backend: [https://github.com/EXPDesigners/Stocksip-BackEndApplication](https://github.com/EXPDesigners/Stocksip-BackEndApplication)
 
-| Repository                       | Branch                           | Commit Id | Commit Message                                                                                              | Commited On |
-| -------------------------------- | -------------------------------- | --------- | ----------------------------------------------------------------------------------------------------------- | ----------- |
-| EXPDesigners/StockSip-BackEndApp | feature/inventory                | a1f92d3   | feat(inventories): add inventory repository implementation.                                                 | 16/06/2025  |
+| Repository                        | Branch               | Commit Id | Commit Message                             | Commited On |
+|-----------------------------------|----------------------|-----------|--------------------------------------------|-------------|
+| EXPDesigners/StockSip-LandingPage | feature/testimonials | 9a7a05e   | fix: change files and folders conventions. | 06/07/2025  |
+| EXPDesigners/StockSip-LandingPage | feature/testimonials | 9a7a05e   | fix: add alt attributes on images.         | 06/07/2025  |
 
 
 #### 5.2.4.5. Execution Evidence for Sprint Review
@@ -1774,24 +1789,21 @@ También, los logros incluyen la implementación en la aplicación frontend de p
 A continuación, se muestran las capturas de pantalla de las secciones implementadas en la Landing Page, aplicación Front End y aplicación Backend. Estas imágenes reflejan el progreso realizado en el sprint y sirven como evidencia del trabajo completado.
 
 ## **Landing Page**
-
 Se adjuntan los enlaces para acceder al sitio web desplegado y al vídeo de ejecución del sitio web estático. El vídeo muestra el funcionamiento de cada sección del sitio web y cómo se ve en un navegador web.
-- Sitio web estático desplegado: 
-- Vídeo de ejecución: 
+- Sitio web de negocio desplegado: https://expdesigners.github.io/StockSip-LandingPage/
+- Vídeo de ejecución del sitio web de negocio: 
 
 
 ## **Front End Application**
-
 Se adjuntan los enlaces para acceder a la aplicación frontend desplegada y al vídeo de ejecución de la misma. El vídeo muestra el funcionamiento de cada sección implementada y cómo se ve en un navegador web.
-- Aplicación Frontend desplegada: 
+- Aplicación Frontend desplegada: https://stocksip-exp-app.web.app/
 - Vídeo de ejecución de la Aplicación Frontend: 
-
 
 
 ### **Back End Application**
 Se adjuntan los enlaces para acceder a la aplicación backend desplegada y al vídeo de ejecución de la misma. El vídeo muestra el funcionamiento de cada sección implementada y cómo fueron nombradas las rutas de los endpoints implementados.
-- Aplicación Backend desplegada: 
-- Vídeo de ejecución de la Aplicación Frontend: 
+- Aplicación Backend desplegada: https://stocksip-backendapplication.onrender.com
+- Vídeo de ejecución de la Aplicación Backend: 
 
 
 
@@ -1799,40 +1811,15 @@ Se adjuntan los enlaces para acceder a la aplicación backend desplegada y al v�
 #### 5.2.4.6. Services Documentation Evidence for Sprint Review
 En esta sección, se describe la evidencia de documentación de los endpoints que se han implementado en la aplicación backend de nuestro proyecto para este sprint. A continuación, se muestra la tabla que contiene una breve descripción de las acciones y requisitos de cada endpoint implementado.
 
-| Módulo      | Endpoint                                                                                            | Acción                                    | Verbo HTTP | Sintaxis                                       | Parámetros principales                                        | Enlace a Swagger                                              |
-| ----------- | --------------------------------------------------------------------------------------------------- | ----------------------------------------- | ---------- | ---------------------------------------------- | ------------------------------------------------------------- | ------------------------------------------------------------- |
-| Care Guides | `/api/v1/care-guides/{careGuideId}`                                                                 | Obtener guía por ID                       | GET        | `/api/v1/care-guides/123`                      | `careGuideId`, `accountId`                                    | [Ver Link](https://stocksip-backendapplication.onrender.com/) |
+| Módulo         | Endpoint                               | Acción                       | Verbo HTTP | Parámetros                                    | Enlace a Swagger                                        |
+|----------------|----------------------------------------|------------------------------|------------|-----------------------------------------------|---------------------------------------------------------|
+| Authentication | `/api/v1/authentication/sign-in`       | Iniciar sesión               | POST       | Body: `{ username, password }`                | [Ver](https://stocksip-backendapplication.onrender.com) |
+| Orders         | `/api/v1/orders`                       | Listar todas las órdenes     | GET        | Ninguno                                       | [Ver](https://stocksip-backendapplication.onrender.com) |
+| Orders         | `/api/v1/orders`                       | Crear nueva orden            | POST       | Body: `{ orderDate, buyer, supplier, items }` | [Ver](https://stocksip-backendapplication.onrender.com) |
+| Orders         | `/api/v1/orders/{id}/status`           | Actualizar estado de orden   | PATCH      | Path: `id`, Query: `status`                   | [Ver](https://stocksip-backendapplication.onrender.com) |
+| Orders         | `/api/v1/orders/supplier/{supplierId}` | Listar órdenes por proveedor | GET        | Path: `supplierId`                            | [Ver](https://stocksip-backendapplication.onrender.com) |
+| Orders         | `/api/v1/orders/buyer/{buyerId}`       | Listar órdenes por comprador | GET        | Path: `buyerId`                               | [Ver](https://stocksip-backendapplication.onrender.com) |
 
-## **Ejemplos Detallados**
-
-### Care Guides
-
-#### Endpoint: Endpoint: `/api/v1/care-guides/{careGuideId}` – `GET`
-
-- **Descripción:** Crea una nueva guía de cuidado sin asociarla inicialmente a un producto.
-
-- **Parámetros:**
-
-  - `careGuideId` (path)
-  - `accountId` (path)
-
-- **Ejemplo de llamada:**
-
-  - GET /api/v1/care-guides/123
-
-- **Respuesta (`200 Ok`):**
-
-  {
-  "id": "123",
-  "accountId": "456",
-  "productId": "789",
-  "title": "Guía de Almacenamiento",
-  "summary": "Instrucciones para conservar el producto",
-  "minTemp": 5,
-  "maxTemp": 15,
-  "placeStorage": "Ambiente fresco",
-  "recommendation": "Evitar exposición solar directa"
-  }
 
 #### 5.2.4.7. Software Deployment Evidence for Sprint Review
 Para asegurar un desarrollo estructurado y un despliegue eficiente, se organizaron los componentes del proyecto en tres partes principales: la Landing Page, el Frontend y Backend funcional. Cada uno fue alojado en su propio repositorio de GitHub, con procesos de desarrollo independientes y métodos de despliegue distintos. A continuación, se detalla el flujo de trabajo seguido en cada caso, junto con evidencia visual del resultado final.
@@ -1841,43 +1828,58 @@ Para el paso inicial, nos basamos en la configuración inicial de los repositori
 ### Despliegue del Landing Page
 Para el despliegue del sitio web estático, usamos GitHub Pages por última vez. Esta es una herramienta que permite alojar sitios web estáticos directamente desde un repositorio de GitHub. A continuación, se detalla el proceso seguido para el despliegue del sitio web estático:
 
-Se adjunta el enlace para acceder al sitio web estático desplegado:
+Se adjunta el enlace para acceder al sitio web estático desplegado: https://expdesigners.github.io/StockSip-LandingPage/
 
 * Partimos de la rama develop del repositorio del sitio web estático con todos los cambios realizados para este sprint.
 <p align="center">
   <img src="https://i.imgur.com/T7oPQGS.png"/>
 </p>
 
-* Luego, enviamos todos los cambios realizados en este segundo sprint desde la rama de desarrollo a una nueva rama de tipo release "release/landing-page-v4.0". Desde esa rama, se realizará el último despliegue del sitio web estático.
+* A continuación, nos dirigimos a la sección de ajustes y luego a Pages
 <p align="center">
-  <img src="https://i.imgur.com/fwPFFrn.png"/>
+  <img src="https://i.imgur.com/gcIoRhK.png"/>
 </p>
 
-* A continuación, nos dirigimos a la sección de Configuración del repositorio (Settings). Luego, accedemos a la opción de páginas (Pages) dentro del bloque de secciones de código y automatización (Code and automation).
+* Ahora, elegimos GitHub Actions como fuente de origen para el despliegue.
 <p align="center">
-  <img src="https://i.imgur.com/0TJGzpU.png"/>
+  <img src="https://i.imgur.com/XBj0nZr.png"/>
 </p>
 
-* Después, elegimos el tipo de origen para que despliegue desde una rama que escojamos. Luego, buscamos la rama de lanzamiento que hemos creado para realizar el despliegue de esta versión y guardamos la configuración.
+* Luego, nos dirigimos a la sección de Acciones y creamos un nuevo flujo de trabajo.  A continuación, buscamos y elegimos la opción de despliegue llamada Static HTML la cual es útil para despliegue de páginas estáticas como la nuestra.
 <p align="center">
-  <img src="https://i.imgur.com/kiVhLH4.png"/>
+  <img src="https://i.imgur.com/voqld4x.png"/>
 </p>
 
-* A continuación, aparecerá el enlace público generado para poder acceder al sitio web estático desplegado.
+* Cambiamos la ruta de origen del archivo index.html que normalmente aparece en la raíz del proyecto a la nueva ruta que es src/public.
 <p align="center">
-  <img src="https://i.imgur.com/iWq4Sm3.png"/>
+  <img src="https://i.imgur.com/Yex3rmg.png"/>
 </p>
 
-* Finalmente, se accede el sitio web desplegado gracias a GitHub Pages y se adjunta la siguiente evidencia.
+* A continuación, creamos una nueva rama para realizar el despliegue llamada "release/landing-page-v4.0" donde se creara el archivo que hemos editado con los cambios realizados en este sprint.
 <p align="center">
-  <img src="https://i.imgur.com/TWaTaot.png"/>
+  <img src="https://i.imgur.com/m8lWPbq.png"/>
+</p>
+
+* Al crear este archivo, GitHub inicia un proceso de despliegue en la rama indicada y nos generará un enlace donde podremos acceder al sitio web estático desplegado.
+<p align="center">
+  <img src="https://i.imgur.com/8JZMsl4.png"/>
+</p>
+
+* Al finalizar el proceso de despliegue, se mostrará el acceso al sitio web desplegado en la página principal del repositorio.
+<p align="center">
+  <img src="https://i.imgur.com/wUegzVQ.png"/>
+</p>
+
+* Finalmente, accedemos al enlace generado y podremos visualizar el sitio web de negocio.
+<p align="center">
+  <img src="https://i.imgur.com/PrpiH5D.png"/>
 </p>
 
 ### Despliegue de la Aplicación Frontend
 Para el despliegue de esta aplicación, se utilizó Firebase Hosting, una plataforma que permite alojar aplicaciones web de manera sencilla y eficiente.
 Para el paso inicial, nos basamos en la configuración inicial de los repositorios de los productos a desarrollar (Sección 5.1.4.). A continuación, se explica del proceso de despliegue de la aplicación Frontend:
 
-Se adjunta el enlace a la aplicación frontend desplegada: 
+Se adjunta el enlace a la aplicación frontend desplegada: https://stocksip-exp-app.web.app/
 
 * Partimos de la rama develop del repositorio de la aplicación frontend con todos los cambios realizados para el sprint actual.
 <p align="center">
@@ -1926,7 +1928,7 @@ Se adjunta el enlace a la aplicación frontend desplegada:
 Para el despliegue de esta aplicación, se utilizó Render, una plataforma que permite desplegar aplicaciones web de manera sencilla y eficiente que ayuda con el despliegue cada que se realizan cambios al repositorio.
 Para el paso inicial, nos basamos en la configuración inicial de los repositorios de los productos a desarrollar (Sección 5.1.4.). A continuación, se explica del proceso de despliegue de la aplicación Backend:
 
-Se adjunta el enlace a la aplicación backend desplegada: 
+Se adjunta el enlace a la aplicación backend desplegada: https://stocksip-backendapplication.onrender.com
 
 * Partimos de la rama develop del repositorio de la aplicación frontend con todos los cambios realizados para el sprint actual.
 <p align="center">
@@ -1942,10 +1944,6 @@ Se adjunta el enlace a la aplicación backend desplegada:
   <img src="https://i.imgur.com/QoLNHNM.png">
 <p align="center">
   <img src="https://i.imgur.com/FDSbgdX.png">
-
-* En el archivo llamado appsetting.Production.json, cambiamos en DefaultConnection el server por nuestro DatabaseHost, user por nuestro Database Username, password por nuestro DatabasePassword y database por nuestro DatabaseName.
-<p align="center">
-  <img src="https://i.imgur.com/y8OYcNP.png">
 
 * Luego, enviamos todos los cambios realizados en este sprint desde la rama de desarrollo a una nueva rama de tipo release "release/v2.0". Desde esa rama, se realizará el último despliegue de la aplicación back-end.
 <p align="center">
@@ -1986,25 +1984,23 @@ A continuation, se detallará el trabajo que realizo cada integrante del equipo 
 - El integrante Farid Coronel formó parte de la última grabación del vídeo sobre el equipo.
 - El integrante Nicolas Juarez formó parte de la grabación definitiva del vídeo sobre el equipo y reorganizó la estructura de los archivos del sitio web de negocio.
 
-[[FALTAN IMÁGENES]]
-A continuación, se adjunta el gráfico con la cantidad de commits realizados por cada integrante del equipo durante este sprint para el desarrollo de la última versión del sitio web de negocio. Cada barra indica la cantidad de commits realizados en cada rama, reflejando el progreso del equipo en el desarrollo de las actualizaciones de las secciones del sitio web.
+A continuación, se adjunta el gráfico con la cantidad de commits realizados por cada integrante del equipo durante este sprint para el desarrollo de la última versión del sitio web de negocio. Cada barra indica la cantidad de commits realizados en cada rama, reflejando el progreso del equipo en el desarrollo de las últimas actualizaciones del sitio web para entregar un producto definitivo.
 <p align="center">
-  <img src="https://i.imgur.com/3B3zlvd.png"/>
+  <img src="https://i.imgur.com/5BUvH7E.png"/>
 </p>
 
 También, se adjunta el gráfico del avance realizado por cada rama de funcionalidades por el equipo en la Landing Page. En este gráfico se puede observar el flujo de desarrollo del sitio web estático, donde las ramas que se desarrollaron fueron las relacionadas a las secciones que contienen los vídeos acerca del equipo de desarrollo y del producto.
 <p align="center">
-  <img src="https://i.imgur.com/qF08116.png"/>
+  <img src="https://i.imgur.com/KAlaw52.png"/>
 </p>
 
 ### Aplicación Frontend ###
 
-- El integrante Martín Gonzales fue responsable de implementar el consumo de servicios web para las guías de conservación, alertas y salidas de productos.
+- El integrante Martín Gonzales fue responsable de implementar el consumo de servicios web para las secciones de guías de conservación, alertas y salidas de productos en la aplicación.
 - La integrante Camila Huamani implementó el consumo de servicios web para las secciones de órdenes de compra, catálogos, autenticación y perfiles.
 - El integrante Farid Coronel fue responsable de implementar el consumo de servicios web para las secciones de productos y almacenes.
-- El integrante Nicolas Juarez fue responsable de implementar el consumo de servicios web para los productos de la aplicación.
+- El integrante Nicolas Juarez fue responsable de implementar el consumo de servicios web para la sección de productos en la aplicación.
 
-[[FALTAN IMÁGENES]]
 A continuación, se muestra la cantidad de commits realizados por los integrantes para el avance de la última versión de la aplicación Frontend. Cada barra indica la cantidad de commits realizados en cada rama, reflejando el progreso del equipo en la implementación de los servicios web en todas las secciones de la aplicación.
 <p align="center">
   <img src="https://i.imgur.com/Rcpfw7u.png"/>
@@ -2012,7 +2008,7 @@ A continuación, se muestra la cantidad de commits realizados por los integrante
 
 También, se adjunta el gráfico del avance realizado por cada rama de funcionalidades por el equipo en la aplicación front end. Este gráfico indica el flujo de desarrollo de la aplicación, donde cada rama representa una funcionalidad específica que se implementó durante el sprint para la aplicación frontend principalmente la implementación del consumo de servicios web y autenticación de usuarios.
 <p align="center">
-  <img src="https://i.imgur.com/qcDq5Ef.png" width=500/>
+  <img src="https://i.imgur.com/6vkX4ch.png" width=500/>
 </p>
 
 ### Aplicación Backend ###
@@ -2022,7 +2018,6 @@ También, se adjunta el gráfico del avance realizado por cada rama de funcional
 - El integrante Farid Coronel se encargó de realizar correcciones en los respectivos endpoints para esta sección en la aplicación Backend. Además, implementó los endpoints para la creación de cuentas y suscripciones para la aplicación.
 - El integrante Nicolas Juarez completó los endpoints de perfiles y usuarios teniendo en cuenta el contexto de autenticación y creación de usuarios para la aplicación.
 
-[[FALTAN IMÁGENES]]
 A continuación, se muestra el siguiente gráfico que detalla la cantidad de commits realizados por cada miembro durante este sprint. El gráfico detalla el aporte realizado por cada integrante del equipo para el avance de la última versión de la aplicación backend.
 <p align="center">
   <img src="https://i.imgur.com/VgjqQJT.png"/>
@@ -2030,7 +2025,7 @@ A continuación, se muestra el siguiente gráfico que detalla la cantidad de com
 
 También, se adjunta el gráfico del avance realizado por cada rama de funcionalidades por el equipo en la aplicación backend. Este gráfico indica el flujo de desarrollo de la aplicación, donde cada rama representa una funcionalidad específica que se implementó durante el sprint para la aplicación backend, entre ellas se incluye endpoints para características como órdenes de compra, catálogos, perfiles, usuarios y suscripciones.
 <p align="center">
-  <img src="https://i.imgur.com/Zvc8sit.png" width=500/>
+  <img src="https://i.imgur.com/QKLumyg.png" width=500/>
 </p>
 
 ### Reflexión del equipo ###
